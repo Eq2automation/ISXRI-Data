@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+	<!-- Main Window -->
+	<Window Name='RIMUIEdit'>
+	<X>50</X>
+	<Y>100</Y>
+	<Width>495</Width>
+	<Height>275</Height>
+	  <TitleBar template='window.Titlebar'>
+		<Children>
+		  <Text Name='Title' Template='window.Titlebar.Title' />
+		   <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Command>ui -unload "${LavishScript.HomeDirectory}/Scripts/RI/RIMUIEdit.xml"</Command>
+		  </commandbutton>
+		</Children>
+	  </TitleBar>
+	  <StorePosition>1</StorePosition>
+	<Title>RIMUI Edit</Title>
+	<Children>
+		<Text name='AvailableCommandsTXT'> 
+			<X>15</X>
+			<Y>3</Y> 
+			<Width>112</Width> 
+			<Height>15</Height> 
+			<Alignment>Left</Alignment>
+			<Text>Available Commands</Text>
+			<Wrap />
+		</Text>
+		<combobox name='AvailableCommandsCB'>
+			<OnLoad>
+				RIMUIObj:UIEdit
+				;This:SetSelection[1]
+				;TimedCommand 1 UIElement[ButtonNameTXTEntry@RIMUIEdit]:SetText[${This.Item[1]}]
+				;TimedCommand 1 UIElement[Description2TXT@RIMUIEdit]:SetText[${RI_Index_String_AvailableRIMUICommandsDescription.Get[1]}]
+			</OnLoad>
+			<Width>200</Width> 
+			<Height>20</Height> 
+			<X>10</X>
+			<Y>20</Y>
+				   <FullHeight>200</FullHeight>
+				   <ButtonWidth>20</ButtonWidth>
+			<OnSelect>
+				UIElement[ButtonNameTXTEntry@RIMUIEdit]:SetText[${This.SelectedItem}]
+				UIElement[Description2TXT@RIMUIEdit]:SetText[${RI_Index_String_AvailableRIMUICommandsDescription.Get[${This.SelectedItem.ID}]}]
+				UIElement[AddedArgumentsLST@RIMUIEdit]:ClearItems
+			</OnSelect>
+			<Items>
+			</Items>
+		</combobox>
+		<Text name='ButtonNameTXT'> 
+			<X>15</X>
+			<Y>43</Y> 
+			<Width>112</Width> 
+			<Height>15</Height> 
+			<Alignment>Left</Alignment>
+			<Text>Button Name</Text>
+			<Wrap />
+		</Text>
+		<TextEntry name='ButtonNameTXTEntry'> 
+			<X>11</X>
+			<Y>63</Y> 
+			<Width>200</Width> 
+			<Height>18</Height> 
+			<Alignment>Left</Alignment>
+			<Text></Text>
+			<OnKeyDown>
+			if ${Key.Equal[ESC]}
+				This:SetText[]
+			</OnKeyDown>
+			<Wrap />
+		</TextEntry>
+		<Text name='DescriptionTXT'> 
+			<X>15</X>
+			<Y>83</Y> 
+			<Width>112</Width> 
+			<Height>15</Height> 
+			<Alignment>Left</Alignment>
+			<Text>Description:</Text>
+			<Wrap />
+		</Text>
+		<Text name='Description2TXT'> 
+			<X>15</X>
+			<Y>103</Y> 
+			<Width>198</Width> 
+			<Height>135</Height> 
+			<Alignment>Left</Alignment>
+			<Text></Text>
+			<Wrap />
+		</Text>
+		<Button name='AddArgumentBTN'> 
+			<X>215</X>
+			<Y>4</Y> 
+			<Border>0</Border>
+			<Width>82</Width> 
+			<Height>17</Height> 
+			<OnLeftClick>
+				UIElement[AddedArgumentsLST@RIMUIEdit]:AddItem[${UIElement[AddArgumentTXTEntry@RIMUIEdit].Text.Escape}]
+				UIElement[AddArgumentTXTEntry@RIMUIEdit]:SetText[]
+            </OnLeftClick>
+			<Alignment>Left</Alignment>
+			<Text>Add Argument</Text>
+		</Button>
+		<TextEntry name='AddArgumentTXTEntry'> 
+			<X>301</X>
+			<Y>3</Y> 
+			<Width>185</Width> 
+			<Height>18</Height> 
+			<Alignment>Left</Alignment>
+			<Text></Text>
+			<OnKeyDown>
+			if ${Key.Equal[ESC]}
+				This:SetText[]
+			if ${Key.Equal[Enter]} || ${Key.Equal[Num Enter]}
+			{
+				UIElement[AddedArgumentsLST@RIMUIEdit]:AddItem[${UIElement[AddArgumentTXTEntry@RIMUIEdit].Text.Escape}]
+				UIElement[AddArgumentTXTEntry@RIMUIEdit]:SetText[]
+			}
+			</OnKeyDown>
+			<Wrap />
+		</TextEntry>
+		<listbox Name='AddedArgumentsLST'>
+			<X>230</X>
+			<Y>30</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>250</Width>
+			<Height>215</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>User</Sort>
+			<OnLeftClick>
+				UIElement[AddArgumentTXTEntry@RIMUIEdit]:SetText[${This.SelectedItem.Text.Escape}]
+            </OnLeftClick>
+			<OnRightClick>
+				UIElement[AddedArgumentsLST@RIMUIEdit]:RemoveItem[${This.SelectedItem.ID}]
+            </OnRightClick>
+            <OnDoubleLeftClick>
+            </OnDoubleLeftClick>
+		</listbox>
+		<Button name='SaveBTN'> 
+			<X>15</X>
+			<Y>234</Y> 
+			<Border>0</Border>
+			<Width>82</Width> 
+			<Height>17</Height> 
+			<Alignment>Left</Alignment>
+			<OnLeftClick>RIMUIObj:SaveButtonChg</OnLeftClick>
+			<Text>Save</Text>
+		</Button>
+		<Button name='CancelBTN'> 
+			<X>115</X>
+			<Y>234</Y> 
+			<Border>0</Border>
+			<Width>82</Width> 
+			<Height>17</Height> 
+			<Alignment>Left</Alignment>
+			<OnLeftClick>ui -unload "${LavishScript.HomeDirectory}/Scripts/RI/RIMUIEdit.xml"</OnLeftClick>
+			<Text>Cancel</Text>
+		</Button>
+	</Children>
+</Window>
+</ISUI>		

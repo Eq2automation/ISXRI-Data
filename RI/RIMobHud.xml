@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+	<!-- Main Window -->
+	<Window Name='RIMobHud'>
+	<X>50</X>
+	<Y>100</Y>
+	<Width>301</Width>
+	<Height>180</Height>
+	  <TitleBar template='window.Titlebar'>
+		<Children>
+		  <Text Name='Title' Template='window.Titlebar.Title' />
+		  <Button Name='Minimize' Template='window.Titlebar.Minimize' />
+		  <Button Name='Maximize' Template='window.Titlebar.Maximize' />
+		  <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Command>Script[${RI_Var_String_RIMobHudScriptName}]:End</Command>
+		  </commandbutton>
+		</Children>
+	  </TitleBar>
+	  <StorePosition>1</StorePosition>
+	<Title>RI Mob Hud</Title>
+	<Children>
+		<Text name='Health'> 
+			<X>2</X> 
+			<Y>1</Y> 
+			<Width>30</Width> 
+			<Height>15</Height> 
+			<Alignment>Left</Alignment>
+			<Text>Health</Text>
+			<Wrap />
+		</Text>
+		<Text name='Mob'> 
+			<X>60</X> 
+			<Y>1</Y>
+			<Width>30</Width> 
+			<Height>15</Height> 
+			<Alignment>Left</Alignment>
+			<Text>Mob</Text>
+			<Wrap />
+		</Text>
+		<Text name='Target'> 
+			<X>185</X> 
+			<Y>1</Y> 
+			<Width>30</Width> 
+			<Height>15</Height> 
+			<Alignment>Left</Alignment>
+			<Text>Target</Text>
+			<Wrap />
+		</Text>
+		<Text name='Dist'> 
+			<X>235</X> 
+			<Y>1</Y> 
+			<Width>30</Width> 
+			<Height>15</Height> 
+			<Alignment>Left</Alignment>
+			<Text>Dist</Text>
+			<Wrap />
+		</Text>
+		<Text name='Hate'> 
+			<X>265</X> 
+			<Y>1</Y> 
+			<Width>30</Width> 
+			<Height>15</Height> 
+			<Alignment>Left</Alignment>
+			<Text>Hate</Text>
+			<Wrap />
+		</Text>
+		<listbox Name='Mobs'>
+			<X>1</X>
+			<Y>13</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>299</Width>
+			<Height>149</Height>
+			<Font>
+				<Name>Terminal</Name>
+				<Size>10</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>text</Sort>
+			
+			<OnLeftClick>
+				RIMobHudGlobObj:DoTarget[${This.SelectedItem.Value}]
+            </OnLeftClick>
+			<OnRightClick>
+            </OnRightClick>
+            <OnDoubleLeftClick>
+            </OnDoubleLeftClick>
+			<OnLoad>
+			</OnLoad>
+			<OnUnLoad>
+			</OnUnLoad>
+		</listbox>
+	</Children>
+</Window>
+</ISUI>		

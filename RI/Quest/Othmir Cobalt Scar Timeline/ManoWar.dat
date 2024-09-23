@@ -1,0 +1,13 @@
+Man-o-War
+Custom
+MoveToActorHail Merrik 5
+4272.395508 -1073.175293 1463.595703
+Custom
+HailActor Merrik 5
+0 0 0
+Custom
+MessageBox "Carefully go kill only 3 Man-o-War's and then the next mob with the spear, then resume in front of Merrik"
+0 0 0
+Custom
+HailActor Merrik 3
+0 0 0

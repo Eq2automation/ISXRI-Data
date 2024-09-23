@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+	<!-- Main Window -->
+	<Window Name='RIConsole'>
+	<X>50</X>
+	<Y>100</Y>
+	<Width>335</Width>
+	<Height>165</Height>
+	  <TitleBar template='window.Titlebar'>
+		<Children>
+		  <Text Name='Title' Template='window.Titlebar.Title' />
+		   <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Command>RIConsole:Hide</Command>
+		  </commandbutton>
+		  <Commandbutton name='Small'>
+			<X>115</X>
+			<Y>0</Y>
+			<Border>0</Border>
+			<Width>62</Width>
+			<Height>17</Height>
+			<Text>Small</Text>
+			<OnLeftClick>
+				RIConsole:UISmall
+			</OnLeftClick>
+			<AutoTooltip>
+			</AutoTooltip>
+		</Commandbutton>
+		<Commandbutton name='Medium'>
+			<X>180</X>
+			<Y>0</Y>
+			<Border>0</Border>
+			<Width>62</Width>
+			<Height>17</Height>
+			<Text>Medium</Text>
+			<OnLeftClick>
+				RIConsole:UIMedium
+			</OnLeftClick>
+			<AutoTooltip>
+			</AutoTooltip>
+		</Commandbutton>
+		<Commandbutton name='Large'>
+			<X>245</X>
+			<Y>0</Y>
+			<Border>0</Border>
+			<Width>62</Width>
+			<Height>17</Height>
+			<Text>Large</Text>
+			<OnLeftClick>
+				RIConsole:UILarge
+			</OnLeftClick>
+			<AutoTooltip>
+			</AutoTooltip>
+		</Commandbutton>
+		</Children>
+	  </TitleBar>
+	  <StorePosition>1</StorePosition>
+	<Title>RI Console</Title>
+	<Children>
+		<Console name="RIConsole">
+			<X>1</X>
+			<Y>1</Y>
+			<Width>100%</Width>
+			<Height>91%</Height>
+			<BackgroundColor>000000</BackgroundColor>
+			<Font>
+				<Name>Terminal</Name>
+				<Size>10</Size>
+			</Font>
+		</Console>
+		<CommandEntry Name='RIConsoleCommand'>
+			<X>0</X>
+			<Y>r18</Y>
+			<Border>0</Border>
+			<Width>100%</Width>
+			<Height>17</Height>
+			<OnCommand>
+				RIConsole:Execute["${This.Text}"]
+			</OnCommand>
+		</CommandEntry>
+	</Children>
+</Window>
+</ISUI>		

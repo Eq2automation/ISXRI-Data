@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+	<!-- Main Window -->
+	<Window Name='RZo'>
+	<X>50</X>
+	<Y>100</Y>
+	<Width>142</Width>
+	<Height>160</Height>
+	  <TitleBar template='window.Titlebar'>
+		<Children>
+		  <Text Name='Title' Template='window.Titlebar.Title' />
+		   <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Command>Script[Buffer:RZo]:End</Command>
+		  </commandbutton>
+		</Children>
+	  </TitleBar>
+	  <StorePosition>1</StorePosition>
+	<Title>RZo ${RZ_Var_String_ZoneSet}</Title>
+	<Children>
+		<Commandbutton name='Start'>
+			<X>24</X>
+			<Y>5</Y>
+			<Border>0</Border>
+			<Width>60</Width>
+			<Height>15</Height>
+			<Text>Start</Text>
+			<OnLeftClick>
+				if ${RZ_Var_Bool_Start}
+				{
+					if ${RZ_Var_Bool_Paused}
+					{
+						Script[Buffer:RZo]:Resume
+						UIElement[Start@RZo]:SetText[Pause]
+						RZ_Var_Bool_Paused:Set[FALSE]
+					}
+					else
+					{
+						RZ_Var_Bool_Paused:Set[TRUE]
+						Script[Buffer:RZo]:Pause
+						UIElement[Start@RZo]:SetText[Resume]
+					}
+				}
+				else
+				{
+					RZ_Var_Bool_Start:Set[TRUE]
+					UIElement[Start@RZo]:SetText[Pause]
+					UIElement[ZoneSets@RZo]:Hide
+					UIElement[RunZ1@RZo]:Hide
+					UIElement[RunZ2@RZo]:Hide
+					UIElement[RunZ3@RZo]:Hide
+					UIElement[Z1Locked@RZo]:Hide
+					UIElement[Z2Locked@RZo]:Hide
+					UIElement[Z3Locked@RZo]:Hide
+					UIElement[RZo]:SetHeight[40]
+				}
+			</OnLeftClick>
+			<AutoTooltip>
+				Pause/Resume
+			</AutoTooltip>
+		</Commandbutton>
+		<combobox name='ZoneSets'>
+			<X>10</X>
+			<Y>25</Y>
+			<Width>125</Width> 
+			<Height>20</Height> 
+				   <FullHeight>125</FullHeight>
+				   <ButtonWidth>20</ButtonWidth>
+			<Items>
+			<Item Value='23' Default='23'>ALL KA Expert's</Item>
+			<Item Value='14'>Arcanna'se Solo</Item>
+			<Item Value='1'>Arcanna'se Heroic</Item>
+			<Item Value='13'>Arcanna'se Expert</Item>
+			<Item Value='16'>Torsis Solo</Item>4,5,8
+			<Item Value='15'>Torsis Heroic</Item>
+			<Item Value='17'>Torsis Expert</Item>
+			<Item Value='18'>Kaesora Solo</Item>
+			<Item Value='19'>Kaesora Heroic</Item>
+			<Item Value='12'>Kaesora Expert</Item>
+			<Item Value='20'>Dalnir Solo</Item>
+			<Item Value='21'>Dalnir Heroic</Item>
+			<Item Value='22'>Dalnir Expert</Item>
+			<Item Value='2'>Maldura</Item>
+			<Item Value='3'>Stygian Threshold</Item>
+			<Item Value='4'>Kralet Penumbra</Item>
+			<Item Value='5'>SSRA Temple</Item>
+			<Item Value='6'>Far Seas Distillery</Item>
+			<Item Value='7'>Fabled EoF</Item>
+			<Item Value='8'>Castle Highhold</Item>
+			<Item Value='9'>Zav'ithloa</Item>
+			<Item Value='10'>BrokenSkull Bay</Item>
+			<Item Value='11'>Ossuary</Item>
+			</Items>
+		</combobox>
+		<Checkbox Name='RunZ1'>
+		  <X>20</X> 
+		  <Y>45</Y> 
+		  <Width>20</Width> 
+		  <Height>20</Height>
+		  <Text>Run Zone 1</Text> 
+		  <OnLeftClick>
+			if ${This.Checked}
+			{
+				RZ_Var_Bool_ExcludeZone1:Set[FALSE]
+				RZ_Var_Bool_Zone1Unlocked:Set[TRUE]
+			}
+			else
+			{
+				RZ_Var_Bool_ExcludeZone1:Set[TRUE]
+				RZ_Var_Bool_Zone1Unlocked:Set[FALSE]
+			}
+		  </OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='RunZ2'>
+		  <X>20</X> 
+		  <Y>60</Y> 
+		  <Width>20</Width> 
+		  <Height>20</Height>
+		  <Text>Run Zone 2</Text> 
+		  <OnLeftClick>
+			if ${This.Checked}
+			{
+				RZ_Var_Bool_ExcludeZone2:Set[FALSE]
+				RZ_Var_Bool_Zone2Unlocked:Set[TRUE]
+			}
+			else
+			{
+				RZ_Var_Bool_ExcludeZone2:Set[TRUE]
+				RZ_Var_Bool_Zone2Unlocked:Set[FALSE]
+			}
+		  </OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='RunZ3'>
+		  <X>20</X> 
+		  <Y>75</Y> 
+		  <Width>20</Width> 
+		  <Height>20</Height>
+		  <Text>Run Zone 3</Text> 
+		  <OnLeftClick>
+			if ${This.Checked}
+			{
+				RZ_Var_Bool_ExcludeZone3:Set[FALSE]
+				RZ_Var_Bool_Zone3Unlocked:Set[TRUE]
+			}
+			else
+			{
+				RZ_Var_Bool_ExcludeZone3:Set[TRUE]
+				RZ_Var_Bool_Zone3Unlocked:Set[FALSE]
+			}
+		  </OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='Z1Locked'>
+		  <X>10</X> 
+		  <Y>90</Y> 
+		  <Width>20</Width> 
+		  <Height>20</Height>
+		  <Text>Zone 1 Locked</Text> 
+		  <OnLeftClick>
+			if ${This.Checked}
+			{
+				RZ_Var_Bool_Zone1Unlocked:Set[FALSE]
+				RZ_Var_Int_Zone1SetTime:Set[1]
+			}
+			else
+			{
+				RZ_Var_Bool_Zone1Unlocked:Set[TRUE]
+				RZ_Var_Int_Zone1SetTime:Set[0]
+			}
+		  </OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='Z2Locked'>
+		  <X>10</X> 
+		  <Y>105</Y> 
+		  <Width>20</Width> 
+		  <Height>20</Height>
+		  <Text>Zone 2 Locked</Text> 
+		  <OnLeftClick>
+			if ${This.Checked}
+			{
+				RZ_Var_Bool_Zone2Unlocked:Set[FALSE]
+				RZ_Var_Int_Zone2SetTime:Set[1]
+			}
+			else
+			{
+				RZ_Var_Bool_Zone2Unlocked:Set[TRUE]
+				RZ_Var_Int_Zone2SetTime:Set[0]
+			}
+		  </OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='Z3Locked'>
+		  <X>10</X> 
+		  <Y>120</Y> 
+		  <Width>20</Width> 
+		  <Height>20</Height>
+		  <Text>Zone 3 Locked</Text> 
+		  <OnLeftClick>
+			if ${This.Checked}
+			{
+				RZ_Var_Bool_Zone3Unlocked:Set[FALSE]
+				RZ_Var_Int_Zone3SetTime:Set[1]
+			}
+			else
+			{
+				RZ_Var_Bool_Zone3Unlocked:Set[TRUE]
+				RZ_Var_Int_Zone3SetTime:Set[0]
+			}
+		  </OnLeftClick>
+		</Checkbox>
+	</Children>
+</Window>
+</ISUI>		

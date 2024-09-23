@@ -1,0 +1,60 @@
+Chaos Descending Tradeskill Timeline
+Custom
+RemoveFromDepot "Harvesting Supply Depot" "nimbic hide" 4 "strangler root" 10 "silvered fleck" 12 "reef cluster" 5
+0 0 0
+Custom
+RemoveFromDepot "Fuel Depot" "Celestial Filament" 50 "Celestial Sandpaper" 50 "Celestial Incense" 50
+0 0 0
+Custom
+CheckPreReqs -ITEMQTY "nimbic hide" 4 -ITEMQTY "strangler root" 10 -ITEMQTY "silvered fleck" 12 -ITEMQTY "reef cluster" 5 -ITEMQTY "Celestial Filament" 50 -ITEMQTY "Celestial Sandpaper" 50 -ITEMQTY "Celestial Incense" 50
+0 0 0
+Custom
+OpenMail "Assistance Requested"
+0 0 0
+Custom
+CheckAndSet -InZone "Myrist" 19
+0 0 0
+Custom
+FastTravel "Myrist"
+0 0 0
+Custom
+CheckAndSet -NearLocation "659.10 411.60 58.38" 40 51
+0 0 0
+31.68 -20.08 -11.34
+71.01 -20.10 -13.34
+122.02 -5.23 -13.22
+191.68 -5.21 -13.23
+264.70 -5.35 -13.2
+316.19 -5.88 -19.69
+407.38 -5.22 -13.50
+Custom
+ClickActor "Lift Switch Main Floor" FALSE FALSE 5
+419.65 -4.96 -13.47
+Wait
+40
+419.65 -4.96 -13.47
+420.40 15.60 -13.54
+415.23 15.30 -13.58
+395.04 15.26 -13.72
+303.59 15.26 106.29
+305.34 15.31 111.68
+314.80 15.23 140.77
+350.35 15.21 141.08
+350.71 15.21 147.46
+350.61 15.22 167.47
+Custom
+ClickActor "Teleporter to Smiths' Gallery" FALSE FALSE 5
+388.57 15.67 169.98
+Wait
+10
+647.15 411.75 24.92
+0 0 0
+Custom
+Quest "The Scrivener's Tale: Animating the Inanimate"
+0 0 0
+Custom
+Quest "The Scrivener's Tale: Crafting at a Snail's Pace"
+0 0 0
+Custom
+Quest "The Scrivener's Tale: Escargot Overclocking"
+0 0 0

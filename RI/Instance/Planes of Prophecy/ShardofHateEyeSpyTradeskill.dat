@@ -1,0 +1,27 @@
+0 0 0
+Custom
+MessageBox "Go Harvest 50 blackwood 50 twisting worms 50 red shard of malice 50 fiend stool 50 charred bone marrow and 50 dark abhorent ore and resume at The Fiend Fount"
+0 0 0
+Custom
+Target "The Fiend Fount"
+9.827623 11.349168 1.721662
+Custom
+CraftIt "Ire-Bound Frame"
+9.827623 11.349168 1.721662
+Custom
+CraftIt "Resident Attunement Lens"
+9.827623 11.349168 1.721662
+Custom
+CraftIt "Sensory Delver"
+9.827623 11.349168 1.721662
+0.440358 11.505375 1.634160
+-9.592508 11.560441 2.335313
+Custom
+Target "The Malicious Mixer"
+-17.474306 11.656203 5.671546
+Custom
+CraftIt "Arcane Ocularum"
+-17.474306 11.656203 5.671546
+Custom
+MessageBox "Go use the Arcane Ocularum on the fiend and resume back at the entrance"
+-17.861565 11.648310 5.381436

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+	<!-- Main Window -->
+	<Window Name='RIWCustom'>
+	<X>50</X>
+	<Y>100</Y>
+	<Width>495</Width>
+	<Height>515</Height>
+	  <TitleBar template='window.Titlebar'>
+		<Children>
+		  <Text Name='Title' Template='window.Titlebar.Title' />
+		   <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Command>ui -unload "${LavishScript.HomeDirectory}/Scripts/RI/RIWCustom.xml"</Command>
+		  </commandbutton>
+		</Children>
+	  </TitleBar>
+	  <StorePosition>1</StorePosition>
+	<Title>RIW Custom Function</Title>
+	<Children>
+		<Text name='AvailableCommandsTXT'> 
+			<X>15</X>
+			<Y>5</Y> 
+			<Width>112</Width> 
+			<Height>15</Height> 
+			<Alignment>Left</Alignment>
+			<Text>Available Functions</Text>
+			<Wrap />
+		</Text>
+		<combobox name='AvailableFunctionsCB'>
+			<OnLoad>
+				RIWObj:UIEdit
+			</OnLoad>
+			<Width>200</Width> 
+			<Height>20</Height> 
+			<X>10</X>
+			<Y>20</Y>
+				   <FullHeight>470</FullHeight>
+				   <ButtonWidth>20</ButtonWidth>
+			<OnSelect>
+				UIElement[FunctionNameTXTEntry@RIWCustom]:SetText[${This.SelectedItem}]
+				UIElement[Description2TXT@RIWCustom]:SetText[${RI_Index_String_AvailableRIWFunctionsDescription.Get[${This.SelectedItem.ID}]}]
+				UIElement[AddedArgumentsLST@RIWCustom]:ClearItems
+			</OnSelect>
+			<Items>
+			</Items>
+		</combobox>
+		<Text name='FunctionNameTXT'> 
+			<X>15</X>
+			<Y>43</Y> 
+			<Width>112</Width> 
+			<Height>15</Height> 
+			<Alignment>Left</Alignment>
+			<Text>Function Name</Text>
+			<Wrap />
+		</Text>
+		<TextEntry name='FunctionNameTXTEntry'> 
+			<X>11</X>
+			<Y>63</Y> 
+			<Width>200</Width> 
+			<Height>18</Height> 
+			<Alignment>Left</Alignment>
+			<Text></Text>
+			<OnKeyDown>
+			if ${Key.Equal[ESC]}
+				This:SetText[]
+			</OnKeyDown>
+			<Wrap />
+		</TextEntry>
+		<Text name='DescriptionTXT'> 
+			<X>15</X>
+			<Y>83</Y> 
+			<Width>112</Width> 
+			<Height>15</Height> 
+			<Alignment>Left</Alignment>
+			<Text>Description:</Text>
+			<Wrap />
+		</Text>
+		<Text name='Description2TXT'> 
+			<X>15</X>
+			<Y>100</Y> 
+			<Width>214</Width> 
+			<Height>480</Height> 
+			<Alignment>Left</Alignment>
+			<Text></Text>
+			<Wrap />
+		</Text>
+		<Button name='AddArgumentBTN'> 
+			<X>215</X>
+			<Y>10</Y> 
+			<Border>0</Border>
+			<Width>82</Width> 
+			<Height>17</Height> 
+			<OnLeftClick>
+				RIWObj:AddArguments
+            </OnLeftClick>
+			<Alignment>Left</Alignment>
+			<Text>Add Argument</Text>
+		</Button>
+		<TextEntry name='AddArgumentTXTEntry'> 
+			<X>301</X>
+			<Y>9</Y> 
+			<Width>185</Width> 
+			<Height>18</Height> 
+			<Alignment>Left</Alignment>
+			<Text></Text>
+			<OnKeyDown>
+			if ${Key.Equal[ESC]}
+				This:SetText[]
+			if ${Key.Equal[Enter]} || ${Key.Equal[Num Enter]}
+			{
+				RIWObj:AddArguments
+			}
+			</OnKeyDown>
+			<Wrap />
+		</TextEntry>
+		<listbox Name='AddedArgumentsLST'>
+			<X>230</X>
+			<Y>30</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>250</Width>
+			<Height>455</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>User</Sort>
+			<OnLeftClick>
+				UIElement[AddArgumentTXTEntry@RIWCustom]:SetText[${This.SelectedItem.Text.Escape.Replace["/"",""]}]
+            </OnLeftClick>
+			<OnRightClick>
+				UIElement[AddedArgumentsLST@RIWCustom]:RemoveItem[${This.SelectedItem.ID}]
+            </OnRightClick>
+            <OnDoubleLeftClick>
+            </OnDoubleLeftClick>
+		</listbox>
+		<Button name='AddBTN'> 
+			<X>15</X>
+			<Y>465</Y> 
+			<Border>0</Border>
+			<Width>82</Width> 
+			<Height>17</Height> 
+			<Alignment>Left</Alignment>
+			<OnLeftClick>RIWObj:AddCustom</OnLeftClick>
+			<Text>Add Custom</Text>
+		</Button>
+		<Button name='CancelBTN'> 
+			<X>115</X>
+			<Y>465</Y> 
+			<Border>0</Border>
+			<Width>82</Width> 
+			<Height>17</Height> 
+			<Alignment>Left</Alignment>
+			<OnLeftClick>ui -unload "${LavishScript.HomeDirectory}/Scripts/RI/RIWCustom.xml"</OnLeftClick>
+			<Text>Cancel</Text>
+		</Button>
+	</Children>
+</Window>
+</ISUI>		

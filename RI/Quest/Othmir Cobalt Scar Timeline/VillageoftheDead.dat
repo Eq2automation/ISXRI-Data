@@ -1,0 +1,36 @@
+Village of the Dead
+Custom
+HailActor Merrik 4
+4266.023926 -1096.370117 2058.334229
+DontStopForCombat
+Custom
+Target "an agitated undead othmir"
+4266.023926 -1096.370117 2058.334229
+Custom
+WaitForAnnounceText "it just gets back up to continue the fight! We can't keep up like this forever"
+4266.023926 -1096.370117 2058.334229
+Custom
+HailActor Merrik 3
+4266.023926 -1096.370117 2058.334229
+Custom
+ClickActor "merrik_x4 invis cube -DNT" 1
+4266.479492 -1096.367310 2058.015137
+Custom
+ClickActor "merrik_x4 invis cube -DNT" 1
+4268.879395 -1096.148071 2052.005127
+Custom
+ClickActor "merrik_x4 invis cube -DNT" 1
+4272.878906 -1095.755737 2045.292847
+Custom
+ClickActor "merrik_x4 invis cube -DNT" 1
+4278.521973 -1095.555664 2041.677124
+4270.511230 -1095.986450 2047.820190
+4263.583496 -1096.036255 2055.324707
+4261.035645 -1096.290405 2065.249023
+Custom
+ClickActor "merrik_x4 invis cube -DNT" 1
+4262.551758 -1096.784668 2069.115967
+4263.801758 -1096.208374 2059.056641
+Custom
+HailActor Merrik 1
+4265.317383 -1096.346558 2058.916992

@@ -1,0 +1,50 @@
+Custom
+SetShinyIgnoreNamed 1
+0 0 0
+Named
+Durogan
+CustomNamed
+43.14 -50.14 385.80
+50.12 -50.19 354.23
+24.89 -50.19 352.71
+Custom
+ClickActor door_bookcase_01
+19.78 -50.19 357.47
+14.47 -50.19 352.07
+21.00 -50.19 344.44
+23.60 -50.19 334.56
+23.17 -50.19 324.38
+23.34 -50.19 314.14
+23.40 -50.19 303.90
+23.75 -50.19 293.59
+Custom
+ClickActor door_bookcase_02
+24.76 -50.19 288.57
+Named
+Devioth
+CustomNamed
+24.76 -50.19 288.57
+Custom
+ClickActor door_bookcase_02
+31.73 -50.17 289.11
+23.14 -50.19 288.72
+22.81 -50.19 278.72
+22.65 -50.19 268.45
+17.82 -50.19 259.56
+Custom
+ClickActor door_bookcase_03
+16.34 -50.16 253.05
+23.35 -50.19 245.86
+Named
+Syvanti
+CustomNamed
+31.67 -50.19 241.57
+40.45 -50.11 236.41
+49.38 -50.12 231.79
+58.80 -50.19 228.26
+Wait
+20
+66.47 -50.19 225.88
+Custom
+SetShinyIgnoreNamed 0
+0 0 0

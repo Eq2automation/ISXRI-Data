@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+	<!-- Main Window -->
+	<Window Name='ZoneReset'>
+	<X>50</X>
+	<Y>100</Y>
+	<Width>600</Width>
+	<Height>400</Height>
+	  <TitleBar template='window.Titlebar'>
+		<Children>
+		  <Text Name='Title' Template='window.Titlebar.Title' />
+		  <Button Name='Minimize' Template='window.Titlebar.Minimize' />
+		  <Button Name='Maximize' Template='window.Titlebar.Maximize' />
+		  <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Command>Script[${RI_Var_String_ZoneResetScriptName}]:End</Command>
+		  </commandbutton>
+		</Children>
+	  </TitleBar>
+	  <StorePosition>1</StorePosition>
+	<Title>Zone Reset</Title>
+	<Children>
+		<listbox Name='Zones'>
+			<X>5</X>
+			<Y>20</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>290</Width>
+			<Height>350</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>text</Sort>
+			<OnLeftClick>
+            </OnLeftClick>
+			<OnRightClick>
+            </OnRightClick>
+            <OnDoubleLeftClick>
+				if ${This.SelectedItem.Text.NotEqual[NULL]}
+					RI_Atom_ZR_AddZone "${This.SelectedItem.Text}"
+            </OnDoubleLeftClick>
+		</listbox>
+		<listbox Name='AddedZoneList'>
+			<X>300</X>
+			<Y>20</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>290</Width>
+			<Height>350</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>text</Sort>
+			<OnLeftClick>
+
+            </OnLeftClick>
+			<OnRightClick>
+				UIElement[AddedZoneList@ZoneReset]:RemoveItem[${This.SelectedItem.ID}]
+            </OnRightClick>
+            <OnDoubleLeftClick>
+            </OnDoubleLeftClick>
+		</listbox>
+		<Commandbutton name='Reset'>
+			<X>5</X>
+			<Y>3</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>15</Height>
+			<Text>Reset</Text>
+			<OnLeftClick>
+				Script[${RI_Var_String_ZoneResetScriptName}]:QueueCommand[call ResetZones]
+			</OnLeftClick>
+			<AutoTooltip>
+				Reset Zones
+			</AutoTooltip>
+		</Commandbutton>
+		<Commandbutton name='RelayReset'>
+			<X>300</X>
+			<Y>3</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>15</Height>
+			<Text>Relay Reset</Text>
+			<OnLeftClick>
+				Script[${RI_Var_String_ZoneResetScriptName}]:QueueCommand[call RelayResetZones]
+			</OnLeftClick>
+			<AutoTooltip>
+				Relay Reset Zones to All Clients
+			</AutoTooltip>
+		</Commandbutton>
+		
+	</Children>
+</Window>
+</ISUI>		

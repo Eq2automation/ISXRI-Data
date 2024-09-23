@@ -1,0 +1,50 @@
+Reign of Shadows Tradeskill Timeline
+Custom
+CheckPreReqs -ITEMQTY "Portable Work Bench" 2
+0 0 0
+Custom
+RemoveFromDepot "Harvesting Supply Depot" "Hardened Zelniak Pelt" 224 "Hornbeam Spruce Log" 580 "Humming Azurite" 200 "Luclizite Cluster" 350 "Lunar Mushroom" 100 "Radiant Algae" 200 "Rockhopper Meat" 233 "Slow Creeping Root" 500 "Splitfin Dartfish" 100 "Lustrous Rockhopper Hide" 1 "Humming Sapphire Gem" 1 "Shrieking Mushroom" 1 "Radiant Pome" 1 "Primal Luclizite Shard" 11 "Jumping Creeper" 14 "Wracked Wood Wedge" 7
+0 0 0
+Custom
+RemoveFromDepot "Fuel Depot" "Coruscating Incense" 100 "Coruscating Coal" 400 "Coruscating Filament" 100 "Coruscating Kindling" 100 "Coruscating Sandpaper" 400
+0 0 0
+Custom
+CheckAndSet -NotInZone "Guild Hall" 26
+0 0 0
+Custom
+MoveToActor "Ulteran"
+0 0 0
+Custom
+ClickActor "Ulteran"
+0 0 0
+Custom
+TravelMap "City of Fordel Midst"
+0 0 0
+263.598480 -27.628031 778.354431
+263.538086 -27.917845 749.993713
+270.301086 -35.711639 729.809509
+289.613251 -36.151951 710.353333
+Custom
+Quest "The Delineation of Method"
+0 0 0
+Custom
+Quest "Through the Belly of the Beast"
+0 0 0
+Custom
+Quest "Paying the Piper"
+0 0 0
+Custom
+Quest "The Grumbling"
+0 0 0
+Custom
+Quest "Tiptoe Through the Shadows"
+0 0 0
+Custom
+Quest "The Grandiose Wordsmith Pursuance"
+0 0 0
+Custom
+Quest "Ennoblement of Penitence"
+0 0 0
+Custom
+Quest "Dark Side of the Dark Side"
+0 0 0

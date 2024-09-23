@@ -1,0 +1,13 @@
+Terrors of Thalumbra Crafting Timeline
+Custom
+RemoveFromDepot "Harvesting Supply Depot" "arcannium" 2 "adamantine cluster" 1 "bornite nodule" 32 "cadmium ore" 1 "ferrite cluster" 1 "incandescent material" 2 "Malduran lumber" 3 "rhenium ore" 1 "splitiron ore" 9 "thalumbral root" 10 "thaumic material" 1 "titanium ore" 1 "umbrite" 40
+0 0 0
+Custom
+RemoveFromDepot "Fuel Depot" "effulgent candle" 1 "effulgent coal" 5 "effulgent incense" 3 "Thaumic Coal" 34 "Thaumic Incense" 1
+0 0 0
+Custom
+CheckPreReqs -completedquest "The Captain's Lament" -itemqty "arcannium" 2 -itemqty "effulgent candle" 1 -itemqty "effulgent coal" 5 -itemqty "effulgent incense" 3 -itemqty "Thaumic Coal" 34 -itemqty "Thaumic Incense" 1 -itemqty "arcannium cluster" 2 -itemqty "adamantine cluster" 1 -itemqty "bornite nodule" 32 -itemqty "cadmium ore" 1 -itemqty "ferrite cluster" 1 -itemqty "incandescent material" 2 -itemqty "Malduran lumber" 3 -itemqty "rhenium ore" 1 -itemqty "splitiron ore" 9 -itemqty "thalumbral root" 10 -itemqty "thaumic material" 1 -itemqty "titanium ore" 1 -itemqty "umbrite" 40
+0 0 0
+Custom
+Quest "What Lies Beneath"
+0 0 0

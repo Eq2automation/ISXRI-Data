@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+	<!-- Main Window -->
+	<Window Name='RILoot'>
+	<X>50</X>
+	<Y>100</Y>
+	<Width>480</Width>
+	<Height>375</Height>
+	  <TitleBar template='window.Titlebar'>
+		<Children>
+		  <Text Name='Title' Template='window.Titlebar.Title' />
+		  <Button Name='Minimize' Template='window.Titlebar.Minimize' />
+		  <Button Name='Maximize' Template='window.Titlebar.Maximize' />
+		  <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Command>RILootObj:Hide</Command>
+		  </commandbutton>
+		</Children>
+	  </TitleBar>
+	  <StorePosition>1</StorePosition>
+	<Title>RILoot</Title>
+	<Children>
+		<Checkbox Name='RILootOnCheckbox'>
+			<X>90</X> 
+			<Y>3</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>RILoot On</Text> 
+			<OnLeftClick>
+				RILootObj:SaveRILootOn
+			</OnLeftClick>
+		</Checkbox>
+		<Text name='ItemsText'> 
+			<X>7</X>
+			<Y>5</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Items</Text>
+			<Wrap />
+		</Text>
+		<listbox Name='ItemsListbox'>
+			<X>5</X>
+			<Y>20</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>215</Width>
+			<Height>205</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>1</SelectMultiple>
+			<Sort>text</Sort>
+			<OnLeftClick>
+				RILootObj:ItemsListboxLeftClick
+            </OnLeftClick>
+			<OnRightClick>
+				RILootObj:ItemsListboxRightClick
+            </OnRightClick>
+		</listbox>
+		<listbox Name='ToonsListbox'>
+			<X>5</X>
+			<Y>225</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>115</Width>
+			<Height>125</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>1</SelectMultiple>
+			<Sort>text</Sort>
+			<OnLeftClick>
+				RILootObj:ToonsListboxLeftClick
+            </OnLeftClick>
+			<OnRightClick>
+            </OnRightClick>
+		</listbox>
+		<Text name='AddedItemsText'> 
+			<X>230</X>
+			<Y>5</Y> 
+			<Width>270</Width> 
+			<Height>15</Height> 
+			<Text>Added Items:  Item|Toon|Qty|Looted</Text>
+			<Wrap />
+		</Text>
+		<listbox Name='AddedItemsListbox'>
+			<X>225</X>
+			<Y>20</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>250</Width>
+			<Height>330</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>user</Sort>
+			<OnRightClick>
+				RILootObj:AddedItemsListboxRightClick
+            </OnRightClick>
+			<OnLeftClick>
+				RILootObj:AddedItemsListboxLeftClick
+            </OnLeftClick>
+		</listbox>
+		<TextEntry name='ItemTextEntry'> 
+			<X>125</X>
+			<Y>230</Y>
+			<Width>95</Width> 
+			<Height>18</Height> 
+			<Alignment>Left</Alignment>
+			<Text></Text>
+			<OnKeyDown>
+			if ${Key.Equal[ESC]}
+				This:SetText[]
+			</OnKeyDown>
+			<Wrap />
+			<Visible>1</Visible>
+		</TextEntry>
+		<TextEntry name='GroupTextEntry'> 
+			<X>125</X>
+			<Y>250</Y>
+			<Width>95</Width> 
+			<Height>18</Height> 
+			<Alignment>Left</Alignment>
+			<Text></Text>
+			<OnKeyDown>
+			if ${Key.Equal[ESC]}
+				This:SetText[]
+			</OnKeyDown>
+			<Wrap />
+			<Visible>1</Visible>
+		</TextEntry>
+		<Text name='QuantityText'> 
+			<X>125</X>
+			<Y>270</Y> 
+			<Width>25</Width> 
+			<Height>15</Height> 
+			<Text>Qty:</Text>
+			<Wrap />
+		</Text>
+		<TextEntry name='QuantityTextEntry'> 
+			<X>165</X>
+			<Y>270</Y>
+			<Width>35</Width> 
+			<Height>18</Height> 
+			<Alignment>Left</Alignment>
+			<Text></Text>
+			<OnKeyDown>
+			if ${Key.Equal[ESC]}
+				This:SetText[]
+			</OnKeyDown>
+			<Wrap />
+			<Visible>1</Visible>
+		</TextEntry>
+		<Text name='LootedText'> 
+			<X>125</X>
+			<Y>290</Y> 
+			<Width>45</Width> 
+			<Height>15</Height> 
+			<Text>Looted:</Text>
+			<Wrap />
+		</Text>
+		<TextEntry name='LootedTextEntry'> 
+			<X>165</X>
+			<Y>290</Y>
+			<Width>35</Width> 
+			<Height>18</Height> 
+			<Alignment>Left</Alignment>
+			<Text>0</Text>
+			<OnKeyDown>
+			if ${Key.Equal[ESC]}
+				This:SetText[]
+			</OnKeyDown>
+			<Wrap />
+			<Visible>1</Visible>
+		</TextEntry>
+		<Commandbutton name='AddButton'>
+			<X>140</X>
+			<Y>310</Y>
+			<Border>0</Border>
+			<Width>70</Width>
+			<Height>15</Height>
+			<Text>Add</Text>
+			<OnLeftClick>
+					RILootObj:Add
+			</OnLeftClick>
+		</Commandbutton>
+		<Checkbox Name='GroupOnlyCheckBox'>
+			<X>125</X> 
+			<Y>320</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Current Group</Text> 
+			<OnLeftClick>
+				RILootObj:Group[1]
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='AllToonsCheckBox'>
+			<X>125</X> 
+			<Y>335</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>All Known Toons</Text> 
+			<OnLeftClick>
+				RILootObj:Group[0]
+			</OnLeftClick>
+		</Checkbox>
+	</Children>
+</Window>
+</ISUI>		

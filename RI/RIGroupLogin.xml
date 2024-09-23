@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+	<!-- Main Window -->
+	<Window Name='RIGroupLogin'>
+	<X>50</X>
+	<Y>100</Y>
+	<Width>633</Width>
+	<Height>380</Height>
+	  <TitleBar template='window.Titlebar'>
+		<Children>
+		  <Text Name='Title' Template='window.Titlebar.Title' />
+		  <Button Name='Minimize' Template='window.Titlebar.Minimize' />
+		  <Button Name='Maximize' Template='window.Titlebar.Maximize' />
+		  <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Command>Script[${RI_Var_String_RIGroupLoginScriptName}]:End</Command>
+		  </commandbutton>
+		</Children>
+	  </TitleBar>
+	  <StorePosition>1</StorePosition>
+	<Title>RIGroupLogin</Title>
+	<Children>
+		<Text name='ISBCharSetText'> 
+			<X>5</X>
+			<Y>5</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>ISBoxer Character Set Name:</Text>
+			<Wrap />
+		</Text>
+		<Textentry Name='ISBCharSetTextEntry'>
+			<X>149</X>
+			<Y>5</Y>
+			<Border>0</Border>
+			<Width>110</Width>
+			<Height>15</Height>
+			<Color>FFDDBB00</Color>
+		</Textentry>
+		<Commandbutton name='LaunchGroupButton'>
+			<X>435</X>
+			<Y>5</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>15</Height>
+			<Text>Launch Group</Text>
+			<OnLeftClick>
+				if ${UIElement[AddedGroupsListbox@RIGroupLogin].SelectedItem(exists)}
+					RIGroupLoginObj:LaunchGroup[${UIElement[AddedGroupsListbox@RIGroupLogin].SelectedItem.Text}]
+			</OnLeftClick>
+			<AutoTooltip>
+				Launch Group
+			</AutoTooltip>
+		</Commandbutton>
+		<Text name='AccountsAvailText'> 
+			<X>7</X>
+			<Y>20</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Accounts Available</Text>
+			<Wrap />
+		</Text>
+		<listbox Name='AccountsAvailListbox'>
+			<X>5</X>
+			<Y>35</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>140</Width>
+			<Height>320</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>text</Sort>
+			<OnLeftClick>
+				RIGroupLoginObj:AccountsAvailListboxLeftClick
+            </OnLeftClick>
+			<OnRightClick>
+            </OnRightClick>
+		</listbox>
+		<Text name='ToonsAvailText'> 
+			<X>158</X>
+			<Y>20</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Toons Available</Text>
+			<Wrap />
+		</Text>
+		<listbox Name='ToonsAvailListbox'>
+			<X>150</X>
+			<Y>35</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>90</Width>
+			<Height>290</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>text</Sort>
+			<OnLeftClick>
+            </OnLeftClick>
+			<OnRightClick>
+            </OnRightClick>
+            <OnDoubleLeftClick>
+				if ${This.SelectedItem.Text.NotEqual[NULL]}
+					RIGroupLoginObj:AddToon[${This.SelectedItem.Text}]
+            </OnDoubleLeftClick>
+		</listbox>
+		<Text name='AddedToonsText'> 
+			<X>260</X>
+			<Y>20</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Added Toons</Text>
+			<Wrap />
+		</Text>
+		<listbox Name='AddedToonsListbox'>
+			<X>245</X>
+			<Y>35</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>90</Width>
+			<Height>290</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>user</Sort>
+			<OnLeftClick>
+            </OnLeftClick>
+			<OnRightClick>
+				UIElement[AddedToonsListbox@RIGroupLogin]:RemoveItem[${This.SelectedItem.ID}]
+            </OnRightClick>
+		</listbox>
+		<Text name='AddedGroupsText'> 
+			<X>355</X>
+			<Y>5</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Added Groups</Text>
+			<Wrap />
+		</Text>
+		<listbox Name='AddedGroupsListbox'>
+			<X>340</X>
+			<Y>20</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>290</Width>
+			<Height>335</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>none</Sort>
+			<OnLeftClick>
+				RIGroupLoginObj:AddedGroupsListboxLeftClick
+            </OnLeftClick>
+			<OnDoubleLeftClick>
+				RIGroupLoginObj:AddedGroupsListboxDoubleLeftClick
+            </OnDoubleLeftClick>
+			<OnRightClick>
+				RIGroupLoginObj:AddedGroupsListboxRightClick
+            </OnRightClick>
+		</listbox>
+		<Commandbutton name='AddToonButton'>
+			<X>155</X>
+			<Y>325</Y>
+			<Border>0</Border>
+			<Width>80</Width>
+			<Height>15</Height>
+			<Text>Add Toon</Text>
+			<OnLeftClick>
+				if ${UIElement[ToonsAvailListbox@RIGroupLogin].SelectedItem.Text.NotEqual[NULL]}
+					RIGroupLoginObj:AddToon[${UIElement[ToonsAvailListbox@RIGroupLogin].SelectedItem.Text}]
+			</OnLeftClick>
+			<AutoTooltip>
+				Add Toon
+			</AutoTooltip>
+		</Commandbutton>
+		<Commandbutton name='AddGroupButton'>
+			<X>250</X>
+			<Y>325</Y>
+			<Border>0</Border>
+			<Width>80</Width>
+			<Height>15</Height>
+			<Text>Add Group</Text>
+			<OnLeftClick>
+				RIGroupLoginObj:AddGroup
+			</OnLeftClick>
+			<AutoTooltip>
+				Add Group
+			</AutoTooltip>
+		</Commandbutton>
+		<Text name='GroupAliasText'> 
+			<X>160</X>
+			<Y>340</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Group Alias:</Text>
+			<Wrap />
+		</Text>
+		<Textentry Name='GroupAliasTextEntry'>
+			<X>220</X>
+			<Y>340</Y>
+			<Border>0</Border>
+			<Width>110</Width>
+			<Height>15</Height>
+			<Color>FFDDBB00</Color>
+		</Textentry>
+	</Children>
+</Window>
+</ISUI>		

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+	<!-- Main Window -->
+	<Window Name='BalanceUI'>
+	<X>50</X>
+	<Y>100</Y>
+	<Width>105</Width>
+	<Height>90</Height>
+	  <TitleBar template='window.Titlebar'>
+		<Children>
+		  <Text Name='Title' Template='window.Titlebar.Title' />
+		   <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Command>Script[${RI_Var_String_RIBalanceScriptName}]:End</Command>
+		  </commandbutton>
+		</Children>
+	  </TitleBar>
+	  <StorePosition>1</StorePosition>
+	<Title>Balance</Title>
+	<Children>
+		<Text name='MeSubClass'> 
+					<Y>3</Y> 
+					<Width>100%</Width> 
+					<Height>15</Height> 
+					<Alignment>Center</Alignment>
+					<Text>Health Difference</Text>
+					<Wrap />
+		</Text>
+		<Checkbox Name='Named'>
+		  <X>20</X> 
+		  <Y>50</Y> 
+		  <Width>20</Width> 
+		  <Height>20</Height>
+		  <Text>Named</Text> 
+		  <OnLeftClick>
+			if ${This.Checked}
+			{
+				BalanceNamed:Set[TRUE]
+			}
+			else
+			{
+				BalanceNamed:Set[FALSE]
+			}
+		  </OnLeftClick>
+		</Checkbox>
+		<Textentry Name='TEHealthRange'>
+					  <X>20</X>
+					  <Y>20</Y>
+					  <Border>0</Border>
+					  <Width>60</Width>
+					  <Height>15</Height>
+					  <Color>FFDDBB00</Color>
+					  <MaxLength>22</MaxLength>
+					  <OnLoad>This:SetText[${BalanceHealthVar}]</OnLoad>
+					<OnChange>
+					BalanceHealthVar:Set[${This.Text}]
+					</OnChange>			
+					</Textentry>
+		<Commandbutton name='Start'>
+			<X>20</X>
+			<Y>35</Y>
+			<Width>60</Width>
+			<Height>15</Height>
+			<Text>Start</Text>
+			<Border>0</Border>
+			<OnLeftClick>
+				if ${This.Text.Equal[Start]}
+				{
+					BalancePaused:Set[FALSE]
+					This:SetText[Stop]
+				}
+				else
+				{
+					BalancePaused:Set[TRUE]
+					This:SetText[Start]
+				}
+			</OnLeftClick>
+			<AutoTooltip>
+				Start Balance
+			</AutoTooltip>
+		</Commandbutton>
+	</Children>
+</Window>
+</ISUI>		

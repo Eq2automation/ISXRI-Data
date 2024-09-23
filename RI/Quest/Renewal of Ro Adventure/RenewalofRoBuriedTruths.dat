@@ -1,0 +1,52 @@
+Renewal of Ro: Buried Truths
+Custom
+HailActorGetQuest -Actor "Firiona Vie"
+-547.55 10.96 437.05
+Custom
+ClickActor "Takish'Hiz Sigil Plate"
+-551.83 11.46 429.06
+Custom
+ZoneDoor zone_portal_to_takish_dungeons "Buried Takish'Hiz: Terrene Threshold [Signature]"
+-551.83 11.46 429.06
+Custom
+Instance
+0 0 0
+Custom
+ClickActor "Nairion Eldi"
+-905.96 22.98 360.15
+Custom
+ZoneDoor zone_exit
+-897.29 22.98 325.10
+Custom
+HailActor "Firiona Vie" 10
+-548.09 10.96 437.21
+Custom
+ZoneDoor zone_portal_to_takish_dungeons "Buried Takish'Hiz: The Sacred Gift [Signature]"
+-551.83 11.46 429.06
+Custom
+Instance
+0 0 0
+-1077.09 71.17 145.27
+-1104.01 73.27 140.49
+-1120.80 77.62 139.46
+-1152.13 71.16 140.52
+-1174.72 71.17 150.82
+-1172.76 71.91 169.98
+-1171.95 77.62 187.66
+-1173.37 71.14 218.04
+Custom
+HailActor "Firiona Vie" 1
+-1142.67 74.49 208.79
+Custom
+WaitForQuestStep "Speak with Firiona Vie"
+-1142.67 74.49 208.79
+Custom
+HailActor "Firiona Vie" 2
+-1142.67 74.49 208.79
+-1180.21 71.14 220.71
+Custom
+ZoneDoor exit_door
+-1184.12 71.14 252.93
+Custom
+HailActor "Firiona Vie" 1
+-547.81 10.96 437.03

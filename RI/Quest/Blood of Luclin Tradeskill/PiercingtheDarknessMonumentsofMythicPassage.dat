@@ -1,0 +1,18 @@
+Piercing the Darkness: Monuments of Mythic Passage
+Custom
+HailActorGetQuest -Actor "Head Scholar Nabihan"
+593.798767 130.093079 -47.806480
+Custom
+FastTravel "Plane of Magic"
+0 0 0
+1258.885254 779.203918 -1624.631104
+Custom
+ClickActor ByLoc|1257.219971|785.080017|-1607.369995
+1257.053345 780.579590 -1608.364746
+Custom
+TravelMap "Kylong Plains"
+1257.053345 780.579590 -1608.364746
+1975.463135 480.005920 -871.170471
+Custom
+HailActor "Taith McJarun" 5
+1988.266602 480.005920 -864.268982

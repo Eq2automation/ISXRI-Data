@@ -1,0 +1,29 @@
+Shattered Dawn: Mythic Passage Arranged
+Custom
+HailActorGetQuest -Actor "Taith McJarun"
+1988.008911 480.005920 -859.398315
+Custom
+HailActor nokillnpc 8
+1973.125366 480.005920 -873.351135
+Wait
+20
+1973.125366 480.005920 -873.351135
+Custom
+HailActor nokillnpc 2
+1973.125366 480.005920 -873.351135
+Wait
+20
+1973.125366 480.005920 -873.351135
+Custom
+HailActor nokillnpc 5
+1973.125366 480.005920 -873.351135
+1969.937866 480.005920 -850.487671
+Custom
+ClickActor "Ulteran Spire Portal"
+1975.317383 480.005920 -840.015808
+Custom
+TravelMap "The Blinding"
+1974.697632 480.005920 -839.673218
+Wait
+50
+619.859985 428.167542 -580.669983

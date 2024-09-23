@@ -1,0 +1,10 @@
+Nothing on the Mind
+Custom
+HailActor "Scout Nan'Dor" 5
+-1703.764282 270.103027 -38.691250
+Custom
+MessageBox "Go use the extractor on 8 Dracurion warders or firemancers who are at 20% or lower health and resume in front of Scout Nan'Dor"
+-1703.764282 270.103027 -38.691250
+Custom
+HailActor "Scout Nan'Dor" 3
+-1703.764282 270.103027 -38.691250

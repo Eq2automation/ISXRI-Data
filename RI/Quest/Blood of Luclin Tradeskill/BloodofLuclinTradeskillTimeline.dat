@@ -1,0 +1,85 @@
+Blood of Luclin Tradeskill Timeline
+Custom
+MessageBox "This quest requires 6 Portable Workbench's please make sure they are in your inventory"
+0 0 0
+Custom
+RemoveFromDepot "Harvesting Supply Depot" "Hardened Zelniak Pelt" 600 "Hornbeam Spruce Log" 302 "Humming Azurite" 297 "Luclizite Cluster" 261 "Lunar Mushroom" 49 "Radiant Algae" 52 "Rockhopper Meat" 233 "Slow Creeping Root" 54 "Splitfin Dartfish" 229
+0 0 0
+Custom
+RemoveFromDepot "Fuel Depot" "Coruscating Candle" 75 "Coruscating Coal" 282 "Coruscating Filament" 25 "Coruscating Kindling" 15
+0 0 0
+Custom
+Quest "Piercing the Darkness: Carving a Legacy"
+0 0 0
+Custom
+Quest "Piercing the Darkness: Monuments of Mythic Passage"
+0 0 0
+Custom
+CheckAndSet -NotInZone "Guild Hall" 27
+0 0 0
+Custom
+MoveToActor "Ulteran"
+0 0 0
+Custom
+ClickActor "Ulteran"
+0 0 0
+Custom
+TravelMap "Kylong Plains"
+0 0 0
+Custom
+Quest "Piercing the Darkness: Chasing Moonbeams"
+0 0 0
+Custom
+Quest "Piercing the Darkness: The Sad Tale of Benosch Ironsprocket Part I"
+0 0 0
+Custom
+Quest "Piercing the Darkness: The Sad Tale of Benosch Ironsprocket Part II"
+0 0 0
+Custom
+Quest "Piercing the Darkness: The Sad Tale of Benosch Ironsprocket Part III"
+0 0 0
+Custom
+Quest "Piercing the Darkness: A Very Fortunate Turn of Events Part I"
+0 0 0
+Custom
+Quest "Piercing the Darkness: A Very Fortunate Turn of Events Part II"
+0 0 0
+Custom
+Quest "Piercing the Darkness: A Very Fortunate Turn of Events Part III"
+0 0 0
+Custom
+Quest "Piercing the Darkness: Gifts from the Great Beyond Part I"
+0 0 0
+Custom
+Quest "Piercing the Darkness: Gifts from the Great Beyond Part II"
+0 0 0
+Custom
+Quest "Piercing the Darkness: Gifts from the Great Beyond Part III"
+0 0 0
+Custom
+Quest "Piercing the Darkness: Marketplace of Horrors Part I"
+0 0 0
+Custom
+Quest "Piercing the Darkness: Marketplace of Horrors Part II"
+0 0 0
+Custom
+Quest "Piercing the Darkness: Marketplace of Horrors Part III"
+0 0 0
+Custom
+Quest "Piercing the Darkness: Three Little Tegi Part I"
+0 0 0
+Custom
+Quest "Piercing the Darkness: Three Little Tegi Part II"
+0 0 0
+Custom
+Quest "Piercing the Darkness: Three Little Tegi Part III"
+0 0 0
+Custom
+Quest "Piercing the Darkness: Message in a Shadowed Bottle Part I"
+0 0 0
+Custom
+Quest "Piercing the Darkness: Message in a Shadowed Bottle Part II"
+0 0 0
+Custom
+Quest "Piercing the Darkness: Message in a Shadowed Bottle Part III"
+0 0 0

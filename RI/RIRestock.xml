@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+	<!-- Main Window -->
+	<Window Name='RIRestock'>
+	<X>50</X>
+	<Y>100</Y>
+	<Width>480</Width>
+	<Height>405</Height>
+	  <TitleBar template='window.Titlebar'>
+		<Children>
+		  <Text Name='Title' Template='window.Titlebar.Title' />
+		  <Button Name='Minimize' Template='window.Titlebar.Minimize' />
+		  <Button Name='Maximize' Template='window.Titlebar.Maximize' />
+		  <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Command>RIRestockObj:Hide</Command>
+		  </commandbutton>
+		</Children>
+	  </TitleBar>
+	  <StorePosition>1</StorePosition>
+	<Title>RIRestock</Title>
+	<Children>
+		<Commandbutton name='RestockButton'>
+			<X>90</X>
+			<Y>5</Y>
+			<Border>0</Border>
+			<Width>70</Width>
+			<Height>15</Height>
+			<Text>Restock</Text>
+			<OnLeftClick>
+					RIRestockObj:Restock
+			</OnLeftClick>
+		</Commandbutton>
+		<Text name='ItemsText'> 
+			<X>7</X>
+			<Y>5</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Items</Text>
+			<Wrap />
+		</Text>
+		<listbox Name='ItemsListbox'>
+			<X>5</X>
+			<Y>20</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>215</Width>
+			<Height>205</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>1</SelectMultiple>
+			<Sort>text</Sort>
+			<OnLeftClick>
+				RIRestockObj:ItemsListboxLeftClick
+            </OnLeftClick>
+			<OnRightClick>
+				RIRestockObj:ItemsListboxRightClick
+            </OnRightClick>
+		</listbox>
+		<listbox Name='DepotsListbox'>
+			<X>5</X>
+			<Y>255</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>155</Width>
+			<Height>125</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>1</SelectMultiple>
+			<Sort>none</Sort>
+			<OnRightClick>
+            </OnRightClick>
+		</listbox>
+		<listbox Name='ForWhoListbox'>
+			<X>165</X>
+			<Y>285</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>55</Width>
+			<Height>95</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>1</SelectMultiple>
+			<Sort>none</Sort>
+			<OnRightClick>
+            </OnRightClick>
+		</listbox>
+		<Text name='AddedItemsText'> 
+			<X>230</X>
+			<Y>5</Y> 
+			<Width>270</Width> 
+			<Height>15</Height> 
+			<Text>Added Items:  Item|Qty|Depot|ForWho</Text>
+			<Wrap />
+		</Text>
+		<listbox Name='AddedItemsListbox'>
+			<X>225</X>
+			<Y>20</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>250</Width>
+			<Height>360</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>user</Sort>
+			<OnRightClick>
+				RIRestockObj:AddedItemsListboxRightClick
+            </OnRightClick>
+			<OnLeftClick>
+				RIRestockObj:AddedItemsListboxLeftClick
+            </OnLeftClick>
+		</listbox>
+		<Text name='ItemText'> 
+			<X>7</X>
+			<Y>230</Y> 
+			<Width>25</Width> 
+			<Height>15</Height> 
+			<Text>Item:</Text>
+			<Wrap />
+		</Text>
+		<TextEntry name='ItemTextEntry'> 
+			<X>40</X>
+			<Y>230</Y>
+			<Width>180</Width> 
+			<Height>18</Height> 
+			<Alignment>Left</Alignment>
+			<Text></Text>
+			<OnKeyDown>
+			if ${Key.Equal[ESC]}
+				This:SetText[]
+			</OnKeyDown>
+			<Wrap />
+			<Visible>1</Visible>
+		</TextEntry>
+		<Text name='QuantityText'> 
+			<X>165</X>
+			<Y>250</Y> 
+			<Width>25</Width> 
+			<Height>15</Height> 
+			<Text>Qty:</Text>
+			<Wrap />
+		</Text>
+		<TextEntry name='QuantityTextEntry'> 
+			<X>190</X>
+			<Y>250</Y>
+			<Width>30</Width> 
+			<Height>18</Height> 
+			<Alignment>Left</Alignment>
+			<Text></Text>
+			<OnKeyDown>
+			if ${Key.Equal[ESC]}
+				This:SetText[]
+			</OnKeyDown>
+			<Wrap />
+			<Visible>1</Visible>
+		</TextEntry>
+		<Commandbutton name='AddButton'>
+			<X>170</X>
+			<Y>270</Y>
+			<Border>0</Border>
+			<Width>50</Width>
+			<Height>15</Height>
+			<Text>Add</Text>
+			<OnLeftClick>
+					RIRestockObj:Add
+			</OnLeftClick>
+		</Commandbutton>
+	</Children>
+</Window>
+</ISUI>		

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+	<!-- Main Window -->
+	<Window Name='RPG'>
+	<X>50</X>
+	<Y>100</Y>
+	<Width>490</Width>
+	<Height>380</Height>
+	  <TitleBar template='window.Titlebar'>
+		<Children>
+		  <Text Name='Title' Template='window.Titlebar.Title' />
+		  <Button Name='Minimize' Template='window.Titlebar.Minimize' />
+		  <Button Name='Maximize' Template='window.Titlebar.Maximize' />
+		  <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Command>Script[${RPG_Var_String_RPGScriptName}]:End</Command>
+		  </commandbutton>
+		</Children>
+	  </TitleBar>
+	  <StorePosition>1</StorePosition>
+	<Title>RPG</Title>
+	<Children>
+		<Text name='ISBCharSetText'> 
+			<X>5</X>
+			<Y>5</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>ISBoxer Character Set Name:</Text>
+			<Wrap />
+		</Text>
+		<Textentry Name='ISBCharSetTextEntry'>
+			<X>149</X>
+			<Y>5</Y>
+			<Border>0</Border>
+			<Width>110</Width>
+			<Height>15</Height>
+			<Color>FFDDBB00</Color>
+		</Textentry>
+		<Text name='SessionNameText'> 
+			<X>5</X>
+			<Y>20</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Session Name:</Text>
+			<Wrap />
+		</Text>
+		<Textentry Name='SessionNameTextEntry'>
+			<X>75</X>
+			<Y>20</Y>
+			<Border>0</Border>
+			<Width>60</Width>
+			<Height>15</Height>
+			<Color>FFDDBB00</Color>
+		</Textentry>
+		<Textentry Name='SaveTextEntry'>
+			<X>265</X>
+			<Y>20</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>15</Height>
+			<Color>FFDDBB00</Color>
+		</Textentry>
+		<Commandbutton name='LoadButton'>
+			<X>265</X>
+			<Y>5</Y>
+			<Border>0</Border>
+			<Width>50</Width>
+			<Height>15</Height>
+			<Text>Load</Text>
+			<OnLeftClick>
+				RPGObj:LoadList
+			</OnLeftClick>
+			<AutoTooltip>
+				Load
+			</AutoTooltip>
+		</Commandbutton>
+		<Commandbutton name='SaveButton'>
+			<X>315</X>
+			<Y>5</Y>
+			<Border>0</Border>
+			<Width>50</Width>
+			<Height>15</Height>
+			<Text>Save</Text>
+			<OnLeftClick>
+				RPGObj:SaveClick
+				RPGObj:SaveList
+			</OnLeftClick>
+			<AutoTooltip>
+				Save
+			</AutoTooltip>
+		</Commandbutton>
+		<Commandbutton name='DeleteButton'>
+			<X>315</X>
+			<Y>35</Y>
+			<Border>0</Border>
+			<Width>50</Width>
+			<Height>15</Height>
+			<Text>Delete</Text>
+			<OnLeftClick>
+				RPGObj:DeleteList
+			</OnLeftClick>
+			<AutoTooltip>
+				Delete
+			</AutoTooltip>
+		</Commandbutton>
+		<listbox Name='SaveListbox'>
+			<X>365</X>
+			<Y>7</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>120</Width>
+			<Height>55</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>user</Sort>
+			<OnLeftClick>
+				if ${This.SelectedItem.ID(exists)}
+					UIElement[SaveTextEntry@RPG]:SetText[${This.SelectedItem.Text}]
+            </OnLeftClick>
+			<OnRightClick>
+				UIElement[AddedToons@RPG]:RemoveItem[${This.SelectedItem.ID}]
+            </OnRightClick>
+		</listbox>
+		<Commandbutton name='StartButton'>
+			<X>205</X>
+			<Y>30</Y>
+			<Border>0</Border>
+			<Width>50</Width>
+			<Height>15</Height>
+			<Text>Start</Text>
+			<OnLeftClick>
+				RPGObj:Start
+			</OnLeftClick>
+			<AutoTooltip>
+				Start
+			</AutoTooltip>
+		</Commandbutton>
+		<Text name='ToonsAvailText'> 
+			<X>13</X>
+			<Y>35</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Toons Available</Text>
+			<Wrap />
+		</Text>
+		<listbox Name='ToonsAvailListbox'>
+			<X>5</X>
+			<Y>50</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>90</Width>
+			<Height>290</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>text</Sort>
+			<OnLeftClick>
+            </OnLeftClick>
+			<OnRightClick>
+            </OnRightClick>
+            <OnDoubleLeftClick>
+				if ${This.SelectedItem.Text.NotEqual[NULL]}
+					RPGObj:AddToon[${This.SelectedItem.Text}]
+            </OnDoubleLeftClick>
+		</listbox>
+		<Text name='AddedToonsText'> 
+			<X>115</X>
+			<Y>35</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Added Toons</Text>
+			<Wrap />
+		</Text>
+		<listbox Name='AddedToonsListbox'>
+			<X>100</X>
+			<Y>50</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>90</Width>
+			<Height>290</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>user</Sort>
+			<OnLeftClick>
+            </OnLeftClick>
+			<OnRightClick>
+				UIElement[AddedToonsListbox@RPG]:RemoveItem[${This.SelectedItem.ID}]
+            </OnRightClick>
+		</listbox>
+		<Text name='AddedSessionsText'> 
+			<X>215</X>
+			<Y>50</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Added Sessions</Text>
+			<Wrap />
+		</Text>
+		<listbox Name='AddedSessionsListbox'>
+			<X>195</X>
+			<Y>65</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>290</Width>
+			<Height>290</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>text</Sort>
+			<OnLeftClick>
+				RPGObj:AddedSessionsListboxLeftClick
+            </OnLeftClick>
+			<OnRightClick>
+				UIElement[AddedSessionsListbox@RPG]:RemoveItem[${This.SelectedItem.ID}]
+            </OnRightClick>
+            <OnDoubleLeftClick>
+				RPGObj:AddedSessionsListboxDoubleLeftClick
+            </OnDoubleLeftClick>
+		</listbox>
+		<Commandbutton name='AddToonButton'>
+			<X>10</X>
+			<Y>340</Y>
+			<Border>0</Border>
+			<Width>80</Width>
+			<Height>15</Height>
+			<Text>Add Toon</Text>
+			<OnLeftClick>
+				if ${UIElement[ToonsAvailListbox@RPG].SelectedItem.Text.NotEqual[NULL]}
+					RPGObj:AddToon[${UIElement[ToonsAvailListbox@RPG].SelectedItem.Text}]
+			</OnLeftClick>
+			<AutoTooltip>
+				Add Toon
+			</AutoTooltip>
+		</Commandbutton>
+		<Commandbutton name='AddSessionButton'>
+			<X>105</X>
+			<Y>340</Y>
+			<Border>0</Border>
+			<Width>80</Width>
+			<Height>15</Height>
+			<Text>Add Session</Text>
+			<OnLeftClick>
+				if ${UIElement[SessionNameTextEntry@RPG].Text.NotEqual[NULL]}
+					RPGObj:AddSession[${UIElement[SessionNameTextEntry@RPG].Text}]
+			</OnLeftClick>
+			<AutoTooltip>
+				Add Session
+			</AutoTooltip>
+		</Commandbutton>
+	</Children>
+</Window>
+</ISUI>		

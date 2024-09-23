@@ -1,0 +1,145 @@
+Beginner Botany: Butcherblock Mountains
+Custom
+CheckAndSet -InZone "Sundered Frontier" 14
+0 0 0
+Custom
+FastTravel "The Barren Sky"
+0 0 0
+Custom
+ClickActor zone_to_norrath TRUE FALSE 50
+-589.04 -46.54 -401.60
+Custom
+TravelMap "Sundered Frontier"
+-589.04 -46.54 -401.60
+2264.11 -207.22 2470.68
+2292.75 -200.00 2499.90
+2298.24 -199.84 2499.40
+Custom
+HailActorGetQuest -Actor "Bao Bao"
+2298.24 -199.84 2499.40
+Custom
+FastTravel "Kunzar Jungle"
+0 0 0
+-155.15 1.86 -88.50
+-152.42 1.85 -83.90
+Custom
+ClickActor Blessed Shrubbery TRUE FALSE 50
+-152.42 1.85 -83.90
+Custom
+TravelMap "Butcherblock Mountains"
+-152.42 1.85 -83.90
+-20.48 180.87 579.41
+-25.80 181.39 579.97
+Custom
+Path -PL 6 -L -DFPWD -QA "-A|moss|-T|QSC:3/3|-E|H" -CT "QSC:It seems pretty underwhelming"
+9.67 180.82 604.16
+26.87 181.18 600.15
+36.92 180.57 570.06
+10.42 180.63 546.43
+-2.77 181.37 527.19
+-20.72 180.97 558.63
+-28.78 181.83 575.02
+16.31 235.74 578.34
+18.37 277.47 576.94
+38.25 280.87 470.60
+8.08 278.20 341.72
+-163.38 257.59 336.35
+-170.99 174.25 341.17
+-183.72 150.60 378.56
+Custom
+ClickActor -Actor "wood"
+-229.98 148.69 434.97
+Custom
+CheckQuestStep "Great now my bags will smell charred" 101
+-207.42 149.36 403.12
+Custom
+ClickActor -Actor "wood"
+-246.83 148.79 451.23
+Custom
+CheckQuestStep "Great now my bags will smell charred" 101
+-246.83 148.79 451.23
+Custom
+ClickActor -Actor "wood"
+-246.33 149.90 475.65
+Custom
+CheckQuestStep "Great now my bags will smell charred" 101
+-246.33 149.90 475.65
+-276.40 150.22 509.88
+Custom
+ClickActor -Actor "wood"
+-249.35 148.96 452.55
+Custom
+CheckQuestStep "Great, now my bags will smell charred" 101
+-249.35 148.96 452.55
+Custom
+ClickActor -Actor "wood"
+-229.98 148.69 434.97
+Custom
+CheckQuestStep "Great, now my bags will smell charred" 101
+-207.42 149.36 403.12
+Custom
+ClickActor -Actor "wood"
+-246.83 148.79 451.23
+Custom
+CheckQuestStep "Great, now my bags will smell charred" 101
+-246.83 148.79 451.23
+Custom
+ClickActor -Actor "wood"
+-246.33 149.90 475.65
+Custom
+CheckQuestStep "Great, now my bags will smell charred" 101
+-246.33 149.90 475.65
+-276.40 150.22 509.88
+Custom
+ClickActor -Actor "wood"
+-249.35 148.96 452.55
+Custom
+CheckQuestStep "Great, now my bags will smell charred" 101
+-249.35 148.96 452.55
+Custom
+MessageBox  "Collect 1 wood because its not working right. Known Bug. Then Press Resume"
+-249.35 148.96 452.55
+-207.42 149.36 403.12
+-0.57 227.18 256.79
+46.80 244.47 167.97
+52.58 262.82 53.43
+-43.49 265.83 -20.89
+-206.85 269.00 -61.22
+-237.02 232.71 -83.79
+-255.35 218.02 -100.20
+-255.34 210.01 -100.20
+-291.95 212.99 -89.33
+-319.45 203.91 -97.86
+-324.97 200.00 -103.74
+-315.39 188.23 -135.70
+-298.14 178.31 -171.43
+-307.66 169.92 -193.17
+-341.63 162.92 -214.38
+-369.41 161.61 -231.73
+-368.65 195.31 -206.44
+-409.75 187.70 -221.89
+-452.50 186.81 -235.93
+Custom
+Path -PL 6 -L -DFPWD -R -QA "-A|bark|-T|QSC:3/3|-E|H" -CT "QSC:I found some bark"
+-452.50 186.81 -235.93
+-496.67 174.61 -240.96
+-519.40 170.91 -279.96
+-545.06 168.82 -283.16
+-571.87 173.20 -298.26
+-566.68 169.32 -252.15
+-539.88 167.02 -243.64
+Custom
+FastTravel "The Barren Sky"
+0 0 0
+Custom
+ClickActor zone_to_norrath TRUE FALSE 50
+-589.04 -46.54 -401.60
+Custom
+TravelMap "Sundered Frontier"
+-589.04 -46.54 -401.60
+2264.11 -207.22 2470.68
+2292.75 -200.00 2499.90
+2298.24 -199.84 2499.40
+Custom
+HailActor "Bao Bao" 7 1
+2298.24 -199.84 2499.40

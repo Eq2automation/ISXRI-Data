@@ -1,0 +1,18 @@
+The Mootuingo Objective
+Custom
+HailActorGetQuest -Actor "Izny Rut"
+-832.181396 130.844528 -777.165466
+-839.444580 130.844513 -769.828491
+Custom
+ClickActor "Mootuingo Fruits" 1
+-846.190491 130.844528 -764.161743
+Custom
+ClickActor "Mootuingo Meats" 1
+-840.936584 130.844513 -763.519104
+Custom
+ClickActor -Actor "mootuingo maker" -LoopUntilQSE "I need to speak to Izny Rut"
+-844.816040 130.844513 -767.305603
+-835.118530 130.844513 -770.602478
+Custom
+HailActor "Izny Rut" 6
+-832.063354 130.844513 -778.264954

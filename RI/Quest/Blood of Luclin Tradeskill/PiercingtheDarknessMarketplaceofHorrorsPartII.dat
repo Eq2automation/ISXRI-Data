@@ -1,0 +1,47 @@
+Piercing the Darkness: Marketplace of Horrors Part II
+Custom
+HailActorGetQuest -Actor Purihni
+-92.424019 -1.642309 3.180110
+Custom
+HailActor Purihni 10
+-92.424019 -1.642309 3.180110
+Custom
+HailActor Gundeg 11
+-74.460632 -1.642309 7.546330
+Custom
+ClickActor papers
+-71.107872 -1.607993 9.834751
+-82.633553 -1.642309 11.433319
+-82.895294 -1.642309 -0.132375
+Custom
+ClickActor papers
+-94.743866 -1.642309 -0.767890
+-96.160568 -1.642309 -3.847799
+Custom
+ClickActor ByLoc|-100.449997|-1.640000|1.390000
+-100.422287 -1.642309 0.321094
+Custom
+ClickActor ByLoc|-100.449997|-1.640000|1.390000
+-100.422287 -1.642309 0.321094
+Custom
+ClickActor ByLoc|-100.449997|-1.640000|1.390000
+-100.422287 -1.642309 0.321094
+Custom
+ClickActor ByLoc|-100.449997|-1.640000|1.390000
+-100.422287 -1.642309 0.321094
+Custom
+ClickActor ByLoc|-100.449997|-1.640000|1.390000
+-100.422287 -1.642309 0.321094
+Custom
+CraftIt "Pristine Luclinite Barbute" 1
+-100.422287 -1.642309 0.321094
+Custom
+CraftIt "Pristine Luclinite Scimitar" 1
+-100.422287 -1.642309 0.321094
+-96.599686 -1.642309 -2.702994
+Custom
+HailActor Purihni 9
+-94.152573 -1.642309 -1.011603
+Custom
+HailActor Gundeg 5
+-74.155930 -1.642309 6.953677

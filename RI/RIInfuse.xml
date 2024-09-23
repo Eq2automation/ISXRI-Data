@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+	<!-- Main Window -->
+	<Window Name='RIInfuse'>
+	<X>50</X>
+	<Y>100</Y>
+	<Width>580</Width>
+	<Height>480</Height>
+	  <TitleBar template='window.Titlebar'>
+		<Children>
+		  <Text Name='Title' Template='window.Titlebar.Title' />
+		  <Button Name='Minimize' Template='window.Titlebar.Minimize' />
+		  <Button Name='Maximize' Template='window.Titlebar.Maximize' />
+		  <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Command>Script[${RI_Var_String_RIInfuseScriptName}]:End</Command>
+		  </commandbutton>
+		</Children>
+	  </TitleBar>
+	  <StorePosition>1</StorePosition>
+	<Title>RIInfuse</Title>
+	<Children>
+		<Checkbox Name='EquipmentCheckBox'>
+			<X>7</X> 
+			<Y>5</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Equipment</Text> 
+			<OnLeftClick>
+				RIInfuseObj:Equipment
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='InventoryCheckBox'>
+			<X>97</X> 
+			<Y>5</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Inventory</Text> 
+			<OnLeftClick>
+				RIInfuseObj:Inventory
+			</OnLeftClick>
+		</Checkbox>
+		<listbox Name='InventoryListbox'>
+			<X>5</X>
+			<Y>22</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>265</Width>
+			<Height>335</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>1</SelectMultiple>
+			<Sort>text</Sort>
+			<OnLeftClick>
+            </OnLeftClick>
+			<OnRightClick>
+            </OnRightClick>
+		</listbox>
+		<Text name='InfusersText'> 
+			<X>280</X>
+			<Y>5</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Infusers</Text>
+			<Wrap />
+		</Text>
+		<listbox Name='InfusersListbox'>
+			<X>275</X>
+			<Y>20</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>300</Width>
+			<Height>155</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>text</Sort>
+			<OnDoubleLeftClick>
+				if ${UIElement[InfusersListbox@RIInfuse].SelectedItem.Text.NotEqual[NULL]}
+					RIInfuseObj:AddInfuser["${UIElement[InfusersListbox@RIInfuse].SelectedItem.Text}"]
+			</OnDoubleLeftClick>
+		</listbox>
+		<listbox Name='AddedInfusersListbox'>
+			<X>275</X>
+			<Y>200</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>300</Width>
+			<Height>155</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>user</Sort>
+			<OnRightClick>
+				RIInfuseObj:AddedInfusersListboxRightClick
+            </OnRightClick>
+		</listbox>
+		<Commandbutton name='ExecuteButton'>
+			<X>365</X>
+			<Y>5</Y>
+			<Border>0</Border>
+			<Width>70</Width>
+			<Height>15</Height>
+			<Text>Execute</Text>
+			<OnLeftClick>
+				RIInfuseObj:Execute
+			</OnLeftClick>
+		</Commandbutton>
+		<Commandbutton name='AddInfuserButton'>
+			<X>315</X>
+			<Y>180</Y>
+			<Border>0</Border>
+			<Width>80</Width>
+			<Height>15</Height>
+			<Text>Add Infuser</Text>
+			<OnLeftClick>
+				if ${UIElement[InfusersListbox@RIInfuse].SelectedItem.Text.NotEqual[NULL]}
+					RIInfuseObj:AddInfuser["${UIElement[InfusersListbox@RIInfuse].SelectedItem.Text}"]
+			</OnLeftClick>
+		</Commandbutton>
+		<Console name="RIInfuseConsole">
+			<X>1</X>
+			<Y>355</Y>
+			<Width>99%</Width>
+			<Height>100</Height>
+			<BackgroundColor>000000</BackgroundColor>
+			<Font>
+				<Name>Terminal</Name>
+				<Size>10</Size>
+			</Font>
+		</Console>
+	</Children>
+</Window>
+</ISUI>		

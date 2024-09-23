@@ -1,0 +1,20 @@
+0 0 0
+Custom
+HailActor "Innoruuk" 9
+-206.244064 19.005644 -5.694997
+Custom
+HailActor "Projection of Druzzil Ro" 4
+-214.051102 19.005644 2.058467
+Wait
+50
+0 0 0
+-13.981595 31.149052 -168.199982
+-14.270249 28.848820 -158.306641
+-14.114271 27.387144 -148.337280
+-13.952681 27.387144 -138.204636
+Custom
+ClickActor "seal in Shard of Hate"
+-13.863883 27.699266 -132.636597
+Custom
+WaitForZoning
+0 0 0

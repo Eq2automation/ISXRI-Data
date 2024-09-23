@@ -1,0 +1,19 @@
+A Stitch in Time"," Part II: Lightning Strikes
+Custom
+CheckActiveQuest "A Stitch in Time, Part II: Lightning Strikes" 7
+-92.766891 2.938255 -160.559494
+Custom
+MessageBox "Go get the quest from Virog and resume here in front of Bastion zone in"
+-92.766891 2.938255 -160.559494
+Custom
+ZoneDoor zone_to_bot "Bastion of Thunder: Lightning Strikes [Tradeskill]"
+-92.766891 2.938255 -160.559494
+Custom
+Instance
+0 0 0
+Custom
+ZoneDoor Exit
+-0.274421 -0.318929 0.143577
+Custom
+MessageBox "go speak to Varig and get the next quest and resume at Sol Ro Zone in"
+-81.989914 2.941490 -142.218323

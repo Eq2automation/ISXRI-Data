@@ -1,0 +1,98 @@
+House Yrzu Faction Timeline
+Custom
+Quest "The Queen's Favor"
+0 0 0
+Custom
+Quest "Light Studies"
+0 0 0
+Custom
+QuestRepeatFaction "Lighter Studies" "House Yrzu" 1000
+0 0 0
+Custom
+Quest "An Eye for Art"
+0 0 0
+Custom
+Quest "Water Canvas"
+0 0 0
+Custom
+Quest "Further Applications" 20
+0 0 0
+162.884109 585.039368 -595.928772
+Custom
+Quest "Shape the Future"
+0 0 0
+Custom
+Quest "Art Class Drop Out"
+0 0 0
+Custom
+Quest "Learning Their Place"
+0 0 0
+Custom
+Quest "Dress Code"
+0 0 0
+Custom
+Quest "Riddle Me This"
+0 0 0
+Custom
+Quest "Unusual Suspect"
+0 0 0
+Custom
+Quest "Take Me to Your Leader"
+0 0 0
+Custom
+Quest "No Pride to Speak Of"
+0 0 0
+Custom
+Quest "Right in the Nose"
+0 0 0
+Custom
+Quest "Furthering Education"
+0 0 0
+Custom
+Quest "Forbidden Studies"
+0 0 0
+Custom
+Quest "Teacher Conference" 80
+0 0 0
+-372.640991 94.742218 -153.615753
+-372.640991 145.046387 -153.615753
+-354.696136 189.734756 -167.777359
+-332.290314 230.914429 -185.740906
+-301.126007 263.002228 -208.510651
+-266.402252 291.123718 -231.291489
+-232.539673 321.168762 -253.383896
+-200.546310 353.133789 -275.545441
+-168.145935 383.988159 -297.889862
+-134.775146 413.554901 -320.796539
+-101.444183 443.086517 -343.675873
+-67.888390 472.817291 -366.709442
+-34.398651 502.489471 -389.697754
+-0.829512 532.230713 -412.740662
+32.474979 561.737000 -435.601868
+65.805923 591.266907 -458.481445
+103.703896 611.872681 -484.495453
+145.125610 611.880066 -512.928101
+186.500427 611.887085 -541.329041
+227.613846 609.359497 -570.229370
+251.762329 601.037781 -613.539307
+Custom
+FlyDown
+253.396835 598.713135 -620.706787
+Custom
+Quest "Cultural Understanding"
+0 0 0
+Custom
+Quest "Land Development"
+0 0 0
+Custom
+Quest "Professional Opinion"
+0 0 0
+Custom
+Quest "Eureka Moment"
+0 0 0
+Custom
+Quest "Scar Treatment"
+0 0 0
+Custom
+Quest "Terra Forma" 101
+0 0 0

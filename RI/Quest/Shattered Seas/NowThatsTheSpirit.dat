@@ -1,0 +1,10 @@
+Now That's The Spirit!
+Custom
+HailActor "Finze" 8
+-689.091858 27.435099 154.084625
+Custom
+MessageBox "Go use the item on rampaging deinos when they are below 40% health resume back in front of finze when done"
+-689.091858 27.435099 154.084625
+Custom
+HailActor "Finze" 3
+-689.115112 27.430309 154.314819

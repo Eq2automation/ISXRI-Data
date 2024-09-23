@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+	<!-- Main Window -->
+	<Window Name='RIInventory'>
+	<X>50</X>
+	<Y>100</Y>
+	<Width>480</Width>
+	<Height>400</Height>
+	  <TitleBar template='window.Titlebar'>
+		<Children>
+		  <Text Name='Title' Template='window.Titlebar.Title' />
+		  <Button Name='Minimize' Template='window.Titlebar.Minimize' />
+		  <Button Name='Maximize' Template='window.Titlebar.Maximize' />
+		  <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Command>Script[${RI_Var_String_RIInventoryScriptName}]:End</Command>
+		  </commandbutton>
+		</Children>
+	  </TitleBar>
+	  <StorePosition>1</StorePosition>
+	<Title>RIInventory</Title>
+	<Children>
+		<Commandbutton name='HideButton'>
+			<X>415</X>
+			<Y>5</Y>
+			<Border>0</Border>
+			<Width>50</Width>
+			<Height>15</Height>
+			<Text>Hide</Text>
+			<OnLeftClick>
+				RIInventoryObj:Hide
+			</OnLeftClick>
+		</Commandbutton>
+		<Checkbox Name='LoopCheckBox'>
+			<X>367</X> 
+			<Y>3</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Loop</Text> 
+			<OnLeftClick>
+				RIInventoryObj:Save
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='DepositToDepotCheckBox'>
+			<X>222</X> 
+			<Y>325</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Deposit To Depot</Text> 
+			<OnLeftClick>
+				RIInventoryObj:Save
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='AddAgentsCheckBox'>
+			<X>7</X> 
+			<Y>360</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Add Agents</Text> 
+			<OnLeftClick>
+				RIInventoryObj:Save
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='ConvertAgentsCheckBox'>
+			<X>87</X> 
+			<Y>360</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Convert Agents</Text> 
+			<OnLeftClick>
+				RIInventoryObj:Save
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='AddFamiliarsCheckBox'>
+			<X>187</X> 
+			<Y>360</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Add Familiars</Text> 
+			<OnLeftClick>
+				RIInventoryObj:Save
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='DeleteLeftCheckBox'>
+			<X>352</X> 
+			<Y>360</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Del LeftOvers</Text> 
+			<OnLeftClick>
+				RIInventoryObj:Save
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='AddMercsCheckBox'>
+			<X>272</X> 
+			<Y>360</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Add Mercs</Text> 
+			<OnLeftClick>
+				RIInventoryObj:Save
+			</OnLeftClick>
+			<Visible>0</Visible>
+		</Checkbox>
+		<Text name='FiltersText'> 
+			<X>7</X>
+			<Y>282</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Filter:</Text>
+			<Wrap />
+		</Text>
+		<Checkbox Name='FilterAddedCheckBox'>
+			<X>39</X> 
+			<Y>280</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Added</Text> 
+			<OnLeftClick>
+				RIInventoryObj:Save
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='FilterInfusersCheckBox'>
+			<X>157</X> 
+			<Y>280</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Infusers</Text> 
+			<OnLeftClick>
+				RIInventoryObj:Save
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='FilterGACheckBox'>
+			<X>2</X> 
+			<Y>300</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>GA</Text> 
+			<OnLeftClick>
+				RIInventoryObj:Save
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='FilterCallsBotCheckBox'>
+			<X>157</X> 
+			<Y>300</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Calls/Bot</Text> 
+			<OnLeftClick>
+				RIInventoryObj:Save
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='FilterIllegibleIncompleteCheckBox'>
+			<X>39</X> 
+			<Y>300</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Illegible/Incomplete</Text> 
+			<OnLeftClick>
+				RIInventoryObj:Save
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='FilterAdornsCheckBox'>
+			<X>97</X> 
+			<Y>280</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Adorns</Text> 
+			<OnLeftClick>
+				RIInventoryObj:Save
+			</OnLeftClick>
+		</Checkbox>
+		<Text name='InventoryText'> 
+			<X>7</X>
+			<Y>5</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Inventory</Text>
+			<Wrap />
+		</Text>
+		<listbox Name='InventoryListbox'>
+			<X>5</X>
+			<Y>20</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>215</Width>
+			<Height>260</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>1</SelectMultiple>
+			<Sort>value</Sort>
+			<OnLeftClick>
+            </OnLeftClick>
+			<OnRightClick>
+            </OnRightClick>
+		</listbox>
+		<Text name='AddedItemsText'> 
+			<X>230</X>
+			<Y>5</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Added Items</Text>
+			<Wrap />
+		</Text>
+		<listbox Name='AddedItemsListbox'>
+			<X>225</X>
+			<Y>20</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>250</Width>
+			<Height>305</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>value</Sort>
+			<OnRightClick>
+				RIInventoryObj:AddedItemsListboxRightClick
+            </OnRightClick>
+		</listbox>
+		<Commandbutton name='SaveButton'>
+			<X>420</X>
+			<Y>5</Y>
+			<Border>0</Border>
+			<Width>50</Width>
+			<Height>15</Height>
+			<Text>Save</Text>
+			<OnLeftClick>
+				RIInventoryObj:Save
+			</OnLeftClick>
+			<Visible>0</Visible>
+		</Commandbutton>
+		<Commandbutton name='ExecuteButton'>
+			<X>295</X>
+			<Y>5</Y>
+			<Border>0</Border>
+			<Width>70</Width>
+			<Height>15</Height>
+			<Text>Execute</Text>
+			<OnLeftClick>
+				if ${UIElement[AddedItemsListbox@RIInventory].Items}>0
+					RIInventoryObj:Execute
+			</OnLeftClick>
+		</Commandbutton>
+		<Commandbutton name='RefreshButton'>
+			<X>95</X>
+			<Y>5</Y>
+			<Border>0</Border>
+			<Width>70</Width>
+			<Height>15</Height>
+			<Text>Refresh</Text>
+			<OnLeftClick>
+				RIInventoryObj:LoadInventoryList
+			</OnLeftClick>
+		</Commandbutton>
+		<Commandbutton name='AddTransmuteButton'>
+			<X>25</X>
+			<Y>325</Y>
+			<Border>0</Border>
+			<Width>80</Width>
+			<Height>15</Height>
+			<Text>Add Transmute</Text>
+			<OnLeftClick>
+				if ${UIElement[InventoryListbox@RIInventory].SelectedItem.Text.NotEqual[NULL]}
+					RIInventoryObj:AddTransmute["${UIElement[InventoryListbox@RIInventory].SelectedItem.Text}"]
+			</OnLeftClick>
+		</Commandbutton>
+		<Commandbutton name='AddSalvageButton'>
+			<X>110</X>
+			<Y>325</Y>
+			<Border>0</Border>
+			<Width>80</Width>
+			<Height>15</Height>
+			<Text>Add Salvage</Text>
+			<OnLeftClick>
+				if ${UIElement[InventoryListbox@RIInventory].SelectedItem.Text.NotEqual[NULL]}
+					RIInventoryObj:AddSalvage["${UIElement[InventoryListbox@RIInventory].SelectedItem.Text}"]
+			</OnLeftClick>
+		</Commandbutton>
+		<Commandbutton name='AddSellButton'>
+			<X>25</X>
+			<Y>342</Y>
+			<Border>0</Border>
+			<Width>80</Width>
+			<Height>15</Height>
+			<Text>Add Sell</Text>
+			<OnLeftClick>
+				if ${UIElement[InventoryListbox@RIInventory].SelectedItem.Text.NotEqual[NULL]}
+					RIInventoryObj:AddSell["${UIElement[InventoryListbox@RIInventory].SelectedItem.Text}"]
+			</OnLeftClick>
+		</Commandbutton>
+		<Commandbutton name='AddDestroyButton'>
+			<X>110</X>
+			<Y>342</Y>
+			<Border>0</Border>
+			<Width>80</Width>
+			<Height>15</Height>
+			<Text>Add Destroy</Text>
+			<OnLeftClick>
+				if ${UIElement[InventoryListbox@RIInventory].SelectedItem.Text.NotEqual[NULL]}
+					RIInventoryObj:AddDestroy["${UIElement[InventoryListbox@RIInventory].SelectedItem.Text}"]
+			</OnLeftClick>
+		</Commandbutton>
+		<Commandbutton name='AddExtractButton'>
+			<X>195</X>
+			<Y>342</Y>
+			<Border>0</Border>
+			<Width>80</Width>
+			<Height>15</Height>
+			<Text>Add Extract</Text>
+			<OnLeftClick>
+				if ${UIElement[InventoryListbox@RIInventory].SelectedItem.Text.NotEqual[NULL]}
+					RIInventoryObj:AddExtract["${UIElement[InventoryListbox@RIInventory].SelectedItem.Text}"]
+			</OnLeftClick>
+		</Commandbutton>
+		<Checkbox Name='Bag1CheckBox'>
+			<X>328</X> 
+			<Y>325</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Bag 1</Text> 
+			<OnLeftClick>
+				RIInventoryObj:Save
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='Bag2CheckBox'>
+			<X>328</X> 
+			<Y>340</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Bag 2</Text> 
+			<OnLeftClick>
+				RIInventoryObj:Save
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='Bag3CheckBox'>
+			<X>378</X> 
+			<Y>325</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Bag 3</Text> 
+			<OnLeftClick>
+				RIInventoryObj:Save
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='Bag4CheckBox'>
+			<X>378</X> 
+			<Y>340</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Bag 4</Text> 
+			<OnLeftClick>
+				RIInventoryObj:Save
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='Bag5CheckBox'>
+			<X>428</X> 
+			<Y>325</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Bag 5</Text> 
+			<OnLeftClick>
+				RIInventoryObj:Save
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='Bag6CheckBox'>
+			<X>428</X> 
+			<Y>340</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Bag 6</Text> 
+			<OnLeftClick>
+				RIInventoryObj:Save
+			</OnLeftClick>
+		</Checkbox>
+	</Children>
+</Window>
+</ISUI>		

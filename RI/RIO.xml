@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+	<!-- Main Window -->
+	<Window Name='RIOverseer'>
+	<X>50</X>
+	<Y>100</Y>
+	<Width>190</Width>
+	<Height>250</Height>
+	  <TitleBar template='window.Titlebar'>
+		<Children>
+		  <Text Name='Title' Template='window.Titlebar.Title' />
+		   <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Command>RIOverseerObj:HideUI</Command>
+		  </commandbutton>
+		</Children>
+	  </TitleBar>
+	  <StorePosition>1</StorePosition>
+	<Title>RI Overseer</Title>
+	<Children>
+        <Checkbox Name='LoopOverseerCheckBox'>
+            <X>5</X> 
+            <Y>5</Y> 
+            <Width>20</Width> 
+            <Height>20</Height>
+            <Text>Loop Overseer Every</Text> 
+            <OnLeftClick>
+            </OnLeftClick>
+        </Checkbox>
+        <Checkbox Name='RunImmediatelyCheckBox'>
+            <X>5</X> 
+            <Y>20</Y> 
+            <Width>20</Width> 
+            <Height>20</Height>
+            <Text>Run First Check Before Loop Wait</Text> 
+            <OnLeftClick>
+            </OnLeftClick>
+        </Checkbox>
+        <Commandbutton name='RunNowButton'>
+			<X>15</X>
+			<Y>37</Y>
+			<Border>0</Border>
+			<Width>70</Width>
+			<Height>17</Height>
+			<Text>Run Now</Text>
+			<OnLeftClick>
+				RIOverseerObj:RunNow
+			</OnLeftClick>
+			<AutoTooltip>
+				Run Now
+			</AutoTooltip>
+		</Commandbutton>
+        <Text name='MinsText'> 
+            <X>153</X>
+            <Y>8</Y> 
+            <Width>112</Width> 
+            <Height>15</Height> 
+            <Alignment>Left</Alignment>
+            <Text>Mins</Text>
+            <Wrap />
+            <Visible>1</Visible>
+        </Text>
+        <TextEntry name='MinsTextEntry'> 
+            <X>130</X>
+            <Y>7</Y> 
+            <Width>21</Width> 
+            <Height>15</Height> 
+            <Alignment>Left</Alignment>
+            <Text>30</Text>
+            <OnKeyDown>
+            if ${Key.Equal[ESC]}
+                This:SetText[0]
+            if ${Key.Equal[Backspace]}
+            {
+                if ${This.Text.Equal[""]}
+                    This:SetText[0]
+            }
+            if ${Key.Equal[Delete]}
+            {
+                if ${This.Text.Equal[""]}
+                    This:SetText[0]
+            }
+            if ${This.Text.NotEqual[""]} 
+            {
+                This:SetText[${Int[${This.Text}]}]
+            }
+            </OnKeyDown>
+            <OnLoad>
+                This:SetText[30]
+            </OnLoad>
+            <Wrap />
+            <Visible>1</Visible>
+        </TextEntry>
+        <Text name='MinTraitMatchText'> 
+            <X>100</X>
+            <Y>38</Y> 
+            <Width>112</Width> 
+            <Height>15</Height> 
+            <Alignment>Left</Alignment>
+            <Text>Min Trait Match</Text>
+            <Wrap />
+            <Visible>1</Visible>
+        </Text>
+        <TextEntry name='RunTreasuredTextEntry'> 
+            <X>130</X>
+            <Y>52</Y> 
+            <Width>21</Width> 
+            <Height>15</Height> 
+            <Alignment>Left</Alignment>
+            <Text>1</Text>
+            <OnKeyDown>
+            if ${Key.Equal[ESC]}
+                This:SetText[0]
+            if ${Key.Equal[Backspace]}
+            {
+                if ${This.Text.Equal[""]}
+                    This:SetText[0]
+            }
+            if ${Key.Equal[Delete]}
+            {
+                if ${This.Text.Equal[""]}
+                    This:SetText[0]
+            }
+            if ${This.Text.NotEqual[""]} 
+            {
+                This:SetText[${Int[${This.Text}]}]
+            }
+            </OnKeyDown>
+            <OnLoad>
+                This:SetText[1]
+            </OnLoad>
+            <Wrap />
+            <Visible>1</Visible>
+        </TextEntry>
+        <TextEntry name='RunLegendaryTextEntry'> 
+            <X>130</X>
+            <Y>67</Y> 
+            <Width>21</Width> 
+            <Height>15</Height> 
+            <Alignment>Left</Alignment>
+            <Text>1</Text>
+            <OnKeyDown>
+            if ${Key.Equal[ESC]}
+                This:SetText[0]
+            if ${Key.Equal[Backspace]}
+            {
+                if ${This.Text.Equal[""]}
+                    This:SetText[0]
+            }
+            if ${Key.Equal[Delete]}
+            {
+                if ${This.Text.Equal[""]}
+                    This:SetText[0]
+            }
+            if ${This.Text.NotEqual[""]} 
+            {
+                This:SetText[${Int[${This.Text}]}]
+            }
+            </OnKeyDown>
+            <OnLoad>
+                This:SetText[1]
+            </OnLoad>
+            <Wrap />
+            <Visible>1</Visible>
+        </TextEntry>
+        <TextEntry name='RunFabledTextEntry'> 
+            <X>130</X>
+            <Y>82</Y> 
+            <Width>21</Width> 
+            <Height>15</Height> 
+            <Alignment>Left</Alignment>
+            <Text>2</Text>
+            <OnKeyDown>
+            if ${Key.Equal[ESC]}
+                This:SetText[0]
+            if ${Key.Equal[Backspace]}
+            {
+                if ${This.Text.Equal[""]}
+                    This:SetText[0]
+            }
+            if ${Key.Equal[Delete]}
+            {
+                if ${This.Text.Equal[""]}
+                    This:SetText[0]
+            }
+            if ${This.Text.NotEqual[""]} 
+            {
+                This:SetText[${Int[${This.Text}]}]
+            }
+            </OnKeyDown>
+            <OnLoad>
+                This:SetText[2]
+            </OnLoad>
+            <Wrap />
+            <Visible>1</Visible>
+        </TextEntry>
+        <TextEntry name='RunCelestialTextEntry'> 
+            <X>130</X>
+            <Y>97</Y> 
+            <Width>21</Width> 
+            <Height>15</Height> 
+            <Alignment>Left</Alignment>
+            <Text>2</Text>
+            <OnKeyDown>
+            if ${Key.Equal[ESC]}
+                This:SetText[0]
+            if ${Key.Equal[Backspace]}
+            {
+                if ${This.Text.Equal[""]}
+                    This:SetText[0]
+            }
+            if ${Key.Equal[Delete]}
+            {
+                if ${This.Text.Equal[""]}
+                    This:SetText[0]
+            }
+            if ${This.Text.NotEqual[""]} 
+            {
+                This:SetText[${Int[${This.Text}]}]
+            }
+            </OnKeyDown>
+            <OnLoad>
+                This:SetText[2]
+            </OnLoad>
+            <Wrap />
+            <Visible>1</Visible>
+        </TextEntry>
+        <TextEntry name='RunMishapTextEntry'> 
+            <X>130</X>
+            <Y>112</Y> 
+            <Width>21</Width> 
+            <Height>15</Height> 
+            <Alignment>Left</Alignment>
+            <Text>0</Text>
+            <OnKeyDown>
+            if ${Key.Equal[ESC]}
+                This:SetText[0]
+            if ${Key.Equal[Backspace]}
+            {
+                if ${This.Text.Equal[""]}
+                    This:SetText[0]
+            }
+            if ${Key.Equal[Delete]}
+            {
+                if ${This.Text.Equal[""]}
+                    This:SetText[0]
+            }
+            if ${This.Text.NotEqual[""]} 
+            {
+                This:SetText[${Int[${This.Text}]}]
+            }
+            </OnKeyDown>
+            <OnLoad>
+                This:SetText[0]
+            </OnLoad>
+            <Wrap />
+            <Visible>1</Visible>
+        </TextEntry>
+		<Checkbox Name='RunTreasuredCheckBox'>
+            <X>5</X> 
+            <Y>50</Y> 
+            <Width>20</Width> 
+            <Height>20</Height>
+            <Text>Run Treasured</Text> 
+            <OnLeftClick>
+            </OnLeftClick>
+        </Checkbox>
+        <Checkbox Name='RunLegendaryCheckBox'>
+            <X>5</X> 
+            <Y>65</Y> 
+            <Width>20</Width> 
+            <Height>20</Height>
+            <Text>Run Legendary</Text> 
+            <OnLeftClick>
+            </OnLeftClick>
+        </Checkbox>
+        <Checkbox Name='RunFabledCheckBox'>
+            <X>5</X> 
+            <Y>80</Y> 
+            <Width>20</Width> 
+            <Height>20</Height>
+            <Text>Run Fabled</Text> 
+            <OnLeftClick>
+            </OnLeftClick>
+        </Checkbox>
+        <Checkbox Name='RunCelestialCheckBox'>
+            <X>5</X> 
+            <Y>95</Y> 
+            <Width>20</Width> 
+            <Height>20</Height>
+            <Text>Run Celestial</Text> 
+            <OnLeftClick>
+            </OnLeftClick>
+        </Checkbox>
+
+        <Checkbox Name='RunMishapCheckBox'>
+            <X>5</X> 
+            <Y>110</Y> 
+            <Width>20</Width> 
+            <Height>20</Height>
+            <Text>Run Mishap</Text> 
+            <OnLeftClick>
+            </OnLeftClick>
+        </Checkbox>
+        <Checkbox Name='RunChargedCheckBox'>
+            <X>5</X> 
+            <Y>125</Y> 
+            <Width>20</Width> 
+            <Height>20</Height>
+            <Text>Run Charged</Text> 
+            <OnLeftClick>
+            </OnLeftClick>
+        </Checkbox>
+        <Checkbox Name='RunChargedAfterDailyCheckBox'>
+            <X>5</X> 
+            <Y>140</Y> 
+            <Width>20</Width> 
+            <Height>20</Height>
+            <Text>Run Charged after Daily 10</Text> 
+            <OnLeftClick>
+            </OnLeftClick>
+        </Checkbox>        
+        <Checkbox Name='RunChargedOnlyCheckBox'>
+            <X>5</X> 
+            <Y>155</Y> 
+            <Width>20</Width> 
+            <Height>20</Height>
+            <Text>Run Charged Only (For Alts)</Text> 
+            <OnLeftClick>
+            </OnLeftClick>
+        </Checkbox>
+		<Commandbutton name='SaveDefaultButton'>
+			<X>25</X>
+			<Y>175</Y>
+			<Border>0</Border>
+			<Width>70</Width>
+			<Height>17</Height>
+			<Text>Save Default</Text>
+			<OnLeftClick>
+				RIOverseerObj:Save[0]
+			</OnLeftClick>
+			<AutoTooltip>
+				Save Default
+			</AutoTooltip>
+		</Commandbutton>
+		<Commandbutton name='SaveToonButton'>
+			<X>95</X>
+			<Y>175</Y>
+			<Border>0</Border>
+			<Width>70</Width>
+			<Height>17</Height>
+			<Text>Save Toon</Text>
+			<OnLeftClick>
+				RIOverseerObj:Save[1]
+			</OnLeftClick>
+			<AutoTooltip>
+				Save Toon
+			</AutoTooltip>
+		</Commandbutton>
+        <Text name='GetChargedQuestsText'> 
+            <X>45</X>
+            <Y>195</Y> 
+            <Width>112</Width> 
+            <Height>15</Height> 
+            <Alignment>Left</Alignment>
+            <Text>Get Charged Quests</Text>
+            <Wrap />
+            <Visible>1</Visible>
+        </Text>
+       <Commandbutton name='GQButton'>
+			<X>20</X>
+			<Y>210</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>17</Height>
+			<Text>Choose Quests</Text>
+			<OnLeftClick>
+				RIOverseerObj:GQ
+			</OnLeftClick>
+			<AutoTooltip>
+				Grab Quests Window
+			</AutoTooltip>
+		</Commandbutton>
+        <Commandbutton name='GoButton'>
+			<X>120</X>
+			<Y>210</Y>
+			<Border>0</Border>
+			<Width>50</Width>
+			<Height>17</Height>
+			<Text>GO</Text>
+			<OnLeftClick>
+				RIOverseerObj:GO
+			</OnLeftClick>
+			<AutoTooltip>
+				GO
+			</AutoTooltip>
+		</Commandbutton>
+	</Children>
+</Window>
+</ISUI>		

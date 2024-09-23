@@ -1,0 +1,29 @@
+Mediate the Masters
+Custom
+HailActor Pharad 7
+18.745394 35.757198 -168.096481
+17.156971 35.757198 -158.382401
+Wait
+10
+11.844677 33.702454 -153.223358
+5.895245 33.702454 -162.403580
+11.805705 33.696964 -170.609344
+19.426456 33.742638 -177.157730
+Custom
+ZoneDoor "trans to tower cave"
+23.251158 33.749058 -178.307480
+Custom
+HailActor Pharad 4
+-3.818287 0.002500 2.557753
+Custom
+HailActorMultiOption Luris 4 2 1 3 1 1
+2.213520 0.002500 4.241292
+Custom
+HailActorMultiOption Shoren 2 3 4 2 1 1
+7.738680 0.002500 -0.819082
+Custom
+HailActorMultiOption Varlox 3 1 2 4 1 1
+4.750029 0.002500 -5.851267
+Custom
+HailActor Pharad 4
+-0.972474 0.002500 1.221524

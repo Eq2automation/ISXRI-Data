@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+	<!-- Main Window -->
+	<Window Name='RICharList'>
+	<X>50</X>
+	<Y>100</Y>
+	<Width>295</Width>
+	<Height>355</Height>
+	  <TitleBar template='window.Titlebar'>
+		<Children>
+		  <Text Name='Title' Template='window.Titlebar.Title' />
+		  <Button Name='Minimize' Template='window.Titlebar.Minimize' />
+		  <Button Name='Maximize' Template='window.Titlebar.Maximize' />
+		  <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Command>Script[${RI_Var_String_RICharListScriptName}]:End</Command>
+		  </commandbutton>
+		</Children>
+	  </TitleBar>
+	  <StorePosition>1</StorePosition>
+	<Title>RICharList</Title>
+	<Children>
+		<Text name='AccountNameText'> 
+			<X>5</X>
+			<Y>5</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Account Name:</Text>
+			<Wrap />
+		</Text>
+		<Textentry Name='AccountNameTextEntry'>
+			<X>80</X>
+			<Y>5</Y>
+			<Border>0</Border>
+			<Width>110</Width>
+			<Height>15</Height>
+			<OnChange></OnChange>
+			<Color>FFDDBB00</Color>
+		</Textentry>
+		<Text name='PasswordText'> 
+			<X>5</X>
+			<Y>20</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Password:</Text>
+			<Wrap />
+		</Text>
+		<Textentry Name='PasswordTextEntry'>
+			<X>80</X>
+			<Y>20</Y>
+			<Border>0</Border>
+			<Width>110</Width>
+			<Height>15</Height>
+			<Color>FFDDBB00</Color>
+		</Textentry>
+		<Text name='ToonText'> 
+			<X>5</X>
+			<Y>35</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Toon:</Text>
+			<Wrap />
+		</Text>
+		<Textentry Name='ToonTextEntry'>
+			<X>80</X>
+			<Y>35</Y>
+			<Border>0</Border>
+			<Width>110</Width>
+			<Height>15</Height>
+			<Color>FFDDBB00</Color>
+		</Textentry>
+		<Text name='ServerText'> 
+			<X>5</X>
+			<Y>50</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Server:</Text>
+			<Wrap />
+		</Text>
+		<combobox name='ServerComboBox'>
+			<Width>110</Width> 
+			<Height>15</Height> 
+			<X>80</X>
+			<Y>50</Y>
+				   <FullHeight>160</FullHeight>
+				   <ButtonWidth>20</ButtonWidth>
+			<OnSelect>
+			</OnSelect>
+			<Items>
+				<Item Value='1' Default='1'>Antonia Bayle</Item>
+				<Item Value='2'>Beta</Item>
+				<Item Value='3'>Fallen Gate</Item>
+				<Item Value='0'>Halls of Fate</Item>
+				<Item Value='4'>Isle of Refuge</Item>
+				<Item Value='5'>Maj'Dul</Item>
+				<Item Value='6'>Skyfire</Item>
+				<Item Value='7'>Stormhold</Item>
+				<Item Value='8'>Test</Item>
+				<Item Value='9'>Thurgadin</Item>
+			</Items>
+			<Visible>1</Visible>
+		</combobox>
+		<Commandbutton name='AddToonButton'>
+			<X>200</X>
+			<Y>40</Y>
+			<Border>0</Border>
+			<Width>80</Width>
+			<Height>15</Height>
+			<Text>Add Toon</Text>
+			<OnLeftClick>
+					RICharListObj:AddToon[${UIElement[AccountNameTextEntry@RICharList].Text},${UIElement[PasswordTextEntry@RICharList].Text},${UIElement[ToonTextEntry@RICharList].Text},${UIElement[ServerComboBox@RICharList].SelectedItem.Text}]
+			</OnLeftClick>
+			<AutoTooltip>
+				Add Toon
+			</AutoTooltip>
+		</Commandbutton>
+		<Commandbutton name='SaveButton'>
+			<X>200</X>
+			<Y>15</Y>
+			<Border>0</Border>
+			<Width>80</Width>
+			<Height>15</Height>
+			<Text>Save</Text>
+			<OnLeftClick>
+				RICharListObj:Save
+			</OnLeftClick>
+			<AutoTooltip>
+				Save
+			</AutoTooltip>
+		</Commandbutton>
+		<Text name='AccountsText'> 
+			<X>50</X>
+			<Y>65</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Accounts</Text>
+			<Wrap />
+		</Text>
+		<listbox Name='AccountsListbox'>
+			<X>5</X>
+			<Y>80</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>140</Width>
+			<Height>250</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>none</Sort>
+			<OnLeftClick>
+				RICharListObj:AccountsListboxLeftClick
+            </OnLeftClick>
+			<OnRightClick>
+				RICharListObj:AccountsListboxRightClick
+            </OnRightClick>
+		</listbox>
+		<Text name='ToonsText'> 
+			<X>185</X>
+			<Y>65</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Toon - Server</Text>
+			<Wrap />
+		</Text>
+		<listbox Name='ToonsListbox'>
+			<X>150</X>
+			<Y>80</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>140</Width>
+			<Height>250</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>text</Sort>
+			<OnLeftClick>
+				RICharListObj:ToonsListboxLeftClick
+            </OnLeftClick>
+			<OnRightClick>
+				RICharListObj:ToonsListboxRightClick
+            </OnRightClick>
+		</listbox>
+	</Children>
+</Window>
+</ISUI>		

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+  <Window Name="WriteLocs">
+    <X>100</X>
+    <Y>200</Y>
+    <Width>415</Width>
+    <Height>515</Height>
+  <TitleBar template='window.Titlebar'>
+	<Children>
+		<Text Name='Title' Template='window.Titlebar.Title' />
+		<Button Name='Minimize' Template='window.Titlebar.Minimize' />
+		<Button Name='Maximize' Template='window.Titlebar.Maximize' />
+		<commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+		<Command>Script[${RIWriteLocsScriptName}]:End</Command>
+		</commandbutton>
+	</Children>
+  </TitleBar>
+	<Children>
+		<button name='WriteLOC'>
+			<X>10</X>
+			<Y>96</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>20</Height>
+			<AutoTooltip>Writes Your Location to File</AutoTooltip>
+			<Text>Write Loc</Text>
+			<OnLeftClick>Script[${RIWriteLocsScriptName}]:QueueCommand[call Write]</OnLeftClick>
+		</button>
+		<button name='ClickActor'>
+			<X>10</X>
+			<Y>117</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>20</Height>
+			<AutoTooltip>Writes a ClickActor Location to File</AutoTooltip>
+			<Text>Click Actor</Text>
+			<OnLeftClick>Script[${RIWriteLocsScriptName}]:QueueCommand[call Write -clickactor]</OnLeftClick>
+		</button>
+		<button name='HailActor'>
+			<X>10</X>
+			<Y>138</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>20</Height>
+			<AutoTooltip>Writes a Hail Actor Location to File</AutoTooltip>
+			<Text>Hail Actor</Text>
+			<OnLeftClick>Script[${RIWriteLocsScriptName}]:QueueCommand[call Write -hailactor]</OnLeftClick>
+		</button>
+		<button name='HailActorGetQuest'>
+			<X>10</X>
+			<Y>159</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>20</Height>
+			<AutoTooltip></AutoTooltip>
+			<Text>HailActorGetQuest</Text>
+			<OnLeftClick>Script[${RIWriteLocsScriptName}]:QueueCommand[call Write -custom "HailActorGetQuest Arguments" "HailActorGetQuest -Actor" "\"${If[${Target(exists)},\"${Target.Name}\",""]}\""]</OnLeftClick>
+		</button>
+		<button name='Named'>
+			<X>10</X>
+			<Y>180</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>20</Height>
+			<AutoTooltip>Writes a Named Location to File</AutoTooltip>
+			<Text>Named</Text>
+			<OnLeftClick>Script[${RIWriteLocsScriptName}]:QueueCommand[call Write -named]</OnLeftClick>
+		</button>
+		<button name='Wait'>
+			<X>10</X>
+			<Y>201</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>20</Height>
+			<AutoTooltip>Writes a Wait Location to File</AutoTooltip>
+			<Text>Wait</Text>
+			<OnLeftClick>Script[${RIWriteLocsScriptName}]:QueueCommand[call Write -wait]</OnLeftClick>
+		</button>
+		<button name='Wait2'>
+			<X>10</X>
+			<Y>222</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>20</Height>
+			<AutoTooltip>Writes a Wait Location to File</AutoTooltip>
+			<Text>Wait 2s</Text>
+			<OnLeftClick>Script[${RIWriteLocsScriptName}]:QueueCommand[call Write -wait 20]</OnLeftClick>
+		</button>
+		<button name='Wait5'>
+			<X>10</X>
+			<Y>243</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>20</Height>
+			<AutoTooltip>Writes a Wait Location to File</AutoTooltip>
+			<Text>Wait 5s</Text>
+			<OnLeftClick>Script[${RIWriteLocsScriptName}]:QueueCommand[call Write -wait 50]</OnLeftClick>
+		</button>
+		<button name='Custom'>
+			<X>10</X>
+			<Y>264</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>20</Height>
+			<AutoTooltip>Writes a Custom Function Location to File</AutoTooltip>
+			<Text>Custom Function</Text>
+			<OnLeftClick>RIWObj:RIWCustom</OnLeftClick>
+		</button>
+		<button name='FlyUp'>
+			<X>10</X>
+			<Y>285</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>20</Height>
+			<AutoTooltip></AutoTooltip>
+			<Text>FlyUp</Text>
+			<OnLeftClick>Script[${RIWriteLocsScriptName}]:QueueCommand[call Write -custom "How long to fly up?" "FlyUp"]</OnLeftClick>
+		</button>
+		<button name='FlyUp5'>
+			<X>10</X>
+			<Y>306</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>20</Height>
+			<AutoTooltip></AutoTooltip>
+			<Text>FlyUp 5</Text>
+			<OnLeftClick>Script[${RIWriteLocsScriptName}]:QueueCommand[call Write -custom "FlyUp 5"]</OnLeftClick>
+		</button>
+		<button name='FlyDown'>
+			<X>10</X>
+			<Y>327</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>20</Height>
+			<AutoTooltip></AutoTooltip>
+			<Text>FlyDown</Text>
+			<OnLeftClick>Script[${RIWriteLocsScriptName}]:QueueCommand[call Write -custom FlyDown]</OnLeftClick>
+		</button>
+		<button name='Auto'>
+			<X>10</X>
+			<Y>429</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>20</Height>
+			<AutoTooltip>Starts Auto Plotting</AutoTooltip>
+			<Text>Auto</Text>
+			<OnLeftClick>Script[${RIWriteLocsScriptName}]:QueueCommand[call AutoBTN]</OnLeftClick>
+			<Font><Color>FFFF0000</Color></Font>
+		</button>
+		<Text Name='FileName'>
+		  <X>12</X>
+		  <Y>32</Y>
+		  <Border>0</Border>
+		  <Width>100</Width>
+		  <Height>20</Height>
+		  <Alignment>Left</Alignment>
+		  <Text>FileName:</Text>
+		</Text>
+		<Textentry Name='TEFilename'>
+		  <X>12</X>
+		  <Y>49</Y>
+		  <Border>0</Border>
+		  <Width>98</Width>
+		  <Height>15</Height>
+		  <Color>FFDDBB00</Color>
+		  
+		<OnChange>UIElement[Save@WriteLocs]:SetText[Load]</OnChange>			
+		</Textentry>
+		<Text Name='Distance'>
+		  <X>12</X>
+		  <Y>64</Y>
+		  <Border>0</Border>
+		  <Width>100</Width>
+		  <Height>20</Height>
+		  <Alignment>Left</Alignment>
+		  <Text>Plot Distance:</Text>
+		</Text>
+		<Textentry Name='TEDistance'>
+		  <X>12</X>
+		  <Y>81</Y>
+		  <Border>0</Border>
+		  <Width>30</Width>
+		  <Height>15</Height>
+		  <Color>FFDDBB00</Color>
+		  <OnChange>WriteLocsTEDistance</OnChange>
+		  <MaxLength>3</MaxLength>
+		<OnChange></OnChange>			
+		</Textentry>
+		<button name='Save'>
+			<Border>0</Border>
+			<X>20</X>
+			<Y>10</Y>
+			<Width>60</Width>
+			<Height>20</Height>
+			<AutoTooltip>Saves File Name to Script</AutoTooltip>
+			<Text>Load</Text>
+			<OnLeftClick>Script[${RIWriteLocsScriptName}]:QueueCommand[call Save]</OnLeftClick>
+		</button>
+		<listbox Name='LocsList'>
+			<X>115</X>
+			<Y>10</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>290</Width>
+			<Height>457</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>User</Sort>
+			<OnLeftClick>
+				if ${This.SelectedItem(exists)}
+					UIElement[TEEdit@WriteLocs]:SetText[${This.SelectedItem.Text}]
+				else
+					UIElement[TEEdit@WriteLocs]:SetText[]
+			</OnLeftClick>
+			<OnRightClick>
+				This:RemoveItem[${This.SelectedItem.ID}]
+			</OnRightClick>
+			<OnDoubleLeftClick>
+				if ${This.SelectedItem(exists)}
+					MoveToLoc "${This.SelectedItem.Text}"
+			</OnDoubleLeftClick>
+		</listbox>
+		<button name='RunPath'>
+			<X>10</X>
+			<Y>389</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>20</Height>
+			<AutoTooltip></AutoTooltip>
+			<Text>Run Path</Text>
+			<OnLeftClick>Script[${RIWriteLocsScriptName}]:QueueCommand[call RP]</OnLeftClick>
+		</button>
+		<button name='RunPathBackwards'>
+			<X>10</X>
+			<Y>409</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>20</Height>
+			<AutoTooltip></AutoTooltip>
+			<Text>Run Path Backwards</Text>
+			<OnLeftClick>Script[${RIWriteLocsScriptName}]:QueueCommand[call RPB]</OnLeftClick>
+		</button>
+		
+		<button name='StopForCombat'>
+			<X>10</X>
+			<Y>348</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>20</Height>
+			<AutoTooltip>Stops Moving For Combat</AutoTooltip>
+			<Text>Stop For Combat</Text>
+			<OnLeftClick>UIElement[LocsList@WriteLocs]:AddItem["StopForCombat"];UIElement[LocsList@WriteLocs].FindUsableChild[Vertical,Scrollbar]:SetValue[0]</OnLeftClick>
+		</button>
+		<button name='DontStopForCombat'>
+			<X>10</X>
+			<Y>369</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>20</Height>
+			<AutoTooltip>Doesnt Stops Moving For Combat</AutoTooltip>
+			<Text>DontStopForCombat</Text>
+			<OnLeftClick>UIElement[LocsList@WriteLocs]:AddItem["DontStopForCombat"];UIElement[LocsList@WriteLocs].FindUsableChild[Vertical,Scrollbar]:SetValue[0]</OnLeftClick>
+		</button>
+		<button name='ClearList'>
+			<X>10</X>
+			<Y>449</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>20</Height>
+			<AutoTooltip>Clears List</AutoTooltip>
+			<Text>ClearList</Text>
+			<OnLeftClick>Script[${RIWriteLocsScriptName}]:QueueCommand[call ClearList]</OnLeftClick>
+		</button>
+		<Textentry Name='TEEdit'>
+		  <X>115</X>
+		  <Y>469</Y>
+		  <Border>0</Border>
+		  <Width>290</Width>
+		  <Height>20</Height>
+		  <Color>FFDDBB00</Color>
+		</Textentry>
+		<button name='EditSelection'>
+			<X>10</X>
+			<Y>469</Y>
+			<Border>0</Border>
+			<Width>100</Width>
+			<Height>20</Height>
+			<AutoTooltip>Clears List</AutoTooltip>
+			<Text>Edit Selection</Text>
+			<OnLeftClick>Script[${RIWriteLocsScriptName}]:QueueCommand[call EditSelection]</OnLeftClick>
+		</button>
+	</Children>
+  </Window>
+</ISUI>

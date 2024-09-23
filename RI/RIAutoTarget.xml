@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+	<!-- Main Window -->
+	<Window Name='RIAutoTarget'>
+	<X>50</X>
+	<Y>100</Y>
+	<Width>600</Width>
+	<Height>250</Height>
+	  <TitleBar template='window.Titlebar'>
+		<Children>
+		  <Text Name='Title' Template='window.Titlebar.Title' />
+		  <Button Name='Minimize' Template='window.Titlebar.Minimize' />
+		  <Button Name='Maximize' Template='window.Titlebar.Maximize' />
+		  <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Command>Script[${RI_Var_String_AutoTargetScriptName}]:End</Command>
+		  </commandbutton>
+		</Children>
+	  </TitleBar>
+	  <StorePosition>1</StorePosition>
+	<Title>RI AutoTarget</Title>
+	<Children>
+		<Text name='Targetstxt'> 
+			<X>7</X> 
+			<Y>7</Y> 
+			<Width>30</Width> 
+			<Height>15</Height> 
+			<Alignment>Left</Alignment>
+			<Text>Targets</Text>
+			<Wrap />
+		</Text>
+		<Checkbox Name='Enabled'>
+			<X>325</X> 
+			<Y>8</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Enabled</Text> 
+			<OnLoad>This:SetChecked</OnLoad>
+			<OnLeftClick>
+				RIAutoTargetObj:ToggleEnabled
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='OutOfCombat'>
+			<X>308</X> 
+			<Y>28</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Out Of Combat</Text> 
+			<OnLoad></OnLoad>
+			<OnLeftClick>
+				RIAutoTargetObj:ToggleOutOfCombat
+			</OnLeftClick>
+		</Checkbox>
+		<Textentry Name='TargetEntry'>
+			<X>5</X> 
+			<Y>180</Y> 
+			<Width>300</Width> 
+			<Height>20</Height>
+			<OnKeyDown>
+				if ${Key.Find[Enter](exists)} 
+					RIAutoTargetObj:TargetEnter	
+			</OnKeyDown> 
+		</Textentry>
+		<listbox Name='Targets'>
+			<X>5</X>
+			<Y>25</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>299</Width>
+			<Height>149</Height>
+			<Font>
+				<Name>Terminal</Name>
+				<Size>10</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<OnRightClick>
+				RIAutoTargetObj:RemoveTarget
+			</OnRightClick>
+			<Sort>User</Sort>
+		</listbox>
+		<Commandbutton name='AddTarget'>
+			<X>6</X>
+			<Y>205</Y>
+			<Width>100</Width>
+			<Height>15</Height>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Text>Add Target</Text>
+			<OnLeftClick>
+				RIAutoTargetObj:AddTarget
+			</OnLeftClick>
+		</Commandbutton>
+		<Commandbutton name='AddCTarget'>
+			<X>305</X>
+			<Y>182</Y>
+			<Width>100</Width>
+			<Height>15</Height>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Text>Add Current Target</Text>
+			<OnLeftClick>
+				RIAutoTargetObj:AddCurrentTarget
+			</OnLeftClick>
+		</Commandbutton>
+		<Commandbutton name='ClearTargets'>
+			<X>205</X>
+			<Y>205</Y>
+			<Width>100</Width>
+			<Height>15</Height>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Text>Clear Targets</Text>
+			<OnLeftClick>
+				RIAutoTargetObj:ClearTargets
+			</OnLeftClick>
+		</Commandbutton>
+		<Commandbutton name='HideUI'>
+			<X>320</X>
+			<Y>205</Y>
+			<Width>70</Width>
+			<Height>15</Height>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Text>HideUI</Text>
+			<OnLeftClick>
+				This.Parent.Parent:Hide
+			</OnLeftClick>
+		</Commandbutton>
+		<Text name='Healthtxt'> 
+			<X>120</X> 
+			<Y>205</Y> 
+			<Width>35</Width> 
+			<Height>15</Height> 
+			<Alignment>Left</Alignment>
+			<Text>Health:</Text>
+			<Wrap />
+		</Text>
+		<Textentry Name='HealthEntry'>
+			<X>160</X> 
+			<Y>205</Y> 
+			<Width>30</Width> 
+			<Height>16</Height>
+			<Text></Text> 
+			<MaxLength>3</MaxLength>
+			<OnChange>
+				RIAutoTargetObj:HealthChange
+			</OnChange>
+			<OnKeyDown>
+				if ${Key.Find[Enter](exists)}
+				{
+					RIAutoTargetObj:TargetEnter	
+					UIElement[TargetEntry@RIAutoTarget]:SetFocus
+				}
+			</OnKeyDown> 
+		</Textentry>
+		<Text name='Radiustxt'> 
+			<X>335</X> 
+			<Y>65</Y> 
+			<Width>35</Width> 
+			<Height>15</Height> 
+			<Alignment>Left</Alignment>
+			<Text>Radius:</Text>
+			<Wrap />
+		</Text>
+		<Textentry Name='RadiusEntry'>
+			<X>325</X> 
+			<Y>85</Y> 
+			<Width>60</Width> 
+			<Height>16</Height>
+			<Text></Text> 
+			<OnLoad>
+				This:SetText[100]
+			</OnLoad>
+			<MaxLength>5</MaxLength>
+			<OnChange>
+				RIAutoTargetObj:RadiusChange
+			</OnChange>
+		</Textentry>
+		<Text name='Waittxt'> 
+			<X>325</X> 
+			<Y>105</Y> 
+			<Width>60</Width> 
+			<Height>15</Height> 
+			<Alignment>Left</Alignment>
+			<Text>WaitTime(S):</Text>
+			<Wrap />
+		</Text>
+		<Textentry Name='WaitEntry'>
+			<X>325</X> 
+			<Y>125</Y> 
+			<Width>60</Width> 
+			<Height>16</Height>
+			<Text></Text> 
+			<OnLoad>
+				This:SetText[0.5]
+			</OnLoad>
+			<MaxLength>4</MaxLength>
+			<OnChange>
+				RIAutoTargetObj:WaitChange
+			</OnChange>
+		</Textentry>
+		<Text name='Savestxt'> 
+			<X>410</X> 
+			<Y>7</Y> 
+			<Width>30</Width> 
+			<Height>15</Height> 
+			<Alignment>Left</Alignment>
+			<Text>Saves</Text>
+			<Wrap />
+		</Text>
+		<listbox Name='Saves'>
+			<X>405</X>
+			<Y>25</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>179</Width>
+			<Height>149</Height>
+			<Font>
+				<Name>Terminal</Name>
+				<Size>10</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>None</Sort>
+			<OnLeftClick>
+				RIAutoTargetObj:SaveClick
+            </OnLeftClick>
+			<OnLoad>
+				RIAutoTargetObj:LoadSaves
+			</OnLoad>
+		</listbox>
+		<Textentry Name='SaveEntry'>
+			<X>405</X> 
+			<Y>180</Y> 
+			<Width>179</Width> 
+			<Height>20</Height>
+			<Text></Text> 
+			<OnChange>
+			</OnChange>
+		</Textentry>
+		<Commandbutton name='SaveList'>
+			<X>405</X>
+			<Y>205</Y>
+			<Width>50</Width>
+			<Height>15</Height>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Text>Save</Text>
+			<OnLeftClick>
+				RIAutoTargetObj:SaveList
+			</OnLeftClick>
+		</Commandbutton>
+		<Commandbutton name='LoadList'>
+			<X>468</X>
+			<Y>205</Y>
+			<Width>50</Width>
+			<Height>15</Height>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Text>Load</Text>
+			<OnLeftClick>
+				RIAutoTargetObj:LoadList
+			</OnLeftClick>
+		</Commandbutton>
+		<Commandbutton name='DeleteList'>
+			<X>530</X>
+			<Y>205</Y>
+			<Width>50</Width>
+			<Height>15</Height>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Text>Delete</Text>
+			<OnLeftClick>
+				RIAutoTargetObj:DeleteList
+			</OnLeftClick>
+
+		</Commandbutton>
+	</Children>
+</Window>
+</ISUI>		

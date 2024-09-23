@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+	<!-- Main Window -->
+	<Window Name='RITransmute'>
+	<X>50</X>
+	<Y>100</Y>
+	<Width>230</Width>
+	<Height>118</Height>
+	  <TitleBar template='window.Titlebar'>
+		<Children>
+		  <Text Name='Title' Template='window.Titlebar.Title' />
+		   <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Command>Script[${RI_Var_String_RITransmuteScriptName}]:End</Command>
+		  </commandbutton>
+		</Children>
+	  </TitleBar>
+	  <StorePosition>1</StorePosition>
+	<Title>RI Transmute</Title>
+	<Children>
+		<Checkbox Name='Bag1'>
+			<X>5</X> 
+			<Y>5</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Bag 1</Text> 
+			<OnLeftClick>
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='Bag2'>
+			<X>5</X> 
+			<Y>20</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Bag 2</Text> 
+			<OnLeftClick>
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='Bag3'>
+			<X>5</X> 
+			<Y>35</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Bag 3</Text> 
+			<OnLeftClick>
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='Bag4'>
+			<X>5</X> 
+			<Y>50</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Bag 4</Text> 
+			<OnLeftClick>
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='Bag5'>
+			<X>5</X> 
+			<Y>65</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Bag 5</Text> 
+			<OnLeftClick>
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='Bag6'>
+			<X>5</X> 
+			<Y>80</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Bag 6</Text> 
+			<OnLeftClick>
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='MCFabled'>
+			<X>55</X> 
+			<Y>65</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>MC Fabled</Text> 
+			<OnLeftClick>
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='MCLegendary'>
+			<X>55</X> 
+			<Y>80</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>MC Legendary</Text> 
+			<OnLeftClick>
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='Legendary'>
+			<X>55</X> 
+			<Y>5</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Legendary</Text> 
+			<OnLeftClick>
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='Fabled'>
+			<X>55</X> 
+			<Y>20</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Fabled</Text> 
+			<OnLeftClick>
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='Mythical'>
+			<X>55</X> 
+			<Y>35</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Mythical</Text> 
+			<OnLeftClick>
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='Ethereal'>
+			<X>55</X> 
+			<Y>50</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Ethereal</Text> 
+			<OnLeftClick>
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='Master'>
+			<X>140</X> 
+			<Y>5</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Master</Text> 
+			<OnLeftClick>
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='Expert'>
+			<X>140</X> 
+			<Y>20</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Expert</Text> 
+			<OnLeftClick>
+			</OnLeftClick>
+		</Checkbox>
+		<Checkbox Name='Adept'>
+			<X>140</X> 
+			<Y>35</Y> 
+			<Width>20</Width> 
+			<Height>20</Height>
+			<Text>Adept</Text> 
+			<OnLeftClick>
+			</OnLeftClick>
+		</Checkbox>
+		<Commandbutton name='Start'>
+			<X>150</X>
+			<Y>65</Y>
+			<Border>0</Border>
+			<Width>62</Width>
+			<Height>17</Height>
+			<Text>Start</Text>
+			<OnLeftClick>
+				if ${This.Text.Equal[Start]}
+					Script[${RI_Var_String_RITransmuteScriptName}]:QueueCommand["call Transmute"]
+				else
+					Script[${RI_Var_String_RITransmuteScriptName}]:End
+			</OnLeftClick>
+			<AutoTooltip>
+				Start/Stop
+			</AutoTooltip>
+		</Commandbutton>
+	</Children>
+</Window>
+</ISUI>		

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+	<!-- Main Window -->
+	<Window Name='RZ'>
+	<X>50</X>
+	<Y>100</Y>
+	<Width>600</Width>
+	<Height>400</Height>
+	  <TitleBar template='window.Titlebar'>
+		<Children>
+		  <Text Name='Title' Template='window.Titlebar.Title' />
+		  <Button Name='Minimize' Template='window.Titlebar.Minimize' />
+		  <Button Name='Maximize' Template='window.Titlebar.Maximize' />
+		  <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Command>Script[${RI_Var_String_RZScriptName}]:End</Command>
+		  </commandbutton>
+		</Children>
+	  </TitleBar>
+	  <StorePosition>1</StorePosition>
+	<Title>RZ</Title>
+	<Children>
+	<Text name='ZonesAvailText'> 
+					<X>110</X>
+					<Y>30</Y> 
+					<Width>112</Width> 
+					<Height>15</Height> 
+					<Alignment>Left</Alignment>
+					<Text>Available Zones</Text>
+					<Wrap />
+					<Visible>1</Visible>
+				</Text>
+		<listbox Name='ZonesAvail'>
+			<X>5</X>
+			<Y>45</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>290</Width>
+			<Height>325</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>none</Sort>
+			<OnLeftClick>
+            </OnLeftClick>
+			<OnRightClick>
+            </OnRightClick>
+            <OnDoubleLeftClick>
+				RZObj:AddZone["${This.SelectedItem.Text}"]
+            </OnDoubleLeftClick>
+		</listbox>
+		<Text name='AddedZoneText'> 
+					<X>375</X>
+					<Y>30</Y> 
+					<Width>112</Width> 
+					<Height>15</Height> 
+					<Alignment>Left</Alignment>
+					<Text>RZ List</Text>
+					<Wrap />
+					<Visible>1</Visible>
+				</Text>
+		<listbox Name='AddedZoneList'>
+			<X>300</X>
+			<Y>45</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>290</Width>
+			<Height>325</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>user</Sort>
+			<OnLeftClick>
+				RZObj:RefreshAddedZoneIndex
+            </OnLeftClick>
+			<OnRightClick>
+				RZObj:AddedZoneListRightClick
+            </OnRightClick>
+            <OnDoubleLeftClick>
+			</OnDoubleLeftClick>
+		</listbox>
+		<Text name='ExpacText'> 
+					<X>8</X>
+					<Y>13</Y> 
+					<Width>112</Width> 
+					<Height>15</Height> 
+					<Alignment>Left</Alignment>
+					<Text>Expansion:</Text>
+					<Wrap />
+					<Visible>1</Visible>
+				</Text>
+		<combobox name='ExpacComboBox'>
+					<Width>230</Width> 
+					<Height>20</Height> 
+					<X>65</X>
+					<Y>10</Y>
+						   <FullHeight>150</FullHeight>
+						   <ButtonWidth>20</ButtonWidth>
+					<OnSelect>
+						RZObj:Expac["${This.SelectedItem.Text}"]
+					</OnSelect>
+					<Visible>1</Visible>
+				</combobox>
+		<Commandbutton name='SaveButton'>
+			<X>415</X>
+			<Y>30</Y>
+			<Border>0</Border>
+			<Width>50</Width>
+			<Height>15</Height>
+			<Text>Save</Text>
+			<OnLeftClick>
+				RZObj:Save
+			</OnLeftClick>
+			<AutoTooltip>
+				Save List
+			</AutoTooltip>
+			<Alpha>1</Alpha>
+		</Commandbutton>
+		<Commandbutton name='SoloButton'>
+			<X>490</X>
+			<Y>30</Y>
+			<Border>0</Border>
+			<Width>50</Width>
+			<Height>15</Height>
+			<Text>Solo</Text>
+			<OnLeftClick>
+				RZObj:Solo
+			</OnLeftClick>
+			<AutoTooltip>
+				Solo
+			</AutoTooltip>
+			<Alpha>1</Alpha>
+		</Commandbutton>
+		<Commandbutton name='HeroicButton'>
+			<X>540</X>
+			<Y>30</Y>
+			<Border>0</Border>
+			<Width>50</Width>
+			<Height>15</Height>
+			<Text>Heroic</Text>
+			<OnLeftClick>
+				RZObj:Heroic
+			</OnLeftClick>
+			<AutoTooltip>
+				Heroic
+			</AutoTooltip>
+			<Alpha>1</Alpha>
+		</Commandbutton>
+		<Checkbox Name='LoopListCheckBox'>
+					  <X>305</X> 
+					  <Y>10</Y> 
+					  <Width>20</Width> 
+					  <Height>20</Height>
+					  <Text>Loop List</Text> 
+					  <OnLeftClick>
+						UIElement[InfiniteLoopListCheckBox@RZ]:UnsetChecked
+					  </OnLeftClick>
+					  <Visible>1</Visible>
+				</Checkbox>
+		<Checkbox Name='InfiniteLoopListCheckBox'>
+					  <X>370</X> 
+					  <Y>10</Y> 
+					  <Width>20</Width> 
+					  <Height>20</Height>
+					  <Text>Loop List Inifinitely</Text> 
+					  <OnLeftClick>
+						UIElement[LoopListCheckBox@RZ]:UnsetChecked
+					  </OnLeftClick>
+					  <OnLoad>
+						This:SetChecked
+					  </OnLoad>
+					  <Visible>1</Visible>
+				</Checkbox>	
+				<Checkbox Name='GrabShinysCheckBox'>
+					  <X>480</X> 
+					  <Y>10</Y> 
+					  <Width>20</Width> 
+					  <Height>20</Height>
+					  <Text>Grab Shinys</Text> 
+					  <Visible>1</Visible>
+				</Checkbox>			
+				<Checkbox Name='RIICheckBox'>
+					  <X>560</X> 
+					  <Y>10</Y> 
+					  <Width>20</Width> 
+					  <Height>20</Height>
+					  <Text>RII</Text> 
+					  <Visible>1</Visible>
+				</Checkbox>	
+				<Text name='LoopCountText'> 
+					<X>310</X>
+					<Y>31</Y> 
+					<Width>112</Width> 
+					<Height>15</Height> 
+					<Alignment>Left</Alignment>
+					<Text>Loops:</Text>
+					<Wrap />
+					<Visible>1</Visible>
+				</Text>
+				<TextEntry name='LoopCountTextEntry'> 
+					<X>350</X>
+					<Y>30</Y> 
+					<Width>21</Width> 
+					<Height>15</Height> 
+					<Alignment>Left</Alignment>
+					<Text>1</Text>
+					<OnKeyDown>
+					if ${Key.Equal[ESC]}
+						This:SetText[0]
+					if ${Key.Equal[Backspace]}
+					{
+						if ${This.Text.Equal[""]}
+							This:SetText[0]
+					}
+					if ${Key.Equal[Delete]}
+					{
+						if ${This.Text.Equal[""]}
+							This:SetText[0]
+					}
+					if ${This.Text.NotEqual[""]} 
+					{
+						This:SetText[${Int[${This.Text}]}]
+					}
+					</OnKeyDown>
+					<OnLoad>
+						This:SetText[1]
+					</OnLoad>
+					<Wrap />
+					<Visible>1</Visible>
+				</TextEntry>
+	</Children>
+</Window>
+</ISUI>		

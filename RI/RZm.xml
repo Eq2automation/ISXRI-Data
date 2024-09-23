@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+	<!-- Main Window -->
+	<Window Name='RZm'>
+	<X>50</X>
+	<Y>100</Y>
+	<Width>100</Width>
+	<Height>50</Height>
+	  <TitleBar template='window.Titlebar'>
+		<Children>
+		  <Text Name='Title' Template='window.Titlebar.Title' />
+		  <Button Name='Minimize' Template='window.Titlebar.Minimize' />
+		  <Button Name='Maximize' Template='window.Titlebar.Maximize' />
+		  <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Command>Script[${RI_Var_String_RZScriptName}]:End</Command>
+		  </commandbutton>
+		</Children>
+	  </TitleBar>
+	  <StorePosition>1</StorePosition>
+	<Title>RZ</Title>
+	<Children>
+		<Commandbutton name='StartButton'>
+			<X>20</X>
+			<Y>1</Y>
+			<Border>0</Border>
+			<Width>62</Width>
+			<Height>15</Height>
+			<Text>Start</Text>
+			<OnLeftClick>
+				if ${This.Text.Equal[Start]}
+					RZObj:Start
+				elseif ${This.Text.Equal[Pause]}
+					RZObj:Pause
+				elseif ${This.Text.Equal[Resume]}
+					RZObj:Resume
+			</OnLeftClick>
+			<AutoTooltip>
+				Start RZ
+			</AutoTooltip>
+		</Commandbutton>
+		<Commandbutton name='MinButton'>
+			<X>20</X>
+			<Y>17</Y>
+			<Border>0</Border>
+			<Width>62</Width>
+			<Height>15</Height>
+			<Text>Minimize</Text>
+			<OnLeftClick>
+				if ${This.Text.Equal[Minimize]}
+					RZObj:Minimize
+				else
+					RZObj:Maximize
+			</OnLeftClick>
+			<AutoTooltip>
+				Minimize
+			</AutoTooltip>
+		</Commandbutton>
+	</Children>
+</Window>
+</ISUI>		

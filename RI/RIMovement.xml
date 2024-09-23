@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+	<!-- Main Window -->
+	<Window Name='RIMovement'>
+	<X>50</X>
+	<Y>100</Y>
+	<Width>110</Width>
+	<Height>16</Height>
+	  <TitleBar template='window.Titlebar'>
+		<Children>
+		  <Text Name='Title' Template='window.Titlebar.Title' />
+		   <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Command>Script[Buffer:RIMovement]:End</Command>
+		  </commandbutton>
+		  <Commandbutton name='Pause'>
+			<X>40</X>
+			<Y>1</Y>
+			<Width>50</Width>
+			<Height>15</Height>
+			<Text>Pause</Text>
+			<Border>0</Border>
+			<OnLeftClick>
+					if ${RI_Var_Bool_RIMPaused}
+					{
+						if ${Debug}
+							echo ${Time}: Resuming RIMovement
+						if ${Script[Buffer:RIMovement](exists)}
+							Script[Buffer:RIMovement]:Resume
+						RI_Var_Bool_RIMPaused:Set[FALSE]
+						UIElement[Pause@Titlebar@RIMovement]:SetText[Pause]
+					}
+					else
+					{
+						if ${Debug}
+							echo ${Time}: Pausing RIMovement
+						RI_Var_Bool_RIMPaused:Set[TRUE]
+						if ${Script[Buffer:RIMovement](exists)}
+							Script[Buffer:RIMovement]:Pause
+
+						if ${Me.FlyingUsingMount}
+						{
+							do
+							{
+								press "${RI_Var_String_AutoRunKey}"
+								wait 1
+							}
+							while ${Me.IsMoving}
+						}
+						else
+							press -release ${RI_Var_String_ForwardKey}
+						UIElement[Pause@Titlebar@RIMovement]:SetText[Resume]
+					}
+			</OnLeftClick>
+			<AutoTooltip>
+				Pause/Resume
+			</AutoTooltip>
+		</Commandbutton>
+		</Children>
+	  </TitleBar>
+	  <StorePosition>1</StorePosition>
+	<Title>RIM</Title>
+	<Children>
+	</Children>
+</Window>
+</ISUI>		

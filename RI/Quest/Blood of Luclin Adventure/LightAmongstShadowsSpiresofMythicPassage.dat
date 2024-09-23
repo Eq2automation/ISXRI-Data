@@ -1,0 +1,18 @@
+Light Amongst Shadows: Spires of Mythic Passage
+Custom
+HailActorGetQuest -Actor "GUILD-The Duality"
+526.847961 130.093079 -84.715683
+Custom
+FastTravel "The Barren Sky"
+527.146484 130.093094 -84.888969
+-590.305054 -48.012348 -408.738220
+Custom
+ClickActor zone_to_norrath
+-589.285950 -46.539169 -400.508392
+Custom
+TravelMap "Kylong Plains"
+-589.285950 -46.539169 -400.508392
+1976.557861 480.005920 -846.499084
+Custom
+HailActor "Taith McJarun" 5
+1989.080078 480.005920 -861.062073

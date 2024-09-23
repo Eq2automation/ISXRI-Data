@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISUI>
+	<!-- Main Window -->
+	<Window Name='RIOverseerGQ'>
+	<X>50</X>
+	<Y>100</Y>
+	<Width>510</Width>
+	<Height>365</Height>
+	  <TitleBar template='window.Titlebar'>
+		<Children>
+		  <Text Name='Title' Template='window.Titlebar.Title' />
+		  <Button Name='Minimize' Template='window.Titlebar.Minimize' />
+		  <Button Name='Maximize' Template='window.Titlebar.Maximize' />
+		  <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Command>RIOverseerObj:HideGQUI</Command>
+		  </commandbutton>
+		</Children>
+	  </TitleBar>
+	  <StorePosition>1</StorePosition>
+	<Title>RI Overseer Grab Quests</Title>
+	<Children>
+		<Commandbutton name='HideButton'>
+			<X>415</X>
+			<Y>5</Y>
+			<Border>0</Border>
+			<Width>50</Width>
+			<Height>15</Height>
+			<Text>Hide</Text>
+			<OnLeftClick>
+				RIOverseerObj:HideGQUI
+			</OnLeftClick>
+            <Visible>0</Visible>
+		</Commandbutton>
+		<Text name='QuestsText'> 
+			<X>7</X>
+			<Y>5</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Quests</Text>
+			<Wrap />
+		</Text>
+		<listbox Name='QuestsListbox'>
+			<X>5</X>
+			<Y>20</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>250</Width>
+			<Height>305</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>1</SelectMultiple>
+			<Sort>value</Sort>
+			<OnLeftClick>
+                RIOverseerObj:QuestsListboxClick
+            </OnLeftClick>
+			<OnRightClick>
+            </OnRightClick>
+		</listbox>
+		<Text name='AddedQuestsText'> 
+			<X>260</X>
+			<Y>5</Y> 
+			<Width>170</Width> 
+			<Height>15</Height> 
+			<Text>Added Quests</Text>
+			<Wrap />
+		</Text>
+		<listbox Name='AddedQuestsListbox'>
+			<X>255</X>
+			<Y>20</Y>
+			<Border>5</Border>
+			<BorderColor>0</BorderColor>
+			<Width>250</Width>
+			<Height>305</Height>
+			<Font>
+				<Name>Times New Roman</Name>
+				<Size>14</Size>
+			</Font>
+			<SelectMultiple>0</SelectMultiple>
+			<Sort>value</Sort>
+			<OnRightClick>
+				RIOverseerObj:AddedQuestsListboxRightClick
+            </OnRightClick>
+		</listbox>
+        <Commandbutton name='LoadSeason1'>
+			<X>5</X>
+			<Y>325</Y>
+			<Border>0</Border>
+			<Width>80</Width>
+			<Height>15</Height>
+			<Text>Load Season 1</Text>
+			<OnLeftClick>
+				RIOverseerObj:PopulateGQ[1]
+			</OnLeftClick>
+            <Visible>1</Visible>
+		</Commandbutton>
+        <Commandbutton name='LoadSeason2'>
+			<X>85</X>
+			<Y>325</Y>
+			<Border>0</Border>
+			<Width>80</Width>
+			<Height>15</Height>
+			<Text>Load Season 2</Text>
+			<OnLeftClick>
+				RIOverseerObj:PopulateGQ[2]
+			</OnLeftClick>
+            <Visible>1</Visible>
+		</Commandbutton>
+        <Commandbutton name='LoadSeason3'>
+			<X>165</X>
+			<Y>325</Y>
+			<Border>0</Border>
+			<Width>80</Width>
+			<Height>15</Height>
+			<Text>Load Season 3</Text>
+			<OnLeftClick>
+				RIOverseerObj:PopulateGQ[3]
+			</OnLeftClick>
+            <Visible>1</Visible>
+		</Commandbutton>
+		<Commandbutton name='SaveButton'>
+			<X>420</X>
+			<Y>125</Y>
+			<Border>0</Border>
+			<Width>50</Width>
+			<Height>15</Height>
+			<Text>Save</Text>
+			<OnLeftClick>
+				RIOverseerObj:Save
+			</OnLeftClick>
+			<Visible>0</Visible>
+		</Commandbutton>
+	</Children>
+</Window>
+</ISUI>		
