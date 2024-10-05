@@ -65,6 +65,9 @@ WaitForZoning
 -491.92 162.59 -610.47
 -491.87 162.19 -605.94
 Custom
+ResetZone "Vaashkaani: Alcazar Crescendo [Solo]"
+-491.87 162.19 -605.94
+Custom
 ZoneDoor zone_portal_to_dun_djinn_palace "Vaashkaani: Alcazar Crescendo [Solo]"
 288.76 164.76 -126.28
 503.78 71.35 18.04
@@ -188,8 +191,7 @@ Named
 StandardNamed
 SameLock
 KillAdd
-"a maedjinn alharin" 
-DontMoveBehind 
+DontMoveBehind
 381.95 22.66 -359.25
 Custom
 HailActor "Lyrissa Nostrolo" 10

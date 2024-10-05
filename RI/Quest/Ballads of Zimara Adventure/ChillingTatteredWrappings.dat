@@ -1,7 +1,7 @@
 Chilling Tattered Wrappings
 -450.65 121.81 -529.74
 Custom
-Path -PL 30 -QA "-QD|200|-A|a malicious blight|-T|QSC:malicious blight|-E|K"
+Path -PL 30 -CPSP -QA "-QD|200|-A|a malicious blight|-T|QSC:malicious blight|-E|K"
 -449.91 84.86 -529.90
 -432.60 67.04 -533.81
 -434.37 74.48 -545.61

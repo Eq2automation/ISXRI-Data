@@ -1,7 +1,7 @@
 Haunting Tattered Wrappings Drop Timeline
 -431.63 209.59 116.65
 Custom
-CheckCompletedQuest "Haunting Tattered Wrappings" 59
+CheckCompletedQuest "Haunting Tattered Wrappings" 44
 -431.89 85.57 115.55
 Custom
 ExamineItem "Haunting Tattered Wrappings"
@@ -10,7 +10,7 @@ Custom
 SetActiveQuest "Haunting Tattered Wrappings"
 -431.89 85.57 115.55
 Custom
-CheckQuest -Active "Haunting Tattered Wrappings" 59
+CheckQuest -Active "Haunting Tattered Wrappings" 44
 -431.89 85.57 115.55
 Custom
 Path -PL 26 -CPSP -QA "-A|a pond creeper|-T|QSC:pond creeper|-E|K"
@@ -40,22 +40,7 @@ Path -PL 26 -CPSP -QA "-A|a pond creeper|-T|QSC:pond creeper|-E|K"
 -444.74 80.93 138.80
 -431.89 85.57 115.55
 Custom
-CheckCompletedQuest "Haunting Tattered Wrappings"
--431.89 85.57 115.55
-Custom
-ExamineItem "Haunting Tattered Wrappings"
--431.29 85.33 116.97
-Custom
-SetActiveQuest "Haunting Tattered Wrappings"
--431.89 85.57 115.55
-Custom
-CheckQuest -Active "Haunting Tattered Wrappings" 59
--431.89 85.57 115.55
-Custom
-TimeStampEcho "SetActiveQuest Haunting Tattered Wrappings"
--431.89 85.57 115.55
-Custom
-CheckAndSet -NotActiveQuest "Haunting Tattered Wrappings" 14
+CheckAndSet -NotActiveQuest "Haunting Tattered Wrappings" 2
 -431.89 85.57 115.55
 Custom
 TimeStampEcho "Completed Pickup of Haunting Tattered Wrappings"

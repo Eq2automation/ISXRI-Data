@@ -33,6 +33,8 @@ WaitForZoning
 -75.22 3.61 0.26
 -46.65 3.03 -16.65
 -27.89 3.13 -28.40
+Custom
+Path -PL 5 -QA "-QD|200|-A|a trapped soul|-T|-E|UseItem-Blessed Stratos Censer"
 -10.72 3.01 -33.76
 18.10 2.96 -28.93
 28.23 3.49 -27.27
@@ -52,6 +54,8 @@ KillAdd
 DontMoveBehind
 98.85 3.53 -1.50
 121.13 3.53 0.05
+Custom
+Path -PL 5 -QA "-QD|200|-A|a trapped soul|-T|-E|UseItem-Blessed Stratos Censer"
 145.42 3.53 0.16
 162.34 3.76 0.25
 170.96 3.76 -20.30
@@ -71,6 +75,8 @@ Sansobog
 DontMoveBehind
 211.38 3.45 41.75
 213.48 3.74 18.30
+Custom
+Path -PL 3 -QA "-QD|200|-A|a trapped soul|-T|-E|UseItem-Blessed Stratos Censer"
 213.99 3.46 3.17
 253.66 3.46 -0.35
 261.96 3.74 -15.58
@@ -80,6 +86,8 @@ Custom
 Target "Uah'Lu the Unhallowed"
 265.38 3.45 -61.05
 255.26 3.46 1.70
+Custom
+Path -PL 5 -QA "-QD|200|-A|a trapped soul|-T|-E|UseItem-Blessed Stratos Censer"
 258.23 3.75 -14.27
 260.57 3.45 -53.93
 264.21 3.45 -30.56
@@ -90,6 +98,8 @@ Custom
 ClickActor portal_to_aviary 1
 296.45 3.65 -0.49
 -43.16 19.08 -247.76
+Custom
+Path -PL 3 -QA "-QD|200|-A|a trapped soul|-T|-E|UseItem-Blessed Stratos Censer"
 -11.40 11.71 -246.68
 8.92 7.94 -235.10
 32.87 7.94 -221.14
@@ -106,6 +116,8 @@ KillAdd
 DontMoveBehind
 69.41 11.43 -204.71
 90.16 11.43 -183.39
+Custom
+Path -PL 3 -QA "-QD|200|-A|a trapped soul|-T|-E|UseItem-Blessed Stratos Censer"
 59.13 9.07 -209.78
 33.73 7.94 -227.87
 31.57 7.94 -250.81

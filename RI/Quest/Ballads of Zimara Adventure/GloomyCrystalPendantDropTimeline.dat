@@ -1,0 +1,39 @@
+Gloomy Crystal Pendant Drop Timeline
+-702.46 145.08 -364.16
+Custom
+ExamineItem "Gloomy Crystal Pendant Fragment"
+-702.46 145.08 -364.16
+Custom
+CheckCompletedQuest "Gloomy Tattered Wrappings" 36
+-702.46 145.08 -364.16
+Custom
+SetActiveQuest "Gloomy Crystal Pendant Fragment"
+-702.46 145.08 -364.16
+Custom
+TimeStampEcho "SetActiveQuest Gloomy Crystal Pendant Fragment"
+-702.46 145.08 -364.16
+Custom
+CheckQuest -Active "Gloomy Crystal Pendant Fragment" 36
+-702.46 145.08 -364.16
+Custom
+Path -PL 12 -CPSP -QA "-A|a mystic grappler|-T|QSC:grappler|-E|K"
+-702.46 145.08 -364.16
+-652.81 131.97 -403.24
+-590.01 116.97 -445.63
+-515.37 94.52 -493.19
+-446.37 99.49 -550.49
+-400.34 121.36 -607.51
+-404.43 122.15 -610.70
+-429.24 101.30 -560.84
+-500.30 94.55 -495.22
+-580.68 113.96 -445.21
+-642.52 128.90 -412.37
+-679.36 130.24 -419.86
+-711.14 147.17 -387.56
+-708.96 145.43 -358.56
+Custom
+CheckAndSet -NotActiveQuest "Gloomy Crystal Pendant Fragment" 2
+-708.96 145.43 -358.56
+Custom
+TimeStampEcho "Completed Pickup of Gloomy Crystal Pendant Fragment"
+-708.96 145.43 -358.56

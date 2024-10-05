@@ -27,9 +27,12 @@ Path -PL 6 -L -CPSP
 -288.03 109.82 -565.29
 -288.03 64.98 -565.29
 -282.13 18.49 -567.62
+-287.05 18.51 -574.43
 Custom
 ClickActor zone_portal_to_dun_aether_wroughtlands_01
--282.13 18.49 -567.62
+-287.05 18.51 -574.43
+Custom
+WaitForZoning
 -207.78 42.49 -707.57
 -183.26 39.12 -692.29
 -174.72 36.57 -678.03
@@ -119,12 +122,8 @@ ClickActor portal_cube_03
 95.36 14.53 -550.89
 StopForCombat
 95.36 14.53 -550.89
-Named
-"Shanrazzad the Spared"
-StandardNamed
-SameLock
-DontKillAdd
-MoveBehind
+Custom
+Target "Shanrazzad the Spared"
 95.36 14.53 -550.89
 91.18 14.41 -530.66
 100.83 14.55 -570.37

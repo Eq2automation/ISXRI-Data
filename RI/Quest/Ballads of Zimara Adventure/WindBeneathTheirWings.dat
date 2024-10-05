@@ -95,7 +95,7 @@ Custom
 CheckQuestStep "I freed" 99
 -350.01 126.39 -675.55
 Custom
-CheckQuestStep "I am to use the oil" 25
+CheckQuestStep "I am to use the oil" 24
 -350.01 126.39 -675.55
 -390.74 121.75 -608.33
 -350.03 168.72 -677.11
