@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ISUI>
-	<!-- Main Window -->
+	<!-- RI Window -->
 	<Window Name='RI'>
 	<X>50</X>
 	<Y>100</Y>
