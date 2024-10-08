@@ -271,7 +271,6 @@
 			<OnLeftClick>
 				RIAutoTargetObj:DeleteList
 			</OnLeftClick>
-
 		</Commandbutton>
 	</Children>
 </Window>
