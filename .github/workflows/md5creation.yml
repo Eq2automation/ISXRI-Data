@@ -5,7 +5,7 @@ on:
       - closed
 
 env:
-  BASE_BRANCH: master
+  BASE_BRANCH: main
 
 jobs:
   workflow:
