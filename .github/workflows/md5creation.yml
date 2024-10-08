@@ -30,7 +30,7 @@ jobs:
         id: calculate-md5
         run: |
           mkdir -p RI
-          md5sum RI/* > md5sums.txt
+          find RI/ -type f -exec md5sum {} + > md5sums.txt
           python -c "
           import json
           md5_dict = {}
