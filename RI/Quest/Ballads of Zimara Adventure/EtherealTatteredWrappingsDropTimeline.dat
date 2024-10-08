@@ -13,7 +13,7 @@ Custom
 CheckQuest -Active "Ethereal Tattered Wrappings" 60
 -339.63 185.59 358.65
 Custom
-Path -PL 25 -CPSP -QA "-A|a horned charger|-T|QSC:horned charger|-E|K"
+Path -PL 24 -CPSP -QA "-A|a horned charger|-T|-E|K"
 -328.41 183.82 575.04
 -474.66 183.77 145.66
 -461.00 183.79 153.45

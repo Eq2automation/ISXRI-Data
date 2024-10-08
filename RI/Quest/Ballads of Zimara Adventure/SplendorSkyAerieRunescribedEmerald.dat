@@ -10,15 +10,6 @@ Custom
 FastTravel "Splendor Sky Aerie"
 0 0 0
 Custom
-SetActiveQuest "Skirha's Preserving Prowess"
-0 0 0
-Custom
-CheckQuest -NotActive "Skirha's Preserving Prowess" 20
-0 0 0
-Custom
-MessageBox "Please delete Skirha's Preserving Prowess as it will mess up killing the beetles"
-0 0 0
-Custom
 SetActiveQuest "Splendor Sky Aerie: Runescribed Emerald"
 0 0 0
 Custom
@@ -67,7 +58,7 @@ Path -PL 11 -DFPWD -QA "-QD|200|-A|a beetle crab|-T|QSC:crab|-E|K" -CT "QSC: I h
 718.79 150.85 37.24
 718.79 225 37.24
 Custom
-CheckCompletedQuest "Splendor Sky Aerie: Runescribed Emerald" 80
+CheckCompletedQuest "Splendor Sky Aerie: Runescribed Emerald" 71
 0 0 0
 Custom
 SetActiveQuest "Splendor Sky Aerie: Runescribed Emerald"
@@ -76,7 +67,7 @@ Custom
 TimeStampEcho "SetActiveQuest Splendor Sky Aerie: Runescribed Emerald"
 0 0 0
 Custom
-CheckAndSet -ActiveQuest "Splendor Sky Aerie: Runescribed Emerald" 53
+CheckAndSet -ActiveQuest "Splendor Sky Aerie: Runescribed Emerald" 44
 0 0 0
 Custom
 TimeStampEcho "Splendor Sky Aerie: Runescribed Emerald Completed"

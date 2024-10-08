@@ -1,14 +1,43 @@
-Bivouac: Provisions
-Repeatable
+Thirsting Cyphered Tome Page Pickup Timeline
 Custom
-CheckPreReqs -ITEMQTY "Zimaran Kindling" 30
-711.79 -43.80 -472.62
+CheckAndSet -InZone "Aether Wroughtlands" 7
+0 0 0
 Custom
-HailActorGetQuest -Actor "Burnish" 
-711.79 -43.80 -472.62
-711.79 -43.80 -472.62
+UseItem "Will of the Wroughtlands"
+0 0 0
+885.23 -45.55 -322.18
+885.23 -45.55 -322.18
 Custom
-Path -PL 119 -L -DFPWD -QA "-QD|200|-A|aether shrub|-T|QSC:harvested the breadfruit|-E|H" -QA "-QD|200|-A|aether shrub|-T|QSC:harvested the pepitas|-E|H" -QA "-QD|200|-A|animal den|-T|QSC:harvested the charger meat|-E|H" -CT "QSC:I have harvested the resources"
+TimeStampEcho "checking for Thirsting Cyphered Tome Page"
+885.23 -45.55 -322.18
+Custom
+CheckCompletedQuest "Thirsting Cyphered Tome Page" 184
+714.61 -43.59 -460.22
+Custom
+ExamineItem "Thirsting Cyphered Tome Page"
+885.23 -45.55 -322.18
+Custom
+SetActiveQuest "Thirsting Cyphered Tome Page"
+714.61 -43.59 -460.22
+Custom
+CheckQuest -Active "Thirsting Cyphered Tome Page" 184
+714.61 -43.59 -460.22
+Custom
+Path -PL 3 -CPSP
+885.23 -3.10 -322.18
+816.71 30.57 -362.35
+739.93 28.00 -396.94
+715.13 -43.58 -460.70
+715.13 -43.58 -460.70
+715.13 -19.63 -460.70
+Custom
+TimeStampEcho "Begin hunting for Thirsting Cyphered Tome Page"
+714.61 -43.59 -460.22
+711.86 -3.16 -449.87
+711.86 29.55 -449.87
+711.86 110.37 -449.87
+Custom
+Path -PL 119 -CPSP -QA "-QD|200|-A|a volatile rock formation|-T|QSC:rock|-E|K"
 697.21 -46.35 -431.16
 717.67 -43.55 -459.40
 717.67 -9.80 -459.40
@@ -78,7 +107,7 @@ Path -PL 119 -L -DFPWD -QA "-QD|200|-A|aether shrub|-T|QSC:harvested the breadfr
 -574.83 110.20 -337.40
 -561.41 120.84 -311.74
 -545.37 129.32 -266.37
--533.00 126.41 -218.60
+-533.00 126.41 -184.60
 -541.86 123.93 -180.26
 -543.38 122.85 -92.11
 -542.68 132.04 -24.36
@@ -130,35 +159,29 @@ Path -PL 119 -L -DFPWD -QA "-QD|200|-A|aether shrub|-T|QSC:harvested the breadfr
 693.19 -22.21 -457.58
 716.26 -43.79 -474.33
 Custom
-Path -PL 6 -L -CPSP
--365.42 149.93 -405.77
--365.42 149.93 -405.77
--339.70 145.68 -437.81
--292.84 136.66 -491.52
--243.25 136.49 -539.37
--188.29 128.46 -570.94
--144.40 122.39 -590.16
--94.53 115.87 -602.59
--40.71 109.00 -609.19
-15.01 101.95 -612.28
-69.28 95.08 -613.19
-119.99 88.65 -609.70
-179.27 81.14 -605.62
-233.77 74.00 -591.98
-282.97 67.03 -567.84
-321.56 60.79 -537.19
-362.43 53.29 -494.33
-404.59 45.31 -447.35
-436.64 39.25 -411.64
-488.17 32.28 -400.89
-540.34 24.49 -408.35
-602.97 14.23 -420.76
-653.90 -8.43 -437.24
-693.77 -36.02 -453.99
-714.53 -43.61 -464.61
-719.36 -43.73 -467.87
-620.31 -3.31 -412.85
-695.11 -46.16 -430.35
+FlyDown 5
+714.61 -43.59 -460.22
 Custom
-CraftIt "Bivouac Provisions" 6
-717.25 -43.78 -474.22
+TimeStampEcho "checking for Thirsting Cyphered Tome Page"
+714.61 -43.59 -460.22
+Custom
+ExamineItem "Thirsting Cyphered Tome Page"
+714.61 -43.59 -460.22
+Custom
+CheckCompletedQuest "Thirsting Cyphered Tome Page" 184
+714.61 -43.59 -460.22
+Custom
+CheckQuest -Active "Thirsting Cyphered Tome Page" 184
+714.61 -43.59 -460.22
+Custom
+SetActiveQuest "Thirsting Cyphered Tome Page"
+714.61 -43.59 -460.22
+Custom
+TimeStampEcho "SetActiveQuest Thirsting Cyphered Tome Page"
+714.61 -43.59 -460.22
+Custom
+CheckAndSet -NotActiveQuest "Thirsting Cyphered Tome Page" 38
+714.61 -43.59 -460.22
+Custom
+TimeStampEcho "Completed pickup of Thirsting Cyphered Tome Page"
+714.61 -43.59 -460.22

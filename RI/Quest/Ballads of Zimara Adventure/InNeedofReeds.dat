@@ -11,7 +11,7 @@ HailActorGetQuest -Actor "Whoella"
 -330.13 89.64 407.60
 -353.03 84.32 370.38
 Custom
-Path -PL 20 -L -dfpwd -cpsp -r -QA "-A|kerratail reeds|-T|QSC:I gathered|-E|H" -QA "-A|a horned charger|-T|QSC:Hunt horned chargers|-E|UseItem-Ethereal Hook" -CT "QSC:I collected the kerratail reeds and"
+Path -PL 20 -L -DFPWD -CPSP -R -QA "-A|kerratail reeds|-T|QSC:I gathered|-E|H" -QA "-A|a horned charger|-T|QSC:Hunt horned chargers|-E|UseItem-Ethereal Hook" -CT "QSC:I collected the kerratail reeds and"
 -474.66 60.77 145.66
 -461.00 60.79 153.45
 -446.85 60.85 156.68
