@@ -56,40 +56,6 @@
 							Script[Buffer:CoT]:Resume
 						if ${Script[Buffer:AggroControl](exists)}
 							Script[Buffer:AggroControl]:Resume
-						if ${Script[Buffer:Bull](exists)}
-							Script[Buffer:Bull]:Resume
-						if ${Script[Buffer:Captain](exists)}
-							Script[Buffer:Captain]:Resume
-						if ${Script[Buffer:Charanda](exists)}
-							Script[Buffer:Charanda]:Resume
-						if ${Script[Buffer:Farozth](exists)}
-							Script[Buffer:Ferun]:Resume
-						if ${Script[Buffer:Grethah](exists)}
-							Script[Buffer:Grethah]:Resume
-						if ${Script[Buffer:Grevog](exists)}
-							Script[Buffer:Grevog]:Resume
-						if ${Script[Buffer:Icon](exists)}
-							Script[Buffer:Icon]:Resume
-						if ${Script[Buffer:Imbiber](exists)}
-							Script[Buffer:Imbiber]:Resume
-						if ${Script[Buffer:Jessip](exists)}
-							Script[Buffer:Jessip]:Resume
-						if ${Script[Buffer:Kerridicus](exists)}
-							Script[Buffer:Kerridicus]:Resume
-						if ${Script[Buffer:Protector](exists)}
-							Script[Buffer:Protector]:Resume
-						if ${Script[Buffer:Sacrificer](exists)}
-							Script[Buffer:Sacrificer]:Resume
-						if ${Script[Buffer:Teraradus](exists)}
-							Script[Buffer:Teraradus]:Resume
-						if ${Script[Buffer:Torso](exists)}
-							Script[Buffer:Torso]:Resume
-						if ${Script[Buffer:Virtuoso](exists)}
-							Script[Buffer:Virtuoso]:Resume
-						if ${Script[Buffer:Zadune](exists)}
-							Script[Buffer:Zadune]:Resume
-						if ${Script[Buffer:Ritual](exists)}
-							Script[Buffer:Ritual]:Resume
 						RI_Var_Bool_Paused:Set[FALSE]
 						UIElement[Start@RI]:SetText[Pause]
 					}
@@ -109,40 +75,6 @@
 							Script[Buffer:CoT]:Pause
 						if ${Script[Buffer:AggroControl](exists)}
 							Script[Buffer:AggroControl]:Pause
-						if ${Script[Buffer:Bull](exists)}
-							Script[Buffer:Bull]:Pause
-						if ${Script[Buffer:Captain](exists)}
-							Script[Buffer:Captain]:Pause
-						if ${Script[Buffer:Charanda](exists)}
-							Script[Buffer:Charanda]:Pause
-						if ${Script[Buffer:Farozth](exists)}
-							Script[Buffer:Ferun]:Pause
-						if ${Script[Buffer:Grethah](exists)}
-							Script[Buffer:Grethah]:Pause
-						if ${Script[Buffer:Grevog](exists)}
-							Script[Buffer:Grevog]:Pause
-						if ${Script[Buffer:Icon](exists)}
-							Script[Buffer:Icon]:Pause
-						if ${Script[Buffer:Imbiber](exists)}
-							Script[Buffer:Imbiber]:Pause
-						if ${Script[Buffer:Jessip](exists)}
-							Script[Buffer:Jessip]:Pause
-						if ${Script[Buffer:Kerridicus](exists)}
-							Script[Buffer:Kerridicus]:Pause
-						if ${Script[Buffer:Protector](exists)}
-							Script[Buffer:Protector]:Pause
-						if ${Script[Buffer:Sacrificer](exists)}
-							Script[Buffer:Sacrificer]:Pause
-						if ${Script[Buffer:Teraradus](exists)}
-							Script[Buffer:Teraradus]:Pause
-						if ${Script[Buffer:Torso](exists)}
-							Script[Buffer:Torso]:Pause
-						if ${Script[Buffer:Virtuoso](exists)}
-							Script[Buffer:Virtuoso]:Pause
-						if ${Script[Buffer:Zadune](exists)}
-							Script[Buffer:Zadune]:Pause
-						if ${Script[Buffer:Ritual](exists)}
-							Script[Buffer:Ritual]:Pause
 						RI_Var_Bool_Paused:Set[TRUE]
 						if ${Me.FlyingUsingMount}
 						{
