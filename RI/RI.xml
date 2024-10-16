@@ -110,7 +110,7 @@
 			<Text>Run</Text>
 			<OnLeftClick>
 				if ${UIElement[QuestsListBox@RI].SelectedItem(exists)}
-					RIMUIObj:RQEngage["${RI_Encode["${UIElement[QuestsListBox@RI].SelectedItem.Text}"]}|${UIElement[QuestsListBox@RI].SelectedItem.Value}"]
+					RIMUIObj:RQEngage["${UIElement[QuestsListBox@RI].SelectedItem.Text}|${UIElement[QuestsListBox@RI].SelectedItem.Value}"]
 			</OnLeftClick>
 			<AutoTooltip>
 				Run Selected Quest with RQ
@@ -132,7 +132,7 @@
             </OnRightClick>
             <OnDoubleLeftClick>
 				if ${This.SelectedItem(exists)}
-					RIMUIObj:RQEngage["${RI_Encode["${UIElement[QuestsListBox@RI].SelectedItem.Text}"]}|${UIElement[QuestsListBox@RI].SelectedItem.Value}"]
+					RIMUIObj:RQEngage["${UIElement[QuestsListBox@RI].SelectedItem.Text}|${UIElement[QuestsListBox@RI].SelectedItem.Value}"]
             </OnDoubleLeftClick>
 			<Visible>0</Visible>
 		</listbox>
