@@ -6,22 +6,22 @@
 	<Y>100</Y>
 	<Width>100</Width>
 	<Height>60</Height>
-	  <TitleBar template='window.Titlebar'>
+	<TitleBar template='window.Titlebar'>
 		<Children>
-		  <Text Name='Title' Template='window.Titlebar.Title' />
-		   <commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
+			<Text Name='Title' Template='window.Titlebar.Title' />
+			<commandbutton name='Custom Close Button' Template='window.Titlebar.Close'>
 			<Command>relay ${RI_Var_String_RelayGroup} -noredirect RIObj:EndScript;ui -unload "${LavishScript.HomeDirectory}/Scripts/RI/RI.xml"</Command>
-		  </commandbutton>
+			</commandbutton>
 		</Children>
-	  </TitleBar>
-	  <StorePosition>1</StorePosition>
+	</TitleBar>
+	<StorePosition>1</StorePosition>
 	<Title>RIv${RI_Var_Float_Version.Precision[2]}</Title>
 	<Children>
 		<Checkbox Name='AutoLoot'>
-					  <X>15</X> 
-					  <Y>20</Y> 
-					  <Width>20</Width> 
-					  <Height>20</Height>
+					  <X>18%</X> 
+					  <Y>45%</Y> 
+					  <Width>40%</Width> 
+					  <Height>50%</Height>
 					  <Text>Auto Loot</Text> 
 					  <OnLeftClick>
 						if ${This.Checked}
@@ -31,11 +31,11 @@
 					  </OnLeftClick>
 					</Checkbox>
 		<Commandbutton name='Start'>
-			<X>20</X>
-			<Y>4</Y>
+			<X>20%</X>
+			<Y>5%</Y>
 			<Border>0</Border>
-			<Width>62</Width>
-			<Height>17</Height>
+			<Width>62%</Width>
+			<Height>50%</Height>
 			<Text>Start</Text>
 			<OnLeftClick>
 				if ${RI_Var_Bool_Start}
@@ -102,15 +102,15 @@
 			</AutoTooltip>
 		</Commandbutton>
 		<Commandbutton name='RunButton'>
-			<X>245</X>
-			<Y>12</Y>
+			<X>82%</X>
+			<Y>2%</Y>
 			<Border>0</Border>
-			<Width>50</Width>
-			<Height>15</Height>
+			<Width>16%</Width>
+			<Height>5%</Height>
 			<Text>Run</Text>
 			<OnLeftClick>
 				if ${UIElement[QuestsListBox@RI].SelectedItem(exists)}
-					RIMUIObj:RQEngage["${UIElement[QuestsListBox@RI].SelectedItem.Text}|${UIElement[QuestsListBox@RI].SelectedItem.Value}"]
+					RIMUIObj:RQEngage["${RI_Encode["${UIElement[QuestsListBox@RI].SelectedItem.Text}"]}|${UIElement[QuestsListBox@RI].SelectedItem.Value}"]
 			</OnLeftClick>
 			<AutoTooltip>
 				Run Selected Quest with RQ
@@ -118,16 +118,12 @@
 			<Visible>0</Visible>
 		</Commandbutton>
 		<listbox Name='QuestsListBox'>
-			<X>5</X>
-			<Y>32</Y>
+			<X>1%</X>
+			<Y>8%</Y>
 			<Border>5</Border>
 			<BorderColor>0</BorderColor>
-			<Width>290</Width>
-			<Height>321</Height>
-			<Font>
-				<Name>Times New Roman</Name>
-				<Size>14</Size>
-			</Font>
+			<Width>99%</Width>
+			<Height>91%</Height>
 			<SelectMultiple>0</SelectMultiple>
 			<Sort>none</Sort>
 			<OnLeftClick>
@@ -136,27 +132,27 @@
             </OnRightClick>
             <OnDoubleLeftClick>
 				if ${This.SelectedItem(exists)}
-					RIMUIObj:RQEngage["${This.SelectedItem.Text}"]
+					RIMUIObj:RQEngage["${RI_Encode["${UIElement[QuestsListBox@RI].SelectedItem.Text}"]}|${UIElement[QuestsListBox@RI].SelectedItem.Value}"]
             </OnDoubleLeftClick>
 			<Visible>0</Visible>
 		</listbox>
 		<Text name='CategoryText'> 
-					<X>8</X>
-					<Y>13</Y> 
-					<Width>112</Width> 
-					<Height>15</Height> 
+					<X>2%</X>
+					<Y>2%</Y> 
+					<Width>20%</Width> 
+					<Height>5%</Height> 
 					<Alignment>Left</Alignment>
 					<Text>Category:</Text>
 					<Wrap />
 					<Visible>0</Visible>
 				</Text>
 		<combobox name='CategoryComboBox'>
-					<Width>177</Width> 
-					<Height>20</Height> 
-					<X>65</X>
-					<Y>10</Y>
-						   <FullHeight>260</FullHeight>
-						   <ButtonWidth>20</ButtonWidth>
+					<Width>60%</Width> 
+					<Height>5%</Height> 
+					<X>20%</X>
+					<Y>2%</Y>
+					<FullHeight>800%</FullHeight>
+					<ButtonWidth>20</ButtonWidth>
 					<OnSelect>
 						if ${This.SelectedItem(exists)}
 							RIMUIObj:RQCat["${This.SelectedItem.Text}"]
