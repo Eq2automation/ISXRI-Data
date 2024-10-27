@@ -142,7 +142,7 @@ Path -PL 99 -L -DFPWD -R -QA "-QD|200|-A|arid timber|-T|QSC:gathered samples of 
 -2050.53 -230.84 146.78
 Custom
 FastTravel "Isle of Mara"
-5.81 -2.38 117.80
+0 0 0
 2.37 -2.38 119.68
 -13.94 25 46.87
 -34.44 25 -32.43

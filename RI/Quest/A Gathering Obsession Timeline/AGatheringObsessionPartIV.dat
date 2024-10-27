@@ -209,7 +209,7 @@ Path -PL 160 -L -R -DFPWD -QA "-QD|200|-A|wretched arbor|-T|QSC:gathered samples
 -693.81 -1.49 -640.30
 Custom
 FastTravel "Isle of Mara"
-6.87 -2.38 117.17
+0 0 0
 Custom
 ClickActor mariners_bell TRUE FALSE 50
 6.87 -2.38 117.17
@@ -440,7 +440,7 @@ Path -PL 215 -L -DFPWD -R -QA "-QD|200|-A|marred arbor|-T|QSC:gathered some samp
 -94.66 -23.81 105.13
 Custom
 FastTravel "Isle of Mara"
-5.81 -2.38 117.80
+0 0 0
 2.37 -2.38 119.68
 -13.94 25 46.87
 -34.44 25 -32.43

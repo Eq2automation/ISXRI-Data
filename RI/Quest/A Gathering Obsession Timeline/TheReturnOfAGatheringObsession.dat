@@ -3,33 +3,8 @@ Custom
 CheckPreReqs -Completed "A Gathering Obsession, Final Errand"
 0 0 0
 Custom
-CheckAndSet -InZone "The Village of Shin" 20
+FastTravel Divide Harbor
 0 0 0
-Custom
-FastTravel "Isle of Mara"
-0 0 0
-Custom 
-Path
--34.89 11.62 -103.29
--54.05 2.98 -65.57
--72.09 -2.15 -29.49
--87.40 -4.24 1.14
--108.36 -2.52 43.09
--86.95 -2.52 66.67
--63.27 -2.52 92.74
--41.65 -2.55 116.54
--30.50 -2.38 128.82
--9.88 -2.38 125.45
-5.83 -2.38 117.54
-Custom
-ClickActor mariners_bell TRUE FALSE 50
-6.87 -2.38 117.17
-Wait
-20
-0 0 0
-Custom
-TravelMap "The Great Divide"
-1356.05 -540.25 473.10
 1356.05 -518.33 473.10
 1356.05 -498.18 473.10
 1309.61 -472.80 479.46
@@ -55,7 +30,7 @@ FastTravel "Isle of Mara"
 5.81 -2.38 117.80
 2.37 -2.38 119.68
 -13.94 25 46.87
--34.44 25 -32.43
+-34.44 25 -32.43sq
 -40.29 25 -55.04
 -43.73 5.97 -67.56
 -38.25 9.38 -85.70
@@ -313,6 +288,7 @@ Custom
 PathHarvest 3 50 1 1 1 0 "Windswept Frostflowers" 0 1
 -1262.50 -528.26 -2205.02
 -1272.13 -522.99 -2193.68
+-1295.29 -511.26 -2134.26
 Wait
 20
 0 0 0
@@ -448,6 +424,8 @@ Wait
 534.20 -54.76 51.98
 605.62 -137.43 23.83
 660.37 -142.62 29.13
+Custom
+FlyDown
 738.19 -150.02 39.90
 793.34 -181.77 49.53
 Custom
