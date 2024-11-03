@@ -1,0 +1,64 @@
+Weald Daily Tradeskill Mission
+Custom
+CheckAndSet -NotInZone "Guild Hall" 7
+0 0 0
+Custom
+RemoveFromDepot "Harvesting Supply Depot" "Hardened Zelniak Pelt" 224 "Hornbeam Spruce Log" 580 "Humming Azurite" 200 "Luclizite Cluster" 350 "Lunar Mushroom" 100 "Radiant Algae" 200 "Rockhopper Meat" 233 "Slow Creeping Root" 500 "Splitfin Dartfish" 100 "Zelniak Steak" 1 "Lantern Hogfish" 1 "Wracked Wood Wedge" 1
+0 0 0
+Custom
+RemoveFromDepot "Fuel Depot" "Coruscating Incense" 100 "Coruscating Coal" 400 "Coruscating Filament" 100 "Coruscating Kindling" 100 "Coruscating Sandpaper" 400
+0 0 0
+Custom
+UseItem "Will of the Weald"
+0 0 0
+Custom
+WaitForZoning
+0 0 0
+Custom
+BuyFromVendor Vuchoz "Will of the Weald" 5
+-407.841003 95.193314 -324.238373
+Custom
+HailActorMultiOption "Erdani Ruilep" 2 1 1 1 1
+-415.228302 96.567734 -318.447998
+Custom
+HailActor "Erdani Ruilep" 1 1
+-415.905518 96.769669 -317.275330
+Custom
+MakeActiveQuest "Weald Field Research Requisition 421"
+0 0 0
+Custom
+TimeStampEcho "Made quest active: Weald Field Research Requisition 421"
+0 0 0
+Custom
+CheckAndSet -NotActiveQuest "Weald Field Research Requisition 421" 37
+0 0 0
+Custom
+Quest "Weald Field Research Requisition 421"
+0 0 0
+Custom
+MakeActiveQuest "Weald Field Research Requisition 422"
+0 0 0
+Custom
+TimeStampEcho "Made quest active: Weald Field Research Requisition 422"
+0 0 0
+Custom
+CheckAndSet -NotActiveQuest "Weald Field Research Requisition 422" 49
+0 0 0
+Custom
+Quest "Weald Field Research Requisition 422"
+0 0 0
+Custom
+MakeActiveQuest "Weald Field Research Requisition 423"
+0 0 0
+Custom
+TimeStampEcho "Made quest active: Weald Field Research Requisition 423"
+0 0 0
+Custom
+CheckAndSet -NotActiveQuest "Weald Field Research Requisition 423" 61
+0 0 0
+Custom
+Quest "Weald Field Research Requisition 423"
+0 0 0
+Custom
+TimeStampEcho "Ending Weald Field Research Requisition"
+0 0 0
