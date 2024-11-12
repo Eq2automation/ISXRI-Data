@@ -80,7 +80,7 @@ Custom
 FlyDown
 -618.06 -77.42 -13.73
 Custom
-Path -PL 23 -L -DFPWD -QA "-A|passionflower|-T|QSC:3/3|-E|H" -CT "QSC:Interesting that"
+Path -PL 23 -L -DFPWD -QA "-A|passionflower|-T|QSC:1/1|-E|H" -CT "QSC:Interesting that"
 -615.59 -79.93 -13.33
 -618.21 -80.00 -4.92
 -648.28 -77.43 6.32
@@ -140,7 +140,7 @@ Custom
 ClickActor burning_orchid
 -328.97 3.15 -493.35
 Custom
-CheckQuestStep "This must be an" 147
+CheckQuestStep "This must be an" 146
 0 0 0
 Custom
 MessageBox "Collect burning orchid because its not working right. Known Bug. Then Press Resume to turn in quest"
@@ -152,5 +152,5 @@ FastTravel Sundered Spire
 2292.75 -200.00 2499.90
 2298.24 -199.84 2499.40
 Custom
-HailActor "Bao Bao" 5 1
+HailActor "Bao Bao" 3 1
 2298.24 -199.84 2499.40
