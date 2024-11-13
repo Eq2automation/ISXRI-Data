@@ -9,16 +9,7 @@ Custom
 RemoveFromDepot "Fuel Depot" "Coruscating Incense" 100 "Coruscating Coal" 400 "Coruscating Filament" 100 "Coruscating Kindling" 100 "Coruscating Sandpaper" 400
 0 0 0
 Custom
-CheckAndSet -NotInZone "Guild Hall" 26
-0 0 0
-Custom
-MoveToActor "Ulteran"
-0 0 0
-Custom
-ClickActor "Ulteran"
-0 0 0
-Custom
-TravelMap "City of Fordel Midst"
+FastTravel Fordel Spire
 0 0 0
 263.598480 -27.628031 778.354431
 263.538086 -27.917845 749.993713

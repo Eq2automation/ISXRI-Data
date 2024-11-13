@@ -3,7 +3,13 @@ Custom
 UseItem "Nuniun's Signaling Horn"
 0 0 0
 Custom
+UseItem "Nuniun's Signaling Horn"
+0 0 0
+Custom
 WaitForAnnounceText "Now's your chance"
+0 0 0
+Custom
+UseItem "Nuniun's Signaling Horn"
 0 0 0
 Custom
 UseItem "Nuniun's Signaling Horn"
@@ -48,7 +54,7 @@ FlyUp 10
 -117.639946 215.905548 468.989319
 -117.639946 222.834091 468.989319
 Custom
-Path -PathLines 46 -Loop -Reverse -QueryActor "-QueryDistance|200|-ActorName|soft metal vein|-Trigger|QuestStepChecked:humming azurite|-Events|Harvest" -QueryActor "-QueryDistance|200|-ActorName|crawling root break|-Trigger|QuestStepChecked:slow creeping root|-Events|Harvest" -QueryActor "-QueryDistance|200|-ActorName|coalesced stone cluster|-Trigger|QuestStepChecked:luclizite|-Events|Harvest" -QueryActor "-QueryDistance|200|-ActorName|rockhopper den|-Trigger|QuestStepChecked:zelniak|-Events|Harvest" -CommonTrigger "QuestStepChecked|I have obtained the needed materials"
+Path -PathLines 46 -Loop -Reverse -QueryActor "-QueryDistance|200|-ActorName|soft metal vein|-Trigger|QuestStepChecked:humming azurite|-Events|Harvest" -QueryActor "-QueryDistance|200|-ActorName|crawling root break|-Trigger|QuestStepChecked:slow creeping root|-Events|Harvest" -QueryActor "-QueryDistance|200|-ActorName|coalesced stone cluster|-Trigger|QuestStepChecked:luclizite|-Events|Harvest" -QueryActor "-QueryDistance|200|-ActorName|rockhopper den|-Trigger|QuestStepChecked:zelniak|-Events|Harvest" -CommonTrigger "QuestStepChecked:I have obtained the needed materials"
 -64.792122 273.303238 445.492676
 -30.782301 273.303238 482.345154
 3.185352 273.303238 519.152100
