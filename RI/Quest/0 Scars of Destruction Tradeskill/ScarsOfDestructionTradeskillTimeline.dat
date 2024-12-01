@@ -1,0 +1,43 @@
+Scars of Destruction Tradeskill Timeline
+Custom
+RemoveFromDepot "Harvesting Supply Depot" "Chalcedony" 300 "Crowberry" 300 "Fox Pelt" 300 "Ilmenite Ore" 300 "Larch Wood" 300 "Ptarmigan Meat" 300 "Red Lichen" 300 "Sedge Root" 300 "Speckled Grayling" 300 "Manganese Ore" 1 "Golden Sennegrass Root" 1 "Mountain Blueberry" 1 "Ulthork Hide" 1 "Porphyry Stone" 1
+0 0 0
+Custom
+RemoveFromDepot "Fuel Depot" "Zimaran Filament" 300 "Zimaran Candle" 300 "Zimaran Coal" 300 "Zimaran Kindling" 300 "aerated mineral water" 300
+0 0 0
+Custom
+CheckPreReqs -ITEMQTY "Chalcedony" 22 -ITEMQTY "Crowberry" 22 -ITEMQTY "Fox Pelt" 12 -ITEMQTY "Ilmenite Ore" 76 -ITEMQTY "Ptarmigan Meat" 12 -ITEMQTY "Red Lichen" 8 -ITEMQTY "Sedge Root" 10 -ITEMQTY "Speckled Grayling" 10 -ITEMQTY "Zimaran Filament" 20 -ITEMQTY "Zimaran Candle" 20 -ITEMQTY "Zimaran Coal" 105 -ITEMQTY "Zimaran Kindling" 40 -ITEMQTY "Portable Woodworking Kit v2" 1 -ITEMQTY "Portable Cooking Set v2" 1 -ITEMQTY "Portable Work Bench v2" 1 -ITEMQTY "Portable Sewing Table v2" 1
+0 0 0
+Custom
+Quest "Scars of Destruction: Welcome to Woe"
+0 0 0
+Custom
+Quest "Scars of Destruction: Friend or Woe"
+0 0 0
+Custom
+Quest "Stealthy Supplies: W.H.A.T.?"
+0 0 0
+Custom
+Quest "Stealthy Supplies: Meet and Greet"
+0 0 0
+Custom
+Quest "Stealthy Supplies: Rescue"
+0 0 0
+Custom
+Quest "Stealthy Supplies: The Crafty Wanderer"
+0 0 0
+Custom
+Quest "Stealthy Supplies: Flotsam and Jetsam"
+0 0 0
+Custom
+Quest "Stealthy Supplies: Base Camp"
+0 0 0
+Custom
+Quest "Stealthy Supplies: Clockwork Creations"
+0 0 0
+Custom
+Quest "Stealthy Supplies: Runechase"
+0 0 0
+Custom
+Quest "Supplies Daily Tradeskill Mission Timeline"
+0 0 0

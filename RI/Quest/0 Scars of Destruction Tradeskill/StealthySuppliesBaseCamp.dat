@@ -1,0 +1,85 @@
+Stealthy Supplies: Base Camp
+Custom
+MakeActiveQuest "Stealthy Supplies: Base Camp"
+0 0 0
+Custom
+CheckQuestStep "Hopefully these will be long" 46
+0 0 0
+Custom
+CheckQuestStep "I have created the smithing supplies" 25
+0 0 0
+Custom
+HailActorGetQuest -Actor "Raffik"
+77.61 7.66 661.39
+77.05 7.63 650.23
+69.96 8.98 615.12
+63.34 10.54 588.65
+Custom
+ClickActor "Varig's Velium Forge" 
+63.34 10.54 588.65
+Custom
+CraftIt "Makeshift Anvil" 1
+63.34 10.54 588.65
+Custom
+CraftIt "forging tools" 1
+63.34 10.54 588.65
+71.34 8.98 610.19
+78.95 8.13 683.74
+92.63 9.51 776.29
+Custom
+Path -PL 5 -L -QA "-QD|200|-A|Glowing Lichen|-T|QSC:4/4|-E|H" -CT "QSC:I have collected the lichen"
+92.48 9.43 775.10
+91.56 9.28 775.32
+104.36 7.99 770.84
+122.39 6.20 772.22
+123.52 5.80 793.01
+123.29 7.46 787.97
+108.67 6.03 762.91
+86.18 8.09 687.86
+64.23 10.63 586.49
+Custom
+ClickActor "Varig's Velium Forge" 
+64.23 10.63 586.49
+Custom
+CraftIt "Dungeon Light Source" 4
+64.23 10.63 586.49
+140.47 8.93 588.65
+144.64 18.48 551.63
+121.81 64.36 433.77
+Custom
+Path -PL 8 -L -QA "-QD|200|-A|Gorewing Leather|-T|QSC:4/4|-E|H" -CT "QSC:I have gathered the leather"
+123.25 64.67 429.88
+71.37 70.62 451.12
+71.37 70.62 451.12
+30.37 62.06 471.73
+30.37 62.06 471.73
+11.96 62.06 445.99
+11.96 62.06 445.99
+23.36 61.60 460.20
+59.97 66.08 480.83
+100.97 51.42 501.56
+128.76 34.65 522.39
+146.00 19.74 548.35
+131.78 8.47 589.57
+88.94 9.93 582.55
+63.86 10.62 586.10
+Custom
+ClickActor "Varig's Velium Forge" 
+63.86 10.62 586.10
+Custom
+CraftIt "Sturdy Blanket" 4
+63.86 10.62 586.10
+Custom
+CraftIt "Raffik's Rations" 4
+63.86 10.62 586.10
+Custom
+CraftIt "Mathom's Mouthwatering Mock-Malt" 4
+63.86 10.62 586.10
+Custom
+CraftIt "Waterproofing Solution" 4
+63.86 10.62 586.10
+71.45 8.98 608.47
+76.66 7.66 659.99
+Custom
+HailActor "Raffik" 3
+76.66 7.66 659.99

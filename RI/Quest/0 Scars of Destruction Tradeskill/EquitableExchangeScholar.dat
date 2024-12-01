@@ -1,0 +1,13 @@
+Equitable Exchange: Scholar
+Custom
+UseItem "Portable Work Bench v2" 2 TRUE
+0 0 0
+Custom
+CraftIt "Glittering Tiara" 1
+0 0 0
+Custom
+CraftIt "Sparkly Bracelet" 2
+0 0 0
+Custom
+HailActor "Nazeera" 3
+144.60 8.83 -420.21
