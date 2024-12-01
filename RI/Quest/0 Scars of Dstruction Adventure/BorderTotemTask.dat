@@ -46,7 +46,7 @@ ClickActor Port Woe Border Location
 144.97 4.70 389.47
 126.71 5.54 384.24
 Custom
-CheckQuestStep "The kappa arent the only ones" 53
+CheckQuestStep "The kappa aren't the only ones" 53
 126.71 5.54 384.24
 Custom
 MessageBox "Confirm Port Woe Border Locations have been clicked"

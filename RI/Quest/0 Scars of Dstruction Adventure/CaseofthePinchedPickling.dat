@@ -18,7 +18,7 @@ ClickActor Brine Jar
 217.10 4.49 472.48
 238.47 4.20 578.61
 Custom
-Path -PL 33 -L -QA "-A|Brine Jar|-T|QSC:more|-E|H" -QA "-A|Port Woe Goods|-T|QSC:crates|-E|H" -CT "QSC:Despite the challenge"
+Path -PL 33 -L -R -QA "-A|Brine Jar|-T|QSC:more|-E|H" -QA "-A|Port Woe Goods|-T|QSC:crates|-E|H" -CT "QSC:Despite the challenge"
 256.97 4.18 614.82
 240.12 4.24 620.09
 246.13 4.83 638.63
