@@ -1,0 +1,91 @@
+Custom
+Path -PL 3 -QA "-QD|200|-A|Kerra Totem|-T|QSC:Kerra Totem|-E|H"
+-705.15 151.64 -587.00
+-704.12 149.66 -557.00
+-716.53 150.54 -504.30
+-720.22 149.33 -466.19
+Named
+Prolovok
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named
+-720.22 149.33 -466.19
+-711.34 149.93 -445.04
+Custom
+Path -PL 9 -QA "-QD|200|-A|Kerra Totem|-T|QSC:Kerra Totem|-E|H"
+-673.88 151.86 -399.71
+-694.19 148.65 -415.98
+-698.79 142.17 -377.20
+-680.64 138.71 -356.46
+-654.08 137.29 -338.57
+-639.63 138.52 -329.19
+-656.66 144.01 -362.74
+-707.70 153.27 -500.97
+-691.31 152.19 -588.05
+-634.02 138.46 -305.93
+Named
+Tavvi Ticky
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named
+-634.02 138.46 -305.93
+Custom
+Path -PL 4 -QA "-QD|200|-A|Kerra Totem|-T|QSC:Kerra Totem|-E|H"
+-655.87 143.92 -290.30
+-631.15 138.56 -275.11
+-658.02 138.35 -215.03
+-680.38 138.12 -187.80
+-681.09 138.98 -169.91
+Named
+Amalgam
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named
+-681.09 138.98 -169.91
+Custom
+Path -PL 3 -QA "-QD|200|-A|Kerra Totem|-T|QSC:Kerra Totem|-E|H"
+-666.61 140.05 -154.69
+-721.71 141.55 -112.29
+-755.19 137.66 -144.52
+-742.02 137.20 -107.31
+Named
+Xavaree
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named
+-747.14 137.27 -105.04
+Custom
+Path -PL 14 -QA "-QD|200|-A|Kerra Totem|-T|QSC:Kerra Totem|-E|H"
+-785.26 138.62 -95.90
+-785.26 138.62 -95.90
+-755.76 137.35 -83.63
+-778.36 137.82 -60.66
+-778.36 137.82 -60.66
+-752.08 137.67 -95.49
+-680.46 138.72 -173.67
+-691.56 150.35 -225.46
+-703.54 163.24 -274.59
+-720.99 166.03 -239.65
+-723.90 173.69 -211.04
+-739.15 177.33 -218.67
+-741.30 176.37 -210.97
+-746.09 187.03 -247.09
+-746.45 195.49 -277.67
+Named
+Valahal Den
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named
+-746.45 195.49 -277.67
+-734.39 196.43 -334.91
+-733.87 196.42 -335.47

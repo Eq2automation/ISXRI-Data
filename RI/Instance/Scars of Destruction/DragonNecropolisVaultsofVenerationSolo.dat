@@ -1,0 +1,86 @@
+265.74 85.53 43.53
+292.52 80.80 44.59
+318.40 80.21 39.34
+324.75 61.27 141.43
+Named
+Lucanic
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named
+322.87 55.39 173.67
+324.13 55.63 226.24
+331.68 55.38 276.25
+Named
+Culdakar
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named
+350.50 54.97 331.21
+360.56 55.45 365.26
+392.64 55.56 370.52
+Custom
+ClickActor Vrakorr Rune Claw
+392.64 55.56 370.52
+400.23 55.93 376.51
+415.83 40.62 398.16
+417.83 40.36 400.66
+Custom
+ClickActor portal_to_cold
+417.83 40.36 400.66
+227.62 102.20 -277.59
+252.58 111.87 -258.40
+280.94 113.80 -229.47
+295.77 115.53 -212.70
+299.56 116.01 -206.19
+Named
+Peraxum
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named
+299.56 116.01 -206.19
+340.11 119.36 -187.90
+374.82 122.97 -159.50
+387.62 123.41 -154.55
+Custom
+HailActor "A Mechanical Dragon" 
+387.62 123.41 -154.55
+445.05 126.11 -121.33
+533.24 125.03 -113.03
+601.22 125.63 -96.18
+668.49 125.03 -107.56
+Custom
+HailActor "Overlord Lucan D'Lere" 
+668.49 125.03 -107.56
+Wait
+50
+686.46 125.03 -114.43
+Wait
+50
+686.46 125.03 -114.43
+654.74 125.03 -76.05
+Custom
+HailActor "Lord Ulvaxazoviak"
+646.59 125.03 -68.04
+629.83 125.03 -58.44
+Wait
+100
+629.83 125.03 -58.44
+Custom
+ClickActor "Overlord Lucan D'Lere" 
+627.55 125.03 -59.09
+Custom
+HailActor "a Void Devourer" 
+627.55 125.03 -59.09
+Custom
+HailActor "Lord Ulvaxazoviak" 
+627.55 125.03 -59.09
+647.33 125.05 -101.20
+Custom
+ClickActor zone_exit
+648.03 125.03 -105.71

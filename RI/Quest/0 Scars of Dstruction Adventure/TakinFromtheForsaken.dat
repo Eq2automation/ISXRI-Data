@@ -1,0 +1,32 @@
+Takin' From the Forsaken
+0.30 5.68 366.15
+-23.84 5.88 347.56
+-76.88 6.44 344.25
+-85.95 9.42 343.54
+Custom
+HailActorGetQuest -Actor "Kober Botley"
+-87.77 9.37 343.40
+-75.06 6.43 343.78
+-74.41 6.69 364.80
+-73.27 6.69 396.53
+-90.20 6.69 396.43
+-135.37 6.45 398.08
+-136.69 6.71 401.30
+Custom
+ZoneDoor zone_portal_to_dun_sodden_islands_01 "Sodden Archipelago: The Forsaken Isle [Solo]"
+-136.69 6.71 401.30
+Custom
+Instance
+0 0 0
+Custom
+ClickActor Exit
+0 0 0
+Wait
+20
+-131.49 6.36 397.02
+-72.28 6.69 396.37
+-74.28 6.41 342.81
+-86.51 9.42 343.15
+Custom
+HailActor "Kober Botley" 4
+-86.51 9.42 343.15

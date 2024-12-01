@@ -1,0 +1,39 @@
+Skortch Beneath The Surface
+Custom
+HailActorGetQuest -Actor "Skortch"
+288.54 283.12 -734.93
+Custom
+FlyUp 5
+287.14 356.30 -730.72
+247.04 344.45 -673.67
+197.03 326.18 -604.11
+138.38 301.38 -507.26
+Custom
+FlyDown
+138.43 216.27 -507.33
+Custom
+Path -PL 5 -L -QA "-QD|100|-A|a Blackhook zealot|-T|QSC:zealot|-E|K" -QA "-QD|100|-A|frenzied ulteran spikewolf|-T|QSC:spikewolf|-E|K" -CT "QSC:I saved"
+122.93 216.09 -514.74
+157.31 214.89 -518.66
+178.60 183.33 -489.15
+157.12 183.17 -513.00
+153.91 183.17 -512.81
+Custom
+HailActor Eleana Stormalong
+149.90 183.20 -529.69
+Custom
+FlyUp 5
+150.22 255.53 -529.43
+185.33 309.36 -565.22
+232.64 334.99 -615.25
+305.95 332.01 -700.78
+Custom
+FlyDown
+286.39 282.76 -724.87
+Custom
+HailActor "Eleana Stormalong" 
+287.01 282.91 -728.17
+286.86 283.12 -734.05
+Custom
+HailActor "Skortch" 3
+286.86 283.12 -734.05
