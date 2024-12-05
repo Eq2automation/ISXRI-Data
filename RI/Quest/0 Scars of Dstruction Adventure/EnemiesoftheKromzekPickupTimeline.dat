@@ -1,0 +1,139 @@
+Enemies of the Kromzek Pickup Timeline
+Custom
+CheckAndSet -InZone "Western Wastes" 7
+0 0 0
+Custom
+CheckAndSet -NotInZone "Western Wastes" 13
+0 0 0
+Custom
+FastTravel Sodden dock
+0 0 0
+Custom
+WaitForZoning
+0 0 0
+Custom
+FastTravel Western
+0 0 0
+Custom
+WaitForZoning
+0 0 0
+113.14 7.44 657.04
+Custom
+FlyUp 5
+114.07 60.41 633.66
+66.76 91.71 617.46
+43.16 129.95 666.20
+-20.30 156.55 667.84
+Custom
+FlyDown
+-28.42 151.63 668.62
+Custom
+ClickActor TF-18587
+-27.02 151.06 668.70
+Custom
+MakeActiveQuest "Enemies of the Kromzek: The Gorewing Terror"
+-27.02 151.06 668.70
+Custom
+FlyUp 5
+-27.02 221.24 668.70
+-168.03 204.33 675.58
+-331.65 185.29 669.00
+Custom
+FlyDown
+-331.52 84.24 669.01
+Custom
+ClickActor TF-18587
+-331.52 84.24 669.01
+Custom
+MakeActiveQuest "Enemies of the Kromzek: The Ulthork"
+-331.52 84.24 669.01
+Custom
+FlyUp 5
+-331.52 123.75 669.01
+-372.61 135.18 522.15
+-380.97 147.10 376.18
+-373.40 157.49 249.03
+-349.72 168.90 111.74
+Custom
+FlyDown
+-377.52 126.36 115.52
+Custom
+ClickActor TF-18587
+-377.52 126.36 115.52
+Custom
+MakeActiveQuest "Enemies of the Kromzek: the Frosthowl Wardens"
+-377.52 126.36 115.52
+Custom
+FlyUp 5
+-377.52 196.33 115.52
+-400.19 203.00 75.54
+-428.90 247.30 18.04
+-466.22 266.72 -70.24
+-504.68 255.48 -161.22
+Custom
+FlyDown
+-501.40 229.19 -168.94
+Custom
+ClickActor TF-18587
+-501.40 229.19 -168.94
+Custom
+MakeActiveQuest "Enemies of the Kromzek: the Sirens"
+-501.40 229.19 -168.94
+Custom
+FlyUp 5
+-501.40 286.47 -168.94
+-484.62 277.77 -227.92
+-436.38 270.75 -393.12
+-378.96 250.52 -586.13
+-354.81 226.85 -720.32
+-396.89 216.27 -762.70
+Custom
+ClickActor TF-18587
+-383.22 100.33 -750.78
+Custom
+MakeActiveQuest "Enemies of the Kromzek: the Featherwing Guardians"
+-383.22 100.33 -750.78
+Custom
+FlyUp 5
+-383.22 178.78 -750.78
+-279.59 157.91 -804.91
+-68.08 148.62 -823.11
+Custom
+FlyDown
+-68.00 63.75 -823.11
+Custom
+ClickActor TF-18587
+-68.00 63.75 -823.11
+Custom
+MakeActiveQuest "Enemies of the Kromzek: the Briargrim Ravager"
+-68.00 63.75 -823.11
+Custom
+FlyUp 5
+-68.00 99.57 -823.11
+4.44 82.93 -831.98
+245.87 90.09 -872.59
+447.18 105.21 -869.62
+556.48 157.56 -805.37
+Custom
+FlyDown
+556.77 147.20 -805.19
+Custom
+ClickActor TF-18587
+556.77 147.20 -805.19
+Custom
+MakeActiveQuest "Enemies of the Kromzek: the Briargloom Menacer"
+556.77 147.20 -805.19
+Custom
+FlyUp 5
+556.77 179.43 -805.19
+503.29 179.43 -749.23
+389.57 175.11 -617.42
+303.51 169.77 -504.47
+228.76 164.45 -383.44
+191.13 162.23 -338.00
+Custom
+FlyDown
+191.91 106.72 -338.06
+Custom
+MakeActiveQuest "Enemies of the Kromzek: the Ice-Formed Terror"
+191.91 106.72 -338.06

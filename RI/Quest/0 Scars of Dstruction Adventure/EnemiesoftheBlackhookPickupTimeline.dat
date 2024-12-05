@@ -1,0 +1,117 @@
+Enemies of the Blackhook Pickup Timeline
+Custom
+FlyUp 5
+-130.61 34.15 395.40
+-133.52 94.61 333.81
+-154.47 144.79 291.47
+-180.19 174.60 289.21
+-191.77 190.48 275.14
+Custom
+ClickActor TF-2998
+-191.56 178.18 275.10
+Custom
+MakeActiveQuest "Enemies of the Blackhook: the Mandoko"
+-191.56 178.18 275.10
+Custom
+FlyUp 2
+-191.56 199.37 275.10
+-213.24 190.13 311.94
+-287.50 182.32 429.67
+-416.09 171.71 632.43
+-438.40 165.34 771.25
+-394.89 160.85 862.85
+Custom
+FlyDown
+-391.36 134.62 858.54
+Custom
+ClickActor TF-2998
+-391.36 134.62 858.54
+Custom
+MakeActiveQuest "Enemies of the Blackhook: the Betrayed Guardians"
+-391.36 134.62 858.54
+Custom
+FlyUp 1
+-391.36 151.83 858.54
+-308.97 167.04 805.65
+-150.65 175.88 714.65
+196.17 196.97 473.06
+490.56 231.65 315.52
+647.41 246.97 272.46
+Custom
+FlyDown
+648.98 165.42 267.84
+Custom
+ClickActor TF-2998
+648.98 165.42 267.84
+Custom
+MakeActiveQuest "Enemies of the Blackhook: the Botanic Devourer"
+648.98 165.42 267.84
+Custom
+FlyUp 5
+648.98 233.67 267.84
+342.53 274.54 -110.52
+34.08 299.64 -277.51
+Custom
+FlyDown
+38.24 261.91 -298.87
+Custom
+ClickActor TF-2998
+38.24 261.91 -298.87
+Custom
+MakeActiveQuest "Enemies of the Blackhook: the Sandcrawler"
+38.24 261.91 -298.87
+Custom
+FlyUp 1
+35.67 324.93 -287.90
+123.00 311.43 -287.02
+609.14 310.79 -125.22
+Custom
+ClickActor TF-2998
+596.51 223.55 -124.72
+Custom
+MakeActiveQuest "Enemies of the Blackhook: the Outland Sandstalker"
+596.51 223.55 -124.72
+Custom
+FlyUp 2
+596.51 248.28 -124.72
+541.88 269.00 -161.22
+186.48 332.41 -457.18
+-122.58 342.53 -724.18
+-237.50 278.11 -842.00
+Custom
+FlyDown
+-272.11 161.36 -846.14
+Custom
+ClickActor TF-2998
+-272.11 161.36 -846.14
+Custom
+MakeActiveQuest "Enemies of the Blackhook: the Octo-Wanderers"
+-272.11 161.36 -846.14
+Custom
+FlyUp 1
+-272.11 219.35 -846.14
+-534.68 243.05 -615.51
+-638.84 253.79 -634.83
+Custom
+FlyDown
+-634.21 191.76 -642.72
+Custom
+ClickActor TF-2998
+-634.21 191.76 -642.72
+Custom
+MakeActiveQuest "Enemies of the Blackhook: the Kappa"
+-634.21 191.76 -642.72
+Custom
+FlyUp 1
+-692.43 263.47 -435.24
+-781.13 268.24 -328.63
+-798.53 303.49 -284.26
+Custom
+FlyDown
+-800.84 274.88 -281.13
+Custom
+ClickActor TF-2998
+-800.84 274.88 -281.13
+Custom
+MakeActiveQuest "Enemies of the Blackhook: the Forsaken Prowlers"
+-800.84 274.88 -281.13
