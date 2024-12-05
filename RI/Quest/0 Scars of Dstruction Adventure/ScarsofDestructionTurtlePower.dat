@@ -46,7 +46,7 @@ HailActor "Osh" 9
 -1577.25 -537.18 -2399.53
 -1561.04 -538.63 -2384.52
 Custom
-Path -PL 29 -L -R -QA "-QD|100|-A|an undead ulthork|-T|QSC:ulthork|-E|K" -QA "-QD|100|-A|a risen gnoll|-T|QSC:gnoll|-E|K" -CT "QSC:I destroyed the undead"
+Path -PL 34 -L -R -QA "-QD|100|-A|an undead ulthork|-T|QSC:ulthork|-E|K" -QA "-QD|100|-A|a risen gnoll|-T|QSC:gnoll|-E|K" -CT "QSC:I destroyed the undead attackers"
 -1561.04 -538.63 -2384.52
 -1545.87 -536.63 -2357.45
 -1539.51 -537.11 -2339.40
@@ -77,9 +77,6 @@ Path -PL 29 -L -R -QA "-QD|100|-A|an undead ulthork|-T|QSC:ulthork|-E|K" -QA "-Q
 -1495.65 -522.66 -2304.41
 -1529.75 -526.29 -2289.28
 -1484.68 -515.43 -2262.92
--1402.17 -509.59 -2257.64
-Custom
-HailActor "Raelinn Darkmoore" 
 -1402.17 -509.59 -2257.64
 -1408.79 -510.07 -2261.93
 -1468.29 -517.23 -2292.38

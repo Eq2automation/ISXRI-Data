@@ -14,9 +14,9 @@ HailActorGetQuest -Actor "Gragir Sharpe"
 74.27 7.23 390.19
 95.30 7.19 392.40
 136.59 6.03 411.06
-169.76 6.44 455.48
 Custom
-Path -PL 40 -L -QA "-A|Port Woe Goods|-T|QSC:crates|-E|H" -QA "-A|kappa|-T|QSC:Kappa|-E|K" -CT "QSC:I recovered"
+Path -PL 40 -L -QA "-A|Port Woe Goods|-T|QSC:crates|-E|H" -QA "-A|TF-2294|-T|QSC:crates|-E|H" -QA "-A|kappa|-T|QSC:Kappa|-E|K" -CT "QSC:I recovered"
+169.76 6.44 455.48
 191.15 4.51 456.88
 195.58 4.49 458.02
 218.24 4.49 469.79
@@ -56,7 +56,7 @@ Path -PL 40 -L -QA "-A|Port Woe Goods|-T|QSC:crates|-E|H" -QA "-A|kappa|-T|QSC:K
 246.69 4.25 607.33
 233.23 4.22 574.73
 205.63 4.71 540.81
-171.30 5.05 520.28
+170.56 5.07 501.29
 156.80 4.87 505.71
 138.03 4.05 499.70
 Custom
