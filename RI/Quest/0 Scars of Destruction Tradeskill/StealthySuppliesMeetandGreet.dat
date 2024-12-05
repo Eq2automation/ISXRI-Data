@@ -1,5 +1,11 @@
 Stealthy Supplies: Meet and Greet
 Custom
+MakeActiveQuest "Stealthy Supplies: Meet and Greet"
+0 0 0
+Custom
+CheckQuestStep "Ameela has approved of the" 120
+0 0 0
+Custom
 HailActorGetQuest -Actor "Ameela Ziad"
 31.15 6.27 355.54
 29.28 6.27 358.44
@@ -113,14 +119,16 @@ HailActor "Ameela Ziad" 4
 -77.18 6.44 344.30
 -88.82 9.37 342.76
 Custom
-CheckCompletedQuest "Meet and Greet: Lost and Found" 120
+CheckCompletedQuest "Meet and Greet: Lost and Found" 126
 0 0 0
 Custom
-Quest "Port Woe 20k Faction Timeline"
+Quest "Meet and Greet: Lost and Found"
 0 0 0
 Custom
 MessageBox "check Port Woe faction is 20k"
 0 0 0
+14.56 5.75 364.24
+-33.89 6.69 348.36
 Custom
 HailActor "Wilfric" 4
 -88.82 9.37 342.76

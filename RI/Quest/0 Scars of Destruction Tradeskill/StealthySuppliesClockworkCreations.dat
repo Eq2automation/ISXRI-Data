@@ -6,7 +6,7 @@ HailActorGetQuest -Actor "Mesmer Gearloose"
 81.78 7.97 668.83
 59.76 7.32 713.66
 Custom
-Path -PL 6 -L -QA "-QD|200|-A|Kelp Bubble|-T|QSC:3/3|-E|H" -CT "QSC:I have collected the bubbles"
+Path -PL 6 -L -QA "-QD|200|-A|Kelp Bubble|-T|QSC:bubbles|-E|H" -CT "QSC:I have collected the bubbles"
 60.29 7.29 714.12
 54.38 8.27 712.93
 59.76 7.32 713.66
@@ -24,7 +24,7 @@ CraftIt "Phantasmagnetic Core" 3
 139.03 13.38 575.32
 141.13 16.33 560.92
 Custom
-Path -PL 9 -L -QA "-QD|200|-A|Sharp Bones|-T|QSC:3/3|-E|H" -CT "QSC:I have collected bones" 
+Path -PL 9 -L -QA "-QD|200|-A|Sharp Bones|-T|QSC:bones|-E|H" -CT "QSC:I have collected bones" 
 141.13 16.33 560.92
 170.10 14.76 553.47
 191.05 7.62 588.22

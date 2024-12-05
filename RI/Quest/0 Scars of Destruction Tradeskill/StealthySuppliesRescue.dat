@@ -1,12 +1,8 @@
 Stealthy Supplies: Rescue
 Custom
-CheckQuestStep "Ameela says that I have been chosen for a special mission" 112
+CheckQuestStep "Ameela says that I have been chosen for a special mission" 111
 0 0 0
-Custom
-Path -PL 3 -CPSP
--76.27 6.45 345.01
--43.36 6.66 348.83
-5.73 5.68 364.70
+14.46 5.75 364.26
 29.42 6.27 357.48
 Custom
 HailActorGetQuest -Actor "Ameela Ziad"
@@ -28,6 +24,7 @@ Wait
 Wait
 20
 29.42 6.27 357.48
+12.50 5.65 364.72
 8.33 5.68 363.40
 0.91 5.68 400.70
 42.61 7.42 401.85
@@ -74,6 +71,8 @@ Wait
 -2.60 194.42 -441.43
 -13.44 201.31 -457.01
 -30.03 200.95 -471.87
+Custom
+ExecuteCommand "RI_Harvest"
 -69.43 196.34 -487.68
 Custom
 ClickActor "Potential Diversion"
@@ -88,7 +87,7 @@ HarvestNode "Potential Diversion" gather
 -12.36 201.04 -468.22
 -8.48 200.63 -472.88
 -7.50 201.07 -463.77
--8.84 201.21 -459.66
+-9.92 201.07 -463.39
 2.00 202.82 -470.27
 5.02 203.49 -470.81
 -22.34 201.10 -471.51
@@ -98,10 +97,10 @@ HarvestNode "Potential Diversion" gather
 -68.49 202.66 -535.57
 -50.67 204.67 -554.86
 Custom
-CheckQuestStep "The sounds of the manacles dragging" 105
+CheckQuestStep "The sounds of the manacles dragging" 104
 -50.67 204.67 -554.86
 Custom
-MessageBox "go free prisoners"
+MessageBox "go free the prisoners"
 -50.67 204.67 -554.86
 Custom
 ExecuteCommand "Me.Effect[detrimental,561]:Cancel"
@@ -111,7 +110,7 @@ MessageBox "Cancel to go back to body and hit resume"
 0 0 0
 28.82 6.27 357.74
 Custom
-HailActor "Ameela Ziad" 0
+HailActor "Ameela Ziad" 8
 28.82 6.27 357.74
 22.93 5.72 353.74
 Custom
@@ -121,5 +120,5 @@ Custom
 CraftIt "Arcane Tuning Fork" 1
 22.78 5.72 353.72
 Custom
-HailActor "Ameela Ziad" 3
+HailActor "Ameela Ziad" 4
 28.82 6.27 357.74
