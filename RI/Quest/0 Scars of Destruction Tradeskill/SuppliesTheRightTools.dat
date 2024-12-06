@@ -11,7 +11,7 @@ FlyUp 1
 99.99 33.19 725.55
 98.91 30.22 688.83
 Custom
-Path -PL 123 -L -DFPWD -QA "-QD|200|-A|rough ore|-T|QSC:Ore|-E|H" -QA "-QD|200|-A|animal den|-T|QSC:Pelt|-E|H" -QA "-QD|200|-A|fallen branch|-T|QSC:Wood|-E|H"-CT "QSC:I have harvested the resources"
+Path -PL 123 -L -DFPWD -QA "-QD|200|-A|rough ore|-T|QSC:Ore|-E|H" -QA "-QD|200|-A|animal den|-T|QSC:Pelt|-E|H" -QA "-QD|200|-A|fallen branch|-T|QSC:Wood|-E|H" -CT "QSC:I have harvested the resources"
 66.97 86.30 688.97
 65.98 94.23 727.72
 56.61 98.27 745.18

@@ -6,7 +6,7 @@ Custom
 HailActorGetQuest -Actor "Grimar"
 -28.51 5.42 368.94
 Custom
-Path -PL 90 -L -DFPWD -QA "-QD|200|-A|sturdy shrub|-T|QSC:Crowberry|-E|H"-CT "QSC:I have brought back the shrub harvests"
+Path -PL 90 -L -DFPWD -QA "-QD|200|-A|sturdy shrub|-T|QSC:Crowberry|-E|H" -CT "QSC:I have brought back the shrub harvests"
 -3.89 5.68 399.52
 38.09 7.30 402.93
 77.02 7.22 389.30

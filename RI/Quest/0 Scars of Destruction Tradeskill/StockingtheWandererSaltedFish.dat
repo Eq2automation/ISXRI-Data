@@ -10,7 +10,7 @@ HailActorGetQuest -Actor "Garron"
 -112.79 3.49 446.28
 -108.27 3.48 473.24
 Custom
-Path -PL 30 -L -DFPWD -QA "-QD|200|-A|rock salt|-T|QSC:salt|-E|H" -QA "-QD|200|-A|shoal of fish|-T|QSC:fish|-E|H"-CT "QSC:I have collected the rock"
+Path -PL 30 -L -DFPWD -QA "-QD|200|-A|rock salt|-T|QSC:salt|-E|H" -QA "-QD|200|-A|shoal of fish|-T|QSC:fish|-E|H" -CT "QSC:I have collected the rock"
 -81.71 3.48 521.58
 -60.39 3.38 572.38
 -47.51 3.95 595.02
