@@ -1,0 +1,55 @@
+Monumental Task
+Custom
+HailActorGetQuest -Actor "Gwinres Boulderkind"
+66.61 8.98 605.96
+84.18 9.72 584.06
+144.06 8.70 591.65
+Custom
+FlyUp 5
+143.43 66.57 591.37
+83.76 81.56 522.30
+-10.55 105.61 388.23
+-83.20 122.79 280.97
+-176.33 118.65 129.29
+-56.57 105.43 -31.95
+168.16 88.84 25.03
+529.31 8.40 151.74
+Custom
+UseItem "Gwinres' Ensorcelled Stone"
+542.00 8.07 150.19
+Custom
+FlyUp 5
+542.00 78.91 150.19
+733.93 72.76 251.85
+825.07 69.25 252.42
+Custom
+FlyDown
+826.67 2.30 242.80
+Custom
+UseItem "Gwinres' Ensorcelled Stone"
+827.65 7.50 230.27
+Custom
+FlyUp 5
+827.65 112.43 230.27
+758.95 99.88 43.06
+605.40 62.96 -161.19
+Custom
+FlyDown
+605.40 6.46 -161.19
+Custom
+UseItem "Gwinres' Ensorcelled Stone"
+605.40 6.46 -161.19
+Custom
+FlyUp 5
+602.26 52.40 -137.97
+549.88 93.99 -73.24
+433.38 93.99 192.37
+366.68 89.77 338.48
+284.89 78.97 471.06
+211.49 49.50 540.93
+144.37 9.77 584.25
+88.12 8.97 591.26
+64.65 8.98 604.29
+Custom
+HailActor "Gwinres Boulderkind" 5
+64.65 8.98 604.29
