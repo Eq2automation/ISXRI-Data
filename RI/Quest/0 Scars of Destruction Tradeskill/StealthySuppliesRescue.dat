@@ -1,29 +1,27 @@
 Stealthy Supplies: Rescue
 Custom
-CheckQuestStep "Ameela says that I have been chosen for a special mission" 111
+CheckQuestStep "Ameela says that I have been chosen for a special mission" 112
 0 0 0
 14.46 5.75 364.26
-29.42 6.27 357.48
+28.82 6.27 357.74
 Custom
 HailActorGetQuest -Actor "Ameela Ziad"
-31.15 6.27 355.54
-29.28 6.27 358.44
-26.31 5.97 353.45
+28.82 6.27 357.74
 Custom
 UseItem "W.H.A.T. V1"
-26.31 5.97 353.45
+28.82 6.27 357.74
 Custom
 ClickActor "a magic harvester"
-26.31 5.97 353.45
+28.82 6.27 357.74
 Custom
 ApplyVerb "a magic harvester" possess
-26.31 5.97 353.45
+28.82 6.27 357.74
 Wait
 20
-29.42 6.27 357.48
+28.82 6.27 357.74
 Wait
 20
-29.42 6.27 357.48
+28.82 6.27 357.74
 12.50 5.65 364.72
 8.33 5.68 363.40
 0.91 5.68 400.70
@@ -88,6 +86,8 @@ HarvestNode "Potential Diversion" gather
 -8.48 200.63 -472.88
 -7.50 201.07 -463.77
 -9.92 201.07 -463.39
+-7.76 201.12 -463.00
+-6.74 201.32 -460.99
 2.00 202.82 -470.27
 5.02 203.49 -470.81
 -22.34 201.10 -471.51

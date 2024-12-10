@@ -22,7 +22,8 @@ CheckCompletedQuest "Stocking the Wanderer: Harvested Bounty" 25
 0 0 0
 Custom
 Quest "Port Woe 50k Faction TS Timeline"
-29.28 6.27 358.44
+0 0 0
+14.43 5.75 364.11
 Custom
 MessageBox "check Port Woe faction is 50k"
 29.28 6.27 358.44
@@ -33,6 +34,8 @@ Custom
 BuyFromVendor Kassa "Vital Supplies" 1
 26.31 5.97 353.45
 26.69 5.69 361.74
+18.39 5.71 358.92
+14.21 5.75 364.03
 -9.60 5.78 392.99
 -37.45 6.33 392.87
 -95.78 6.69 397.32

@@ -2,14 +2,13 @@ Supplies: Shooting the Breeze
 Repeatable
 Custom
 HailActorGetQuest "Ledat"
-75 7 659
-87.18 8.16 661.25
-81.65 7.72 665.48
+78.60 7.65 656.12
+78.60 7.65 656.12
+75.41 9.93 589.98
+132.92 8.40 590.99
 Custom
-FlyUp 1
-99.99 36.79 725.55
-99.99 33.19 725.55
-98.91 30.22 688.83
+FlyUp 5
+132.92 90.89 590.99
 Custom
 Path -PL 123 -L -DFPWD -QA "-QD|200|-A|fallen branch|-T|QSC:wood|-E|H" -QA "-QD|200|-A|sturdy roots|-T|QSC:root|-E|H" -QA "-QD|200|-A|rough ore|-T|QSC:ore|-E|H" -CT "QSC:I have harvested the needed resources"
 66.97 86.30 688.97

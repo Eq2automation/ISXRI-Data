@@ -11,7 +11,7 @@ HailActorGetQuest -Actor "Zolea"
 -49.20 6.78 393.84
 -27.08 5.71 392.97
 Custom
-Path -PL 48 -L -CPSP -QA "-QD|200|-A|Sodden|-E|H" -CT "QSC:I have collected enough Sodden"
+Path -PL 48 -L -CPSP -QA "-QD|200|-A|Reed|-E|H" -CT "QSC:gathered"
 4.74 6.28 400.26
 31.38 6.76 403.93
 55.14 8.17 395.49

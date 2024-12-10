@@ -6,7 +6,7 @@ HailActorGetQuest -Actor "Mesmer Gearloose"
 81.78 7.97 668.83
 59.76 7.32 713.66
 Custom
-Path -PL 6 -L -QA "-QD|200|-A|Kelp Bubble|-T|QSC:bubbles|-E|H" -CT "QSC:I have collected the bubbles"
+Path -PL 5 -L -QA "-QD|200|-A|Kelp Bubble|-T|QSC:bubbles|-E|H" -CT "QSC:I have collected the bubbles"
 60.29 7.29 714.12
 54.38 8.27 712.93
 59.76 7.32 713.66
@@ -65,49 +65,49 @@ CraftIt "Embellished Magitronic Gears" 3
 221.56 6.12 -324.32
 209.65 6.26 -357.38
 167.04 6.28 -399.34
-143.16 9.09 -421.51
-143.16 9.09 -421.51
+144.89 8.90 -420.24
+144.89 8.90 -420.24
 Custom
 HailActor "Nazeera" 3
-143.16 9.09 -421.51
+144.89 8.90 -420.24
 Custom
 MakeActiveQuest "Equitable Exchange: Scholar"
-143.16 9.09 -421.51
+144.89 8.90 -420.24
 Custom
 TimeStampEcho "Made quest active: Equitable Exchange: Scholar"
-143.16 9.09 -421.51
+144.89 8.90 -420.24
 Custom
 CheckAndSet -NotActiveQuest "Equitable Exchange: Scholar" 84
-143.16 9.09 -421.51
+144.89 8.90 -420.24
 Custom
 Quest "Equitable Exchange: Scholar"
-143.16 9.09 -421.51
+144.89 8.90 -420.24
 Custom
 MakeActiveQuest "Equitable Exchange: Craftsman"
-143.16 9.09 -421.51
+144.89 8.90 -420.24
 Custom
 TimeStampEcho "Made quest active: Equitable Exchange: Craftsman"
-143.16 9.09 -421.51
+144.89 8.90 -420.24
 Custom
 CheckAndSet -NotActiveQuest "Equitable Exchange: Craftsman" 96
-143.16 9.09 -421.51
+144.89 8.90 -420.24
 Custom
 Quest "Equitable Exchange: Craftsman"
-143.16 9.09 -421.51
+144.89 8.90 -420.24
 Custom
 MakeActiveQuest "Equitable Exchange: Outfitter"
-143.16 9.09 -421.51
+144.89 8.90 -420.24
 Custom
 TimeStampEcho "Made quest active: Equitable Exchange: Outfitter"
-143.16 9.09 -421.51
+144.89 8.90 -420.24
 Custom
 CheckAndSet -NotActiveQuest "Equitable Exchange: Outfitter" 108
-143.16 9.09 -421.51
+144.89 8.90 -420.24
 Custom
 Quest "Equitable Exchange: Outfitter"
-143.16 9.09 -421.51
+144.89 8.90 -420.24
 Custom
-TimeStampEcho "Ending Equitable Exchange"
+MessageBox "Make sure you have completed Nazeera's Quest"
 0 0 0
 Custom
 FastTravel Sodden

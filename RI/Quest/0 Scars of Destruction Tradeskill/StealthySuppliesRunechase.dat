@@ -27,7 +27,7 @@ Custom
 MessageBox "Click Kromzek and Resume."
 -534.11 66.60 590.54
 Custom
-Path -PL 59 -L -R -CPSP -YD 10 -DFPWD -QA "-A|Elemental Draconic Rune|-T|QSC:17/17|-E|H" -QA "-A|Rune Focusing Powder|-T|QSC:Powder|-E|H" -CT "QSC:I have located all"
+Path -PL 49 -L -R -CPSP -YD 10 -DFPWD -QA "-A|Elemental Draconic Rune|-T|QSC:17/17|-E|H" -QA "-A|Rune Focusing Powder|-T|QSC:Powder|-E|H" -CT "QSC:I found them all"
 -516.39 68.09 588.71
 -430.70 64.25 582.88
 -413.78 66.43 565.77
@@ -77,14 +77,13 @@ Path -PL 59 -L -R -CPSP -YD 10 -DFPWD -QA "-A|Elemental Draconic Rune|-T|QSC:17/
 104.98 55.29 53.22
 13.99 46.02 131.14
 25.00 46.46 152.05
--7.97 50.93 173.56
--22.87 51.16 182.58
+4.29 60.51 10.94
 Custom
 FastTravel Sodden
-0 0 0
+25.00 46.46 152.05
 Custom
 WaitForZoning
-0 0 0
+25.00 46.46 152.05
 Custom
 FastTravel Western
 0 0 0
@@ -113,7 +112,7 @@ Custom
 HarvestNode "Rune Focusing Powder" "Rune Focusing Powder" 1
 565.03 8.06 149.30
 Custom
-CheckQuestStep "It was quite the search" 127
+CheckQuestStep "It was quite the search" 120
 565.03 8.06 149.30
 Custom
 MessageBox "go find Rune Focusing Powder"

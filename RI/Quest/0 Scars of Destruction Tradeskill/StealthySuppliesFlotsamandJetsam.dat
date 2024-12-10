@@ -3,10 +3,10 @@ Custom
 MakeActiveQuest "Stealthy Supplies: Flotsam and Jetsam"
 0 0 0
 Custom
-CheckQuestStep "I have created the new version" 47
+CheckQuestStep "I have created the new version" 50
 0 0 0
 Custom
-CheckQuestStep "Something went wrong" 20
+CheckQuestStep "Something went wrong" 23
 0 0 0
 Custom
 HailActorGetQuest -Actor "Captain Raffik"
@@ -36,7 +36,7 @@ Custom
 HailActor "Mathom Smeltfury" 3
 78.06 7.69 663.93
 76.42 7.71 633.82
-85.94 8.88 591.28
+63.22 10.60 585.82
 103.06 9.93 573.36
 Custom
 ClickActor Rock Sample
@@ -54,11 +54,8 @@ CraftIt "W.H.A.T. V2" 1
 Custom
 ExecuteCommand "RI_Harvest"
 126.35 8.04 591.84
-Custom
-Path -PL 13 -CPSP -QA "-QD|200|-A|salvage|-T|QSC:debris|-E|H" -QA "-QD|200|-A|Ship Salvage|-T|QSC:debris|-E|H" -QA "-QD|200|-A|TF-3151|-T|QSC:debris|-E|H" -CT "QSC:debris"
-66.25 10.63 585.09
 126.23 8.45 589.17
-135.32 6.51 620.66
+131.45 7.02 610.98
 123.51 7.64 640.80
 224.75 7.02 673.77
 238.07 7.46 683.21
@@ -73,7 +70,7 @@ Path -PL 13 -CPSP -QA "-QD|200|-A|salvage|-T|QSC:debris|-E|H" -QA "-QD|200|-A|Sh
 148.91 7.63 604.21
 144.07 8.73 590.97
 105.16 9.62 583.02
-135.32 6.51 620.66
+126.35 8.04 591.84
 Custom
 HarvestNode "Ship Salvage" "Useful Flotsam" 6
 119.30 8.19 638.78
@@ -111,7 +108,7 @@ Custom
 HarvestNode "Ship Salvage" "Useful Flotsam" 6
 194.98 7.62 602.31
 Custom
-CheckQuestStep "While some of the supplies" 118
+CheckQuestStep "While some of the supplies" 115
 194.98 7.62 602.31
 Custom
 MessageBox "Make sure you salvaged enough ship salvage items"
