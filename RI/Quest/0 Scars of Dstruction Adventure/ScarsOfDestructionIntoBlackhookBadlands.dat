@@ -14,7 +14,7 @@ Custom
 Instance
 0 0 0
 Custom
-ZoneDoor "Exit Door" 0
+ClickActor "Exit"
 0 0 0
 125.44 136.62 85.91
 147.52 140.85 54.88

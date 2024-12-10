@@ -1,7 +1,7 @@
 Compound Problems
 Custom
 HailActorGetQuest -Actor "Gwinres Boulderkind"
-66.61 8.98 605.96
+64.43 8.98 604.66
 84.18 9.72 584.06
 144.06 8.70 591.65
 Custom
@@ -101,4 +101,4 @@ FlyUp 5
 64.06 8.98 604.35
 Custom
 HailActor "Gwinres Boulderkind" 1
-64.06 8.98 604.35
+64.43 8.98 604.66

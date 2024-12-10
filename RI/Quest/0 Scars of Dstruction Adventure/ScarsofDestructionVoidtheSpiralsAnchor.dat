@@ -17,7 +17,10 @@ Custom
 Instance
 0 0 0
 Custom
-ZoneDoor "Exit Door" 0
+ClickActor "zone_exit"
+-24.10 93.71 7.82
+Custom
+WaitForZoning
 0 0 0
 215.58 284.89 -787.43
 Custom

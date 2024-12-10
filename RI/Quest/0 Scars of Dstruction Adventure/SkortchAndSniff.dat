@@ -6,7 +6,7 @@ Custom
 FlyUp 5
 285.99 313.88 -730.33
 Custom
-Path -PL 40 -L -QA "-QD|200|-A|Putrid Shank|-T|QSC:Shank|-E|H" -QA "-QD|100|-A|blotguard|-T|QSC:armor|-E|K" -QA "-QD|100|-A|sludgeweaver|-T|QSC:fetish|-E|K" -CT "QSC:I have the religous fetishes"
+Path -PL 40 -L -QA "-QD|200|-A|Putrid Shank|-T|QSC:Shank|-E|H" -QA "-QD|100|-A|blotguard|-T|QSC:armor|-E|K" -QA "-QD|100|-A|sludgeweaver|-T|QSC:fetish|-E|K" -CT "QSC:I have the religous fetish"
 270.15 313.58 -715.06
 247.44 313.17 -695.67
 206.59 312.57 -681.19

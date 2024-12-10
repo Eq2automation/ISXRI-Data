@@ -45,18 +45,21 @@ Custom
 FlyUp 5
 25.35 260.66 -531.33
 Custom
-Path -PL 3 -L -QA "-QD|100|-A|Mix Pit Sand|-T|QSC:sand|-E|H" -QA "-QD|100|-A|vultures|-T|QSC:vultures|-E|k" -QA "-QD|100|-A|goblin|-T|QSC:goo|-E|K" -CT "QSC:sand"
+Path -PL 3 -QA "-QD|100|-A|Mix Pit Sand|-T|QSC:sand|-E|H" -QA "-QD|100|-A|vultures|-T|QSC:vultures|-E|k" -QA "-QD|100|-A|goblin|-T|QSC:goo|-E|K" -CT "QSC:sand"
 -14.79 258.12 -540.27
 -47.36 254.27 -572.93
+-56.83 188.78 -629.15
 -57.15 249.28 -630.87
 -58.22 248.57 -639.44
 Custom
 FlyDown
 -58.22 188.52 -639.44
 -47.89 188.35 -650.93
--61.07 188.74 -633.61
 Custom
-ClickActor Scattered Bones
+ClickActor "Mix Pit Sand"
+-58.06 188.52 -639.11
+Custom
+ClickActor "Scattered Bones"
 -58.42 188.73 -640.50
 Custom
 FlyUp 5

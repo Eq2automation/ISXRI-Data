@@ -46,8 +46,11 @@ Path -PL 12 -L -QA "-A|a wounded local|-T|QSC:stone|-E|UseItem-Spiritshine's Hea
 Custom
 HailActor "Adris Spiritshine"
 -64.73 6.78 396.97
+-70.76 6.69 391.79
+-74.67 6.47 346.38
+-85.24 9.35 343.25
 Custom
-CheckCompletedQuest "Fighting the Biters Back" 54
+CheckCompletedQuest "Fighting the Biters Back" 57
 0 0 0
 Custom
 Quest "Fighting the Biters Back"
@@ -55,16 +58,13 @@ Quest "Fighting the Biters Back"
 Custom
 TimeStampEcho "Completed Fighting the Biters Back"
 0 0 0
--79.04 7.46 343.46
--89.10 9.37 342.98
 Custom
 HailActor "Kober Botley" 5
 -89.10 9.37 342.98
--76.56 6.42 343.43
--74.24 6.67 358.97
--70.17 6.69 394.10
--62.73 6.69 398.04
--64.73 6.78 396.97
+-85.24 9.35 343.25
+-73.53 6.44 344.66
+-76.28 6.84 359.45
+-71.51 6.72 391.73
 Custom
 HailActor "Adris Spiritshine" 3
 -64.73 6.78 396.97
@@ -87,15 +87,17 @@ Custom
 Quest "Walking on Broken Glass"
 0 0 0
 Custom
-CheckCompletedQuest "Case of the Pinched Pickling" 97
+CheckCompletedQuest "Case of the Pinched Pickling" 95
 0 0 0
 Custom
 Quest "Case of the Pinched Pickling"
 0 0 0
--79.04 7.46 343.46
+14.61 5.75 363.87
+19.11 5.71 358.01
 Custom
 HailActor "Tristyl Ashwood" 3
--62.73 6.69 398.04
+19.11 5.71 358.01
+14.61 5.75 363.87
 Custom
 Quest "Slimy and Satisfying"
 0 0 0
@@ -106,7 +108,7 @@ Custom
 Quest "Border Totem Task"
 0 0 0
 Custom
-CheckQuestStep "Adris Spiritshine has continued to see signs" 113
+CheckQuestStep "Adris Spiritshine has continued to see signs" 123
 0 0 0
 Custom
 Quest "Keeping the Borderline"
@@ -114,15 +116,16 @@ Quest "Keeping the Borderline"
 Custom
 TimeStampEcho "Keeping the Borderline Quest Completed"
 0 0 0
--75.08 6.87 391.43
--76.26 6.43 343.49
--79.04 7.46 343.46
--89.10 9.37 342.98
+-76.56 6.42 343.43
+-74.24 6.67 358.97
+-70.17 6.69 394.10
+-62.73 6.69 398.04
+-64.73 6.78 396.97
 Custom
 HailActor "Adris Spiritshine" 5
 -64.73 6.78 396.97
 Custom
-Path -PL 17 -CPSP -L -QA "-QD|200|-A|Pickle Jar|-T|QSC:Pickle|-E|H" -CT "QSC:pickle jars in port woe"
+Path -PL 16 -CPSP -L -QA "-QD|200|-A|Pickle Jar|-T|QSC:Pickle|-E|H" -CT "QSC:pickle jars in port woe"
 -59.10 6.69 395.99
 -35.57 6.18 392.89
 -36.12 5.40 408.50
@@ -141,10 +144,7 @@ Path -PL 17 -CPSP -L -QA "-QD|200|-A|Pickle Jar|-T|QSC:Pickle|-E|H" -CT "QSC:pic
 -56.94 9.33 380.50
 -53.34 6.69 397.16
 -76.32 6.69 395.08
-Custom
-Path
--53.50 6.55 344.73
--62.19 6.69 396.90
+-28.75 5.76 383.76
 -39.31 6.56 393.61
 Custom
 Path -PL 29 -CPSP -DFPWD -QA "-QD|200|-A|Pickle Jar Location|-T|QSC:Hopefully the plethora|-E|H"

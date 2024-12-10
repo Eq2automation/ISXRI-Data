@@ -16,7 +16,7 @@ HailActorGetQuest -Actor "Kober Botley"
 78.23 7.23 387.78
 94.30 7.19 393.18
 Custom
-Path -PL 45 -L -YD 10 -QA "-A|a sanguine drainer|-T|QSC:sanguine|-E|K" -QA "-A|a wetland lacerator|-T|QSC:lacerator|-E|K" -CT "QSC:I "
+Path -PL 45 -L -YD 10 -QA "-A|a sanguine drainer|-T|QSC:sanguine|-E|K" -QA "-A|a wetland lacerator|-T|QSC:lacerator|-E|K" -CT "QSC:The numbers of"
 99.47 6.69 394.77
 81.54 6.05 452.50
 67.14 5.19 474.95
