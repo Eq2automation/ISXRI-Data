@@ -1,0 +1,83 @@
+-19.36 128.47 84.72
+-44.97 126.62 74.70
+-85.24 127.19 85.21
+-107.30 124.18 59.47
+-155.95 124.09 17.66
+-169.39 119.38 -27.62
+-174.06 120.51 -43.36
+Named
+Ket
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named
+-174.06 120.51 -43.36
+-230.78 121.41 24.49
+-249.75 125.08 50.72
+-231.69 123.55 98.15
+Named
+Adolara
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named
+-231.69 123.55 98.15
+-235.71 121.49 134.98
+-264.97 124.34 152.03
+Custom
+ClickActor "telelport crystal"
+-264.97 124.34 152.03
+Custom
+Wait 50
+-534.96 4.74 532.50
+-537.29 19.49 630.40
+-524.46 21.15 632.65 
+Named
+Kelingar
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named
+-524.46 21.15 632.65
+-495.82 25.34 640.63
+-448.12 35.53 702.86
+-454.62 37.38 746.22
+-544.34 42.20 768.52
+-557.09 43.39 773.45
+Named
+Grundleer
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named 
+-557.09 43.39 773.45
+StopForCombat
+-596.28 44.24 775.93
+-599.47 44.36 759.68
+Custom
+ClickActor "telelport crystal"
+-599.47 44.36 759.68
+Custom
+Wait 50
+-576.05 98.12 776.10
+-613.73 98.12 776.12
+Custom
+ClickActor "telelport crystal"
+-613.73 98.12 776.12
+Custom
+Wait 50
+-595.76 177.88 800.04
+-596.84 177.96 777.42
+Named
+Yevrah
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named
+-596.84 177.96 777.42
+-595.00 177.88 758.10
