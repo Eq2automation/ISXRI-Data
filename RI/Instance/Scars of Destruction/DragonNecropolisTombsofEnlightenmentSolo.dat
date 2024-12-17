@@ -22,120 +22,130 @@ StandardNamed
 SameLock
 KillAdd
 MoveBehind
-Named
--246.61 116.55 -304.39
--296.99 125.48 -339.47
--340.71 133.21 -344.66
+Named   
+-230.03 114.27 -289.46
+Custom
+Path -PL 2 -QA "-QD|200|-A|Vrakorr Sigil|-T|QSC:sigil|-E|H" -QA "-QD|200|-A|stave|-T|QSC:staves|-E|H" -QA "-QD|200|-A|a guardian|-T|QSC:collars|-E|K" -CT "QSC:I have the"
+-289.11 124.01 -337.13
+-330.58 132.22 -347.02
+-364.19 133.57 -334.87
+Custom
+CheckQuestStep "Following the homing" 37
+-330.58 132.22 -347.02
+-330.58 132.22 -347.02
+-360.38 133.41 -348.17
 Named
 Urasi
 StandardNamed
 SameLock
 KillAdd
 MoveBehind
-Named
--340.71 133.21 -344.66
+Named   
+-360.38 133.41 -348.17
 -361.63 133.41 -347.06
 -364.49 133.41 -336.62
 Custom
 HailActor "Jazirah Leganyn" 5
 -364.49 133.41 -336.62
 Custom
-Path -PL 6 -CPSP -QA "-QD|200|-A|Vrakorr Sigil|-T|QSC:sigil|-E|H" -QA "-QD|200|-A|stave|-T|QSC:staves|-E|H" -QA "-QD|200|-A|a guardian|-T|QSC:collars|-E|K" -CT "QSC:I "
--400.07 133.40 -344.53
--419.50 132.51 -388.59
--426.84 132.51 -447.64
--490.80 132.51 -457.28
--514.04 133.10 -437.36
--524.59 132.51 -399.43
--531.42 135.75 -377.18
+Path -PL 6 -CPSP -QA "-QD|200|-A|Vrakorr Sigil|-T|QSC:sigil|-E|H" -QA "-QD|200|-A|stave|-T|QSC:staves|-E|H" -QA "-QD|200|-A|a guardian|-T|QSC:collars|-E|K" -CT "QSC:I have the"
+-411.12 133.41 -347.94
+-507.03 132.51 -345.84
+-498.73 133.00 -347.58
+-518.93 132.51 -313.44
+-530.09 134.23 -307.26
+-534.98 135.04 -309.30
+-541.50 136.31 -324.61 
 Named
 Beresk
 StandardNamed
 SameLock
 KillAdd
 MoveBehind
-Named
--540.89 136.31 -350.90
+Named  
+-520.12 136.56 -341.04
 -514.47 136.40 -346.39
 -505.25 132.51 -348.50
 -508.30 132.51 -342.25
 Custom
 HailActor "Jazirah Leganyn" 2
 -508.30 132.51 -342.25
-Custom
-Path -PL 11 -CPSP -QA "-QD|200|-A|Vrakorr Sigil|-T|QSC:sigil|-E|H" -QA "-QD|200|-A|stave|-T|QSC:staves|-E|H" -QA "-QD|200|-A|a guardian|-T|QSC:collars|-E|K" -CT "QSC:I "
--521.67 132.51 -290.44
--547.81 134.62 -256.66
--493.93 132.51 -240.24
--424.96 132.51 -245.94
--409.68 132.89 -262.78
--409.16 132.51 -292.42
--400.90 132.73 -311.30
--364.72 133.52 -345.48
--371.56 133.53 -347.68
--269.05 119.87 -321.57
--398.72 132.73 -299.27
--389.70 122.44 -320.92
--386.83 122.41 -334.73
+-396.85 132.82 -299.24
+Wait
+20
+-396.85 132.82 -299.24
+-391.78 125.27 -311.32
+Wait
+-387.13 121.05 -333.38
+20
+-387.13 121.05 -333.38
 Custom
 ClickActor portal_to_azure
--386.61 120.64 -332.69
-Custom
-Path -PL 4 -CPSP -QA "-QD|200|-A|Vrakorr Sigil|-T|QSC:sigil|-E|H" -QA "-QD|200|-A|stave|-T|QSC:staves|-E|H" -QA "-QD|200|-A|a guardian|-T|QSC:collars|-E|K" -CT "QSC:I "
+-387.13 121.05 -333.38
+Wait
+20
+-230.85 89.06 42.66
 -230.85 89.06 42.66
 -253.59 99.12 55.45
 -262.22 99.54 45.41
 -297.23 107.58 26.15
--328.58 113.45 0.01
 Custom
 HailActor "Jazirah Leganyn" 
 -328.58 113.45 0.01
+-347.82 117.32 42.84
+Custom
+MessageBox "Enable HOs for this fight"
+-357.26 117.98 39.19
 Named
 Seket
 StandardNamed
 SameLock
 KillAdd
+"Seket's Sight"
 MoveBehind
-Named
--347.21 115.90 1.49
-Custom
-HailActor "Seket's Sight" 
--347.21 115.90 1.49
+Named   
+-353.22 117.73 17.19
 Custom
 ClickActor boss_04_dragon_claw
--351.21 118.43 12.85
+-353.57 117.72 14.38
 Custom
-Path -PL 9 -DFPWD -CPSP -QA "-QD|200|-A|Vrakorr Sigil|-T|QSC:sigil|-E|H" -QA "-QD|200|-A|stave|-T|QSC:staves|-E|H" -QA "-QD|200|-A|a guardian|-T|QSC:collars|-E|K" -CT "QSC:I "
--377.89 122.82 -45.09
--433.81 131.70 -39.85
--478.11 135.61 3.56
--510.41 137.06 34.47
--635.71 143.78 57.94
--646.57 146.82 19.24
--650.66 162.25 -28.85
--691.21 164.72 -41.67
--763.46 169.86 -13.82
--780.38 174.20 24.31
+Path -PL 8 -CPSP -QA "-QD|200|-A|Vrakorr Sigil|-T|QSC:sigil|-E|H" -QA "-QD|200|-A|stave|-T|QSC:staves|-E|H" -QA "-QD|200|-A|a guardian|-T|QSC:collars|-E|K" -CT "QSC:I "
+-353.57 117.72 14.38
+-338.88 114.92 -11.02
+-377.55 122.76 -44.06
+-457.10 134.14 -26.39
+-526.75 138.56 40.17
+-596.37 144.02 64.81
+-645.30 143.78 32.38
+-653.25 150.69 3.52
+-638.98 160.11 -31.89
+-663.18 164.86 -42.89
+-687.98 164.72 -45.93
+-734.87 164.72 -41.51
+-768.47 170.00 -18.39
+-782.70 174.16 4.80
+-780.79 174.20 70.40
+-752.73 174.20 107.29
 Named
 Rakirith
 StandardNamed
 SameLock
 KillAdd
 MoveBehind
-Named
--762.67 174.20 90.88
+Named   
+-752.73 174.20 107.29
 -770.61 174.20 75.60
 -769.37 174.20 83.40
 Custom
 MakeActiveQuest "Seeking Enlightenment"
 -769.37 174.20 83.40
 Custom
-CheckAndSet -NotActiveQuest "Seeking Enlightenment" 141
+CheckAndSet -NotActiveQuest "Seeking Enlightenment" 151
 -769.37 174.20 83.40
 Custom
-CheckQuestStep "I found the" 141
+CheckQuestStep "I found the" 151
 -769.37 174.20 83.40
 Custom
-MessageBox "still need to finish Seeking Enlightenment quest steps"
+MessageBox "Go finish Seeking Enlightenment quest steps for Vrakorr Sigil"
 -769.37 174.20 83.40
 -792.19 174.42 61.26

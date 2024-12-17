@@ -3,10 +3,10 @@ Custom
 MakeActiveQuest "Scars of Destruction: Complications"
 0 0 0
 Custom
-CheckQuestStep "Mesmer has promised me the " 83
+CheckQuestStep "Mesmer has promised me" 88
 0 0 0
 Custom
-CheckQuestStep "I found the dragonsteel slag and" 63
+CheckQuestStep "I found the dragonsteel slag and stones" 63
 0 0 0
 Custom
 HailActorGetQuest -Actor "Elna Tsernin"
@@ -27,7 +27,7 @@ FlyDown
 289.41 45.00 415.87
 302.82 54.48 397.85
 Custom
-Path -PL 30 -CPSP -QA "-QD|200|-A|Dragonsteel Slag|-T|QSC:stones|-E|H" -QA "-QD|200|-A|tidalfrost stalker|-T|QSC:stones|-E|K" -QA "-QD|200|-A|stalker|-T|QSC:slag|-E|K" -CT "QSC:I found the dragonsteel slag and all"
+Path -PL 30 -CPSP -QA "-QD|200|-A|Dragonsteel Slag|-T|QSC:slag|-E|H" -QA "-QD|200|-A|tidalfrost stalker|-T|QSC:stones|-E|K" -QA "-QD|200|-A|skeleton|-T|QSC:stones|-E|K" -QA "-QD|200|-A|stalker|-T|QSC:stones|-E|K" -CT "QSC:I found the dragonsteel slag and all"
 302.82 54.48 397.85
 302.82 82.23 397.85
 289.97 52.70 471.68

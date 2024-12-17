@@ -3,13 +3,13 @@ Repeatable
 Custom
 HailActorGetQuest "Ledat"
 75 7 659
-87.18 8.16 661.25
-81.65 7.72 665.48
+84.91 7.92 654.32
+117.75 8.19 640.08
 Custom
-FlyUp 1
-101.295601 12.994305 643.947144
-99.99 33.19 725.55
-98.91 30.22 688.83
+FlyUp 5
+117.75 86.16 640.08
+104.21 86.56 597.35
+73.28 86.96 565.45
 Custom
 Path -PL 123 -L -DFPWD -QA "-QD|200|-A|sturdy shrub|-T|QSC:Crowberries|-E|H" -QA "-QD|200|-A|sturdy shrub|-T|QSC:Lichen|-E|H" -QA "-QD|200|-A|animal den|-T|QSC:Meat|-E|H" -CT "QSC:I have harvested the needed resources"
 66.97 86.30 688.97

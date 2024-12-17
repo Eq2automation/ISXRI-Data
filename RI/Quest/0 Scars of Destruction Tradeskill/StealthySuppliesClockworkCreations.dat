@@ -4,15 +4,14 @@ HailActorGetQuest -Actor "Mesmer Gearloose"
 71.66 7.63 641.68
 82.48 7.63 646.11
 81.78 7.97 668.83
-59.76 7.32 713.66
+84.30 7.92 657.89
 Custom
-Path -PL 5 -L -QA "-QD|200|-A|Kelp Bubble|-T|QSC:bubbles|-E|H" -CT "QSC:I have collected the bubbles"
-60.29 7.29 714.12
-54.38 8.27 712.93
-59.76 7.32 713.66
-56.56 9.11 711.07
-56.11 8.91 706.61
-81.63 7.97 668.81
+Path -PL 4 -L -QA "-QD|200|-A|Kelp Bubble|-T|QSC:bubbles|-E|H" -CT "QSC:I have collected the bubbles"
+60.25 6.94 715.23
+53.18 8.19 710.42
+57.68 8.87 705.45
+55.20 8.45 709.02
+70.14 7.81 696.17
 63.94 10.65 587.16
 Custom
 ClickActor "Varig's Velium Forge" 
@@ -77,7 +76,7 @@ Custom
 TimeStampEcho "Made quest active: Equitable Exchange: Scholar"
 144.89 8.90 -420.24
 Custom
-CheckAndSet -NotActiveQuest "Equitable Exchange: Scholar" 84
+CheckAndSet -NotActiveQuest "Equitable Exchange: Scholar" 82
 144.89 8.90 -420.24
 Custom
 Quest "Equitable Exchange: Scholar"
@@ -89,7 +88,7 @@ Custom
 TimeStampEcho "Made quest active: Equitable Exchange: Craftsman"
 144.89 8.90 -420.24
 Custom
-CheckAndSet -NotActiveQuest "Equitable Exchange: Craftsman" 96
+CheckAndSet -NotActiveQuest "Equitable Exchange: Craftsman" 94
 144.89 8.90 -420.24
 Custom
 Quest "Equitable Exchange: Craftsman"
@@ -101,7 +100,7 @@ Custom
 TimeStampEcho "Made quest active: Equitable Exchange: Outfitter"
 144.89 8.90 -420.24
 Custom
-CheckAndSet -NotActiveQuest "Equitable Exchange: Outfitter" 108
+CheckAndSet -NotActiveQuest "Equitable Exchange: Outfitter" 106
 144.89 8.90 -420.24
 Custom
 Quest "Equitable Exchange: Outfitter"

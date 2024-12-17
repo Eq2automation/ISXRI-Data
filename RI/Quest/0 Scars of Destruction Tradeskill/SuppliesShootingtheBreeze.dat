@@ -3,9 +3,13 @@ Repeatable
 Custom
 HailActorGetQuest "Ledat"
 78.60 7.65 656.12
-78.60 7.65 656.12
-75.41 9.93 589.98
-132.92 8.40 590.99
+84.91 7.92 654.32
+117.75 8.19 640.08
+Custom
+FlyUp 5
+117.75 86.16 640.08
+104.21 86.56 597.35
+73.28 86.96 565.45
 Custom
 FlyUp 5
 132.92 90.89 590.99
@@ -154,5 +158,5 @@ Custom
 MoveToActor "Varig's Velium Forge" 
 64.92 10.64 586.77
 Custom
-CraftIt "Wastes Ammunition" 6
+CraftIt "Bundled Wastes Ammunition" 6
 0 0 0

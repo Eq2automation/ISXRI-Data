@@ -27,6 +27,9 @@ ZoneDoor zone_portal_to_dun_western_wastes_04 "Flooded Scar: Abyssal Attack [Sig
 Custom
 Instance
 0 0 0
+Custom
+ZoneDoor Exit
+-139.02 7.94 67.62
 333.40 8.05 108.55
 Custom
 FlyUp 5

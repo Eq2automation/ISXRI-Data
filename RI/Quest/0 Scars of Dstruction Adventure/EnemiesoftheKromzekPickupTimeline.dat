@@ -24,11 +24,16 @@ FlyUp 5
 66.76 91.71 617.46
 43.16 129.95 666.20
 -20.30 156.55 667.84
+Wait
+20
 Custom
 FlyDown
 -28.42 151.63 668.62
 Custom
 ClickActor TF-18587
+-27.02 151.06 668.70
+Custom
+ClickAllActors 5
 -27.02 151.06 668.70
 Custom
 MakeActiveQuest "Enemies of the Kromzek: The Gorewing Terror"
@@ -38,11 +43,16 @@ FlyUp 5
 -27.02 221.24 668.70
 -168.03 204.33 675.58
 -331.65 185.29 669.00
+Wait
+20
 Custom
 FlyDown
 -331.52 84.24 669.01
 Custom
 ClickActor TF-18587
+-331.52 84.24 669.01
+Custom
+ClickAllActors 5
 -331.52 84.24 669.01
 Custom
 MakeActiveQuest "Enemies of the Kromzek: The Ulthork"
@@ -54,11 +64,16 @@ FlyUp 5
 -380.97 147.10 376.18
 -373.40 157.49 249.03
 -349.72 168.90 111.74
+Wait
+20
 Custom
 FlyDown
 -377.52 126.36 115.52
 Custom
 ClickActor TF-18587
+-377.52 126.36 115.52
+Custom
+ClickAllActors 5
 -377.52 126.36 115.52
 Custom
 MakeActiveQuest "Enemies of the Kromzek: the Frosthowl Wardens"
@@ -70,11 +85,16 @@ FlyUp 5
 -428.90 247.30 18.04
 -466.22 266.72 -70.24
 -504.68 255.48 -161.22
+Wait
+20
 Custom
 FlyDown
 -501.40 229.19 -168.94
 Custom
 ClickActor TF-18587
+-501.40 229.19 -168.94
+Custom
+ClickAllActors 5
 -501.40 229.19 -168.94
 Custom
 MakeActiveQuest "Enemies of the Kromzek: the Sirens"
@@ -91,6 +111,9 @@ Custom
 ClickActor TF-18587
 -383.22 100.33 -750.78
 Custom
+ClickAllActors 5
+-383.22 100.33 -750.78
+Custom
 MakeActiveQuest "Enemies of the Kromzek: the Featherwing Guardians"
 -383.22 100.33 -750.78
 Custom
@@ -98,11 +121,16 @@ FlyUp 5
 -383.22 178.78 -750.78
 -279.59 157.91 -804.91
 -68.08 148.62 -823.11
+Wait
+20
 Custom
 FlyDown
 -68.00 63.75 -823.11
 Custom
 ClickActor TF-18587
+-68.00 63.75 -823.11
+Custom
+ClickAllActors 5
 -68.00 63.75 -823.11
 Custom
 MakeActiveQuest "Enemies of the Kromzek: the Briargrim Ravager"
@@ -114,11 +142,16 @@ FlyUp 5
 245.87 90.09 -872.59
 447.18 105.21 -869.62
 556.48 157.56 -805.37
+Wait
+20
 Custom
 FlyDown
 556.77 147.20 -805.19
 Custom
 ClickActor TF-18587
+556.77 147.20 -805.19
+Custom
+ClickAllActors 5
 556.77 147.20 -805.19
 Custom
 MakeActiveQuest "Enemies of the Kromzek: the Briargloom Menacer"
@@ -131,8 +164,16 @@ FlyUp 5
 303.51 169.77 -504.47
 228.76 164.45 -383.44
 191.13 162.23 -338.00
+Wait
+20
 Custom
 FlyDown
+191.91 106.72 -338.06
+Custom
+ClickActor TF-18587
+191.91 106.72 -338.06
+Custom
+ClickAllActors 5
 191.91 106.72 -338.06
 Custom
 MakeActiveQuest "Enemies of the Kromzek: the Ice-Formed Terror"

@@ -47,8 +47,13 @@ Named
 340.11 119.36 -187.90
 374.82 122.97 -159.50
 387.62 123.41 -154.55
-Custom
-HailActor "A Mechanical Dragon" 
+Named
+Mechanical
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named 
 387.62 123.41 -154.55
 445.05 126.11 -121.33
 533.24 125.03 -113.03
@@ -69,10 +74,20 @@ HailActor "Lord Ulvaxazoviak"
 646.59 125.03 -68.04
 629.83 125.03 -58.44
 Wait
-100
+200
 629.83 125.03 -58.44
 Custom
-ClickActor "Overlord Lucan D'Lere" 
+ApplyVerb "Overlord Lucan D'Lere" "Give claw"
+627.55 125.03 -59.09
+Wait
+200
+Custom
+ApplyVerb "Overlord Lucan D'Lere" "Give claw"
+627.55 125.03 -59.09
+Wait
+200
+Custom
+ApplyVerb "Overlord Lucan D'Lere" "Give claw"
 627.55 125.03 -59.09
 Custom
 HailActor "a Void Devourer" 
@@ -83,4 +98,7 @@ HailActor "Lord Ulvaxazoviak"
 647.33 125.05 -101.20
 Custom
 ClickActor zone_exit
+648.03 125.03 -105.71
+Custom
+ZoneDoor "Western Wastes"
 648.03 125.03 -105.71

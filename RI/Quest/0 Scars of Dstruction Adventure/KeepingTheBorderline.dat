@@ -67,7 +67,7 @@ ClickActor "Port Woe Border Location"
 108.95 4.31 513.07
 119.99 3.89 541.43
 Custom
-Path -PL 22 -L -YD 10 -QA "-QD|200|-A|Port Woe Border Location|-T|QSC:Border|-E|H" -QA "-QD|200|-A|a wetland lacerator|-T|QSC:lacerator|-E|K" -CT "QSC:the Port Woe locals"
+Path -PL 22 -L -YD 10 -QA "-QD|200|-A|Port Woe Border Location|-T|QSC:Border|-E|H" -QA "-QD|200|-A|a wetland lacerator|-T|QSC:lacerator|-E|K" -CT "QSC:The Port Woe locals"
 77.60 7.23 390.09
 105.20 6.69 388.92
 136.93 4.17 388.27

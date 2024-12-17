@@ -54,9 +54,10 @@ CraftIt "W.H.A.T. V2" 1
 Custom
 ExecuteCommand "RI_Harvest"
 126.35 8.04 591.84
-126.23 8.45 589.17
+136.67 5.45 623.18
 131.45 7.02 610.98
 123.51 7.64 640.80
+136.67 5.45 623.18
 224.75 7.02 673.77
 238.07 7.46 683.21
 231.66 7.41 695.09
@@ -70,10 +71,11 @@ ExecuteCommand "RI_Harvest"
 148.91 7.63 604.21
 144.07 8.73 590.97
 105.16 9.62 583.02
-126.35 8.04 591.84
+136.67 5.45 623.18
 Custom
 HarvestNode "Ship Salvage" "Useful Flotsam" 6
 119.30 8.19 638.78
+136.67 5.45 623.18
 Custom
 HarvestNode "Ship Salvage" "Useful Flotsam" 6
 131.45 7.02 610.98
@@ -83,6 +85,7 @@ HarvestNode "Ship Salvage" "Useful Flotsam" 6
 Custom
 HarvestNode "Ship Salvage" "Useful Flotsam" 6
 123.51 7.64 640.80
+136.67 5.45 623.18
 Custom
 HarvestNode "Ship Salvage" "Useful Flotsam" 6
 225.12 7.42 676.97

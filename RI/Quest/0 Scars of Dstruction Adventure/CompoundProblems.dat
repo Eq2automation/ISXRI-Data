@@ -73,7 +73,7 @@ Custom
 FlyDown
 -136.93 19.04 54.71
 Custom
-Path -PL 10 -L -QA "-QD|200|-A|a frosthide mauler|-T|QSC:mauler|-E|K" -CT "QSC:I've collected"
+Path -PL 10 -L -QA "-QD|200|-A|a frosthide mauler|-T|QSC:blubber|-E|K" -CT "QSC:I've collected"
 -136.93 108.56 54.71
 -157.27 7.93 22.48
 -161.93 7.75 -0.49

@@ -1,6 +1,6 @@
 Scars of Destruction Tradeskill Timeline
 Custom
-RemoveFromDepot "Harvesting Supply Depot" "Chalcedony" 300 "Crowberry" 300 "Fox Pelt" 300 "Ilmenite Ore" 300 "Larch Wood" 300 "Ptarmigan Meat" 300 "Red Lichen" 300 "Sedge Root" 300 "Speckled Grayling" 300 "Manganese Ore" 1 "Golden Sennegrass Root" 1 "Mountain Blueberry" 1 "Ulthork Hide" 1 "Porphyry Stone" 1
+RemoveFromDepot "Harvesting Supply Depot" "Chalcedony" 40 "Crowberry" 40 "Fox Pelt" 40 "Ilmenite Ore" 100 "Larch Wood" 40 "Ptarmigan Meat" 40 "Red Lichen" 40 "Sedge Root" 40 "Speckled Grayling" 40 "Manganese Ore" 1 "Golden Sennegrass Root" 1 "Mountain Blueberry" 1 "Ulthork Hide" 1 "Porphyry Stone" 1
 0 0 0
 Custom
 RemoveFromDepot "Fuel Depot" "Zimaran Filament" 300 "Zimaran Candle" 300 "Zimaran Coal" 300 "Zimaran Kindling" 300 "aerated mineral water" 300

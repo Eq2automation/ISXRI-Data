@@ -3,7 +3,7 @@ Custom
 CheckAndSet -NotInZone "Guild Hall" 10
 0 0 0
 Custom
-RemoveFromDepot "Harvesting Supply Depot" "Chalcedony" 300 "Crowberry" 300 "Fox Pelt" 300 "Ilmenite Ore" 300 "Larch Wood" 300 "Ptarmigan Meat" 300 "Red Lichen" 300 "Sedge Root" 300 "Speckled Grayling" 300
+RemoveFromDepot "Harvesting Supply Depot" "Chalcedony" 40 "Crowberry" 40 "Fox Pelt" 40 "Ilmenite Ore" 40 "Larch Wood" 40 "Ptarmigan Meat" 40 "Red Lichen" 40 "Sedge Root" 40 "Speckled Grayling" 40
 0 0 0
 Custom
 RemoveFromDepot "Fuel Depot" "Zimaran Coal" 60 "Zimaran Candle" 60 "Zimaran Kindling" 60 "Zimaran Sandpaper" 60 "Zimaran Incense" 60 "aerated mineral water" 50
@@ -31,52 +31,52 @@ HailActor "Ledat" 1
 75 7 659
 Custom
 MakeActiveQuest "Supplies: High Energy"
-716.24 -43.70 -471.57
+0 0 0
 Custom
 TimeStampEcho "Made quest active: Supplies: High Energy"
-716.24 -43.70 -471.57
+0 0 0
 Custom
 CheckAndSet -NotActiveQuest "Supplies: High Energy" 43
-716.24 -43.70 -471.57
+0 0 0
 Custom
 Quest "Supplies: High Energy"
-716.24 -43.70 -471.57
+0 0 0
 Custom
 MakeActiveQuest "Supplies: Creative Carving"
-716.24 -43.70 -471.57
+0 0 0
 Custom
 TimeStampEcho "Made quest active: Supplies: Creative Carving"
-716.24 -43.70 -471.57
+0 0 0
 Custom
 CheckAndSet -NotActiveQuest "Supplies: Creative Carving" 55
-716.24 -43.70 -471.57
+0 0 0
 Custom
 Quest "Supplies: Creative Carving"
-716.24 -43.70 -471.57
+0 0 0
 Custom
 MakeActiveQuest "Supplies: Shooting the Breeze"
-716.24 -43.70 -471.57
+0 0 0
 Custom
 TimeStampEcho "Made quest active: Supplies: Shooting the Breeze"
-716.24 -43.70 -471.57
+0 0 0
 Custom
 CheckAndSet -NotActiveQuest "Supplies: Shooting the Breeze" 67
-716.24 -43.70 -471.57
+0 0 0
 Custom
 Quest "Supplies: Shooting the Breeze"
-716.24 -43.70 -471.57
+0 0 0
 Custom
 MakeActiveQuest "Supplies: The Right Tools"
-716.24 -43.70 -471.57
+0 0 0
 Custom
 TimeStampEcho "Made quest active: Supplies: The Right Tools"
-716.24 -43.70 -471.57
+0 0 0
 Custom
 CheckAndSet -NotActiveQuest "Supplies: The Right Tools" 79
-716.24 -43.70 -471.57
+0 0 0
 Custom
 Quest "Supplies: The Right Tools"
-716.24 -43.70 -471.57
+0 0 0
 Custom
 TimeStampEcho "Ending Supplies Daily"
-716.24 -43.70 -471.57
+0 0 0
