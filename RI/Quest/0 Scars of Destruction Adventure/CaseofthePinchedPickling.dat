@@ -52,7 +52,7 @@ Custom
 ClickActor Brine Jar
 255.93 4.33 615.75
 Custom
-Path -PL 11 -R -QA "-A|Brine Jar|-T|QSC:more|-E|H" -QA "-A|Port Woe Goods|-T|QSC:crates|-E|H" -CT "QSC:Despite the challenge"
+Path -PL 11 -QA "-A|Brine Jar|-T|QSC:more|-E|H" -QA "-A|Port Woe Goods|-T|QSC:crates|-E|H" -CT "QSC:Despite the challenge"
 255.93 4.33 615.75
 244.14 4.23 616.20
 241.03 4.85 646.71
@@ -65,6 +65,12 @@ Path -PL 11 -R -QA "-A|Brine Jar|-T|QSC:more|-E|H" -QA "-A|Port Woe Goods|-T|QSC
 130.09 5.20 608.49
 135.31 5.17 590.63
 135.31 5.17 590.63
+154.36 4.97 558.53
+Custom
+CheckQuestStep "Despite the challenge" 74
+154.36 4.97 558.53
+Custom
+MessageBox "go finish picking up Brine Jars"
 154.36 4.97 558.53
 187.38 4.28 522.98
 207.68 4.51 483.73

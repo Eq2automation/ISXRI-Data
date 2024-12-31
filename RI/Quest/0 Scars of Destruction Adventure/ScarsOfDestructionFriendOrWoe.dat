@@ -147,7 +147,7 @@ Path -PL 16 -CPSP -L -QA "-QD|200|-A|Pickle Jar|-T|QSC:Pickle|-E|H" -CT "QSC:pic
 -28.75 5.76 383.76
 -39.31 6.56 393.61
 Custom
-Path -PL 29 -CPSP -DFPWD -QA "-QD|200|-A|Pickle Jar Location|-T|QSC:Hopefully the plethora|-E|H"
+Path -PL 26 -CPSP -DFPWD -QA "-QD|200|-A|Pickle Jar Location|-T|QSC:Hopefully the plethora|-E|H"
 -22.20 5.78 393.70
 6.39 6.12 401.88
 35.85 7.06 403.80

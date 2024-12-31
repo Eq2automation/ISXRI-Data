@@ -1,9 +1,4 @@
 Fighting the Biters Back
-Custom 
-Path -PL 2 -CPSP
--70.72 6.69 395.67
--75.69 6.42 343.22
--87.85 9.37 342.32
 Custom
 HailActorGetQuest -Actor "Kober Botley"
 -87.85 9.37 342.32

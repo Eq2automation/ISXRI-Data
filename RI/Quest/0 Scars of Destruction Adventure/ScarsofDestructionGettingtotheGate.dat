@@ -1,9 +1,16 @@
 Scars of Destruction: Getting to the Gate
 Custom
+CheckAndSet -InZone "Sodden Archipelago" 7
+0 0 0
+Custom
+FastTravel Sodden
+0 0 0
+Custom
 HailActor "Adris Spiritshine" 4
 -61.88 6.69 396.39
 -67.62 6.69 394.32
 -20.60 5.81 401.26
+-20.80 5.76 402.40
 Custom
 HailActorGetQuest -Actor "Jenlif Creagach"
 -20.60 5.81 401.26

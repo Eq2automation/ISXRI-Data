@@ -3,7 +3,7 @@ Custom
 MakeActiveQuest "Scars of Destruction: Treasures of the Dragon Necropolis"
 0 0 0
 Custom
-CheckQuestStep "Mesmer wouldn't let me take his homing" 46
+CheckQuestStep "Mesmer wouldn't let me take his homing" 49
 0 0 0
 Custom
 HailActorGetQuest -Actor "Mesmer Gearloose"
