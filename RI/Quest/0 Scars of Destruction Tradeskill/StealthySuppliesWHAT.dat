@@ -1,5 +1,11 @@
 Stealthy Supplies: W.H.A.T.?
 Custom
+CheckPreReqs -Completed "Test Your Mettle: Aetheric Safety"
+0 0 0
+Custom
+CheckPreReqs -Completed "Scars of Destruction: Friend or Woe"
+0 0 0
+Custom
 FastTravel Sodden
 0 0 0
 -131.49 6.36 395.02

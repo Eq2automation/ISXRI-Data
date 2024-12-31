@@ -111,7 +111,7 @@ Custom
 HarvestNode "Ship Salvage" "Useful Flotsam" 6
 194.98 7.62 602.31
 Custom
-CheckQuestStep "While some of the supplies" 115
+CheckQuestStep "While some of the supplies" 118
 194.98 7.62 602.31
 Custom
 MessageBox "Make sure you salvaged enough ship salvage items"

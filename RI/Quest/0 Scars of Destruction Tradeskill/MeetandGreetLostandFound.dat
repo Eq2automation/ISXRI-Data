@@ -16,8 +16,6 @@ ClickActor "a magic harvester"
 Custom
 ApplyVerb "a magic harvester" possess
 -27.46 5.51 366.24
-Custom
-MessageBox "cast and Click a magic harvester and hit resume"
 -27.46 5.51 366.24
 -21.21 6.02 386.01
 1.64 5.68 400.43
@@ -31,7 +29,10 @@ MessageBox "cast and Click a magic harvester and hit resume"
 122.35 12.41 459.65
 122.87 13.09 462.45
 Custom
-HailActor "lost teen" 
+HailActor "lost teen"
+122.87 13.09 462.45
+Wait
+1
 122.87 13.09 462.45
 Custom
 ExecuteCommand "Me.Effect[detrimental,561]:Cancel"

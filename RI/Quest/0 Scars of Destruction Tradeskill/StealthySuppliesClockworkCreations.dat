@@ -106,6 +106,15 @@ Custom
 Quest "Equitable Exchange: Outfitter"
 144.89 8.90 -420.24
 Custom
+CheckCompletedQuest "Equitable Exchange: Outfitter" 119
+0 0 0
+Custom
+CheckCompletedQuest "Equitable Exchange: Craftsman" 119
+0 0 0
+Custom
+CheckCompletedQuest "Equitable Exchange: Scholar" 119
+0 0 0
+Custom
 MessageBox "Make sure you have completed Nazeera's Quest"
 0 0 0
 Custom
