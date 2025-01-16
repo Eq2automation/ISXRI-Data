@@ -1,5 +1,8 @@
 Scars Of Destruction: Friend Or Woe
 Custom
+CheckQuestStep "Adris Spiritshine has continued to see signs" 126
+0 0 0
+Custom
 HailActor "Adris Spiritshine" 4
 -61.92 6.69 397.82
 Custom
@@ -75,7 +78,7 @@ Custom
 Quest "Leave the Thievin' to Professionals"
 0 0 0
 Custom
-CheckCompletedQuest "Getting the Goods Back" 82
+CheckCompletedQuest "Getting the Goods Back" 85
 0 0 0
 Custom
 Quest "Getting the Goods Back"
@@ -87,7 +90,7 @@ Custom
 Quest "Walking on Broken Glass"
 0 0 0
 Custom
-CheckCompletedQuest "Case of the Pinched Pickling" 95
+CheckCompletedQuest "Case of the Pinched Pickling" 97
 0 0 0
 Custom
 Quest "Case of the Pinched Pickling"
@@ -108,7 +111,7 @@ Custom
 Quest "Border Totem Task"
 0 0 0
 Custom
-CheckQuestStep "Adris Spiritshine has continued to see signs" 123
+CheckQuestStep "Adris Spiritshine has continued to see signs" 126
 0 0 0
 Custom
 Quest "Keeping the Borderline"
