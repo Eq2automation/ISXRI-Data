@@ -1,6 +1,6 @@
 Stealthy Supplies: Rescue
 Custom
-CheckQuestStep "Ameela says that I have been chosen for a special mission" 112
+CheckQuestStep "Ameela says that I have been chosen for a special mission" 119
 0 0 0
 14.46 5.75 364.26
 28.82 6.27 357.74
@@ -83,6 +83,12 @@ ApplyVerb "Potential Diversion" gather
 Custom
 HarvestNode "Potential Diversion" gather
 -69.34 196.33 -487.81
+Custom
+CheckQuestStep "I have caused a diversion" 92
+-50.67 204.67 -554.86
+Custom
+MessageBox "Click the Diversion"
+-50.67 204.67 -554.86
 -32.56 200.16 -476.17
 -12.36 201.04 -468.22
 -8.48 200.63 -472.88
@@ -99,7 +105,7 @@ HarvestNode "Potential Diversion" gather
 -68.49 202.66 -535.57
 -50.67 204.67 -554.86
 Custom
-CheckQuestStep "The sounds of the manacles dragging" 106
+CheckQuestStep "The sounds of the manacles dragging" 112
 -50.67 204.67 -554.86
 Custom
 MessageBox "go free the prisoners"
