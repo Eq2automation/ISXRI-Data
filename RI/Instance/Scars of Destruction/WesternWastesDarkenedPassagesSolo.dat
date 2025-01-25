@@ -1,0 +1,80 @@
+-637.05 131.24 392.27
+-671.88 135.13 372.91
+-684.26 136.44 320.97
+-727.97 135.93 286.39
+-766.07 138.03 267.21 
+Named
+Garlahk
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named 
+-766.07 138.03 267.21
+-784.74 149.34 245.03
+-744.01 155.85 229.47
+-740.46 160.13 260.48
+-747.51 165.96 276.68
+-742.66 167.51 287.52
+-754.60 167.73 302.72
+Named
+Melacckk
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named  
+-754.60 167.73 302.72
+-735.52 167.32 284.20
+-719.12 167.24 323.85
+-714.11 167.75 334.14
+-701.70 167.38 372.67
+Named
+Gorecarve
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named 
+-701.70 167.38 372.67
+-695.65 167.39 381.69
+Custom
+ClickActor "teleport crystal"
+-695.65 167.39 381.69
+-788.69 243.09 -337.00
+Custom
+UseItem Stonesledge’s Battle horn
+0 0 0
+Custom
+HailActor "Mergus Stonesledge"
+0 0 0
+-796.32 241.94 -344.20
+-828.24 235.91 -370.98
+-862.45 230.95 -467.57
+-883.12 234.77 -501.84
+Named
+Arkanak
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named  
+-883.12 234.77 -501.84
+-889.78 234.37 -480.96
+-922.21 253.39 -440.04
+-909.87 268.77 -388.91
+-889.73 275.30 -333.18
+-834.42 281.91 -310.33
+-796.62 286.18 -308.35
+-788.12 287.20 -315.97
+Custom
+MessageBox "pull to here or jump the choice is yours"
+-788.12 287.20 -315.97 
+Named
+Krejian
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named 
+-788.12 287.20 -315.97

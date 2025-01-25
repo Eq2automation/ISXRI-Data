@@ -1,0 +1,49 @@
+Scars of Destruction: Battle the Behemoth!
+Custom
+HailActorGetQuest -Actor "Adris Spiritshine"
+-738.51 67.31 294.25
+-734.26 67.22 296.53
+Custom
+FlyUp 5
+-734.26 77.34 296.53
+-692.76 74.57 337.40
+-635.76 69.55 386.37
+-559.60 61.02 439.43
+-511.22 56.48 445.67
+-393.00 45.62 431.39
+-162.18 23.60 361.05
+-117.37 47.10 348.51
+-13.91 103.39 284.48
+88.05 118.70 191.41
+234.72 100.85 136.67
+353.28 49.72 107.00
+Custom
+FlyDown
+353.28 8.05 107.00
+322.30 8.12 98.56
+Custom
+ZoneDoor zone_portal_to_dun_western_wastes_04 "Flooded Scar: Abyssal Attack [Signature]"
+321.92 8.11 96.65
+Custom
+Instance
+0 0 0
+Custom
+ZoneDoor Exit
+-139.02 7.94 67.62
+333.40 8.05 108.55
+Custom
+FlyUp 5
+340.80 126.67 109.85
+309.15 122.83 195.64
+251.59 116.56 352.76
+191.09 74.10 491.71
+120.78 35.96 586.51
+Custom
+FlyDown
+120.77 8.87 586.59
+80.06 9.42 586.79
+71.10 8.84 619.50
+65.61 7.63 639.24
+Custom
+HailActor "Adris Spiritshine" 15
+65.61 7.63 639.24

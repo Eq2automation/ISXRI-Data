@@ -1,0 +1,50 @@
+Scars of Destruction: Void the Spiral's Anchor
+Custom
+HailActorGetQuest -Actor "Adris Spiritshine"
+287.29 283.09 -731.49
+285.38 282.92 -730.26
+Custom
+FlyUp 5
+285.38 331.66 -730.26
+253.59 316.86 -758.01
+Custom
+FlyDown
+218.01 286.87 -796.18
+Custom
+ZoneDoor "zone_to_dun_blackhook" "Blackhook Spiral: Corrupted Caldera [Solo]"
+218.12 286.97 -800.50
+Custom
+Instance
+0 0 0
+Custom
+ZoneDoor zone_exit
+-20.696552 93.504173 7.483634
+Custom
+ClickActor "zone_exit"
+-20.696552 93.504173 7.483634
+Custom
+WaitForZoning
+0 0 0
+215.58 284.89 -787.43
+Custom
+FlyUp 5
+215.58 336.38 -787.43
+293.50 327.61 -721.85
+Custom
+FlyDown
+284.58 282.89 -730.35
+Custom
+HailActor "Adris Spiritshine" 7
+286.33 283.09 -731.72
+Custom
+FastTravel Sodden dock
+0 0 0
+Wait
+50
+0 0 0
+-131.49 6.36 396.02
+-73.80 6.69 396.92
+-75.03 6.56 351.95
+Custom
+HailActor "Liwia Dewdance" 4
+-75.03 6.56 351.95

@@ -1,0 +1,218 @@
+Getting the Goods Back
+Repeatable
+Custom
+HailActorGetQuest -Actor "Gragir Sharpe"
+-5.06 5.67 364.59
+-0.33 5.68 364.36
+-1.57 5.68 398.24
+-9.68 5.68 396.53
+31.22 6.55 406.02
+76.85 7.23 388.32
+135.55 4.44 401.31
+152.80 9.38 437.03
+169.76 6.44 455.48
+181.83 4.97 466.73
+Custom
+ClickActor "Port Woe Goods"
+191.15 4.51 456.88
+Custom
+ClickActor "Port Woe Goods"
+195.58 4.49 458.02
+216.12 4.49 469.65
+Custom
+ClickActor "Port Woe Goods"
+218.24 4.49 469.79
+Custom
+ClickActor "Port Woe Goods"
+210.48 4.50 482.76
+Custom
+ClickActor "Port Woe Goods"
+205.10 6.40 500.07
+Custom
+ClickActor "Port Woe Goods"
+202.47 4.81 534.92
+Custom
+ClickActor "Port Woe Goods"
+208.53 4.38 545.10
+200.31 4.27 487.73
+197.73 4.59 536.49
+Custom
+ClickActor "Port Woe Goods"
+227.26 4.58 553.06
+232.96 4.72 568.54
+254.48 4.18 614.46
+Custom
+ClickActor "Port Woe Goods"
+254.48 4.18 614.46
+238.56 4.24 623.59
+232.08 6.31 673.74
+Custom
+ClickActor "Port Woe Goods"
+232.08 6.31 673.74
+260.78 8.88 690.49
+283.50 9.50 699.21
+Custom
+ClickActor "Port Woe Goods"
+247.84 5.22 573.24
+Custom
+ClickActor "Port Woe Goods"
+266.81 3.94 590.03
+Custom
+ClickActor "Port Woe Goods"
+295.85 4.50 606.36
+Custom
+ClickActor "Port Woe Goods"
+302.24 7.00 623.85
+Custom
+ClickActor "Port Woe Goods"
+302.02 5.07 612.57
+Custom
+ClickActor "Port Woe Goods"
+313.03 5.04 627.42
+Custom
+ClickActor "Port Woe Goods"
+329.67 4.31 648.63
+Custom
+ClickActor "Port Woe Goods"
+332.83 4.30 678.97
+353.26 4.51 696.19
+415.80 4.72 684.03
+452.10 4.37 657.24
+445.59 4.67 654.64
+Custom
+ClickActor "Port Woe Goods"
+445.59 4.67 654.64
+467.58 4.76 627.03
+507.76 5.54 594.42
+Custom
+ClickActor "Port Woe Goods"
+507.76 5.54 594.42
+518.74 5.33 593.28
+Custom
+ClickActor "Port Woe Goods"
+518.74 5.33 593.28
+559.57 5.59 589.84
+Custom
+ClickActor "Port Woe Goods"
+559.57 5.59 589.84
+567.12 4.85 611.35
+582.64 4.74 611.21
+Custom
+ClickActor "Port Woe Goods"
+582.64 4.74 611.21
+584.85 4.69 621.78
+Custom
+ClickActor g"Port Woe Goods"
+584.85 4.69 621.78
+576.81 4.79 636.39
+Custom
+ClickActor "Port Woe Goods"
+576.81 4.79 636.39
+552.41 4.86 653.45
+527.56 4.46 659.90
+Custom
+ClickActor "Port Woe Goods"
+527.56 4.46 659.90
+534.66 5.21 668.85
+516.80 5.07 679.07
+505.77 4.48 675.93
+Custom
+ClickActor "Port Woe Goods"
+505.77 4.48 675.93
+502.63 5.16 711.20
+508.58 5.06 722.67
+Custom
+ClickActor "Port Woe Goods"
+508.58 5.06 722.67
+464.43 5.17 724.45
+Custom
+ClickActor "Port Woe Goods"
+464.43 5.17 724.45
+453.16 4.99 691.32
+445.04 4.70 654.42
+Custom
+ClickActor good
+445.04 4.70 654.42
+452.10 4.37 657.24
+415.80 4.72 684.03
+353.26 4.51 696.19
+332.83 4.30 678.97
+Custom
+ClickActor "Port Woe Goods"
+310.53 5.24 697.14
+Custom
+ClickActor "Port Woe Goods"
+288.42 8.98 698.08
+Custom
+ClickActor "Port Woe Goods"
+262.00 9.38 695.06
+Custom
+ClickActor "Port Woe Goods"
+254.20 7.97 680.71
+234.11 6.18 675.64
+223.77 5.98 666.21
+206.30 5.41 660.04
+Custom
+ClickActor "Port Woe Goods"
+201.87 5.46 669.30
+238.45 6.04 671.90
+259.31 13.24 713.38
+Custom
+ClickActor "Port Woe Goods"
+248.83 18.33 734.68
+229.57 21.48 726.14
+227.49 21.08 743.06
+Custom
+ClickActor "Port Woe Goods"
+201.26 23.65 725.54
+244.33 22.10 712.97
+264.80 9.65 690.75
+Custom
+ClickActor "Port Woe Goods"
+249.46 8.16 688.17
+239.57 5.35 657.19
+213.24 5.36 660.37
+Custom
+ClickActor "Port Woe Goods"
+240.87 4.77 638.41
+246.69 4.25 607.33
+Custom
+ClickActor "Port Woe Goods"
+233.23 4.22 574.73
+205.63 4.71 540.81
+Custom
+ClickActor "Port Woe Goods"
+170.56 5.07 501.29
+156.80 4.87 505.71
+Custom
+ClickActor "Port Woe Goods"
+138.03 4.05 499.70
+Custom
+Path -PL 3 -QA "-A|Port Woe Goods|-T|QSC:crates|-E|H" -QA "-A|Port Woe Good|-T|QSC:crates|-E|H" -QA "-A|TF-2294|-T|QSC:crates|-E|H" -QA "-A|kappa|-T|QSC:Kappa|-E|K" -CT "QSC:I recovered a surprising"
+138.03 4.05 499.70
+156.80 4.87 505.71
+170.56 5.07 501.29
+205.63 4.71 540.81
+Custom
+CheckQuestStep "I recovered" 201
+0 0 0
+Custom
+MessageBox "Make sure Port Woe Goods are recovered"
+0 0 0
+Custom
+Path -PL 6 -CPSP
+138.03 4.05 499.70
+96.83 4.84 488.30
+93.24 4.42 441.92
+97.54 6.45 399.24
+71.50 7.60 389.92
+38.09 7.26 403.31
+1.81 5.68 398.49
+-1.97 5.69 367.43
+-5.24 5.67 364.71
+Custom
+HailActor "Gragir Sharpe" 3
+-5.24 5.67 364.71
+Custom
+HailActor "Gragir Sharpe" 2
+-5.24 5.67 364.71

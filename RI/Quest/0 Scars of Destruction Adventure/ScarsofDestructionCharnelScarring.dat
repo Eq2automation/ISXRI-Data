@@ -1,0 +1,41 @@
+Scars of Destruction: Charnel Scarring
+Custom
+HailActorGetQuest -Actor "Elna Tsernin"
+77.78 7.63 651.76
+101.37 7.63 651.17
+Custom
+FlyUp 5
+123.55 92.26 638.66
+141.80 99.38 590.14
+196.20 133.08 518.26
+212.10 117.11 388.75
+Custom
+FlyDown
+214.11 65.51 399.59
+Custom
+ZoneDoor zone_portal_to_dun_western_wastes_01 "Western Wastes: Charnel Scar [Solo]"
+215.37 65.50 401.24
+Custom
+Instance
+0 0 0
+Custom
+ClickActor Exit
+-744.89 66.90 329.42
+Custom
+ZoneDoor "Exit"
+-744.89 66.90 329.42
+Custom
+WaitForZoning
+0 0 0
+172.15 62.60 417.87
+Custom
+FlyUp 5
+172.15 131.28 417.87
+Custom
+FlyDown
+123.77 8.32 589.61
+86.25 9.58 586.42
+78.78 7.66 631.08
+Custom
+HailActor "Elna Tsernin" 4
+77.92 7.63 645.10

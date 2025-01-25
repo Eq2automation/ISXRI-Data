@@ -1,0 +1,124 @@
+Stealthy Supplies: Flotsam and Jetsam
+Custom
+MakeActiveQuest "Stealthy Supplies: Flotsam and Jetsam"
+0 0 0
+Custom
+CheckQuestStep "I have created the new version" 50
+0 0 0
+Custom
+CheckQuestStep "Something went wrong" 23
+0 0 0
+Custom
+HailActorGetQuest -Actor "Captain Raffik"
+-118.63 6.60 398.44
+Custom
+HailActor "Captain Raffik" 1
+-118.63 6.60 398.44
+Custom
+FastTravel Western
+0 0 0
+Custom
+WaitForZoning
+0 0 0
+-149.40 12.21 905.85
+-101.04 6.26 873.39
+-1.09 6.28 816.14
+65.55 6.29 757.26
+77.77 6.57 699.29
+77.97 7.74 665.53
+Custom
+HailActor "Mathom Smeltfury" 5
+77.97 7.74 665.53
+Custom
+ClickActor Campfire
+78.06 7.69 663.93
+Custom
+HailActor "Mathom Smeltfury" 3
+78.06 7.69 663.93
+76.42 7.71 633.82
+63.22 10.60 585.82
+103.06 9.93 573.36
+Custom
+ClickActor Rock Sample
+103.06 9.93 573.36
+63.22 10.60 585.82
+Custom
+ClickActor "Varig's Velium Forge" 
+63.22 10.60 585.82
+Custom
+CraftIt "W.H.A.T. V2" 1
+63.22 10.60 585.82
+144.07 8.73 590.97
+105.16 9.62 583.02
+126.35 8.04 591.84
+Custom
+ExecuteCommand "RI_Harvest"
+126.35 8.04 591.84
+136.67 5.45 623.18
+131.45 7.02 610.98
+123.51 7.64 640.80
+136.67 5.45 623.18
+224.75 7.02 673.77
+238.07 7.46 683.21
+231.66 7.41 695.09
+236.47 7.36 647.47
+252.32 7.45 640.58
+224.39 6.37 627.37
+207.88 6.17 606.14
+194.98 7.62 602.31
+194.99 7.62 591.69
+213.38 6.17 585.36
+148.91 7.63 604.21
+144.07 8.73 590.97
+105.16 9.62 583.02
+136.67 5.45 623.18
+Custom
+HarvestNode "Ship Salvage" "Useful Flotsam" 6
+119.30 8.19 638.78
+136.67 5.45 623.18
+Custom
+HarvestNode "Ship Salvage" "Useful Flotsam" 6
+131.45 7.02 610.98
+Custom
+HarvestNode "Ship Salvage" "Useful Flotsam" 6
+131.45 7.02 610.98
+Custom
+HarvestNode "Ship Salvage" "Useful Flotsam" 6
+123.51 7.64 640.80
+136.67 5.45 623.18
+Custom
+HarvestNode "Ship Salvage" "Useful Flotsam" 6
+225.12 7.42 676.97
+Custom
+HarvestNode "Ship Salvage" "Useful Flotsam" 6
+238.07 7.46 683.21
+Custom
+HarvestNode "Ship Salvage" "Useful Flotsam" 6
+231.66 7.41 695.09
+Custom
+HarvestNode "Ship Salvage" "Useful Flotsam" 6
+236.47 7.36 647.47
+Custom
+HarvestNode "Ship Salvage" "Useful Flotsam" 6
+252.32 7.45 640.58
+Custom
+HarvestNode "Ship Salvage" "Useful Flotsam" 6
+224.39 6.37 627.37
+Custom
+HarvestNode "Ship Salvage" "Useful Flotsam" 6
+207.88 6.17 606.14
+Custom
+HarvestNode "Ship Salvage" "Useful Flotsam" 6
+194.98 7.62 602.31
+Custom
+CheckQuestStep "While some of the supplies" 118
+194.98 7.62 602.31
+Custom
+MessageBox "Make sure you salvaged enough ship salvage items"
+194.98 7.62 602.31
+84.53 9.89 583.13
+70.53 8.98 601.21
+77.47 7.67 662.86
+Custom
+HailActor "Mathom Smeltfury" 2
+77.47 7.67 662.86

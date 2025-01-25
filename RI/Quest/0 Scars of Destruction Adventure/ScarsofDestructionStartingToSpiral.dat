@@ -1,0 +1,96 @@
+Scars of Destruction: Starting To Spiral
+Custom
+MakeActiveQuest "Scars of Destruction: Starting To Spiral"
+0 0 0
+Custom
+CheckQuestStep "The Gates of Fort Sunder are locked" 40
+0 0 0
+Custom
+HailActorGetQuest -Actor "Adris Spiritshine"
+287.29 283.09 -731.49
+Custom
+HailActor "Shaahida" 7
+285.21 283.11 -732.20
+285.38 282.92 -730.26
+Custom
+FlyUp 5
+285.38 331.66 -730.26
+253.59 316.86 -758.01
+Custom
+FlyDown
+218.01 286.87 -796.18
+Custom
+ZoneDoor zone_to_dun_blackhook "Blackhook Spiral: Stonebrunt Defile [Solo]"
+218.12 286.97 -800.50
+Custom
+Instance
+0 0 0
+Custom
+ZoneDoor "Exit Door" 0
+0 0 0
+125.44 136.62 85.91
+147.52 140.85 54.88
+168.98 158.23 14.88
+183.70 170.63 -27.95
+192.45 170.60 -53.41
+179.40 170.63 -97.20
+Custom
+FlyUp 5
+175.79 287.54 -77.82
+225.73 320.28 -159.22
+181.33 294.39 -317.28
+193.60 338.35 -496.34
+287.05 357.66 -734.84
+Custom
+FlyDown
+284.25 282.52 -727.26
+Custom
+HailActor "Adris Spiritshine" 2
+287.29 283.09 -731.49
+Custom
+Quest "Skortch and Sniff"
+0 0 0
+Custom
+Quest "Skortch Earth Campaign"
+0 0 0
+Custom
+Quest "Skortch Beneath the Surface"
+0 0 0
+Custom
+HailActor "Adris Spiritshine" 5
+287.29 283.09 -731.49
+Custom
+FlyUp 5
+285.38 331.66 -730.26
+253.59 316.86 -758.01
+Custom
+FlyDown
+218.01 286.87 -796.18
+Custom
+ZoneDoor zone_to_dun_blackhook "Blackhook Spiral: Fort Sunder [Solo]"
+218.12 286.97 -800.50
+Custom
+Instance
+0 0 0
+Custom
+ZoneDoor "Exit Door" 0
+0 0 0
+125.44 136.62 85.91
+147.52 140.85 54.88
+168.98 158.23 14.88
+183.70 170.63 -27.95
+192.45 170.60 -53.41
+179.40 170.63 -97.20
+Custom
+FlyUp 5
+175.79 287.54 -77.82
+225.73 320.28 -159.22
+181.33 294.39 -317.28
+193.60 338.35 -496.34
+287.05 357.66 -734.84
+Custom
+FlyDown
+284.25 282.52 -727.26
+Custom
+HailActor "Adris Spiritshine" 6
+287.29 283.09 -731.49

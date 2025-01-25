@@ -1,0 +1,34 @@
+Scars of Destruction: Enemies and Allies
+Custom
+HailActorGetQuest -Actor "Mesmer Gearloose"
+67.89 7.63 639.49
+112.21 7.02 653.21
+Custom
+FlyUp 5
+115.07 108.78 642.31
+83.54 108.11 571.05
+-199.97 123.68 510.69
+-409.25 126.64 470.80
+-501.50 101.05 452.11
+-584.87 77.58 418.60
+-653.85 80.46 365.90
+-737.77 91.37 292.43
+Custom
+FlyDown
+-737.77 67.31 292.43
+-749.61 67.25 282.80
+Custom
+ZoneDoor zone_to_dragon_crypt_main "Dragon Necropolis: Vaults of Veneration [Solo]"
+-749.61 67.25 282.80
+Custom
+Instance
+0 0 0
+Custom
+ClickActor zone_exit
+647.32 125.03 -104.17
+Custom
+WaitForZoning
+-735.77 67.22 297.29
+Custom
+HailActor "Adris Spiritshine" 4
+-735.77 67.22 297.29

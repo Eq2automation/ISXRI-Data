@@ -1,0 +1,49 @@
+Scars Of Destruction: Into Blackhook Badlands
+Custom
+Path -PL 6 -CPSP
+-120.93 6.56 396.31
+-120.93 200 396.31
+-60 200 305
+0 200 215
+60 200 125
+100 200 100
+111.66 200 97.13
+Custom
+FlyDown
+111.66 136.15 97.13
+Custom
+HailActorGetQuest -Actor "Toman Keltor"
+111.66 136.15 97.13
+119.46 135.40 93.59
+116.29 136.17 86.58
+Custom
+ZoneDoor zone_portal_to_dun_sodden_islands_02 "Sodden Archipelago: Blackhook Badlands [Solo]"
+116.29 136.17 86.58
+Wait
+50
+0 0 0
+Custom
+Instance
+0 0 0
+Custom
+ClickActor "Exit"
+0 0 0
+125.44 136.62 85.91
+147.52 140.85 54.88
+168.98 158.23 14.88
+183.70 170.63 -27.95
+192.45 170.60 -53.41
+179.40 170.63 -97.20
+Custom
+FlyUp 5
+175.79 287.54 -77.82
+225.73 320.28 -159.22
+181.33 294.39 -317.28
+193.60 338.35 -496.34
+287.05 357.66 -734.84
+Custom
+FlyDown
+284.25 282.52 -727.26
+Custom
+HailActor "Adris Spiritshine" 2
+287.29 283.09 -731.49

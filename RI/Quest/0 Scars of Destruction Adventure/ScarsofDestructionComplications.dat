@@ -1,0 +1,147 @@
+Scars of Destruction: Complications
+Custom
+MakeActiveQuest "Scars of Destruction: Complications"
+0 0 0
+Custom
+CheckQuestStep "Mesmer has promised me" 88
+0 0 0
+Custom
+CheckQuestStep "I found the dragonsteel slag and stones" 63
+0 0 0
+Custom
+HailActorGetQuest -Actor "Elna Tsernin"
+78.24 7.63 643.34
+67.60 7.63 640.55
+Custom
+HailActor "Mesmer Gearloose" 11
+67.60 7.63 640.55
+72.72 8.98 603.43
+134.79 8.91 586.98
+Custom
+FlyUp 5
+140.79 109.35 587.00
+215.11 108.77 492.14
+289.82 108.64 412.98
+Custom
+FlyDown
+289.41 45.00 415.87
+302.82 54.48 397.85
+Custom
+Path -PL 30 -CPSP -QA "-QD|200|-A|Dragonsteel Slag|-T|QSC:slag|-E|H" -QA "-QD|200|-A|tidalfrost stalker|-T|QSC:stones|-E|K" -QA "-QD|200|-A|skeleton|-T|QSC:stones|-E|K" -QA "-QD|200|-A|stalker|-T|QSC:stones|-E|K" -CT "QSC:I found the dragonsteel slag and all"
+302.82 54.48 397.85
+302.82 82.23 397.85
+289.97 52.70 471.68
+306.88 66.17 475.84
+333.67 68.66 498.11
+343.86 50.22 488.05
+358.44 69.89 480.62
+306.65 36.82 464.22
+306.65 50.19 464.24
+353.66 68.06 451.41
+405.22 74.64 476.57
+430.70 100.77 492.76
+444.16 86.59 479.78
+409.44 69.93 418.74
+330.88 65.24 363.78
+294.82 81.68 393.95
+276.74 103.90 404.72
+356.35 83.10 332.68
+381.32 70.78 300.60
+364.31 74.97 274.38
+334.55 89.12 257.84
+300.05 88.32 206.59
+417.12 50.77 359.75
+442.01 56.10 418.24
+523.94 89.91 336.27
+439.03 104.76 312.65
+301.22 105.83 314.03
+193.07 114.52 356.63
+169.18 90.07 479.23
+127.11 8.96 586.09
+89.68 9.93 583.42
+80.69 7.69 657.53
+77.83 8.87 606.83
+Custom
+Quest "Return of the Cobalt Curse"
+0 0 0
+Custom
+Quest "Living the Cobalt Cure"
+0 0 0
+Custom
+CheckCompletedQuest "Prisa Protection Procurements" 72
+0 0 0
+Custom
+Quest "Prisa Protection Procurements"
+0 0 0
+Custom
+HailActor "Prisa" 5
+77.83 8.87 606.83
+Custom
+ExamineItem "Draconic Focus Stones" 1 1
+77.83 8.87 606.83
+74.42 8.98 605.90
+65.43 7.63 637.42
+Custom
+HailActor "Mesmer Gearloose" 4
+65.43 7.63 637.42
+68.35 8.98 621.44
+66.61 8.98 605.96
+Custom
+Quest "Compound Problems"
+0 0 0
+Custom
+Quest "Monumental Task"
+0 0 0
+Custom
+CheckCompletedQuest "More Compound Problems" 100
+0 0 0
+Custom
+Quest "More Compound Problems"
+0 0 0
+Custom
+HailActor "Gwinres Boulderkind" 5
+64.43 8.98 604.66
+69.70 8.98 599.74
+66.56 7.63 637.69
+Custom
+HailActor "Mesmer Gearloose" 2
+66.56 7.63 637.69
+77.36 8.93 607.52
+100.70 9.93 587.17
+138.03 8.67 590.31
+Custom
+FlyUp 5
+138.03 122.72 590.31
+-83.05 116.15 560.63
+-247.21 116.69 541.40
+-367.25 117.08 522.59
+-478.32 117.46 489.71
+-535.99 117.69 451.27
+Custom
+FlyDown
+-535.99 -4.42 451.27
+Custom
+Target "Tinkered Barricade Generator" 
+-544.96 -3.75 447.09
+Custom
+UseItem "Cabalic Energy Feedback Apparatus"
+-544.96 -3.75 447.09
+Custom
+CheckQuestStep "Mesmer was right" 134
+-544.96 -3.75 447.09
+Custom
+MessageBox "make sure box used"
+-544.96 -3.75 447.09
+Custom
+FlyUp 5
+-540.02 166.81 477.07
+-367.25 117.08 522.59
+-83.05 116.15 560.63
+230.87 99.94 478.96
+138.03 122.72 590.31
+161.32 27.75 557.15
+108.85 8.86 584.50
+72.47 8.98 605.92
+Custom
+HailActor "Mesmer Gearloose" 4
+67.41 7.63 635.00

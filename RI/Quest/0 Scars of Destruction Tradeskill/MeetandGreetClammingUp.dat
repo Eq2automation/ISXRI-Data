@@ -1,0 +1,33 @@
+Meet and Greet: Clamming Up
+Repeatable
+Custom
+HailActorGetQuest -Actor "Dunstad"
+-76.48 6.57 329.62
+-11.77 5.52 359.90
+17.00 5.72 363.04
+23.18 5.72 353.79
+Custom
+HailActor "Kassa" 
+29.28 6.27 358.44
+Custom
+BuyFromVendor Kassa "Whittling Knife" 3
+26.31 5.97 353.45
+Custom
+ClickActor "Grandmaster Artisan's Crafting Nook" 
+23.18 5.72 353.79
+Custom
+CraftIt "Clamming Forks" 3
+23.18 5.72 353.79
+15.03 5.75 363.45
+-25.70 5.87 358.23
+Custom
+Path -PL 5 -L -DFPWD -QA "-QD|200|-A|clam|-T|QSC:clam|-E|H" -CT "QSC:Clam" 
+-6.36 4.54 659.45
+3.00 4.69 655.77
+-5.11 5.00 667.34
+1.09 5.04 669.10
+0.46 4.97 671.95
+11.87 5.05 672.92
+Custom
+HailActor "Dunstad" 2
+-76.48 6.57 329.62

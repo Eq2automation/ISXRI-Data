@@ -1,0 +1,26 @@
+Honoring the Youngest Victims
+Custom
+HailActorGetQuest -Actor "Dipper"
+81.22 8.90 595.47
+101.37 7.63 651.17
+Custom
+FlyUp 5
+123.55 92.26 638.66
+141.80 99.38 590.14
+196.20 133.08 518.26
+212.10 117.11 388.75
+Custom
+FlyDown
+214.11 65.51 399.59
+Custom
+ZoneDoor zone_portal_to_dun_western_wastes_01 "Western Wastes: Charnel Scar [Solo]"
+215.37 65.50 401.24
+Custom
+Instance
+0 0 0
+Custom
+FastTravel Wastes
+0 0 0
+Custom
+HailActor "Dipper" 5
+81.22 8.90 595.47

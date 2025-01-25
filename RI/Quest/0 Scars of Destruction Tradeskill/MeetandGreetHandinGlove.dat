@@ -1,0 +1,19 @@
+Meet and Greet: Hand in Glove
+Repeatable
+Custom
+HailActorGetQuest -Actor "Garron"
+-30.22 5.04 361.71
+-11.77 5.52 359.90
+17.00 5.72 363.04
+23.18 5.72 353.79
+Custom
+ClickActor "Grandmaster Artisan's Crafting Nook" 
+23.18 5.72 353.79
+Custom
+CraftIt "Sturdy Work Gloves" 3
+23.18 5.72 353.79
+15.03 5.75 363.45
+-25.70 5.87 358.23
+Custom
+HailActor "Garron" 2
+-25.70 5.87 358.23

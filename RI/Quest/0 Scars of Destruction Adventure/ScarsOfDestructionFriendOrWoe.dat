@@ -1,0 +1,198 @@
+Scars Of Destruction: Friend Or Woe
+Custom
+CheckQuestStep "Adris Spiritshine has continued to see signs" 126
+0 0 0
+Custom
+HailActor "Adris Spiritshine" 4
+-61.92 6.69 397.82
+Custom
+HailActorGetQuest -Actor "Adris Spiritshine"
+-62.28 6.69 397.46
+-62.28 6.69 397.46
+-42.97 6.69 394.75
+-28.82 5.69 393.62
+-23.86 5.87 387.94
+-27.74 5.78 382.68
+-30.16 5.46 374.96
+-28.43 5.79 357.57
+-13.33 4.63 332.41
+Custom
+Path -PL 12 -L -QA "-A|a wounded local|-T|QSC:stone|-E|UseItem-Spiritshine's Healing Dram" -CT "QSC:Spiritshine's healing dram did the trick"
+-13.33 4.63 332.41
+0.73 5.70 325.09
+17.93 6.02 310.93
+0.34 5.67 332.07
+-1.10 5.66 346.35
+6.78 5.68 348.53
+10.24 5.67 364.80
+7.57 5.84 381.38
+0.89 5.68 396.43
+-5.54 5.68 404.74
+-14.94 5.68 398.49
+-17.67 5.68 398.39
+-20.29 5.76 402.72
+-19.32 5.68 398.34
+-27.63 5.76 401.17
+-29.72 5.54 407.69
+-25.14 5.73 393.41
+-36.22 5.69 404.54
+-33.01 5.88 394.61
+-37.71 4.99 381.26
+-31.83 4.54 366.79
+-27.34 6.21 348.47
+-44.87 6.64 347.69
+-70.95 6.50 348.29
+-74.47 6.68 359.98
+-69.96 6.69 396.57
+-57.77 6.69 396.18
+-64.73 6.78 396.97
+Custom
+HailActor "Adris Spiritshine"
+-64.73 6.78 396.97
+-70.76 6.69 391.79
+-74.67 6.47 346.38
+-85.24 9.35 343.25
+Custom
+CheckCompletedQuest "Fighting the Biters Back" 57
+0 0 0
+Custom
+Quest "Fighting the Biters Back"
+0 0 0
+Custom
+TimeStampEcho "Completed Fighting the Biters Back"
+0 0 0
+Custom
+HailActor "Kober Botley" 5
+-89.10 9.37 342.98
+-85.24 9.35 343.25
+-73.53 6.44 344.66
+-76.28 6.84 359.45
+-71.51 6.72 391.73
+Custom
+HailActor "Adris Spiritshine" 3
+-64.73 6.78 396.97
+Custom
+TimeStampEcho "now beginning 20k faction grind with Port of Woe"
+0 0 0
+Custom
+Quest "Leave the Thievin' to Professionals"
+0 0 0
+Custom
+CheckCompletedQuest "Getting the Goods Back" 85
+0 0 0
+Custom
+Quest "Getting the Goods Back"
+0 0 0
+Custom
+Quest "Shelled Sustenance"
+0 0 0
+Custom
+Quest "Walking on Broken Glass"
+0 0 0
+Custom
+CheckCompletedQuest "Case of the Pinched Pickling" 97
+0 0 0
+Custom
+Quest "Case of the Pinched Pickling"
+0 0 0
+14.61 5.75 363.87
+19.11 5.71 358.01
+Custom
+HailActor "Tristyl Ashwood" 3
+19.11 5.71 358.01
+14.61 5.75 363.87
+Custom
+Quest "Slimy and Satisfying"
+0 0 0
+Custom
+Quest "Takin' From the Forsaken"
+0 0 0
+Custom
+Quest "Border Totem Task"
+0 0 0
+Custom
+CheckQuestStep "Adris Spiritshine has continued to see signs" 126
+0 0 0
+Custom
+Quest "Keeping the Borderline"
+0 0 0
+Custom
+TimeStampEcho "Keeping the Borderline Quest Completed"
+0 0 0
+-76.56 6.42 343.43
+-74.24 6.67 358.97
+-70.17 6.69 394.10
+-62.73 6.69 398.04
+-64.73 6.78 396.97
+Custom
+HailActor "Adris Spiritshine" 5
+-64.73 6.78 396.97
+Custom
+Path -PL 16 -CPSP -L -QA "-QD|200|-A|Pickle Jar|-T|QSC:Pickle|-E|H" -CT "QSC:pickle jars in port woe"
+-59.10 6.69 395.99
+-35.57 6.18 392.89
+-36.12 5.40 408.50
+-28.75 5.76 383.76
+-34.74 5.54 386.34
+-31.50 5.25 375.35
+-14.76 5.57 354.87
+0.43 6.38 342.67
+1.89 5.68 347.61
+-8.15 5.52 343.96
+-14.00 5.50 346.40
+-72.48 6.41 342.76
+-84.46 9.33 346.03
+-77.73 6.54 343.82
+-73.59 6.69 376.54
+-56.94 9.33 380.50
+-53.34 6.69 397.16
+-76.32 6.69 395.08
+-28.75 5.76 383.76
+-39.31 6.56 393.61
+Custom
+Path -PL 26 -CPSP -DFPWD -QA "-QD|200|-A|Pickle Jar Location|-T|QSC:Hopefully the plethora|-E|H"
+-22.20 5.78 393.70
+6.39 6.12 401.88
+35.85 7.06 403.80
+76.71 7.23 390.00
+140.02 6.38 410.56
+181.60 5.45 458.98
+197.74 4.10 489.07
+202.40 4.81 535.83
+232.46 5.06 563.97
+277.14 4.70 581.57
+299.66 4.43 576.22
+322.06 4.19 584.30
+351.06 4.23 598.29
+393.71 4.00 625.86
+407.90 5.03 642.67
+415.78 4.54 670.78
+442.97 4.31 663.89
+453.24 4.58 644.14
+444.20 8.85 622.40
+432.08 14.05 596.61
+386.10 13.28 567.36
+349.08 16.02 545.33
+334.04 18.28 507.47
+329.31 19.71 500.71
+335.97 19.85 492.92
+329.57 21.25 485.68
+319.62 20.69 490.99
+315.21 19.37 507.48
+Custom
+FastTravel Mara
+0 0 0
+Custom
+WaitForZoning
+0 0 0
+Custom
+FastTravel Sodden
+0 0 0
+Custom
+WaitForZoning
+0 0 0
+-134.29 6.42 396.02
+-64.73 6.78 396.97
+Custom
+HailActor "Adris Spiritshine" 6
+-64.73 6.78 396.97

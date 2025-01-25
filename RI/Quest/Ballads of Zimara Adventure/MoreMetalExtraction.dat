@@ -22,7 +22,7 @@ FastTravel "Splendor Sky Aerie"
 -831.34 176.14 152.57
 -833.96 176.02 149.34
 Custom
-HailActorGetQuest -Actor ""Hootensia"" 1 1
+HailActorGetQuest -Actor "Hootensia" 1 1
 -833.96 176.02 149.34
 -826.31 174.51 159.69
 -822.21 197.55 170.36

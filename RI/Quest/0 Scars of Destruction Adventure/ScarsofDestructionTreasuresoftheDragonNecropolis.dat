@@ -1,0 +1,84 @@
+Scars of Destruction: Treasures of the Dragon Necropolis
+Custom
+MakeActiveQuest "Scars of Destruction: Treasures of the Dragon Necropolis"
+0 0 0
+Custom
+CheckQuestStep "Mesmer wouldn't let me take his homing" 49
+0 0 0
+Custom
+HailActorGetQuest -Actor "Mesmer Gearloose"
+67.68 7.63 639.25
+75.35 8.96 602.10
+100.48 9.93 585.97
+141.20 9.94 583.48
+Custom
+FlyUp 5
+141.20 101.22 583.48
+-19.67 91.52 533.51
+-78.41 103.84 513.87
+-271.11 92.53 465.54
+-399.50 85.29 475.53
+-511.83 78.88 459.72
+Custom
+FlyDown
+-508.54 -4.06 440.05
+Custom
+ClickActor "a geomanced transport" 
+-506.00 -4.04 438.23
+Wait
+50
+-523.40 22.50 506.03
+-593.22 132.62 468.40
+-599.11 131.78 451.01
+-589.35 130.32 421.23
+-612.22 130.59 405.67
+-676.59 135.56 381.27
+-745.16 137.66 349.73
+-778.07 137.23 321.78
+-793.91 139.16 307.05
+-821.42 143.83 319.51
+-836.18 132.20 339.72
+Custom
+ZoneDoor zone_to_dragon_crypt_01 "Dragon Necropolis: Chetari Warrens [Solo]"
+-836.78 130.81 342.98
+Custom
+Instance
+0 0 0
+Custom
+FastTravel Western
+0 0 0
+79.95 7.63 642.87
+67.68 7.63 639.25
+Custom
+HailActor "Mesmer Gearloose" 3
+67.60 7.63 640.55
+73.31 8.82 617.70
+103.01 9.93 585.81
+143.00 8.89 588.97
+Custom
+FlyUp 5
+143.00 117.27 588.97
+31.35 124.48 539.30
+-129.10 124.89 506.83
+-314.90 127.39 481.51
+-477.53 138.16 450.74
+-584.36 54.07 420.69
+-649.51 68.81 372.10
+-722.34 79.11 310.00
+Custom
+FlyDown
+-745.11 67.25 287.40
+Custom
+ZoneDoor zone_to_dragon_crypt_main "Dragon Necropolis: Tombs of Enlightenment [Solo]"
+-749.68 67.25 282.87
+Custom
+Instance
+0 0 0
+Custom
+FastTravel Western
+0 0 0
+79.95 7.63 642.87
+67.68 7.63 639.25
+Custom
+HailActor "Mesmer Gearloose" 3
+67.60 7.63 640.55

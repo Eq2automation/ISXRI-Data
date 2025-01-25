@@ -1,0 +1,29 @@
+Meet and Greet: Flavorful Food
+Repeatable
+12.97 5.63 363.93
+20.42 5.70 368.24
+Custom
+HailActorGetQuest -Actor "Polonia"
+20.42 5.70 368.24
+17.63 5.71 361.04
+22.42 5.71 354.82
+Custom
+ClickActor "Grandmaster Artisan's Crafting Nook" 
+22.42 5.71 354.82
+Custom
+CraftIt "Flavorful Food" 4
+22.42 5.71 354.82
+Custom
+CraftIt "Delectable Drink" 4
+22.42 5.71 354.82
+Custom
+CheckQuestStep "I have created" 25
+22.42 5.71 354.82
+Custom
+MessageBox "check everything was crafted"
+22.42 5.71 354.82
+17.34 5.72 362.96
+20.42 5.70 368.24
+Custom
+HailActor "Polonia" 1
+20.42 5.70 368.24

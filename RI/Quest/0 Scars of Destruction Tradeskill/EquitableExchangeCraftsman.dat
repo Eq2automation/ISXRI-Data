@@ -1,0 +1,22 @@
+Equitable Exchange: Craftsman
+Custom
+CheckPreReqs -ITEMQTY "Portable Woodworking Kit v2" 1 -ITEMQTY "Portable Cooking Set v2" 1
+0 0 0
+Custom
+UseItem "Portable Woodworking Kit v2" 2 TRUE
+0 0 0
+Custom
+CraftIt "Colorful Basket" 1
+0 0 0
+Custom
+UseItem "Portable Cooking Set v2" 2 TRUE
+0 0 0
+Custom
+Target "Stove & Keg"
+0 0 0
+Custom
+CraftIt "Shiny Grilled Fish" 2
+0 0 0
+Custom
+HailActor "Nazeera" 3
+144.89 8.90 -420.24

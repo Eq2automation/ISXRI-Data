@@ -1,0 +1,16 @@
+Equitable Exchange: Outfitter
+Custom
+CheckPreReqs -ITEMQTY "Portable Sewing Table v2" 1
+0 0 0
+Custom
+UseItem "Portable Sewing Table v2" 2 TRUE
+0 0 0
+Custom
+CraftIt "Colorful Shawl" 1
+0 0 0
+Custom
+CraftIt "Wispy Scarf" 2
+0 0 0
+Custom
+HailActor "Nazeera" 3
+144.89 8.90 -420.24
