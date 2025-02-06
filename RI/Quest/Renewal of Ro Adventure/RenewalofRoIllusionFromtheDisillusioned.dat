@@ -3,6 +3,9 @@ Custom
 HailActorGetQuest -Actor "Selaera Taenaeris"
 -22.95 18.85 -171.04
 Custom
+CheckQuestStep "I've successfully collected the Ortallian emblem belt" 257
+-22.95 18.85 -171.04
+Custom
 FlyUp 5
 -22.95 18.85 -171.04
 -40.50 51.55 -204.85
