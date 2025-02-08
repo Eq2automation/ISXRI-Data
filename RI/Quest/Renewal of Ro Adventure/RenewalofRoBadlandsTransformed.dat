@@ -1,5 +1,8 @@
 Renewal of Ro: Badlands Transformed
 Custom
+CheckQuestStep "I successfully removed the mental imprint shards from Caedor" 338
+-541.29 10.66 436.26
+Custom
 HailActorGetQuest -Actor "Parviz"
 -541.29 10.66 436.26
 -532.92 7.66 446.44
