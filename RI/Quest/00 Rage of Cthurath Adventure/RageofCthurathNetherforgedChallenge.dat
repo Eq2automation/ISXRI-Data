@@ -1,0 +1,182 @@
+Rage of Cthurath: Netherforged Challenge
+Custom
+HailActorGetQuest -Actor "Tomian Keeneye"
+228.14 80.10 -212.68
+224.45 79.68 -224.13
+224.45 146.09 -224.13
+200.92 165.06 -313.45
+153.03 165.21 -443.61
+135.00 165.77 -509.48
+Custom
+FlyDown
+129.39 66.00 -516.72
+Custom
+ClickActor "Void Obelisk"
+129.39 66.00 -516.72
+Custom
+ZoneDoor "Void Obelisk" "Yon Gorroth" 1 FALSE 20 TRUE
+129.39 66.00 -516.72
+Custom
+WaitForZoning
+-644.031067 -1.455403 452.250000
+-644.04 -1.46 452.25
+-632.27 -1.53 445.37
+Custom
+ApplyVerb "Kith" "Pat Head"
+-632.27 -1.53 445.37
+Custom
+HailActor "Kith" 2
+-632.27 -1.53 445.37
+Wait
+20 
+474.12 81.64 -572.31
+511.82 82.39 -636.31
+498.96 82.75 -644.28
+Custom
+ClickActor netherforge crucible
+498.96 82.75 -644.28
+509.01 82.57 -636.00
+500.33 81.68 -591.44
+467.23 81.57 -572.80
+Custom
+ApplyVerb "Kith" "Pat Head"
+462.059326 81.973640 -572.974670
+Custom
+HailActor "Kith" 2
+462.059326 81.973640 -572.974670
+Wait
+20 
+-643.318542 -1.488516 449.510773
+Custom
+ClickActor "Void Obelisk"
+-643.318542 -1.488516 449.510773
+Custom
+ZoneDoor "Void Obelisk" "Oogothl Sprawl" 1 FALSE 20 TRUE
+-643.318542 -1.488516 449.510773
+Custom
+WaitForZoning
+144.35 65.40 -498.94
+144.35 157.43 -498.94
+177.18 158.21 -418.82
+254.11 156.41 -233.14
+229.73 158.57 -171.12
+218.81 158.29 -169.64
+218.69 158.89 -169.75
+215.74 80.38 -200.84
+231.12 80.39 -214.77
+204.97 79.11 -188.21
+207.97 79.11 -188.21
+Wait
+20
+208.30 79.19 -189.40
+Custom
+ApplyVerb "an unconscious eyeblight" "Poke the eyeblight"
+208.30 79.19 -189.40
+224.37 79.92 -221.25
+Custom
+FlyUp 5
+224.37 159.53 -221.25
+224.37 203.63 -221.25
+201.87 230.05 -210.31
+127.48 258.28 -179.82
+44.11 288.55 -149.75
+-32.17 282.87 -151.03
+-128.47 259.19 -162.19
+-185.59 214.99 -162.80
+-255.79 149.79 -164.07
+-290.99 117.03 -166.78
+Custom
+FlyDown
+-290.98 87.14 -166.78
+-302.20 90.00 -179.01
+-295.04 90.77 -216.42
+-297.79 92.32 -237.44
+-310.14 93.10 -259.40
+-319.32 94.60 -253.36
+-332.95 98.28 -219.62
+-329.11 96.04 -235.71
+Wait
+20
+-322.59 94.42 -253.79
+Custom
+ClickActor "an oculus taskdriver" 
+-322.59 94.42 -253.79
+Custom
+ClickActor "an oculus taskdriver" 
+-322.59 94.42 -253.79
+-332.40 98.24 -219.54
+Custom
+HailActor "Tomian Keeneye" 2
+-332.40 98.24 -219.54
+Custom
+HailActor "Tomian Keeneye" 4
+-332.40 98.24 -219.54
+Custom
+FlyUp 5
+-332.40 156.82 -219.54
+-374.88 184.11 -225.42
+-495.19 205.76 -259.71
+-549.58 217.22 -275.38
+-581.97 227.86 -316.24
+-645.486145 182.329178 -385.738861
+-665.34 247.67 -360.05
+-665.29 186.59 -359.99
+-665.29 186.59 -359.99
+Custom
+ClickActor Crucible Location
+-665.73 186.81 -364.94
+Custom
+ClickActor Crucible Location
+-665.73 186.81 -364.94
+-667.73 186.99 -365.83
+Custom
+UnpackItem "Cimmerott Runic Ward Components Bundle"
+-667.73 186.99 -365.83
+Custom
+ScribeBook "Cimmerott Runic Ward"
+-667.73 186.99 -365.83
+Custom
+CheckPreReqs -ITEMQTY "Formless Coal" 100
+-667.73 186.99 -365.83
+Custom
+CraftIt "Cimmerott Runic Ward" 2
+-667.73 186.99 -365.83
+Custom
+FlyUp 5
+-670.58 258.56 -382.02
+-671.57 255.21 -425.30
+-660.16 253.51 -471.90
+-640.95 272.69 -486.70
+-518.78 274.87 -474.74
+-37.85 208.58 -381.67
+117.97 250.18 -478.05
+125.69 214.62 -495.77
+Custom
+FlyDown
+125.71 65.55 -495.77
+141.07 65.18 -496.94
+Custom
+HailActor "Tomian Keeneye" 2
+143.34 65.33 -498.25
+Custom
+ZoneDoor "Void Obelisk" "Yon Gorroth" 1 FALSE 20 TRUE
+129.90 65.98 -515.20
+WaitForZoning
+0 0 0
+-637.31 -1.48 448.75
+-632.51 -1.51 443.88
+Custom
+ApplyVerb "Kith" "Pat Head"`
+-632.51 -1.51 443.88
+Custom
+HailActor "Kith" 2
+-632.51 -1.51 443.88
+Wait
+20
+476.62 81.49 -574.78
+533.94 81.79 -620.24
+546.44 85.15 -641.59
+561.27 94.21 -680.02
+Custom
+HailActor "Lady Najena" 2
+561.27 94.21 -680.02

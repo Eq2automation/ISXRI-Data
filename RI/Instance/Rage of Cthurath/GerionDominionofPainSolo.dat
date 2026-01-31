@@ -1,0 +1,200 @@
+Custom
+MessageBox "gotta turn on HOs for this zone"
+203.31 0.77 117.41
+281.97 0.52 162.83
+298.81 0.52 164.90
+307.72 0.68 189.07
+340.12 4.64 214.80
+333.15 4.85 231.23
+317.07 2.04 240.52
+Custom
+ClickActor Energy Accumulator
+281.10 0.66 230.22
+Wait
+50
+281.10 0.66 230.22
+Custom
+ClickActor Energy Accumulator
+281.10 0.66 230.22
+Wait
+50
+281.10 0.66 230.22
+Custom
+ClickActor Energy Accumulator
+281.10 0.66 230.22
+Wait
+50
+281.10 0.66 230.22
+Custom
+ClickActor Energy Accumulator
+281.10 0.66 230.22
+281.10 0.66 230.22
+287.36 0.65 234.46
+271.00 2.45 247.41
+239.72 0.82 261.49
+224.55 0.80 265.62
+Custom
+ClickActor "gate_northeast"
+226.36 0.83 265.83
+205.30 0.86 268.00
+175.64 0.59 249.60
+201.56 0.61 279.47
+190.50 0.59 300.06
+Custom
+HailActor "a prisoner" 
+186.49 0.58 305.13
+207.83 0.83 269.64
+266.58 2.07 257.38
+285.42 1.33 254.89
+Custom
+HailActor "a prisoner" 
+285.42 1.33 254.89
+327.11 5.09 236.51
+337.88 4.61 205.96
+363.44 4.85 179.82
+370.33 1.26 154.05
+362.55 2.34 115.33
+364.06 1.23 120.97
+Custom
+HailActor "a prisoner" 
+364.06 1.23 120.97
+354.89 2.06 96.33
+341.14 0.92 59.64
+Custom
+ClickActor "gate_southeast"
+341.14 0.92 59.64
+336.10 0.72 46.09
+330.89 0.50 28.63
+321.69 0.60 37.73
+Custom
+HailActor "a prisoner" 
+321.69 0.60 37.73
+Custom
+ClickActor Runic Ward Location
+329.76 0.49 25.89
+330.55 0.52 49.19
+370.19 3.47 161.88
+Custom
+MessageBox "engage Sir Rendal then run to grate and click on lights to spawn mobs. then use HOs to kill Sir Rendal"
+355.46 4.61 190.48
+Custom
+HailActor "Sir Rendal Cauldthorn" 
+342.238953 4.606771 197.485168
+343.19 4.85 188.36
+343.74 4.61 207.01
+358.24 4.61 191.18
+375.83 4.34 195.56
+385.84 3.92 182.92
+391.39 3.67 170.88
+447.11 0.20 167.19
+504.89 0.54 128.43
+461.50 0.52 158.66
+Custom
+HailActor "The Soulbleeder" 
+441.98 0.50 137.89
+412.30 1.09 172.58
+388.36 3.86 176.88
+374.99 4.38 196.73
+355.06 4.61 190.22
+341.25 4.61 204.72
+358.79 4.13 231.89
+345.38 3.83 249.44
+356.69 0.63 275.71
+350.94 0.52 322.84
+Custom
+HailActor "The Exhumed Executioner" 
+350.94 0.52 322.84
+330.48 0.52 330.49
+313.21 0.64 341.42
+Custom
+ClickActor Energy Accumulator
+313.21 0.64 341.42
+Wait
+50
+313.21 0.64 341.42
+Custom
+ClickActor Energy Accumulator
+313.21 0.64 341.42
+Wait
+50
+313.21 0.64 341.42
+Custom
+ClickActor Energy Accumulator
+313.21 0.64 341.42
+Wait
+50
+313.21 0.64 341.42
+Custom
+ClickActor Energy Accumulator
+313.21 0.64 341.42
+Wait
+50
+313.21 0.64 341.42
+319.77 0.83 344.96
+324.36 5.08 353.49
+322.23 8.00 360.60
+320.41 9.91 365.37
+Custom
+ClickActor Runic Ward Location
+337.64 11.11 368.73
+335.43 10.47 372.33
+362.37 0.64 367.54
+364.43 0.64 374.06
+Custom
+ClickActor Energy Accumulator
+364.43 0.64 374.06
+Wait
+50
+364.43 0.64 374.06
+Custom
+ClickActor Energy Accumulator
+364.43 0.64 374.06
+Wait
+50
+364.43 0.64 374.06
+Custom
+ClickActor Energy Accumulator
+364.43 0.64 374.06
+Wait
+50
+364.43 0.64 374.06
+Custom
+ClickActor Energy Accumulator
+364.43 0.64 374.06
+Wait
+50
+364.43 0.64 374.06
+364.43 0.64 374.06
+369.83 0.64 369.79
+382.25 5.08 369.26
+386.89 9.82 378.04
+389.26 10.16 379.69
+404.30 10.47 373.92
+400.94 11.11 370.48
+400.95 11.11 357.54
+382.45 5.67 331.06
+361.34 0.75 311.54
+352.36 1.33 270.42
+344.40 3.76 250.67
+342.29 0.49 307.72
+369.05 0.22 285.35
+352.25 2.76 265.47
+343.90 3.68 253.55
+362.06 5.29 226.68
+377.30 2.26 231.53
+374.90 0.77 238.88
+Custom
+HailActor "Dominator Zerada" 
+403.39 0.75 237.49
+442.66 3.92 254.54
+462.43 8.58 265.16
+484.76 8.84 274.70
+489.75 11.34 278.31
+Custom
+HailActor "Raynax S'Vere" 
+492.53 11.25 282.49
+Custom
+ClickActor Runic Ward Location
+493.80 11.28 283.74
+494.94 11.39 285.17
+503.51 13.24 290.04

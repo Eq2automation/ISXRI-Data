@@ -1,0 +1,32 @@
+Intended Sacrifices
+Custom
+HailActorGetQuest -Actor "Derlak" 2
+-285.05 25.19 -27.62
+-294.97 40.27 -22.90
+-369.22 30.26 -31.57
+-392.23 48.57 2.54
+-384.40 42.66 97.88
+-384.630005 3.260000 104.620003
+Custom
+ZoneDoor zone_portal_to_dun_unknown_01 "The Unknown: Sacrificial Pursuits [Solo]"
+-384.630005 3.260000 104.620003
+Custom
+Instance
+0 0 0
+Custom
+ZoneDoor "Exit"
+0 0 0
+Custom
+Path -PL 8 -CPSP
+-137.61 184.79 -163.55
+-179.43 168.10 -228.19
+-112.79 205.15 -257.33
+-249.85 193.05 -180.11
+-294.96 159.93 -120.46
+-326.28 127.61 -45.27
+-340.08 78.87 -2.67
+-312.76 41.49 -15.37
+-275.06 25.25 -21.60
+Custom
+HailActor "Derlak" 2
+-285.05 25.19 -27.62

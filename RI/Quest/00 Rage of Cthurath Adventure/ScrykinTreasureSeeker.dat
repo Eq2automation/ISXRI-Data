@@ -1,0 +1,32 @@
+Scrykin Treasure Seeker
+99.67 11.05 887.23
+132.64 10.86 899.53
+Custom
+HailActorGetQuest -Actor "Ozron"
+132.64 10.86 899.53
+94.51 12.29 896.80
+59.21 9.45 880.91
+25.09 11.34 825.32
+3.88 15.00 815.14
+Custom
+ZoneDoor zone_to_zon_zobboz_02 "Zon Zobboz: The Chimeric Chain [Solo]"
+3.88 15.00 815.14
+Custom
+MessageBox "Find and recover 8 ancient Scrykin Farseer's Stones"
+0 0 0
+Custom
+MessageBox "Find and recover 13 Codex Artiface pages"
+0 0 0
+Custom
+Instance
+0 0 0
+Custom
+ZoneDoor Exit
+116.74 11.00 825.63
+109.31 10.26 833.43
+84.59 14.61 907.07
+109.31 10.26 833.43
+132.64 10.86 899.53
+Custom
+HailActor "Ozron" 5
+132.64 10.86 899.53

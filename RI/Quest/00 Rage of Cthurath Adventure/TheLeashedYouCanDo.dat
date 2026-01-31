@@ -1,0 +1,26 @@
+The Leashed You Can Do
+99.67 11.05 887.23
+132.64 10.86 899.53
+Custom
+HailActorGetQuest -Actor "Ozron"
+132.64 10.86 899.53
+94.51 12.29 896.80
+109.39 10.39 834.56
+Custom
+ZoneDoor zone_to_zon_zobboz_01 "Zon Zobboz: The Graftwerk [Solo]"
+129.10 12.85 818.38
+Custom
+MessageBox "Go around and Leash Red, Yellow and Green emergent voidcysts and pull them to their corresponding Color gestation chamber to complete Quest "
+0 0 0
+Custom
+Instance
+0 0 0
+Custom
+ZoneDoor Exit
+480.25 10.00 -116.78
+116.74 11.00 825.63
+109.31 10.26 833.43
+132.64 10.86 899.53
+Custom
+HailActor "Ozron" 5
+132.64 10.86 899.53

@@ -1,0 +1,40 @@
+Rage of Cthurath Tradeskill Timeline
+Custom
+CheckAndSet -NotInZone "Guild Hall" 10
+0 0 0
+Custom
+RemoveFromDepot "Harvesting Supply Depot" "Flowfall Vines" 2 "Tiama Wood" 1 "Zobboz Gem" 1 "Blighted Ore" 1
+0 0 0
+Custom
+RemoveFromDepot "Fuel Depot" "Formless Filament" 300 "Formless Candle" 300 "Formless Coal" 300 "Formless Kindling" 300 "aerated mineral water" 300
+0 0 0
+Custom
+CheckPreReqs -ITEMQTY "Flowfall Vines" 2 -ITEMQTY "Tiama Wood" 1 -ITEMQTY "Zobboz Gem" 1 -ITEMQTY "Blighted Ore" 1 -ITEMQTY "Formless Filament" 20 -ITEMQTY "Formless Candle" 20 -ITEMQTY "Formless Coal" 105 -ITEMQTY "Formless Kindling" 40
+0 0 0
+Custom
+Quest "Destination Unknown: Stabilization"
+0 0 0
+Custom
+Quest "Destination Unknown: Gone Gorroth"
+0 0 0
+Custom
+Quest "Destination Unknown: Restraint"
+0 0 0
+Custom
+Quest "Destination Unknown: Dinnertime Stories"
+0 0 0
+Custom
+Quest "Destination Unknown: Kith and Kin"
+0 0 0
+Custom
+Quest "Destination Unknown: Mistaken Identity"
+0 0 0
+Custom
+Quest "Destination Unknown: Stealthy Sneaking"
+0 0 0
+Custom
+Quest "Destination Unknown: Additional Tasks"
+0 0 0
+Custom
+Quest "Elemental Daily Tradeskill Mission"
+0 0 0

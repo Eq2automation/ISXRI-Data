@@ -1,0 +1,74 @@
+Rage of Cthurath: On to Oogothl
+Custom
+HailActorGetQuest -Actor "Lady Najena"
+561.49 94.26 -679.22
+553.38 93.80 -687.65
+529.50 81.85 -612.06
+491.49 81.88 -581.54
+468.01 81.54 -572.61
+Custom
+ApplyVerb "Kith" "Pat Head"
+462.059326 81.973640 -572.974670
+Custom
+HailActor "Kith" 2
+462.059326 81.973640 -572.974670
+WaitForZoning
+0 0 0
+-648.48 -1.16 446.38
+Custom
+ClickActor Void Obelisk
+-648.48 -1.16 446.38
+Custom
+ZoneDoor "Void Obelisk" "Oogothl Sprawl" 1 FALSE 20 TRUE
+130.19 65.92 -513.39
+WaitForZoning
+0 0 0
+-853.31 -47.89 1009.46
+Custom
+WaitForZoning
+0 0 0
+134.44 65.91 -514.53
+144.79 65.60 -503.37
+Custom
+HailActor "Tomian Keeneye" 8 1
+144.79 65.60 -503.37
+144.29 65.02 -485.99
+Custom
+HailActor "Uglah" 6 1
+144.29 65.02 -485.99
+146.42 66.04 -510.81
+Custom
+ClickActor Recent Imports
+146.42 66.04 -510.81
+Custom
+ClickActor Recent Imports
+146.42 66.04 -510.81
+Custom
+ClickActor Recent Imports
+146.42 66.04 -510.81
+130.49 64.91 -493.43
+Custom
+ClickActor Recent Imports
+130.49 64.91 -493.43
+145.00 65.91 -511.28
+Custom
+ClickActor Recent Imports
+145.00 65.91 -511.28
+Custom
+CheckQuestStep "Report to Sturg" 62
+144.03 65.02 -487.36
+Custom
+CheckQuestStep "Gather containers" 39
+144.03 65.02 -487.36
+145.98 65.12 -487.31
+234.52 53.07 -393.70
+232.88 53.12 -332.28
+207.23 51.16 -319.03
+151.32 52.43 -309.92
+127.36 55.52 -248.36
+114.37 74.57 -213.89
+203.60 80.65 -207.36
+219.78 80.41 -192.03
+Custom
+HailActor "Sturg" 5 1
+219.78 80.41 -192.03

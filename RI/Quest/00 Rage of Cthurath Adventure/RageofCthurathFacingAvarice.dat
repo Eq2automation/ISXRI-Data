@@ -1,0 +1,86 @@
+Rage of Cthurath: Facing Avarice
+Custom
+CheckAndSet -InZone "Gerion, Hold of D'Lere (Signature)" 38
+0 0 0
+Custom
+FastTravel Antonica Spire
+0 0 0
+Custom
+WaitForZoning
+0 0 0
+-2054.81 11.75 -637.72
+Custom
+FlyUp 5
+-2054.81 73.12 -637.72
+-2054.81 73.12 -637.72
+-1998.15 134.75 -400.56
+-1941.67 150.49 -161.69
+-1953.90 137.32 3.55
+-2074.76 108.80 166.79
+Custom
+FlyDown
+-2080.67 33.45 174.16
+Custom
+FlyDown
+-2075.02 3.72 150.85
+Custom
+HailActorGetQuest -Actor "Lady Najena"
+-2084 5 117
+-2075.44 4.10 115.50
+Custom
+ClickActor "a violent rift"
+-2075.44 4.10 115.50
+Custom
+ZoneDoor "Gerion, Hold of D'Lere (Signature)" 1 FALSE 20 TRUE
+-58.89 0.95 -159.77
+Custom
+WaitForZoning
+0 0 0
+124.08 0.95 129.60
+168.18 1.03 97.36
+196.82 0.66 113.48
+237.51 0.77 136.10
+303.97 0.66 175.00
+325.57 1.96 189.17
+339.53 4.61 198.32
+344.28 4.61 214.89
+329.76 4.85 234.73
+300.59 0.53 249.95
+245.43 1.08 264.19
+206.34 0.60 280.00
+Custom
+HailActor "a Lucanic Gaoler" 
+206.34 0.60 280.00
+210.35 0.82 269.50
+241.17 0.54 255.69
+278.75 0.54 239.76
+333.11 4.85 228.68
+344.24 4.61 208.35
+355.12 4.60 186.62
+364.80 3.58 162.41
+355.63 0.55 121.92
+342.52 0.63 75.69
+335.70 0.72 51.63
+337.01 0.82 41.92
+Custom
+HailActor "a Gerion deathdrinker" 
+337.01 0.82 41.92
+347.58 0.58 26.73
+358.23 2.06 103.78
+Wait
+200
+358.23 2.06 103.78
+Custom
+UseItem "Thyr Summoning Stone"
+358.23 2.06 103.78
+353.99 2.12 108.80
+342.96 0.57 125.15
+Custom
+ClickActor Exit
+342.25 0.60 126.44
+Custom
+ZoneDoor "Zone to Yon Gorroth"
+342.25 0.60 126.44
+Custom
+WaitForZoning
+0 0 0

@@ -1,0 +1,117 @@
+Elemental Daily Tradeskill Mission
+Custom
+CheckAndSet -NotInZone "Guild Hall" 7
+0 0 0
+Custom
+RemoveFromDepot "Fuel Depot" "Formless Coal" 60 "Formless Candle" 60 "Formless Kindling" 60 "Formless Sandpaper" 60 "Formless Incense" 60 "Formless Filament" 60
+0 0 0
+Custom
+CheckAndSet -InZone "The Unknown" 63
+0 0 0
+Custom
+FastTravel Antonica Spire
+0 0 0
+-2054.81 11.75 -637.72
+Custom
+FlyUp 5
+-2054.81 73.12 -637.72
+-2054.81 73.12 -637.72
+-1998.15 134.75 -400.56
+-1941.67 150.49 -161.69
+-1953.90 137.32 3.55
+-2074.76 108.80 166.79
+Custom
+FlyDown
+-2080.67 33.45 174.16
+Custom
+FlyDown
+-2075.02 3.72 150.85
+-2075.02 3.72 150.85
+-2075.44 4.10 115.50
+Custom
+ClickActor "a violent rift"
+-2075.44 4.10 115.50
+Custom
+ZoneDoor "a violent rift" "Yon Gorroth"
+-2075.44 4.10 115.50
+Custom
+WaitForZoning
+0 0 0
+553.38 93.80 -687.65
+529.50 81.85 -612.06
+491.49 81.88 -581.54
+468.01 81.54 -572.61
+Custom
+ApplyVerb "Kith" "Pat Head"
+462.059326 81.973640 -572.974670
+Custom
+HailActor "Kith" 2
+462.059326 81.973640 -572.974670
+Custom
+WaitForZoning
+0 0 0
+-643.318542 -1.488516 449.510773
+Custom
+ClickActor Void Obelisk
+-643.318542 -1.488516 449.510773
+Custom
+ZoneDoor "Void Obelisk" "The Unknown" 1 FALSE 20 TRUE
+130.19 65.92 -513.39
+WaitForZoning
+0 0 0
+-853.31 -47.89 1009.46
+-890.83 -51.26 1008.50
+Custom
+HailActor "Flamebearer Taslana" 3
+-890.83 -51.26 1008.50
+Custom
+MakeActiveQuest "Elemental: Water Under the Bridge"
+-890.83 -51.26 1008.50
+Custom
+TimeStampEcho "Made quest active: Elemental: Water Under the Bridge"
+-890.83 -51.26 1008.50
+Custom
+CheckAndSet -NotActiveQuest "Elemental: Water Under the Bridge" 80
+-890.83 -51.26 1008.50
+Custom
+Quest "Elemental: Water Under the Bridge"
+-890.83 -51.26 1008.50
+Custom
+MakeActiveQuest "Elemental: Earth to Anyone"
+-890.83 -51.26 1008.50
+Custom
+TimeStampEcho "Made quest active: Elemental: Earth to Anyone"
+-890.83 -51.26 1008.50
+Custom
+CheckAndSet -NotActiveQuest "Elemental: Earth to Anyone" 92
+-890.83 -51.26 1008.50
+Custom
+Quest "Elemental: Earth to Anyone"
+-890.83 -51.26 1008.50
+Custom
+MakeActiveQuest "Elemental: Air Quotes"
+-890.83 -51.26 1008.50
+Custom
+TimeStampEcho "Made quest active: Elemental: Air Quotes"
+-890.83 -51.26 1008.50
+Custom
+CheckAndSet -NotActiveQuest "Elemental: Air Quotes" 104
+-890.83 -51.26 1008.50
+Custom
+Quest "Elemental: Air Quotes"
+-890.83 -51.26 1008.50
+Custom
+MakeActiveQuest "Elemental: Fire in the Hole"
+-890.83 -51.26 1008.50
+Custom
+TimeStampEcho "Made quest active: Elemental: Fire in the Hole"
+-890.83 -51.26 1008.50
+Custom
+CheckAndSet -NotActiveQuest "Elemental: Fire in the Hole" 116
+-890.83 -51.26 1008.50
+Custom
+Quest "Elemental: Fire in the Hole"
+-890.83 -51.26 1008.50
+Custom
+TimeStampEcho "Ending Elemental Requisition Daily"
+-890.83 -51.26 1008.50

@@ -1,0 +1,117 @@
+-23.20 14.22 814.56
+DontStopForCombat
+-61.90 12.77 822.06
+-142.94 11.91 865.20
+-182.00 14.87 887.98
+StopForCombat
+-214.74 14.58 902.59
+Custom
+MessageBox "kill the Lord and Resume"
+-214.74 14.58 902.59
+-259.56 15.19 914.58
+Named
+Lord
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named 
+-259.56 15.19 914.58
+-260.07 14.95 918.06
+-288.62 14.43 907.48
+-316.09 14.45 893.58
+-334.74 12.14 884.92
+-369.09 9.86 882.97
+-403.38 12.87 858.39
+-435.59 10.59 846.17
+Named
+Vadrak
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named 
+-438.68 10.11 845.41
+-473.49 9.23 829.52
+-544.04 8.74 789.28
+Custom
+MessageBox "Make sure to click the Yemi Rune" 
+-567.513306 12.553464 759.066101
+Custom
+MessageBox "Kill Incubus and put on the hat to see the special mobs for 2 of the runes"
+-567.513306 12.553464 759.066101
+-574.73 12.79 772.94
+Custom
+ClickActor "teleporter_to_boss_03"
+-582.31 13.10 768.98
+Wait
+50
+-733.35 104.07 649.23
+-737.20 104.20 638.36
+-747.31 103.94 620.95
+-754.00 103.94 612.87
+-771.87 104.18 601.32
+-783.26 103.75 607.91
+Named
+Xigothid
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named 
+-785.28 103.86 609.01
+Custom
+MessageBox "Make sure to click the Gara Cimmerott Rune"
+-772.40 104.17 601.16
+-763.94 104.27 603.84
+-754.24 103.32 582.77
+-748.80 103.77 560.05
+-759.64 103.77 540.09
+Wait
+50
+-759.64 103.77 540.09
+Custom
+ClickActor "teleporter_to_boss_04"
+-759.64 103.77 540.09
+-745.78 137.59 421.37
+Custom
+MessageBox "Make sure to click the Hirc Cimmerott Rune"
+-733.03 137.38 394.53
+-728.98 137.38 384.80
+-736.85 137.71 403.81
+-764.11 137.46 427.89
+-722.75 136.91 367.40
+Custom
+MessageBox "Equip the Eye of an Inkubus and kill xaephian fugitives for Theng and Yuru rune"
+-735.60 6.45 358.54
+-738.24 11.88 302.22
+-725.53 12.39 215.36
+-718.56 12.88 103.09
+Custom
+MessageBox "Make sure to click the Olunt Cimmerott Rune"
+-765.36 26.30 93.84
+-765.36 26.30 93.84
+-788.00 35.89 126.59
+-790.83 45.36 183.59
+-786.26 48.76 210.51
+Named
+Kur
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named 
+-786.26 48.76 210.51
+-789.46 38.08 153.37
+-771.48 36.42 131.63
+-692.45 13.67 91.35
+-597.24 12.84 7.07
+-563.05 10.31 -31.61
+Named
+Mozal
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named 
+-563.05 10.31 -31.61

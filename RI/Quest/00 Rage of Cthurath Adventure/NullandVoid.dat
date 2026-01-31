@@ -1,0 +1,74 @@
+Null and Void
+Custom
+HailActorGetQuest -Actor "Oruri"
+-877.05 -51.21 978.02
+-867.04 -51.45 961.72
+-819.07 -49.72 915.60
+-819.40 -49.83 914.98
+-824.76 -51.14 905.23
+Custom
+FlyUp 5
+-824.76 -28.30 905.23
+-784.60 5.63 898.53
+-770.37 30.09 903.85
+-734.49 39.43 911.90
+Custom
+FlyDown
+-716.16 31.67 915.89
+-725.67 12.20 929.41
+-708.29 15.33 976.32
+Custom
+Path -PL 10 -CPSP -DFPWD -L -CT "QSC:The dozing spore" -QA "-A|a voidcrust ravager|-T|QSC:ravager|-E|UseItem-Dazing Spore Bursts"
+-707.08 16.88 984.49
+-726.32 18.50 987.49
+-717.63 18.29 1002.36
+-693.49 16.00 1037.27
+-677.48 15.71 1072.50
+-657.99 16.87 1072.94
+-647.12 17.23 1091.36
+-627.22 19.30 1097.50
+-614.04 21.65 1112.81
+-599.34 21.85 1121.58
+-599.38 21.76 1117.46
+Custom
+ApplyVerb "a Void arcana stone" "Smash Void Stone"
+-583.19 21.74 1112.51
+Custom
+HailActor "a voidman seer" 
+-584.53 21.73 1116.73
+Custom
+ApplyVerb "a Void arcana stone" "Smash Void Stone"
+-616.83 21.56 1111.50
+Custom
+HailActor "a voidman seer" 
+-616.83 21.56 1111.50
+-603.26 21.65 1138.16
+Custom
+ApplyVerb "a Void arcana stone" "Smash Void Stone"
+-603.26 21.65 1138.16
+Custom
+HailActor "a voidman seer" 
+-603.26 21.65 1138.16
+Custom
+ClickActor Psychic Energy Gem
+-603.26 21.91 1124.54
+Custom
+CheckQuestStep "I need to return" 60
+-603.26 21.91 1124.54
+Custom
+MessageBox "Make sure you updated the step before returning"
+-603.26 21.91 1124.54
+-616.27 21.50 1106.68
+Custom
+FlyUp 5
+-616.54 45.32 1106.36
+-678.08 37.27 1050.64
+-754.38 32.89 979.07
+-784.85 30.76 937.75
+-819.86 9.39 901.31
+-870.40 -29.48 892.68
+-871.46 -51.18 932.00
+-876.91 -51.17 978.44
+Custom
+HailActor "Oruri" 2
+-876.91 -51.17 978.44

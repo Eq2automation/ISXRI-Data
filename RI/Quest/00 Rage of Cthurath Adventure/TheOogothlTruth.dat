@@ -1,0 +1,41 @@
+The Oogothl Truth
+Custom
+HailActorGetQuest -Actor "Xhindar"
+-35.41 68.12 -451.47
+-27.38 69.10 -417.03
+Custom
+FlyUp 5
+-27.38 167.98 -417.03
+-22.43 180.01 -385.66
+-14.05 200.39 -282.06
+-10.24 219.12 -172.39
+-27.66 220.90 -139.14
+Custom
+FlyDown
+-27.66 145.59 -139.14
+Custom
+ClickActor Living Waters
+-27.66 145.76 -139.14
+-61.14 148.64 -127.62
+Custom
+HailActor "a Priest of Xktkez" 
+-61.14 148.64 -127.62
+Custom
+FlyUp 5
+-61.14 181.66 -127.62
+-77.09 176.12 -181.58
+-78.83 171.09 -232.17
+-52.00 161.68 -323.07
+-52.00 104.62 -323.07
+-35.56 89.52 -358.73
+-26.73 69.10 -416.40
+-33.42 68.12 -447.01
+Custom
+HailActor "Xhindar" 4
+-33.42 68.12 -447.01
+Custom
+HailActor "Xhindar" 
+-33.42 68.12 -447.01
+Custom
+HailActor "Xhindar" 5
+-33.42 68.12 -447.01

@@ -1,0 +1,150 @@
+Destination Unknown: Stabilization
+Custom
+CheckPreReqs -ITEMQTY "Formless Filament" 20 -ITEMQTY "Formless Candle" 20 -ITEMQTY "Formless Coal" 105 -ITEMQTY "Formless Kindling" 40 -ITEMQTY "Portable Work Bench v2" 2
+0 0 0
+Custom
+CheckAndSet -InZone "Gerion: Ark of Ascension [Tradeskill]" 46
+0 0 0
+Custom
+FastTravel Antonica Spire
+0 0 0
+Custom
+WaitForZoning
+0 0 0
+-2054.81 11.75 -637.72
+Custom
+FlyUp 5
+-2054.81 73.12 -637.72
+-2054.81 73.12 -637.72
+-1998.15 134.75 -400.56
+-1941.67 150.49 -161.69
+-1953.90 137.32 3.55
+-2074.76 108.80 166.79
+Custom
+FlyDown
+-2080.67 33.45 174.16
+Custom
+FlyDown
+-2075.02 3.72 150.85
+Custom
+HailActorGetQuest -Actor "Flamebearer Denat"
+-2075.02 3.72 150.85
+-2081.68 5.25 120.27
+Custom
+HailActor -Actor "Lady Najena" 10
+-2081.68 5.25 120.27
+-2075.44 4.10 115.50
+Custom
+ClickActor "a violent rift"
+-2075.44 4.10 115.50
+Custom
+ZoneDoor "Gerion: Ark of Ascension [Tradeskill]" 1 FALSE 20 TRUE
+-58.89 0.95 -159.77
+Custom
+WaitForZoning
+0 0 0
+-56.81 0.95 -165.26
+Custom
+UseItem "Avarice Lucanic Sentinel Illusion"
+-59.50 0.95 -161.03
+Custom
+CheckQuestStep "I have crafted the disguise" 82
+-59.50 0.95 -161.03
+Custom
+ClickActor Place Portal Device
+-59.50 0.95 -161.03
+-48.80 0.95 -150.00
+Custom
+HailActor "Flamebearer Denat" 5
+-48.80 0.95 -150.00
+-57.94 0.95 -172.62
+-35.94 0.95 -180.51
+-0.41 1.22 -193.27
+Custom
+Path -PL 2 -DFPWD -QA "-A|Discarded Armor|-T|QSC:6/6|-E|H" -CT "QSC:armor"
+-9.18 0.78 -217.70
+11.01 0.73 -219.38
+-9.18 0.78 -217.70
+Custom
+ClickActor Discarded Armor
+-9.18 0.78 -217.70
+Custom
+ClickActor Discarded Armor
+11.01 0.73 -219.38
+Custom
+CheckPreReqs -ITEMQTY "Portable Work Bench v2" 2
+11.01 0.73 -219.38
+Custom
+UseItem "Portable Work Bench v2"
+11.01 0.73 -219.38
+Custom
+CraftIt "Avarice Lucanic Sentinel Illusion"
+11.01 0.73 -219.38
+Custom
+UseItem "Avarice Lucanic Sentinel Illusion"
+11.01 0.73 -219.38
+0.19 0.78 -230.80
+Custom
+Path -PL 27 -L -QA "-A|Oddly Resonating Shard|-T|QSC:7/7|-E|H" -CT "QSC:I have collected the shards,"
+0.19 0.78 -230.80
+0.25 0.52 -307.74
+0.26 0.76 -333.53
+0.25 0.80 -357.97
+36.64 0.73 -391.60
+81.07 0.69 -342.45
+103.78 0.50 -402.51
+137.57 0.55 -438.87
+115.24 0.51 -469.77
+123.95 0.52 -512.10
+102.60 0.74 -532.25
+72.96 0.80 -502.70
+41.75 0.53 -492.32
+-1.28 0.44 -493.67
+-44.31 0.73 -489.61
+-105.86 0.52 -528.21
+-125.65 0.50 -508.64
+-116.84 0.51 -469.70
+-125.08 0.54 -424.60
+-106.48 0.52 -405.73
+-90.98 0.54 -383.64
+-62.83 0.51 -363.89
+-37.06 0.73 -392.69
+-0.69 0.75 -367.14
+-1.19 0.52 -301.11
+0.01 0.65 -229.62
+-0.03 1.13 -206.83
+-11.47 0.95 -190.54
+-49.43 0.95 -178.23
+-48.19 0.95 -148.88
+Custom
+HailActor "Flamebearer Denat" 3
+-48.19 0.95 -148.88
+-55.23 0.95 -170.16
+-7.93 0.95 -193.72
+11.58 0.74 -219.35
+Custom
+CheckPreReqs -ITEMQTY "Portable Work Bench v2" 1
+11.01 0.73 -219.38
+Custom
+UseItem "Portable Work Bench v2"
+11.01 0.73 -219.38
+Custom
+CraftIt "Rift Stabilization Device v2"
+11.01 0.73 -219.38
+0.52 0.65 -215.86
+-0.93 1.03 -195.75
+-59.46 0.95 -169.02
+-59.09 0.95 -161.90
+Custom
+ClickActor Place Portal Device
+-59.09 0.95 -161.90
+-58.89 0.95 -159.77
+Custom
+ClickActor Exit
+-58.89 0.95 -159.77
+Custom
+ZoneDoor "Zone to Yon Gorroth"
+-58.89 0.95 -159.77
+Custom
+WaitForZoning
+0 0 0

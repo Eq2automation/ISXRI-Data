@@ -1,0 +1,40 @@
+Rage of Cthurath: Wrest of the Unknown
+Custom
+HailActorGetQuest -Actor "Lady Najena"
+-78.69 993.38 28.74
+-109.62 993.42 45.15
+Custom
+ClickActor Exit
+-109.62 993.42 45.15
+Custom
+WaitForZoning
+0 0 0
+Custom
+ClickActor Exit
+-0.673006 0.164322 104.599716
+Custom
+WaitForZoning
+0 0 0
+553.38 93.80 -687.65
+529.50 81.85 -612.06
+491.49 81.88 -581.54
+468.01 81.54 -572.61
+Custom
+ApplyVerb "Kith" "Pat Head"
+462.059326 81.973640 -572.974670
+Custom
+HailActor "Kith" 2
+462.059326 81.973640 -572.974670
+Wait
+20 
+-643.318542 -1.488516 449.510773
+Custom
+ClickActor Void Obelisk
+-643.318542 -1.488516 449.510773
+Custom
+ZoneDoor "Void Obelisk" "Oogothl Sprawl" 1 FALSE 20 TRUE
+-643.318542 -1.488516 449.510773
+WaitForZoning
+0 0 0
+-853.31 -47.89 1009.46
+-890.83 -51.26 1008.50
