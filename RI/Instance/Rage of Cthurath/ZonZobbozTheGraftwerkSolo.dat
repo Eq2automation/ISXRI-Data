@@ -1,0 +1,121 @@
+180.58 12.31 799.46
+220.50 12.54 794.52
+246.44 9.01 788.36
+277.13 12.62 780.82
+338.88 12.96 763.98
+366.75 10.84 756.37
+396.00 9.18 748.39
+419.52 9.43 741.98
+Named
+Bludge
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named 
+419.52 9.43 741.98
+438.09 9.42 745.67
+452.70 18.15 752.02
+552.46 16.03 656.20
+581.00 16.21 591.10
+598.51 16.64 563.82
+654.01 11.75 562.05
+697.49 16.33 578.78
+717.67 19.87 589.41
+714.86 29.80 618.86
+709.61 46.49 671.17
+680.66 51.28 687.09
+652.48 52.89 690.45
+633.61 52.69 690.13
+Wait
+50
+630.74 52.69 690.10
+Custom
+ClickActor "teleporter_to_boss_02"
+630.74 52.69 690.10
+682.03 104.52 627.18
+641.85 104.22 634.08
+Named
+The Abominable
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named 
+636.12 105.32 631.54
+659.07 104.75 581.78
+659.07 104.75 581.78
+Wait
+50
+659.07 104.75 581.78
+Custom
+ClickActor "teleporter_to_boss_03"
+659.07 104.75 581.78
+Wait
+50
+753.96 11.83 229.21
+Custom
+MakeActiveQuest "Rage of Cthurath: Who's Zobboz"
+753.96 11.83 229.21
+Custom
+CheckQuest -NotActive "Rage of Cthurath: Who's Zobboz" 65
+753.96 11.83 229.21
+Custom
+MessageBox "Fill Vial by killing gangly and collecting the vistaar prana released with Vial"
+753.96 11.83 229.21
+Custom
+Path -PL 10 -QA "-QD|200|-A|vistaar prana|-T|QSC:preserved|-E|UseItem-Voidwell Vial" -CT "QSC:I've gathered plenty of preserved"
+787.15 12.44 211.48
+801.76 12.47 186.63
+Wait
+50
+801.76 12.47 186.63
+822.75 11.29 73.54
+784.68 16.93 -22.97
+765.28 17.85 -32.08
+741.93 28.97 -11.71
+749.19 36.51 13.21
+770.94 38.30 31.45
+Named
+Lu'Gul
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named 
+742.82 38.86 35.96
+Custom
+Path -PL 4 -QA "-QD|200|-A|vistaar prana|-T|QSC:preserved|-E|UseItem-Voidwell Vial" -CT "QSC:I've gathered plenty of preserved"
+743.20 37.57 74.00
+737.26 38.43 99.88
+710.94 25.11 119.16
+684.40 16.47 129.43
+659.07 16.93 131.27
+Named
+The Orozorgon
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named 
+656.08 17.06 131.32
+662.18 13.99 94.94
+661.99 13.36 57.97
+638.01 9.56 45.91
+613.07 11.73 33.93
+610.58 11.75 7.87
+570.73 12.58 -49.66
+545.97 12.17 -72.97
+524.11 15.69 -93.09
+495.33 10.00 -110.41
+Named
+Senzu
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named 
+495.33 10.00 -110.41
+Custom
+ZoneDoor Exit
+480.25 10.00 -116.78

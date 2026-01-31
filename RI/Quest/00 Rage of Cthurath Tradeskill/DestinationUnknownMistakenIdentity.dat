@@ -1,0 +1,77 @@
+Destination Unknown: Mistaken Identity
+Custom
+HailActorGetQuest -Actor "Graz'lam"
+133.87 64.37 -486.23
+143.64 65.85 -511.33
+Custom
+ClickActor "Banquet Supplies"
+143.64 65.85 -511.33
+Custom
+ClickActor "Banquet Supplies"
+124.419334 65.839722 -492.932922
+Custom
+CheckPreReqs -ITEMQTY "Gazer Banquet Bundle" 1
+124.419334 65.839722 -492.932922
+140.97 63.67 -458.62
+160.10 47.70 -297.15
+125.61 54.80 -250.99
+119.12 74.53 -213.67
+147.58 76.92 -211.64
+174.75 79.63 -206.28
+171.03 77.00 -162.56
+Custom
+UnpackItem "Gazer Banquet Bundle"
+171.03 77.00 -162.56
+Custom
+ClickActor "Varig's Forge"
+171.03 77.00 -162.56
+Custom
+CraftIt "Gooey Netherbian Surprise" 4
+171.03 77.00 -162.56
+Custom
+CraftIt "Sludgewater Fizz" 4
+171.03 77.00 -162.56
+Custom
+CraftIt "Embroidered Tablecloth" 1
+171.03 77.00 -162.56
+Custom
+CraftIt "Elaborate Candelabra" 4
+171.03 77.00 -162.56
+Custom
+CraftIt "Silver Platter" 4
+171.03 77.00 -162.56
+Custom
+CraftIt "Embellished Drinking Bowl" 4
+171.03 77.00 -162.56
+Custom
+CraftIt "Fancy Silk Pillow" 4
+171.03 77.00 -162.56
+170.96 77.02 -160.69
+177.74 79.06 -197.61
+123.72 75.21 -211.37
+150.00 48.45 -287.87
+233.19 53.21 -335.80
+245.20 52.69 -367.24
+203.98 52.38 -422.69
+134.18 64.24 -482.13
+Custom
+ClickActor Banquet Items
+133.83 64.23 -483.53
+168.96 58.88 -458.92
+250.17 52.87 -370.50
+214.56 50.07 -316.11
+159.01 48.83 -304.34
+113.08 70.58 -223.31
+131.68 76.03 -209.56
+176.80 79.79 -206.82
+172.44 76.99 -162.34
+Custom
+ClickActor "Varig's Forge"
+171.03 77.00 -162.56
+Custom
+CraftIt "W.H.E.R.E. v2" 1
+171.03 77.00 -162.56
+172.44 76.99 -162.34
+Custom
+HailActor "Flamebearer Denat" 2
+171.49 76.99 -164.40

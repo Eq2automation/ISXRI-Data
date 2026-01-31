@@ -1,0 +1,144 @@
+Gnarls Gone Wild
+547.83 89.53 -660.78
+517.54 82.17 -633.72
+485.99 81.07 -600.22
+445.16 80.13 -588.17
+Custom
+CheckQuestStep "I need to return to Darou" 139
+0 0 0
+Custom
+CheckQuestStep "The blightwing fiends" 103
+0 0 0
+434.26 81.07 -579.32
+Custom
+HailActorGetQuest -Actor "Tomian Keeneye"
+434.26 81.07 -579.32
+433.70 80.96 -578.84
+374.37 79.51 -578.14
+347.48 78.45 -576.37
+320.51 75.02 -578.20
+Custom
+ClickActor "Colichaw Bulb"
+309.18 73.91 -598.50
+Custom
+ClickActor "Colichaw Bulb"
+300.46 73.32 -601.16
+Custom
+ClickActor "Colichaw Bulb"
+279.72 71.16 -589.47
+Custom
+ClickActor "Colichaw Bulb"
+253.97 69.96 -578.42
+Custom
+ClickActor "Colichaw Bulb"
+233.14 70.83 -591.28
+Custom
+ClickActor "Colichaw Bulb"
+217.84 67.93 -580.46
+Custom
+ClickActor "Colichaw Bulb"
+204.73 67.46 -584.38
+Custom
+ClickActor "Colichaw Bulb"
+195.23 67.38 -576.79
+Custom
+ClickActor "Colichaw Bulb"
+181.82 63.37 -561.13
+Custom
+ClickActor "Colichaw Bulb"
+159.81 61.21 -545.55
+Custom
+ClickActor "Colichaw Bulb"
+78.97 52.25 -561.69
+Custom
+ClickActor "Colichaw Bulb"
+55.22 50.53 -568.53
+Custom
+ClickActor "Colichaw Bulb"
+23.61 48.83 -567.90
+Custom
+ClickActor "Colichaw Bulb"
+17.49 43.64 -545.22
+Custom
+ClickActor "Colichaw Bulb"
+-45.36 39.85 -528.73
+Custom
+ClickActor "Colichaw Bulb"
+-38.80 33.63 -484.71
+Custom
+ClickActor "Colichaw Bulb"
+-18.36 35.60 -478.36
+Custom
+ClickActor "Colichaw Bulb"
+-8.97 37.98 -461.74
+Custom
+ClickActor "Colichaw Bulb"
+22.50 42.31 -459.84
+Custom
+ClickActor "Colichaw Bulb"
+69.39 46.11 -500.90
+Custom
+ClickActor "Colichaw Bulb"
+125.08 55.32 -494.74
+Custom
+ClickActor "Colichaw Bulb"
+213.50 63.65 -481.74
+Custom
+ClickActor "Colichaw Bulb"
+229.61 63.18 -479.55
+Custom
+ClickActor "Colichaw Bulb"
+253.07 67.29 -506.83
+Custom
+ClickActor "Colichaw Bulb"
+272.11 68.26 -525.94
+Custom
+ClickActor "Colichaw Bulb"
+295.63 73.63 -561.53
+Custom
+ClickActor "Colichaw Bulb"
+313.13 74.53 -576.68
+Custom
+CheckQuestStep "I need to return to Darou" 139
+0 0 0
+Custom
+Path -PL 26 -L -CT "QSC:There's fewer invasive" -QA "-A|a blightwing fiend|-T|QSC:a blightwing fiend|-E|K"
+309.18 73.91 -598.50
+300.46 73.32 -601.16
+279.72 71.16 -589.47
+253.97 69.96 -578.42
+233.14 70.83 -591.28
+217.84 67.93 -580.46
+204.73 67.46 -584.38
+195.23 67.38 -576.79
+181.82 63.37 -561.13
+159.81 61.21 -545.55
+78.97 52.25 -561.69
+55.22 50.53 -568.53
+23.61 48.83 -567.90
+17.49 43.64 -545.22
+-45.36 39.85 -528.73
+-38.80 33.63 -484.71
+-18.36 35.60 -478.36
+-8.97 37.98 -461.74
+22.50 42.31 -459.84
+69.39 46.11 -500.90
+125.08 55.32 -494.74
+213.50 63.65 -481.74
+229.61 63.18 -479.55
+253.07 67.29 -506.83
+272.11 68.26 -525.94
+295.63 73.63 -561.53
+313.13 74.53 -576.68
+Custom
+CheckQuestStep "Tomian suspects the colichaw bulbs" 16
+0 0 0
+Custom
+CheckQuestStep "There must be a connection" 97
+0 0 0
+325.73 76.27 -576.14
+384.91 80.14 -577.48
+434.80 81.15 -579.33
+Custom
+HailActor "Tomian Keeneye" 5
+434.80 81.15 -579.33

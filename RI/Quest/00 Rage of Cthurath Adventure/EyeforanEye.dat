@@ -1,0 +1,51 @@
+Eye for an Eye
+-271.87 39.88 588.30
+Custom
+HailActorGetQuest -Actor "Xhol'Rog"
+-271.87 39.88 588.30
+-271.87 39.88 588.30
+Custom
+HailActorGetQuest -Actor "Xhol'Rog"
+-271.87 39.88 588.30
+-290.57 39.17 570.33
+-314.75 39.33 519.06
+Custom
+Path -PL 19 -CT "QSC:All of the mechaneyez assassins" -QA "-A|a mechaneyez assassin|-T|QSC:a mechaneyez assassin|-E|K"
+-314.75 39.33 519.06
+-323.79 39.09 514.60
+-333.73 23.19 544.61
+-333.82 12.87 544.97
+-382.19 18.00 515.65
+-359.02 16.46 479.20
+-324.01 13.31 443.97
+-304.61 10.27 424.45
+-244.34 2.37 421.45
+-209.87 1.17 435.32
+-164.84 0.95 451.87
+-92.37 4.53 467.52
+-44.54 5.13 474.87
+-62.01 3.79 433.17
+-100.29 0.51 399.73
+-158.59 1.04 346.22
+-177.82 1.18 350.66
+-212.98 2.28 387.33
+-251.53 2.19 435.61
+-320.84 12.79 450.35
+Custom
+ApplyVerb "a mechaneyez assassin" "Examine Mechaneyez"
+-322.78 12.13 461.53
+Custom
+ApplyVerb "Curious Mechanimagica" "Examine Mechanimagica"
+-319.19 14.73 474.29
+Custom
+ClickActor "Curious Mechanimagica"
+-319.19 14.73 474.29
+-363.71 17.16 488.88
+-523.525696 104.899513 426.399506
+-380.06 34.72 611.64
+-353.56 40.20 646.65
+-310.10 39.48 620.36
+-267.10 39.81 585.34
+Custom
+HailActor "Xhol'Rog" 3
+-270.68 39.79 583.86

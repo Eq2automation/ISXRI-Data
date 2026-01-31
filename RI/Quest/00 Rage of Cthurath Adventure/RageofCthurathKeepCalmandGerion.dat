@@ -1,0 +1,67 @@
+Rage of Cthurath: Keep Calm and Gerion
+Custom
+HailActorGetQuest -Actor "Lady Najena"
+561.27 94.21 -680.02
+Custom
+ZoneDoor "a hijacked portal" "Gerion, Hold of D'Lere"
+564.71 94.57 -697.05
+Custom
+WaitForZoning
+0 0 0
+-3.30 0.43 96.14
+90.927429 0.164322 51.141254
+46.583988,0.164322,-93.964867
+Custom
+HailActor "Hiwaaya Al'Naderi" 10
+47.07 0.16 -94.21
+13.99 0.36 -95.42
+-0.27 0.89 -132.15
+Custom
+ZoneDoor zone_to_avarice_01 "Gerion: Ark of Ascension [Solo]"
+-0.27 0.89 -132.15
+Custom
+Instance
+0 0 0
+Custom
+ZoneDoor Exit
+0 0 0
+4.94 0.87 -122.57
+11.09 0.28 -110.82
+45.91 0.16 -96.08
+Custom
+HailActor "Hiwaaya Al'Naderi" 2
+45.91 0.16 -96.08
+Custom
+HailActor "Hiwaaya Al'Naderi" 9
+45.91 0.16 -96.08
+34.83 -0.41 -74.09
+78.80 -0.42 18.39
+112.14 0.89 64.24
+Custom
+ZoneDoor zone_to_avarice_02 "Gerion: Dominion of Pain [Solo]"
+114.81 0.89 65.41
+Custom
+Instance
+0 0 0
+Custom
+ZoneDoor Exit
+0 0 0
+113.10 0.89 65.80
+88.60 0.16 52.00
+63.06 -0.45 -27.32
+48.08 0.16 -93.88
+Custom
+HailActor "Hiwaaya Al'Naderi" 2
+48.08 0.16 -93.88
+57.92 -0.44 -45.50
+27.45 -0.51 44.65
+5.95 0.16 106.21
+3.70 0.16 110.94
+Custom
+ZoneDoor zone_to_yon_gorroth "Yon Gorroth"
+3.70 0.16 110.94
+556.81 93.85 -686.67
+560.45 94.02 -682.05
+Custom
+HailActor "Lady Najena" 2
+560.45 94.02 -682.05

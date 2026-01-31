@@ -1,0 +1,316 @@
+Wards with Friends
+-605.67 0.86 458.65
+Custom
+FlyDown
+5
+Custom
+HailActorGetQuest -Actor "Muurak"
+-605.67 0.86 458.65
+-600.71 1.79 458.85
+-600.71 39.67 458.85
+Custom
+CheckQuestStep "Muurak led me to believe" 285
+0 0 0
+-526.52 45.40 508.60
+-456.34 50.63 557.92
+-431.63 53.20 555.95
+-431.63 32.81 555.96
+Custom
+ClickActor "Humming Rubble"
+-431.63 32.81 555.96
+Wait
+20
+-431.63 32.81 555.96
+Custom
+ClickActor "Forgotten Ward"
+-431.63 32.81 555.96
+-431.63 66.93 555.96
+-405.00 42.29 544.44
+Custom
+ClickActor "Humming Rubble"
+-405.00 42.29 544.44
+Wait
+20
+-405.00 42.29 544.44
+Custom
+ClickActor "Forgotten Ward"
+-405.00 42.29 544.44
+-405.00 89.34 544.44
+-344.81 101.10 519.56
+-344.89 59.17 519.59
+Custom
+ClickActor "Humming Rubble"
+-344.89 59.17 519.59
+Wait
+20
+-344.89 59.17 519.59
+Custom
+ClickActor "Forgotten Ward"
+-344.89 59.17 519.59
+-344.89 116.65 519.59
+-239.97 102.72 502.91
+-239.97 67.92 502.93
+Custom
+ClickActor "Humming Rubble"
+-239.97 67.92 502.93
+Wait
+20
+-239.97 67.92 502.93
+Custom
+ClickActor "Forgotten Ward"
+-239.97 67.92 502.93
+-239.97 109.50 502.93
+-232.29 107.18 535.54
+-232.28 59.38 535.39
+Custom
+ClickActor "Humming Rubble"
+-232.28 59.38 535.39
+Wait
+20
+-232.28 59.38 535.39
+Custom
+ClickActor "Forgotten Ward"
+-232.28 59.38 535.39
+-232.28 91.17 535.39
+-238.44 85.87 575.69
+-238.24 32.45 575.55
+Custom
+ClickActor "Humming Rubble"
+-238.24 32.45 575.55
+Wait
+20
+-238.24 32.45 575.55
+Custom
+ClickActor "Forgotten Ward"
+-238.24 32.45 575.55
+-238.24 83.29 575.55
+-156.74 82.12 563.02
+-156.45 44.30 562.88
+Custom
+ClickActor "Humming Rubble"
+-156.45 44.30 562.88
+Wait
+20
+-156.45 44.30 562.88
+Custom
+ClickActor "Forgotten Ward"
+-155.74 44.08 562.77
+-155.72 77.80 562.70
+-164.78 79.40 543.73
+-164.78 47.35 543.79
+Custom
+ClickActor "Humming Rubble"
+-164.78 47.35 543.79
+Wait
+20
+-164.78 47.35 543.79
+Custom
+ClickActor "Forgotten Ward"
+-164.78 47.35 543.79
+-164.78 75.91 543.79
+-151.97 77.32 531.77
+-151.78 50.71 532.01
+Custom
+ClickActor "Humming Rubble"
+-151.78 50.71 532.01
+Wait
+20
+-151.78 50.71 532.01
+Custom
+ClickActor "Forgotten Ward"
+-151.78 50.71 532.01
+-151.78 76.61 532.01
+-125.68 78.92 542.13
+-125.65 44.19 542.13
+Custom
+ClickActor "Humming Rubble"
+-125.65 44.19 542.13
+Wait
+20
+-125.65 44.19 542.13
+Custom
+ClickActor "Forgotten Ward"
+-125.65 44.19 542.13
+-125.65 77.98 542.13
+-111.29 79.27 559.39
+-111.38 35.81 559.53
+Custom
+ClickActor "Humming Rubble"
+-111.38 35.81 559.53
+Wait
+20
+-111.38 35.81 559.53
+Custom
+ClickActor "Forgotten Ward"
+-111.38 35.81 559.53
+-111.38 65.03 559.53
+-88.34 68.69 532.50
+-88.38 47.20 532.56
+Custom
+ClickActor "Humming Rubble"
+-88.38 47.20 532.56
+Wait
+20
+-88.38 47.20 532.56
+Custom
+ClickActor "Forgotten Ward"
+-88.38 47.20 532.56
+-88.38 82.96 532.56
+-105.53 84.10 511.46
+-105.53 51.86 511.46
+Custom
+ClickActor "Humming Rubble"
+-105.53 51.86 511.46
+Wait
+20
+-105.53 51.86 511.46
+Custom
+ClickActor "Forgotten Ward"
+-105.53 51.86 511.46
+-105.53 89.80 511.46
+-85.67 95.52 481.63
+-85.72 58.20 481.64
+Custom
+ClickActor "Humming Rubble"
+-85.72 58.20 481.64
+Wait
+20
+-85.72 58.20 481.64
+Custom
+ClickActor "Forgotten Ward"
+-85.72 58.20 481.64
+-85.72 102.50 481.64
+-166.27 102.98 484.21
+-180.44 86.48 495.83
+-180.43 66.03 495.79
+Custom
+ClickActor "Humming Rubble"
+-180.43 66.03 495.79
+Wait
+20
+-180.43 66.03 495.79
+Custom
+ClickActor "Forgotten Ward"
+-180.43 66.03 495.79
+-187.86 117.97 439.95
+-187.75 72.18 440.00
+Custom
+ClickActor "Humming Rubble"
+-187.75 72.18 440.00
+Wait
+20
+-187.75 72.18 440.00
+Custom
+ClickActor "Forgotten Ward"
+-187.75 72.18 440.00
+-164.35 98.56 426.49
+-164.35 80.89 426.49
+Custom
+ClickActor "Humming Rubble"
+-164.35 80.89 426.49
+Wait
+20
+-164.35 80.89 426.49
+Custom
+ClickActor "Forgotten Ward"
+-164.35 80.89 426.49
+-115.24 131.69 389.53
+-115.14 71.30 389.60
+Custom
+ClickActor "Humming Rubble"
+-115.14 71.30 389.60
+Wait
+20
+-115.14 71.30 389.60
+Custom
+ClickActor "Forgotten Ward"
+-115.14 71.30 389.60
+-79.42 105.99 371.90
+-79.37 65.22 371.82
+Custom
+ClickActor "Humming Rubble"
+-79.37 65.22 371.82
+Wait
+20
+-79.37 65.22 371.82
+Custom
+ClickActor "Forgotten Ward"
+-79.37 65.22 371.82
+-47.11 105.99 406.72
+-47.14 55.14 406.87
+Custom
+ClickActor "Humming Rubble"
+-47.14 55.14 406.87
+Wait
+20
+-47.14 55.14 406.87
+Custom
+ClickActor "Forgotten Ward"
+-47.14 55.14 406.87
+-3.33 99.70 440.87
+-3.21 45.63 440.80
+Custom
+ClickActor "Humming Rubble"
+-3.21 45.63 440.80
+Wait
+20
+-3.21 45.63 440.80
+Custom
+ClickActor "Forgotten Ward"
+-3.21 45.63 440.80
+-0.71 87.76 476.78
+-0.86 47.10 476.70
+Custom
+ClickActor "Humming Rubble"
+-0.86 47.10 476.70
+Wait
+20
+-0.86 47.10 476.70
+Custom
+ClickActor "Forgotten Ward"
+-0.86 47.10 476.70
+-95.50 100.01 480.55
+-150.50 109.45 483.25
+-218.65 109.45 485.88
+-281.59 109.45 487.90
+-340.59 109.45 489.78
+-393.01 109.45 491.46
+-488.96 90.12 491.21
+-535.00 67.65 481.04
+-574.41 44.81 466.32
+-598.07 35.29 454.59
+Custom
+CheckQuestStep "I should search for old wards," 10
+0 0 0
+-622.19 35.29 410.07
+-622.19 -1.86 410.07
+Custom
+ClickActor Ward Location
+-622.19 -1.86 410.07
+-622 60 410
+-600 60 479
+-600.30 -0.30 479.53
+Custom
+ClickActor Ward Location
+-600.30 -0.30 479.53
+-600 60 479
+-663.46 60 462.01
+-664 80 468
+-664.17 -2.02 468.86
+Custom
+ClickActor Ward Location
+-664.83 -2.14 469.39
+-664 60 469
+-705 60 421
+-705.45 -2.17 421.27
+Custom
+ClickActor Ward Location
+-705.45 -2.17 421.27
+-705 80 421
+-683.92 80 440.12
+-628.81 80 435.91
+-602.51 80 458.21qqq    
+-602.51 1.56 458.21
+Custom
+HailActor "Muurak" 8
+-602.51 1.56 458.21

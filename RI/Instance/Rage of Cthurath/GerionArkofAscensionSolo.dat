@@ -1,0 +1,178 @@
+-0.50 0.65 -216.30
+-0.50 0.52 -300.03
+-0.50 0.65 -347.82
+-0.50 0.75 -374.08
+-50.14 0.50 -397.57
+-53.98 0.73 -454.59
+-41.46 0.53 -488.74
+-1.66 1.49 -531.66
+-19.22 -0.97 -539.17
+-21.19 -0.96 -540.34
+Custom
+ClickActor dismal_rage_soul_chamber
+-21.19 -0.96 -540.34
+-23.26 -0.91 -551.33
+Custom
+ClickActor dismal_rage_soul_chamber
+-23.26 -0.91 -551.33
+-19.06 -0.53 -562.17
+-23.24 -0.50 -563.80
+Custom
+ClickActor dismal_rage_soul_chamber
+-23.24 -0.50 -563.80
+-13.35 -0.56 -579.91
+Custom
+ClickActor dismal_rage_soul_chamber
+-13.35 -0.56 -579.91
+-2.19 -0.55 -583.19
+-0.14 -0.56 -588.19
+Custom
+ClickActor dismal_rage_soul_chamber
+-0.14 -0.56 -588.19
+7.82 -0.53 -576.54
+11.20 -0.53 -581.47
+Custom
+ClickActor dismal_rage_soul_chamber
+11.20 -0.53 -581.47
+22.83 -0.50 -562.61
+Custom
+ClickActor dismal_rage_soul_chamber
+22.83 -0.50 -562.61
+20.23 -0.90 -552.29
+24.06 -0.92 -549.13
+Custom
+ClickActor dismal_rage_soul_chamber
+24.06 -0.92 -549.13
+19.41 -0.95 -542.03
+20.30 -0.96 -539.84
+Custom
+ClickActor dismal_rage_soul_chamber
+20.30 -0.96 -539.84
+3.56 -0.45 -544.91
+0.79 -0.36 -543.81
+6.49 -0.92 -543.06
+2.89 -0.69 -543.57
+-10.12 -0.52 -557.20
+4.56 0.54 -527.44
+22.54 0.53 -498.45
+58.05 0.54 -479.27
+57.36 0.97 -449.25
+52.61 0.97 -403.73
+-0.50 0.55 -386.75
+0.47 2.58 -407.09
+0.26 3.12 -411.37
+Named
+The Dogmadog
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named 
+0.26 3.12 -411.37
+DontStopForCombat
+-1.02 1.22 -403.34
+-29.18 0.48 -388.13
+53.13 0.86 -401.08
+75.04 0.47 -368.91
+116.26 0.76 -324.12
+Custom
+ClickActor gate_southwest
+116.26 0.76 -324.12
+139.94 0.62 -300.22
+Custom
+ClickActor Runic Ward Location
+139.94 0.62 -300.22
+118.61 0.93 -323.51
+75.83 0.47 -372.48
+49.28 0.49 -392.77
+-6.36 0.54 -389.27
+-62.69 0.54 -403.91
+-74.73 0.54 -418.40
+StopForCombat
+-108.38 1.32 -468.89
+Wait
+50
+-108.38 1.32 -468.89
+-108.38 1.32 -468.89
+Custom
+ClickActor "teleporter_to_boss_03"
+-108.38 1.32 -468.89
+Wait
+50
+-113.03 24.06 -469.22
+-123.54 23.68 -462.55
+-146.55 23.68 -467.56
+Named
+Nazkun
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named 
+-146.55 23.68 -467.56
+-135.27 23.68 -459.52
+Custom
+ClickActor Runic Ward Location
+-146.45 23.37 -449.64
+-118.78 23.37 -463.45
+-80.20 0.54 -458.66
+-52.64 0.54 -480.11
+-7.99 0.49 -506.85
+72.22 0.54 -473.87
+109.77 1.29 -469.72
+Wait
+50
+109.77 1.29 -469.72
+Custom
+ClickActor "teleporter_to_boss_02"
+109.77 1.29 -469.72
+Wait
+50
+114.00 24.06 -469.40
+126.83 23.37 -482.23
+148.79 23.68 -468.63
+Named
+Surinon
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named 
+149.14 23.68 -468.27
+133.57 23.57 -482.37
+-126.04 23.78 -459.78
+-85.19 0.53 -454.70
+-61.15 0.54 -476.34
+120.07 23.37 -476.82
+85.03 0.53 -485.93
+56.34 0.54 -490.94
+Custom
+ClickActor Runic Ward Location
+0.00 -0.57 -584.98
+8.03 -0.53 -578.46
+-2.93 -0.56 -570.49
+Named
+Xelha
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named  
+-2.93 -0.56 -570.49
+Custom
+ClickActor Runic Ward Location
+0.00 -0.57 -584.98
+DontStopForCombat
+5.08 1.15 -531.05
+-6.95 0.50 -512.18
+0.00 -0.57 -584.98
+1.20 1.31 -467.14
+0.91 -1.23 -449.07
+Named
+Paragon
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named 
+0.91 -1.23 -449.07

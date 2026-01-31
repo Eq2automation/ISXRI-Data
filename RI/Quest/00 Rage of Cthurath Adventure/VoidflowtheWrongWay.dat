@@ -1,0 +1,79 @@
+Voidflow the Wrong Way
+Custom
+HailActorGetQuest -Actor "Vasynea"
+-299.47 25.22 -21.86
+Custom
+ApplyVerb "Longhowl" "Scratch Head"
+-281.879150 25.270460 -7.984990
+Custom
+HailActor "Longhowl" 1
+-281.879150 25.270460 -7.984990
+-803.00 13.08 -714.62
+Custom
+FlyUp 5
+-803.00 48.61 -714.62
+-927.30 75.69 -836.66
+-1031.24 97.92 -896.04
+-1156.50 107.96 -986.69
+-1251.25 92.35 -1105.10
+-1281.13 83.33 -1149.76
+Custom
+FlyDown
+-1281.04 49.57 -1149.66
+-1289.44 51.47 -1164.43
+Custom
+ClickActor Voidflow Relay Stone Arr 
+-1286.26 51.57 -1167.37
+Custom
+ClickActor Voidflow Relay Stone Arr
+-1285.62 51.65 -1167.14
+Custom
+HailActor "an ebonlithe anchorweaver" 
+-1285.62 51.65 -1167.14
+-1326.38 52.00 -1194.32
+-1285.62 51.65 -1167.14
+Custom
+ClickActor Voidflow Relay Stone Bek
+-1323.13 52.00 -1196.89
+-1310.43 51.77 -1193.73
+-1287.10 51.68 -1183.74
+-1315.05 50.98 -1161.18
+Custom
+ClickActor Voidflow Relay Stone Chl
+-1315.05 50.98 -1161.18
+Custom
+HailActor "an ebonlithe anchorwitch" 
+-1315.05 50.98 -1161.18
+Custom
+ClickActor Voidflow Relay Stone Chl
+-1315.05 50.98 -1161.18
+Wait
+30
+-1315.05 50.98 -1161.18
+Custom
+CheckQuestStep "Vasynea expects" 58
+-1315.05 50.98 -1161.18
+Custom
+MessageBox "check quest step completed"
+-1315.05 50.98 -1161.18
+Custom
+FlyUp 5
+-1315.05 108.30 -1161.18
+-1271.97 100.29 -1116.50
+-1118.56 100.75 -974.73
+-973.74 105.78 -856.27
+-901.80 79.52 -797.38
+-852.16 23.52 -756.73
+-821.25 11.61 -731.17
+-809.87 12.18 -717.79
+Custom
+ApplyVerb "Longhowl" "Scratch Head"
+-809.87 12.18 -717.79
+Custom
+HailActor "Longhowl" 2
+-809.87 12.18 -717.79
+-284.49 25.27 -14.79
+-294.91 25.25 -18.35
+Custom
+HailActor "Vasynea" 2
+-294.91 25.25 -18.35

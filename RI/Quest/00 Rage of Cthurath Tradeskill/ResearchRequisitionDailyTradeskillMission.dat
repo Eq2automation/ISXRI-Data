@@ -1,0 +1,86 @@
+Research Requisition Daily Tradeskill Mission
+Custom
+CheckAndSet -NotInZone "Guild Hall" 7
+0 0 0
+Custom
+RemoveFromDepot "Fuel Depot" "Formless Coal" 60 "Formless Candle" 60 "Formless Kindling" 60 "Formless Sandpaper" 60 "Formless Incense" 60
+0 0 0
+Custom
+CheckAndSet -InZone "Yon Gorroth" 44
+0 0 0
+Custom
+FastTravel Antonica Spire
+0 0 0
+-2054.81 11.75 -637.72
+Custom
+FlyUp 5
+-2054.81 73.12 -637.72
+-2054.81 73.12 -637.72
+-1998.15 134.75 -400.56
+-1941.67 150.49 -161.69
+-1953.90 137.32 3.55
+-2074.76 108.80 166.79
+Custom
+FlyDown
+-2080.67 33.45 174.16
+Custom
+FlyDown
+-2075.02 3.72 150.85
+-2075.02 3.72 150.85
+-2075.44 4.10 115.50
+Custom
+ClickActor "a violent rift"
+-2075.44 4.10 115.50
+Custom
+ZoneDoor "Yon Gorroth"
+-2075.44 4.10 115.50
+Custom
+WaitForZoning
+0 0 0
+Custom
+Path -PL 2 -L -CPSP
+543.52 84.83 -642.85
+521.18 82.19 -639.19
+509.48 82.74 -649.79
+Custom
+HailActor "Researcher Fouran" 5
+509.48 82.74 -649.79
+Custom
+MakeActiveQuest "Researcher Fouran: Requisition - Darou Delight"
+509.48 82.74 -649.79
+Custom
+TimeStampEcho "Made quest active: Researcher Fouran: Requisition - Darou Delight"
+509.48 82.74 -649.79
+Custom
+CheckAndSet -NotActiveQuest "Researcher Fouran: Requisition - Darou Delight" 59
+509.48 82.74 -649.79
+Custom
+Quest "Researcher Fouran: Requisition - Darou Delight"
+509.48 82.74 -649.79
+Custom
+MakeActiveQuest "Researcher Fouran: Requisition - Grasslands Leather Vest"
+509.48 82.74 -649.79
+Custom
+TimeStampEcho "Made quest active: Researcher Fouran: Requisition - Grasslands Leather Vest"
+509.48 82.74 -649.79
+Custom
+CheckAndSet -NotActiveQuest "Researcher Fouran: Requisition - Grasslands Leather Vest" 71
+509.48 82.74 -649.79
+Custom
+Quest "Researcher Fouran: Requisition - Grasslands Leather Vest"
+509.48 82.74 -649.79
+Custom
+MakeActiveQuest "Researcher Fouran: Requisition - Oogothl Onyx Lock Mechanism"
+509.48 82.74 -649.79
+Custom
+TimeStampEcho "Made quest active: Researcher Fouran: Requisition - Oogothl Onyx Lock Mechanism"
+509.48 82.74 -649.79
+Custom
+CheckAndSet -NotActiveQuest "Researcher Fouran: Requisition - Oogothl Onyx Lock Mechanism" 83
+509.48 82.74 -649.79
+Custom
+Quest "Researcher Fouran: Requisition - Oogothl Onyx Lock Mechanism"
+509.48 82.74 -649.79
+Custom
+TimeStampEcho "Ending Researcher Requisition Hourly"
+509.48 82.74 -649.79

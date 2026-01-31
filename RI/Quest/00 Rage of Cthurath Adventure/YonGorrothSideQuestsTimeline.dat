@@ -1,0 +1,63 @@
+Yon Gorroth Side Quests Timeline
+Custom
+Quest "Useful or Not"
+0 0 0
+Custom
+Quest "Possession Obsession"
+0 0 0
+Custom
+Quest "Truth or Darou"
+0 0 0
+Custom
+Quest "Healthy Pursuits"
+0 0 0
+Custom
+Quest "Yon with the Wild"
+0 0 0
+Custom
+Quest "Webbin' Feverishly"
+0 0 0
+Custom
+Quest "Double-dog Darou"
+0 0 0
+Custom
+CheckCompletedQuest "More Healthy Pursuits" 27
+0 0 0
+Custom
+Quest "More Healthy Pursuits"
+0 0 0
+Custom
+CheckCompletedQuest "For the Good of the Herd" 34
+0 0 0
+Custom
+Quest "For the Good of the Herd"
+0 0 0
+Custom
+CheckCompletedQuest "So Far Yon" 54
+0 0 0
+475.29 81.66 -570.28
+Custom
+ApplyVerb "Kith" "Pat Head"
+462.059326 81.973640 -572.974670
+Custom
+HailActor "Kith" 2
+462.059326 81.973640 -572.974670
+Custom
+WaitForZoning
+0 0 0
+-643.318542 -1.488516 449.510773
+-600.11 131.98 270.80
+-362.23 131.43 277.66
+-303 131 155
+Custom
+Quest "So Far Yon"
+0 0 0
+Custom
+Quest "Writher and Yon"
+0 0 0
+Custom
+Quest "Yon of the Living Dead"
+0 0 0
+Custom
+Quest "All Hope is Yon"
+0 0 0

@@ -1,0 +1,102 @@
+101.11 4.07 366.38
+52.01 4.81 395.11
+4.70 3.95 399.62
+-18.46 3.79 401.49
+-42.69 3.79 403.44
+-71.04 2.38 406.51
+-104.17 -0.08 415.75
+-124.66 0.04 427.87
+-135.14 0.13 438.83
+Named
+Arthromada
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named
+-136.51 0.46 441.16
+-133.99 5.29 479.91
+-152.78 13.73 527.17
+-213.25 26.23 597.26
+-286.51 39.65 645.47
+-296.19 39.01 624.78
+-296.05 40.22 600.98
+-291.27 39.34 567.51
+Named
+Glozzakon
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named
+-291.27 39.34 567.51
+-317.07 40.21 613.51
+-351.59 38.38 612.19
+-424.03 24.07 584.02
+-435.47 24.05 544.24
+-438.78 27.53 504.59
+-424.78 46.95 431.25
+-389.56 46.72 429.83
+-340.36 47.85 435.88
+Named
+Bloggrofk
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named 
+-340.36 47.85 435.88
+-359.23 48.50 425.39
+-342.14 49.65 392.33
+-327.50 47.73 386.54
+Wait
+50
+-327.50 47.73 386.54
+Custom
+ClickActor "telelport crystal"
+-327.50 47.73 386.54
+Wait
+50
+-119.97 86.00 338.79
+-101.20 87.35 311.50
+-100.81 87.47 298.63
+Named
+Glozzakon
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named 
+-101.08 87.48 298.40
+-86.08 87.53 289.37
+Wait
+50
+-86.08 87.53 289.37
+Custom
+ClickActor "telelport crystal"
+-86.08 87.53 289.37
+Wait
+50
+52.59 120.24 344.15
+37.99 117.31 312.65
+9.59 118.38 305.53
+Named
+Aglazia
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named
+9.59 118.38 305.53
+Custom
+CheckAndSet -NotActiveQuest "Rays the Roost" 111
+9.59 118.38 305.53
+Custom
+CheckQuestStep "I think I've wrangled enough" 111
+9.59 118.38 305.53
+Custom
+MessageBox "Confirm 8/8 nautilus shell have been collected and resume"
+9.59 118.38 305.53
+Custom
+ZoneDoor Exit
+5.846725 118.369553 292.784973

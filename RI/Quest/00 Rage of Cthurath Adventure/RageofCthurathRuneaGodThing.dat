@@ -1,0 +1,26 @@
+Rage of Cthurath: Rune a God Thing
+Custom
+HailActorGetQuest -Actor "Lady Najena"
+560.45 94.02 -682.05
+561.83 94.45 -696.12
+Custom
+ZoneDoor "a hijacked portal" "Gerion, Hold of D'Lere"
+564.71 94.57 -697.05
+-3.30 0.43 96.14
+-10.22 0.39 94.92
+-70.63 -0.12 7.17
+-116.37 1.12 -64.90
+Custom
+ClickActor Teleport
+-116.37 1.12 -64.90
+-87.80 0.16 -55.47
+Custom
+WaitForZoning
+0 0 0
+Custom
+Instance
+0 0 0
+-78.69 993.38 28.74
+Custom
+HailActor "Lady Najena" 3
+-78.69 993.38 28.74

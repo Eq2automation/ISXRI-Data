@@ -1,0 +1,189 @@
+Temple of the Ver'Bohten Eye
+Custom
+HailActorGetQuest -Actor "Xhol'Rog"
+-270.68 39.79 583.86
+-284.77 39.52 578.42
+-318.28 37.61 550.69
+-334.04 41.22 496.49
+-349.387939 42.471828 499.040710
+-333.55 12.41 476.58
+-319.91 14.33 473.55
+Custom
+ZoneDoor zone_portal_to_dun_sprawl_01 "Oogothl Sprawl: Ver'Bohten Atoll [Solo]"
+-319.91 14.33 473.55
+-859.88 169.47 127.35
+Custom
+Path -PL 4 -QA "-A|Terminus Tech Electro-defender|-T|QSC:Terminus|-K"
+-844.74 169.69 152.61
+-840.01 145.52 331.87
+-731.47 143.87 349.49
+Named
+Glorfab
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named  
+-731.47 143.87 349.49
+Custom
+Path -PL 2 -QA "-A|Terminus Tech Electro-defender|-T|QSC:Terminus|-K"
+-746.91 154.49 293.21
+-712.39 166.14 215.28
+-726.88 179.84 172.24
+Wait
+50
+-726.88 179.84 172.24
+Custom
+ClickActor "telelport crystal"
+-726.88 179.84 172.24
+Wait
+50
+-861.69 199.70 279.52
+-801.13 200.00 317.13
+Custom
+Path -PL 4 -QA "-A|Terminus Tech Electro-defender|-T|QSC:Terminus|-K"
+-801.13 200.00 317.13
+-792.37 201.48 374.48
+-789.40 201.50 377.44
+Named
+Klexpract
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named  
+-789.40 201.50 377.44
+Wait
+50
+-789.40 201.50 377.44
+Custom
+Path -PL 4 -QA "-A|Terminus Tech Electro-defender|-T|QSC:Terminus|-K"
+-781.69 196.48 324.85
+-736.70 197.66 242.48
+-792.01 198.78 211.94
+-788.06 199.12 169.85
+-780.30 200.92 132.41
+Named
+Evillive
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named  
+-780.30 200.92 132.41
+Wait
+50
+-778.90 200.73 134.37
+Custom
+Path -PL 2 -QA "-A|Terminus Tech Electro-defender|-T|QSC:Terminus|-K"
+-803.06 199.28 165.70
+-847.88 199.41 153.04
+-866.48 196.40 117.10
+Wait
+50
+-866.48 196.40 117.10
+Custom
+ClickActor "telelport crystal"
+-866.48 196.40 117.10
+Wait
+50
+-821.91 270.49 89.90
+Custom
+Path -PL 1 -QA "-A|Terminus Tech Electro-defender|-T|QSC:Terminus|-K"
+-809.60 267.62 120.76
+-799.65 268.44 139.38
+Custom
+MakeActiveQuest "Temple of the Ver'Bohten Eye" 
+-798.77 270.48 173.86
+Custom
+CheckQuest -NotActive "Temple of the Ver'Bohten Eye" 103
+-798.77 270.48 173.86
+Custom
+MessageBox "Make sure to find all the required mechanimagica defenses before killing Yligiyak"
+-798.77 270.48 173.86
+-788.46 270.01 188.20
+-767.96 255.58 232.35
+-737.28 256.01 245.41
+Named
+Yligiyak
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named
+-737.28 256.01 245.41
+Wait
+50
+-737.28 256.01 245.41
+-760.92 255.40 244.14
+-803.76 252.32 256.41
+-821.86 251.31 264.37
+Wait
+50
+-821.86 251.31 264.37
+Custom
+ClickActor "telelport crystal"
+-821.86 251.31 264.37
+Wait
+50
+-815.54 289.12 329.13
+-815.54 289.12 329.13
+-732.77 253.00 225.39
+-782.60 252.20 214.44
+-808.64 252.81 250.83
+-820.03 251.31 267.78
+Custom
+ClickActor telelport crystal
+-820.03 251.31 267.78
+Wait
+50
+-820.03 251.31 267.78
+-817.31 289.85 314.79
+-832.09 290.18 306.78
+-836.42 294.15 293.04
+-834.05 294.39 284.86
+-829.47 294.32 277.81
+Custom
+HailActor "Ziggin" 
+-829.47 294.32 277.81
+-819.47 294.41 249.10
+-836.60 294.15 293.40
+-807.78 293.31 220.93
+-771.22 299.07 253.31
+Named
+High Lord
+StandardNamed
+SameLock
+KillAdd
+MoveBehind
+Named
+-771.22 299.07 253.31
+Wait
+50
+-771.22 299.07 253.31
+Custom
+ClickActor telelport crystal
+-778.72 252.01 252.75
+Wait
+50
+-778.72 252.01 252.75
+-817.31 289.85 314.79
+-817.43 251.31 265.54
+-805.11 294.09 225.51
+-773.13 299.07 247.82
+Custom
+ZoneDoor Exit
+-773.13 299.07 247.82
+Custom
+WaitForZoning
+0 0 0
+-335.11 12.61 476.47
+-289.30 8.16 433.20
+-290.13 167.91 433.54
+-251.42 150.33 472.58
+-240.37 136.95 511.48
+-272.76 106.29 598.32
+-270.68 39.79 583.86
+Custom
+HailActor "Xhol'Rog" 4
+-270.68 39.79 583.86
