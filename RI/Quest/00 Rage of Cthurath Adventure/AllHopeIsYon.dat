@@ -12,7 +12,7 @@ HailActorGetQuest -Actor "a scroll from Narezi"
 -714.35 19.01 310.76
 -709.53 21.06 310.87
 Custom
-Path -PL 68 -CT "QSC:I have acquired the items" -QA "-A|blightcoil revenant|-T|QSC:venom sacs|-E|K" -QA "-A|a husked voidmaw|-T|QSC:venom sacs|-E|K" -QA "-A|Norrathian forest vase|-T|QSC:Norrathian forest vase|-E|H" -QA "-A|Norrathian etched vase|-T|QSC:Norrathian etched vase|-E|H"  -QA "-A|?|-T|QSC:?|-E|H" -QA "-A|Antique Darou Urn|-T|QSC:Antique Darou Urn|-E|H" -QA "-A|crushed Darou tablet|-T|QSC:crushed Darou tablet|-E|H" 
+Path -PL 68 -CT "QSC:I have acquired the items" -QA "-A|blightcoil revenant|-T|QSC:venom sacs|-E|K" -QA "-A|a husked voidmaw|-T|QSC:venom sacs|-E|K" -QA "-A|Norrathian forest vase|-T|QSC:Norrathian forest vase|-E|H" -QA "-A|Norrathian etched vase|-T|QSC:Norrathian etched vase|-E|H" -QA "-A|Antique Darou Urn|-T|QSC:Antique Darou Urn|-E|H" -QA "-A|crushed Darou tablet|-T|QSC:crushed Darou tablet|-E|H" 
 -710.63 17.92 299.05
 -710.63 37.94 299.05
 -698.03 32.71 247.70
