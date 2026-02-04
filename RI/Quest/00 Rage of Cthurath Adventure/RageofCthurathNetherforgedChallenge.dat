@@ -33,7 +33,7 @@ Wait
 511.82 82.39 -636.31
 498.96 82.75 -644.28
 Custom
-ClickActor netherforge crucible
+ClickActor "netherforge crucible"
 498.96 82.75 -644.28
 509.01 82.57 -636.00
 500.33 81.68 -591.44
@@ -71,6 +71,12 @@ Wait
 208.30 79.19 -189.40
 Custom
 ApplyVerb "an unconscious eyeblight" "Poke the eyeblight"
+208.30 79.19 -189.40
+Custom
+CheckQuestStep "Follow the revived" 80
+208.30 79.19 -189.40
+Custom
+MessageBox "Revive the eyeblight"
 208.30 79.19 -189.40
 224.37 79.92 -221.25
 Custom
