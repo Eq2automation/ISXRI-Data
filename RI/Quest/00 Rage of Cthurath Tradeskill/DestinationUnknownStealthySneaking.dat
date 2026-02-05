@@ -307,7 +307,7 @@ Path -PL 17 -L -CT "QSC:I have harvested a number" -QA "-A|fallen branch|-T|QSC:
 197.23 81.22 -211.22
 185.63 78.92 -191.63
 175.76 78.48 -174.39
-171.97 76.99 -167.67
+172.34 77.00 -160.51
 Custom
-HailActor "Flamebearer Denat" 2
+HailActor "Flamebearer Denat" 3
 171.97 76.99 -167.67
